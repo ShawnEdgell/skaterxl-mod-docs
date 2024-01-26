@@ -3,7 +3,7 @@
 </script>
 
 <article class="p-4">
-    <h1 class="text-2xl font-bold mb-4">Subcategory: Subpage 1A</h1>
+    <h1 class="text-2xl font-bold mb-4">XXL 3 Mod: Pin Manager</h1>
     <p class="mb-2">Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
     <h2 class="text-xl font-semibold mb-2">Topic 1</h2>
     <p class="mb-2">Proin suscipit, libero a molestie consectetur, sapien elit luctus urna, sit amet dapibus dolor magna sed magna. Integer id quam.</p>

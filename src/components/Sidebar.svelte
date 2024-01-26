@@ -7,28 +7,74 @@
 
     const categories = [
         { 
-            name: 'Page 1', 
-            route: '/page1', 
+            name: 'XXL 3 Mod', 
+            route: '/XXL3', 
             subcategories: [
-                { name: 'Subpage 1A', route: '/page1/subpage1a' },
-                { name: 'Subpage 1B', route: '/page1/subpage1b' }
+                { name: 'General', route: '/XXL3/General' },
+                { name: 'Catch', route: '/XXL3/Catch' },
+                { name: 'Flips', route: '/XXL3/Flips' },
+                { name: 'Lateflips', route: '/XXL3/Lateflips' },
+                { name: 'Grabs', route: '/XXL3/Grabs' },
+                { name: 'Fingerflips', route: '/XXL3/Fingerflips' },
+                { name: 'Footplants', route: '/XXL3/Footplants' },
+                { name: 'Grinds', route: '/XXL3/Grinds' },
+                { name: 'Manuals', route: '/XXL3/Manuals' },
+                { name: 'Powerslides', route: '/XXL3/Powerslides' },
+                { name: 'Primo', route: '/XXL3/Primo' },
+                { name: 'Misc', route: '/XXL3/Misc' },
+                { name: 'Bails', route: '/XXL3/Bails' },
+                { name: 'Slowmotion', route: '/XXL3/Slowmotion' },
+                { name: 'Other', route: '/XXL3/Other' },
+                { name: 'Grab Customizer', route: '/XXL3/GrabCustomizer' },
+                { name: 'Steeze Customizer', route: '/XXL3/SteezeCustomizer' },
+                { name: 'Stance Customizer', route: '/XXL3/StanceCustomizer' },
+                { name: 'Pin Manager', route: '/XXL3/PinManager' },
+                { name: 'Presets', route: '/XXL3/Presets' },
             ] 
         },
         { 
-            name: 'Page 2', 
-            route: '/page2', 
+            name: 'Fro\'s Experimental Mod', 
+            route: '/FroMod', 
             subcategories: [
-                { name: 'Subpage 2A', route: '/page2/subpage2a' }
-                // Add more subcategories for Page 2 as needed
+                { name: 'Animations', route: '/FroMod/Animations' },
+                { name: 'Body', route: '/FroMod/Body' },
+                { name: 'Head', route: '/FroMod/Head' },
+                { name: 'Camera', route: '/FroMod/Camera' },
+                { name: 'Gameplay', route: '/FroMod/Gameplay' },
+                { name: 'Multiplayer', route: '/FroMod/Multiplayer' },
+                { name: 'Misc', route: '/FroMod/Misc' },
+                { name: 'Map', route: '/FroMod/Map' },
+                { name: 'Experimental', route: '/FroMod/Experimental' }
             ] 
         },
         { 
-            name: 'Page 3', 
-            route: '/page3', 
+            name: 'Boned Ollie Mod', 
+            route: '/BonedOllieMod', 
             subcategories: [
+                { name: 'Page1', route: '/BonedOllieMod/Page1' },
+                { name: 'Page2', route: '/BonedOllieMod/Page2' },
                 // Add subcategories for Page 3 here
             ] 
-        }
+        },
+        { 
+            name: 'XL Graphics Mod', 
+            route: '/XLGraphics', 
+            subcategories: [
+                { name: 'Basic', route: '/XLGraphics/Basic' },
+                { name: 'Presets', route: '/XLGraphics/Presets' },
+                { name: 'Camera', route: '/XLGraphics/Camera' },
+                // Add subcategories for Page 3 here
+            ] 
+        },
+        { 
+            name: 'Sound Mod', 
+            route: '/SoundMod', 
+            subcategories: [
+                { name: 'Sound Packs', route: '/SoundMod/SoundPacks' },
+                // Add subcategories for Page 3 here
+            ] 
+        },
+
         // Add more main categories as needed
     ];
 
