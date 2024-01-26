@@ -88,50 +88,16 @@
     }
 </script>
 
-<style>
-    
-    .category-btn {
-        display: block;
-        padding: 0.5rem 1rem;
-        color: black;
-        text-align: left;
-        background-color: transparent;
-        border: none;
-        width: 100%;
-        font-weight: bold;
-    }
-
-    .category-btn:hover {
-        background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
-    }
-
-    .subcategory-btn {
-        display: block;
-        padding: 0.5rem 1rem;
-        color: rgb(0, 0, 0);
-        text-align: left;
-        background-color: transparent;
-        border: none;
-        width: 100%;
-        text-transform: none;
-        font-weight: normal;
-    }
-
-    .subcategory-btn:hover {
-        background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
-    }
-</style>
-
-<aside class={`bg-gray-200 w-64 min-h-screen p-4 fixed transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0`}>
-    <button class="category-btn" on:click={navigateHome}>Home</button>
+<aside class={`bg-gray-200 w-64 min-h-screen p-4 fixed transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0 overflow-y-auto`}>
+    <button class="w-full text-left font-bold py-2 px-4 hover:bg-gray-300" on:click={navigateHome}>Home</button>
     
     {#each categories as category}
         <div>
-            <button class="category-btn" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
+            <button class="w-full text-left font-bold py-2 px-4 hover:bg-gray-300" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
             {#if openCategory === category.name}
-                <div transition:slide class="pl-4">
+                <div transition:slide class="pl-6">
                     {#each category.subcategories as subcategory}
-                        <button class="subcategory-btn" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
+                        <button class="w-full text-left py-2 px-4 hover:bg-gray-300" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
                     {/each}
                 </div>
             {/if}

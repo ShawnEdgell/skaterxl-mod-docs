@@ -102,29 +102,10 @@
   };
 </script>
 
-<style>
-  .site-container {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-  }
-
-  .content-wrapper {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh; /* Ensures content area is at least as tall as the viewport */
-  }
-
-  main {
-      flex-grow: 1; /* Ensures main content takes up available space */
-  }
-</style>
-
-<div class="site-container">
+<div class="flex flex-col min-h-screen">
   <Header {toggleSidebar}/>
-  <div class="content-wrapper">
-      <div class="flex flex-col md:flex-row">
+  <div class="flex flex-1 flex-col min-h-screen">
+      <div class="flex flex-col md:flex-row flex-1">
           <Sidebar {isSidebarOpen}/>
           <main class="flex-1 p-4 w-full">
               <Router {routes} />
