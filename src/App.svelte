@@ -1,47 +1,40 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Router from 'svelte-spa-router';
+  import Header from './components/Header.svelte';
+  import Footer from './components/Footer.svelte';
+  import Sidebar from './components/Sidebar.svelte';
+  import HomePage from './pages/HomePage.svelte';
+  import Page1 from './pages/Page1/Page1.svelte';
+  import SubPage1A from './pages/Page1/SubPage1A.svelte'; // Subcategory page
+  import SubPage1B from './pages/Page1/SubPage1B.svelte'; // Subcategory page
+  import Page2 from './pages/Page2/Page2.svelte';
+  import SubPage2A from './pages/Page2/SubPage2A.svelte'; // Subcategory page
+  import Page3 from './pages/Page3/Page3.svelte';
+  // ... import other pages as necessary
+
+  let isSidebarOpen = false;
+
+  function toggleSidebar() {
+      isSidebarOpen = !isSidebarOpen;
+  }
+
+  const routes = {
+      '/': HomePage,
+      '/page1': Page1,
+      '/page1/subpage1a': SubPage1A, // Route for subcategory
+      '/page1/subpage1b': SubPage1B, // Route for subcategory
+      '/page2': Page2,
+      '/page2/subpage2a': SubPage2A, // Route for subcategory
+      '/page3': Page3,
+      // ... add routes for other pages and subcategories
+  };
 </script>
 
-<main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
-</main>
-
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
+<Header {toggleSidebar}/>
+<div class="flex">
+  <Sidebar {isSidebarOpen}/>
+  <main class="flex-1 p-4">
+      <Router {routes} />
+  </main>
+</div>
+<Footer />
