@@ -42,7 +42,7 @@
     }
 </script>
 
-<aside class={`bg-gray-200 w-64 min-h-screen p-4 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:translate-x-0`}>
+<aside class={`bg-gray-200 w-64 min-h-screen p-4 fixed transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0`}>
     <button class="block text-black py-2 font-bold" on:click={navigateHome}>Home</button>
     
     {#each categories as category}
