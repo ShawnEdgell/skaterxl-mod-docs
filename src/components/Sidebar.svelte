@@ -1,5 +1,6 @@
 <script>
     import { push } from 'svelte-spa-router';
+    import { slide } from 'svelte/transition';
     
     export let isSidebarOpen; // Declare isSidebarOpen as a prop
 
@@ -51,8 +52,7 @@
             name: 'Boned Ollie Mod', 
             route: '/BonedOllieMod', 
             subcategories: [
-                { name: 'Page1', route: '/BonedOllieMod/Page1' },
-                { name: 'Page2', route: '/BonedOllieMod/Page2' },
+                { name: 'Trick Examples', route: '/BonedOllieMod/TrickExamples' },
                 // Add subcategories for Page 3 here
             ] 
         },
@@ -88,16 +88,50 @@
     }
 </script>
 
+<style>
+    
+    .category-btn {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: black;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .category-btn:hover {
+        background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+    }
+
+    .subcategory-btn {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        text-transform: none;
+        font-weight: normal;
+    }
+
+    .subcategory-btn:hover {
+        background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+    }
+</style>
+
 <aside class={`bg-gray-200 w-64 min-h-screen p-4 fixed transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0`}>
-    <button class="block text-black py-2 font-bold" on:click={navigateHome}>Home</button>
+    <button class="category-btn" on:click={navigateHome}>Home</button>
     
     {#each categories as category}
         <div>
-            <button class="block text-black py-2 font-bold" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
+            <button class="category-btn" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
             {#if openCategory === category.name}
-                <div class="pl-4">
+                <div transition:slide class="pl-4">
                     {#each category.subcategories as subcategory}
-                        <button class="block text-black py-2 text-sm" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
+                        <button class="subcategory-btn" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
                     {/each}
                 </div>
             {/if}

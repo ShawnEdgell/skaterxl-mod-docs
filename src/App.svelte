@@ -39,8 +39,7 @@
   import Experimental from './pages/FroMod/Experimental.svelte';
   
   import BonedOllieMod from './pages/BonedOllieMod/1-BonedOllieMod.svelte';
-  import Page1 from './pages/BonedOllieMod/Page1.svelte';
-  import Page2 from './pages/BonedOllieMod/Page2.svelte';
+  import TrickExamples from './pages/BonedOllieMod/TrickExamples.svelte';
 
   import XLGraphics from './pages/XLGraphics/1-XLGraphics.svelte';
   import Basic from './pages/XLGraphics/Basic.svelte';
@@ -90,8 +89,7 @@
       '/fromod/experimental': Experimental,
 
       '/bonedolliemod': BonedOllieMod,
-      '/bonedolliemod/page1': Page1,
-      '/bonedolliemod/page2': Page2,
+      '/bonedolliemod/TrickExamples': TrickExamples,
 
       '/xlgraphics': XLGraphics,
       '/xlgraphics/Basic': Basic,

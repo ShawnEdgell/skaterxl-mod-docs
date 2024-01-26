@@ -3,7 +3,7 @@
 </script>
 
 <article class="p-4">
-    <h1 class="text-2xl font-bold mb-4">Boned Ollie Mod: Page 1</h1>
+    <h1 class="text-2xl font-bold mb-4">Boned Ollie Mod: Trick Examples</h1>
     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet.</p>
     <h2 class="text-xl font-semibold mb-2">Section 1</h2>
     <p class="mb-2">Quisque ullamcorper, augue vitae fringilla posuere, justo magna lacinia dui, et fermentum ante urna in libero. Sed vulputate, urna vel auctor aliquet, nunc erat molestie dolor, sed gravida enim nisi sit amet nunc.</p>
