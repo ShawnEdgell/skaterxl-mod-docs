@@ -74,6 +74,22 @@
                 // Add subcategories for Page 3 here
             ] 
         },
+        { 
+            name: 'XL Gear Mod', 
+            route: '/XLGearMod', 
+            subcategories: [
+                { name: 'Links', route: '/XLGearMod/Links' },
+                // Add subcategories for Page 3 here
+            ] 
+        },
+        { 
+            name: 'Walking Mod', 
+            route: '/WalkingMod', 
+            subcategories: [
+                { name: 'Page Example', route: '/WalkingMod/PageExample' },
+                // Add subcategories for Page 3 here
+            ] 
+        },
 
         // Add more main categories as needed
     ];

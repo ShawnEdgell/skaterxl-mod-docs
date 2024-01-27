@@ -48,6 +48,13 @@
   import SoundPacks from './pages/SoundMod/SoundPacks.svelte';
   import SoundMod from './pages/SoundMod/1-SoundMod.svelte';
 
+  import XLGearMod from './pages/XLGearMod/1-XLGearMod.svelte';
+  import Links from './pages/XLGearMod/Links.svelte';
+
+  import WalkingMod from './pages/WalkingMod/1-WalkingMod.svelte';
+  import PageExample from './pages/WalkingMod/PageExample.svelte';
+
+
   let isSidebarOpen = false;
 
   const toggleSidebar = () => isSidebarOpen = !isSidebarOpen;
@@ -98,6 +105,12 @@
 
       '/soundmod': SoundMod,
       '/soundmod/soundpacks': SoundPacks,
+
+      '/xlgearmod': XLGearMod,
+      '/xlgearmod/links': Links,
+
+      '/walkingmod': WalkingMod,
+      '/walkingmod/pageexample': PageExample,
       // ... add routes for other pages and subcategories
   };
 </script>
