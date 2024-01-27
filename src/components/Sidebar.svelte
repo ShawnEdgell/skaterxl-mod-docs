@@ -1,10 +1,19 @@
 <script>
-    import { push } from 'svelte-spa-router';
+    import { push, location } from 'svelte-spa-router';
     import { slide } from 'svelte/transition';
-    
-    export let isSidebarOpen; // Declare isSidebarOpen as a prop
-
+    import { derived } from 'svelte/store';
+  
+    export let isSidebarOpen;
+  
     let openCategory = null;
+  
+    // Derived store to reactively check the current route
+    const currentRoute = derived(location, $location => $location);
+  
+    // Reset openCategory when the HomePage is active
+    $: if ($currentRoute === '/') {
+      openCategory = null;
+    }
 
     const categories = [
         { 
@@ -95,28 +104,22 @@
     ];
 
     function handleCategoryClick(category, route) {
-        openCategory = openCategory === category ? null : category;
-        push(route);
-    }
-    function navigateHome() {
-        openCategory = null;
-        push('/');
-    }
+    openCategory = (openCategory === category) ? null : category;
+    push(route);
+  }
 </script>
 
 <aside class={`bg-gray-200 w-64 min-h-screen p-4 fixed transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0 overflow-y-auto`}>
-    <button class="w-full text-left font-bold py-2 px-4 hover:bg-gray-300" on:click={navigateHome}>Home</button>
-    
     {#each categories as category}
-        <div>
-            <button class="w-full text-left font-bold py-2 px-4 hover:bg-gray-300" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
-            {#if openCategory === category.name}
-                <div transition:slide class="pl-6">
-                    {#each category.subcategories as subcategory}
-                        <button class="w-full text-left py-2 px-4 hover:bg-gray-300" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
-                    {/each}
-                </div>
-            {/if}
-        </div>
+      <div>
+        <button class="w-full text-left font-bold py-2 px-4 hover:bg-gray-300" on:click={() => handleCategoryClick(category.name, category.route)}>{category.name}</button>
+        {#if openCategory === category.name}
+          <div transition:slide class="pl-6">
+            {#each category.subcategories as subcategory}
+              <button class="w-full text-left py-2 px-4 hover:bg-gray-300" on:click={() => push(subcategory.route)}>{subcategory.name}</button>
+            {/each}
+          </div>
+        {/if}
+      </div>
     {/each}
-</aside>
+  </aside>
