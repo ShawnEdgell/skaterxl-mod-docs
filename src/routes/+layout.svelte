@@ -8,10 +8,8 @@
 <Header />
 <div class="flex h-screen">
   <Sidebar />
-  <main class="flex-grow p-4">
+  <main class="flex-grow p-4 overflow-auto">
     <slot></slot> <!-- Main content -->
   </main>
 </div>
 <Footer />
-
-
