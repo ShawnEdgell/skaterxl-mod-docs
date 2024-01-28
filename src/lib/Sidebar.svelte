@@ -174,7 +174,7 @@
   }
 </script>
 
-<aside class="min-w-max bg-gray-700 text-sm h-screen text-white font-bold p-4 overflow-y-auto">
+<aside class="min-w-max bg-gray-300 text-sm h-screen text-gray-800 font-bold p-4 overflow-y-auto">
   <div class="mb-4">
     <button
       class={`px-4 py-2 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}

@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-semibold text-gray-800 mb-3;
+  @apply text-2xl font-semibold text-gray-800 mb-2 mt-6;
 }
 h3 {
   @apply text-lg font-bold text-gray-800 mb-3;
@@ -16,8 +16,4 @@ h3 {
 
 p, {
   @apply text-gray-700 mb-3;
-}
-
-main {
-  @apply bg-gray-100;
 }

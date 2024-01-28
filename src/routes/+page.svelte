@@ -7,10 +7,22 @@
 
   <h2>Confirm your Skater XL Version</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Before you start modding Skater XL, you need to confirm that you have the correct version. The ideal version for modding is v1.2.2.8. If you have a different version, you can downgrade to v1.2.2.8 by following the instructions below.
   </p>
 
-  <h2>Download + Setup UnityModManager</h2>
+  <div class="max-w-4xl mx-auto py-6">
+    <!-- Your content here -->
+  
+    <img src="XLversion.png" alt="Descriptive Alt Text" />
+  
+    <!-- More content -->
+  </div>
+  <p>
+    <i>Your current game version will be displayed in the bottom left corner when you launch Skater XL.
+    </i>
+  </p>
+
+  <h2>Changing Skater XL Versions</h2>
   <p>
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
