@@ -3,18 +3,19 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Home Page</h1>
-  <h2>Subheader 1</h2>
+  <h1>Getting Started</h1>
+
+  <h2>Confirm your Skater XL Version</h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </p>
 
-  <h2>Subheader 2</h2>
+  <h2>Download + Setup UnityModManager</h2>
   <p>
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
 
-  <h2>Subheader 3</h2>
+  <h2>Download + Install Mods</h2>
   <p>
     Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
   </p>

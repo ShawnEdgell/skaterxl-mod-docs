@@ -15,7 +15,7 @@
       While the XL Mod in this version offers fewer features compared to the previous XXL 3 Mod, it's built from the ground up to provide a streamlined experience. Players can still enjoy customizing their gameplay, albeit with a more focused set of options that align with the core gameplay changes.
     </p>
     <p>
-      Skater XL v1.2.7.8 marks a significant advancement in skateboarding simulation, introducing new features like seamless darkslides and wallrides. This version may not boast the extensive mod support of the alpha branch, but it excels in providing a refined, core skateboarding experience with fresh mechanics that enhance gameplay.
+      Skater XL v1.2.7.8 marks a few significant changes to the core gameplay, introducing new features like seamless darkslides and wallrides. This version may not boast the extensive mod support of the alpha branch, but it excels in providing a refined, core skateboarding experience with fresh mechanics that enhance gameplay.
     </p>
 
     <h2>Considerations</h2>

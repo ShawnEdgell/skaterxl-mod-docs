@@ -5,7 +5,7 @@
   <div class="max-w-4xl mx-auto py-6">
     <h1>Skater XL v1.2.2.8 (Alpha Version)</h1>
     
-    <h2>Ultimate Modding Experience</h2>
+    <h2>The Ultimate Modding Experience</h2>
     <p>
       Skater XL version 1.2.2.8 stands out as the ideal version for those passionate about modding. Boasting extensive mod support, it allows players to fully customize their skating experience. This version enables you to use the renowned XXL 3 Mod by Dawgvinci, the XL Gear Modifier, Fro's Experimental Mod, the Walking Mod, and many other enhancements to elevate your gameplay.
     </p>
