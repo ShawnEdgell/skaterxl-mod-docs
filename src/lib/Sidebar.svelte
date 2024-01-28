@@ -7,18 +7,18 @@
     const categories = [
       {
         name: 'XXL 3 Mod',
-        subcategories: ['General', 'Catch'],
+        subcategories: ['General', 'Catch', 'Flips', 'Lateflips', 'Grabs', 'Fingerflips', 'Footplants', 'Grinds', 'Manuals', 'Powerslides', 'Primo', 'Misc', 'Bails', 'Slowmotion', 'Other', 'Grab Customizer', 'Steeze Customizer', 'Misc', 'Stance Customizer', 'Pin Manager', 'Presets', 'Debug'],
         route: '/XXL 3 Mod'
       },
       {
         name: 'Fro\'s Experimental Mod',
-        subcategories: ['Animations', 'Body'],
+        subcategories: ['Animations', 'Body', 'Head', 'Camera', 'Gameplay', 'Multiplayer', 'Misc', 'Map', 'Experimental'],
         route: '/FroMod'
       },
       {
-        name: 'Category 3',
-        subcategories: ['Subcategory 5', 'Subcategory 6'],
-        route: '/Category 3'
+        name: 'Boned Ollie Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/BonedOllieMod'
       }
     ];
   

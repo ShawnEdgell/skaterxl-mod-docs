@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Subcategory 6</h1>
+  <h1>Boned Ollie Mod: Page 1</h1>
   <h2>Subheader 1</h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
