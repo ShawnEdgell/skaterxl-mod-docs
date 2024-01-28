@@ -1,5 +1,6 @@
 <script>
-    import { writable } from 'svelte/store';
+  import { writable } from 'svelte/store';
+  import { goto } from '$app/navigation';
   
     // Store to track the open state of each category
     const openCategory = writable(null);
@@ -22,32 +23,39 @@
       }
     ];
   
-    function toggleCategory(categoryName) {
-      openCategory.update(current => current === categoryName ? null : categoryName);
-    }
-  </script>
-  
-  <aside class="bg-gray-300 min-w-max h-screen p-4 overflow-y-auto">
-    <nav>
-      <ul class="list-none m-0 p-0">
-        {#each categories as category}
-          <li class="mb-2">
-            <a href={category.route} on:click|preventDefault={() => toggleCategory(category.name)} class="block hover:text-blue-500 px-2 py-1">
-              {category.name}
-            </a>
-            {#if $openCategory === category.name}
-              <ul class="list-none m-0 p-0">
-                {#each category.subcategories as sub}
-                  <li>
-                    <a href={`${category.route}/${sub}`} class="block hover:text-blue-500 pl-6 pr-2 py-1">{sub}</a>
-                  </li>
-                {/each}
-              </ul>
-            {/if}
-          </li>
-        {/each}
-      </ul>
-    </nav>
-  </aside>
+    async function handleCategoryClick(event, categoryName) {
+    event.preventDefault(); // Prevents default link behavior
 
+    // Toggle the visibility state
+    openCategory.update(current => current === categoryName ? null : categoryName);
+
+    // Navigate to the category page only if expanding
+    if (categoryName !== null) {
+      await goto(event.currentTarget.getAttribute('href'));
+    }
+  }
+</script>
+
+<aside class="bg-gray-300 min-w-max h-screen p-4 overflow-y-auto">
+  <nav>
+    <ul class="list-none m-0 p-0">
+      {#each categories as category}
+        <li class="mb-2">
+          <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block hover:text-blue-500 px-2 py-1">
+            {category.name}
+          </a>
+          {#if $openCategory === category.name}
+            <ul class="list-none m-0 p-0">
+              {#each category.subcategories as sub}
+                <li>
+                  <a href={`${category.route}/${sub}`} class="block hover:text-blue-500 pl-6 pr-2 py-1">{sub}</a>
+                </li>
+              {/each}
+            </ul>
+          {/if}
+        </li>
+      {/each}
+    </ul>
+  </nav>
+</aside>
   
