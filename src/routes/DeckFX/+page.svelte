@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Deck FX Mod</h1>
+  <h1>Deck FX</h1>
 
   <h2>Deck Shape and Size Alteration</h2>
   <p>

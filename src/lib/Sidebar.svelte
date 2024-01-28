@@ -61,7 +61,6 @@
         subcategories: ['Page 1', 'Page 2'],
         route: '/BetterReplayMod'
       },
-/*
       {
         name: 'Grind Tools',
         subcategories: ['Page 1', 'Page 2'],
@@ -103,16 +102,6 @@
         route: '/GearUtilities'
       },
       {
-        name: 'Exposure Controller',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/ExposureController'
-      },
-      {
-        name: 'Map Editor',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/MapEditor'
-      },
-      {
         name: 'Grab Customizer',
         subcategories: ['Page 1', 'Page 2'],
         route: '/GrabCustomizer'
@@ -128,11 +117,23 @@
         route: '/NotMyFeet'
       },
       {
-        name: 'Bill \'O Rumble',
+        name: 'Controller Rumble',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/BillORumble'
+        route: '/ControllerRumble'
+      },
+/*
+      {
+        name: 'Exposure Controller',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/ExposureController'
+      },
+      {
+        name: 'Map Editor',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/MapEditor'
       },
 */
+
     ];
   
     async function handleCategoryClick(event, categoryName) {

@@ -4,19 +4,20 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>Decal Fix</h1>
-  <h2>Subheader 1</h2>
+  
+  <h2>Enabling Decals and Reflections</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    The Decal Fix Mod is a crucial enhancement for Skater XL, enabling the use of decals and screen space reflections in maps that contain decals. This modification breathes new life into the game's environments, adding a layer of realism and visual appeal with detailed graffiti and reflective surfaces.
   </p>
 
-  <h2>Subheader 2</h2>
+  <h2>Simple Installation Process</h2>
   <p>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Installing the Decal Fix Mod is straightforward. Unlike script mods, it doesn't require Unity Mod Manager. Instead, it involves replacing a single file in the game's directory. After downloading, simply drag the "globalgamemanagers.assets" file to your Skater XL installation folder, and confirm the replacement of the existing file.
   </p>
 
-  <h2>Subheader 3</h2>
+  <h2>Immediate Visual Enhancement</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Once installed, the difference is immediately noticeable. Check maps like "Donevan Recreation Center" or "OldBrooks Factory" to see the enhanced graffiti on ramps and walls, offering a more immersive and vibrant skateboarding environment.
   </p>
 
   <!-- More content here if needed -->

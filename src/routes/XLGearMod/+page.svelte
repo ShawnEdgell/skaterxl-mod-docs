@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>XL Gear Mod</h1>
+  <h1>XL Gear Mod (XLGM)</h1>
   
   <h2>Ultimate Gear Customization</h2>
   <p>
