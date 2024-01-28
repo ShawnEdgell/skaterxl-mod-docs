@@ -2,6 +2,10 @@
 
 Welcome to the Skater XL Modding Documentation/Guide, a comprehensive resource for everything related to modding in Skater XL. This site is designed to provide detailed guides, tutorials, and resources to help both beginners and advanced modders in their Skater XL modding journey.
 
+## Live Demo 
+
+https://skaterxl-mod-docs.vercel.app/
+
 ## Technology Stack
 
 Our website is built using the SvelteKit framework, offering a modern, reactive, and efficient user experience. Here's a brief overview of the technologies involved:

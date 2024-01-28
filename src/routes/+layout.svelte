@@ -3,6 +3,8 @@
   import Footer from '$lib/Footer.svelte';
   import Sidebar from '$lib/Sidebar.svelte';
   import '../app.css';
+
+  export const prerender = true;
 </script>
 
 <Header />
