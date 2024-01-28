@@ -16,7 +16,7 @@
     </p>
 
     <h2>Most Popular Mods</h2>
-    <div class="text-gray-700 mx-4">
+    <div class="px-4">
         <li>XXL 3 Mod (Stats Menu)</li>
         <li>XL Graphics</li>
         <li>SoundMod</li>

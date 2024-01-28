@@ -174,15 +174,15 @@
   }
 </script>
 
-<aside class="bg-gray-300 min-w-max font-lg h-screen text-gray-900 p-4 overflow-y-auto">
+<aside class="min-w-max bg-gray-700 text-sm h-screen text-white font-bold p-4 overflow-y-auto">
   <div class="mb-4">
     <button
-      class={`px-4 py-2 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-500'} rounded-l`}
+      class={`px-4 py-2 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}
       on:click={() => selectOption(true)}>
       v1.2.2.8
     </button>
     <button
-      class={`px-4 py-2 ${isOption1Selected ? 'bg-white text-gray-500' : 'bg-green-500 text-white'} rounded-r`}
+      class={`px-4 py-2 ${isOption1Selected ? 'bg-white text-gray-800' : 'bg-green-500 text-white'} rounded-r`}
       on:click={() => selectOption(false)}>
       v1.2.7.8
     </button>
