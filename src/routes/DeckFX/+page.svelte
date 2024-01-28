@@ -3,20 +3,16 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Deck FX</h1>
-  <h2>Subheader 1</h2>
+  <h1>Deck FX Mod</h1>
+
+  <h2>Deck Shape and Size Alteration</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Personalize your skating experience by modifying the shape and size of your deck. Whether you prefer a wider board for stability or a narrower one for intricate tricks, Deck FX gives you the tools to create your ideal skateboard. Experiment with different dimensions to find the perfect fit for your skating style.
   </p>
 
-  <h2>Subheader 2</h2>
+  <h2>Wheels and Trucks Customization</h2>
   <p>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </p>
-
-  <h2>Subheader 3</h2>
-  <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Go beyond deck customization with the ability to tweak your wheels and trucks. Adjust the size, hardness, and friction of your wheels for varied terrains and styles. Fine-tune your trucks tightness to change the way your board reacts to your movements, enhancing your overall skateboarding experience.
   </p>
 
   <!-- More content here if needed -->

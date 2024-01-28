@@ -28,7 +28,7 @@
       },
       {
         name: 'Sound Mod',
-        subcategories: ['S',],
+        subcategories: ['Soundpacks',],
         route: '/SoundMod'
       },
       {
