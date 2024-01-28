@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>SoundMod for Skater XL</h1>
+  <h1>Sound Mod</h1>
   
   <h2>Comprehensive Sound Customization</h2>
   <p>

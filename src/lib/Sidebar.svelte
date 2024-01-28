@@ -41,9 +41,8 @@
         subcategories: ['Page 1', 'Page 2'],
         route: '/XLGearMod'
       },
-/*
       {
-        name: 'WalkingMod',
+        name: 'Walking Mod',
         subcategories: ['Page 1', 'Page 2'],
         route: '/WalkingMod'
       },
@@ -62,6 +61,7 @@
         subcategories: ['Page 1', 'Page 2'],
         route: '/BetterReplayMod'
       },
+/*
       {
         name: 'Grind Tools',
         subcategories: ['Page 1', 'Page 2'],
