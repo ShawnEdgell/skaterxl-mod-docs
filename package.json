@@ -1,22 +1,29 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.0.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33",
-    "svelte": "^4.2.8",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0.8"
-  },
-  "dependencies": {
-    "svelte-spa-router": "^4.0.1"
-  }
+	"name": "vite-project",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "8.56.0",
+		"autoprefixer": "^10.4.17",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.35.1",
+		"postcss": "^8.4.33",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"tailwindcss": "^3.4.1",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
 }

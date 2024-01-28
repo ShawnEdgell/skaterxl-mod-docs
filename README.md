@@ -4,18 +4,11 @@ Welcome to the Skater XL Modding Documentation/Guide, a comprehensive resource f
 
 ## Technology Stack
 
-Our website is built using the Vite + Svelte framework, offering a modern, reactive, and efficient user experience. Here's a brief overview of the technologies involved:
+Our website is built using the SvelteKit framework, offering a modern, reactive, and efficient user experience. Here's a brief overview of the technologies involved:
 
-- **Vite**: A blazing fast, next-generation frontend build tool, Vite provides a smooth and efficient development experience.
-- **Svelte**: A radical new approach to building user interfaces, Svelte shifts much of the work into a compile step, resulting in smaller, faster runtime code with less boilerplate.
-- **Tailwind CSS**: For styling, we use Tailwind CSS, a utility-first CSS framework packed with classes that can be composed to build any design, directly in the markup.
-
-## Features
-
-- **Responsive Design**: Our site is fully responsive, ensuring a seamless experience across all devices, from desktops to mobile phones.
-- **Interactive Sidebar**: Navigate through various categories and subcategories with an easy-to-use sidebar that includes accordion-style dropdowns for efficient browsing.
-- **Dynamic Content**: Each category and subcategory is loaded dynamically, providing a fast and interactive user experience.
-- **Mobile-Friendly Interface**: On mobile devices, the sidebar collapses into a hamburger menu, making it easy to navigate the site on smaller screens.
+- **SvelteKit:** SvelteKit is the core framework that powers our site, providing a seamless and performant user interface.
+- **Vite:** Vite is used as the build tool, ensuring fast and efficient development and production builds.
+- **Tailwind CSS:** For styling, we use Tailwind CSS, a utility-first CSS framework packed with classes that can be composed to build any design, directly in the markup.
 
 ## Getting Started
 
