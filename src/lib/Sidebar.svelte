@@ -1,158 +1,181 @@
 <script>
-  import { writable } from 'svelte/store';
   import { goto } from '$app/navigation';
+  import { writable } from 'svelte/store';
   
     // Store to track the open state of each category
     const openCategory = writable(null);
   
-    const categories = [
+    const option1Categories = [
       {
         name: 'XXL 3 Mod',
         subcategories: ['General', 'Catch', 'Flips', 'Lateflips', 'Grabs', 'Fingerflips', 'Footplants', 'Grinds', 'Manuals', 'Powerslides', 'Primo', 'Misc', 'Bails', 'Slowmotion', 'Other', 'Grab Customizer', 'Steeze Customizer', 'Stance Customizer', 'Pin Manager', 'Presets', 'Debug'],
-        route: '/XXL 3 Mod'
+        route: '/Alpha/XXL 3 Mod'
       },
       {
         name: 'Fro\'s Experimental Mod',
         subcategories: ['Animations', 'Body', 'Head', 'Camera', 'Gameplay', 'Multiplayer', 'Misc', 'Map', 'Experimental'],
-        route: '/FroMod'
+        route: '/Alpha/FroMod'
       },
       {
         name: 'XL Graphics',
         subcategories: ['Basic', 'Presets', 'Camera'],
-        route: '/XLGraphics'
+        route: '/Alpha/XLGraphics'
       },
       {
         name: 'Deck FX',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/DeckFX'
+        route: '/Alpha/DeckFX'
       },
       {
         name: 'Sound Mod',
         subcategories: ['Soundpacks',],
-        route: '/SoundMod'
+        route: '/Alpha/SoundMod'
       },
       {
         name: 'Boned Ollie Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/BonedOllieMod'
+        route: '/Alpha/BonedOllieMod'
       },
       {
         name: 'XL Gear Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/XLGearMod'
+        route: '/Alpha/XLGearMod'
       },
       {
         name: 'Walking Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/WalkingMod'
+        route: '/Alpha/WalkingMod'
       },
       {
         name: 'XL Menu Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/XLMenuMod'
+        route: '/Alpha/XLMenuMod'
       },
       {
         name: 'Multiplayer++',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/Multiplayer++'
+        route: '/Alpha/Multiplayer++'
       },
       {
         name: 'Better Replay Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/BetterReplayMod'
+        route: '/Alpha/BetterReplayMod'
       },
       {
         name: 'Grind Tools',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/GrindTools'
+        route: '/Alpha/GrindTools'
       },
       {
         name: 'Lateflip Mod',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/LateflipMod'
+        route: '/Alpha/LateflipMod'
       },
       {
         name: 'XL Object Dropper',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/XLObjectDropper'
+        route: '/Alpha/XLObjectDropper'
       },
       {
         name: 'Better Object Dropper',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/BetterObjectDropper'
+        route: '/Alpha/BetterObjectDropper'
       },
       {
         name: 'DecalFix',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/DecalFix'
+        route: '/Alpha/DecalFix'
       },
       {
         name: 'XL Random Map',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/XLRandomMap'
+        route: '/Alpha/XLRandomMap'
       },
       {
         name: 'Break FX',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/BreakFX'
+        route: '/Alpha/BreakFX'
       },
       {
         name: 'Gear Utilities',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/GearUtilities'
+        route: '/Alpha/GearUtilities'
       },
       {
         name: 'Grab Customizer',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/GrabCustomizer'
+        route: '/Alpha/GrabCustomizer'
       },
       {
         name: 'Controls Editor',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/ControlsEditor'
+        route: '/Alpha/ControlsEditor'
       },
       {
         name: 'Not My Feet',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/NotMyFeet'
+        route: '/Alpha/NotMyFeet'
       },
       {
         name: 'Controller Rumble',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/ControllerRumble'
+        route: '/Alpha/ControllerRumble'
       },
 /*
       {
         name: 'Exposure Controller',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/ExposureController'
+        route: '/Alpha/ExposureController'
       },
       {
         name: 'Map Editor',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/MapEditor'
+        route: '/Alpha/MapEditor'
       },
 */
 
     ];
   
-    async function handleCategoryClick(event, categoryName) {
+   // Categories for Option 2
+  const option2Categories = [
+    { name: 'Category 1', subcategories: ['Sub 1', 'Sub 2'], route: '/category1' },
+    { name: 'Category 2', subcategories: ['Sub 1', 'Sub 2'], route: '/category2' },
+    // Add more categories for Option 2
+  ];
+
+  let currentCategories = option1Categories; // Start with Option 1
+  let isOption1Selected = true; // State to track which option is selected
+
+  function selectOption(isOption1) {
+    isOption1Selected = isOption1;
+    currentCategories = isOption1 ? option1Categories : option2Categories;
+  }
+
+  async function handleCategoryClick(event, categoryName) {
     event.preventDefault(); // Prevents default link behavior
-
-    // Toggle the visibility state
     openCategory.update(current => current === categoryName ? null : categoryName);
-
-    // Navigate to the category page only if expanding
     if (categoryName !== null) {
       await goto(event.currentTarget.getAttribute('href'));
     }
   }
 </script>
 
-<aside class="bg-gray-300 min-w-max h-screen p-4 overflow-y-auto">
+<aside class="bg-gray-300 min-w-max font-lg h-screen text-gray-900 p-4 overflow-y-auto">
+  <div class="mb-4">
+    <button
+      class={`px-4 py-2 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-500'} rounded-l`}
+      on:click={() => selectOption(true)}>
+      v1.2.2.8
+    </button>
+    <button
+      class={`px-4 py-2 ${isOption1Selected ? 'bg-white text-gray-500' : 'bg-green-500 text-white'} rounded-r`}
+      on:click={() => selectOption(false)}>
+      v1.2.7.8
+    </button>
+  </div>
   <nav>
-    <ul class="list-none m-0 m-0p-0">
-      {#each categories as category}
+    <ul class="list-none m-0 p-0">
+      {#each currentCategories as category}
         <li class="mb-2">
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block hover:text-blue-500 px-2 py-1">
             {category.name}
@@ -171,4 +194,3 @@
     </ul>
   </nav>
 </aside>
-  
