@@ -138,17 +138,31 @@
   
    // Categories for Option 2
   const option2Categories = [
-    { name: 'Category 1', subcategories: ['Sub 1', 'Sub 2'], route: '/category1' },
-    { name: 'Category 2', subcategories: ['Sub 1', 'Sub 2'], route: '/category2' },
+    {
+        name: 'XL Graphics',
+        subcategories: ['Basic', 'Presets', 'Camera'],
+        route: '/Alpha/XLGraphics'
+    },
+    {
+        name: 'Sound Mod',
+        subcategories: ['Soundpacks',],
+        route: '/Alpha/SoundMod'
+      },
     // Add more categories for Option 2
   ];
 
   let currentCategories = option1Categories; // Start with Option 1
   let isOption1Selected = true; // State to track which option is selected
 
-  function selectOption(isOption1) {
+  const option1Route = '/Alpha/About'; // Replace with your actual route
+  const option2Route = '/Public/About'; // Replace with your actual route
+
+  async function selectOption(isOption1) {
     isOption1Selected = isOption1;
     currentCategories = isOption1 ? option1Categories : option2Categories;
+
+    // Navigate to the respective page
+    await goto(isOption1 ? option1Route : option2Route);
   }
 
   async function handleCategoryClick(event, categoryName) {
