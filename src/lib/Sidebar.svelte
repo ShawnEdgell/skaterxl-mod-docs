@@ -7,7 +7,7 @@
     const categories = [
       {
         name: 'XXL 3 Mod',
-        subcategories: ['General', 'Catch', 'Flips', 'Lateflips', 'Grabs', 'Fingerflips', 'Footplants', 'Grinds', 'Manuals', 'Powerslides', 'Primo', 'Misc', 'Bails', 'Slowmotion', 'Other', 'Grab Customizer', 'Steeze Customizer', 'Misc', 'Stance Customizer', 'Pin Manager', 'Presets', 'Debug'],
+        subcategories: ['General', 'Catch', 'Flips', 'Lateflips', 'Grabs', 'Fingerflips', 'Footplants', 'Grinds', 'Manuals', 'Powerslides', 'Primo', 'Misc', 'Bails', 'Slowmotion', 'Other', 'Grab Customizer', 'Steeze Customizer', 'Stance Customizer', 'Pin Manager', 'Presets', 'Debug'],
         route: '/XXL 3 Mod'
       },
       {
@@ -32,7 +32,7 @@
       <ul class="list-none m-0 p-0">
         {#each categories as category}
           <li class="mb-2">
-            <a href={category.route} on:click={() => toggleCategory(category.name)} class="block hover:text-blue-500 px-2 py-1">
+            <a href={category.route} on:click|preventDefault={() => toggleCategory(category.name)} class="block hover:text-blue-500 px-2 py-1">
               {category.name}
             </a>
             {#if $openCategory === category.name}
