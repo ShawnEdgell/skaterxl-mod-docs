@@ -6,14 +6,12 @@
 </script>
 
 <Header />
-<div class="flex min-h-screen">
+<div class="flex h-screen">
   <Sidebar />
   <main class="flex-grow p-4">
-    <slot></slot>
+    <slot></slot> <!-- Main content -->
   </main>
 </div>
 <Footer />
 
-<style>
-  /* You can still add custom styles here if needed */
-</style>
+

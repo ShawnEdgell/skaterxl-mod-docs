@@ -151,7 +151,7 @@
 
 <aside class="bg-gray-300 min-w-max h-screen p-4 overflow-y-auto">
   <nav>
-    <ul class="list-none m-0 p-0">
+    <ul class="list-none m-0 m-0p-0">
       {#each categories as category}
         <li class="mb-2">
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block hover:text-blue-500 px-2 py-1">
