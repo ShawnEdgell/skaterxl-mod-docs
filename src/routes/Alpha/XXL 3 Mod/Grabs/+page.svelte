@@ -4,19 +4,30 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>XXL 3 Mod: Grabs</h1>
-  <h2>Subheader 1</h2>
+
+  <h2>Grab Mode</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Customize your grab experience with different modes: 'SXL' for the default setup, 'XXL3' for custom grabs with more control and options, or 'Off' to disable grab mod features.
   </p>
 
-  <h2>Subheader 2</h2>
+  <h2>Board Offset During Grabs</h2>
   <p>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Adjust how far or close the board is to the player during grabs, affecting both the aesthetics and the feel of the trick.
   </p>
 
-  <h2>Subheader 3</h2>
+  <h2>Bodyflips</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Toggle bodyflips on or off, adding another dimension to your grabs. When enabled, incorporate flips into your grabs for a more dynamic performance.
+  </p>
+
+  <h2>Bodyflip Speed</h2>
+  <p>
+    If bodyflips are enabled, this setting allows you to control the speed of flips, offering a way to fine-tune how fast or slow your character rotates.
+  </p>
+
+  <h2>Style</h2>
+  <p>
+    Choose between 'Custom' for personalized grab actions or stick with the 'XXL 3' default settings for a standardized experience. This setting lets you define the overall approach to grabs in the game.
   </p>
 
   <!-- More content here if needed -->

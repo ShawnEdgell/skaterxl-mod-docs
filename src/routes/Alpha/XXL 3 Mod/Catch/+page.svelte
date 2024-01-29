@@ -7,42 +7,46 @@
 
   <h2>Catch Correction</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    This setting allows you to adjust how the game assists in aligning the feet for catching the board mid-trick.
   </p>
   <h3>Catch Correction Speed</h3>
+  <p>Control the rate at which catch correction occurs, balancing between realism and playability.</p>
 
   <h2>Catch Mode</h2>
   <p>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Choose between Auto, Manual, or Realistic modes to define how catches are executed during tricks. Auto simplifies the process, Realistic gives full control, and Manual blends both for an authentic experience.
   </p>
 
   <h2>Foot Catch Speed</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Adjust the speed at which your skater's foot moves to catch the board, affecting the fluidity and timing of tricks.
   </p>
 
   <h2>Flick to Catch</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Similar to Session: Skate Sim, this feature requires a flick motion to catch the board, adding an extra layer of skill and timing to tricks.
   </p>
   <h3>Flick to Catch Style</h3>
+  <p>Customize the style and feel of the flick motion required for catching tricks.</p>
   <h3>Flick Threshold</h3>
+  <p>Set the sensitivity for the flick motion, determining how pronounced it needs to be for a successful catch.</p>
 
   <h2>Ghost Catch</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    An experimental feature intended to fix ghost catching, a phenomenon where the board is caught without the player's input. Currently non-functional but left in for potential future updates.
   </p>
 
   <h2>Realistic Drops</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Increase the realism by introducing the risk of bailing on high drops. This setting adds a sense of gravity and danger to big air tricks.
   </p>
 
   <h2>Stomp Catch</h2>
   <p>
-    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+    Adds a more aggressive catch mechanic, where the skater actively stomps down on the board to catch it. Ideal for skaters who like a more dynamic and forceful style.
   </p>
   <h3>Stomp Catch Force</h3>
+  <p>Adjust the intensity of the stomp during catches, allowing for more dramatic and forceful landings.</p>
 
   <!-- More content here if needed -->
 </div>

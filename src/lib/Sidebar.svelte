@@ -12,19 +12,9 @@
         route: '/Alpha/XXL 3 Mod'
       },
       {
-        name: 'Fro\'s Experimental Mod',
-        subcategories: ['Animations', 'Body', 'Head', 'Camera', 'Gameplay', 'Multiplayer', 'Misc', 'Map', 'Experimental'],
-        route: '/Alpha/FroMod'
-      },
-      {
         name: 'XL Graphics',
         subcategories: ['Basic', 'Presets', 'Camera'],
         route: '/Alpha/XLGraphics'
-      },
-      {
-        name: 'Deck FX',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/DeckFX'
       },
       {
         name: 'Sound Mod',
@@ -32,14 +22,24 @@
         route: '/Alpha/SoundMod'
       },
       {
-        name: 'Boned Ollie Mod',
+        name: 'Deck FX',
         subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/BonedOllieMod'
+        route: '/Alpha/DeckFX'
       },
       {
         name: 'XL Gear Mod',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/XLGearMod'
+      },
+      {
+        name: 'Fro\'s Experimental Mod',
+        subcategories: ['Animations', 'Body', 'Head', 'Camera', 'Gameplay', 'Multiplayer', 'Misc', 'Map', 'Experimental'],
+        route: '/Alpha/FroMod'
+      },
+      {
+        name: 'Boned Ollie Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Alpha/BonedOllieMod'
       },
       {
         name: 'Walking Mod',
@@ -57,6 +57,11 @@
         route: '/Alpha/Multiplayer++'
       },
       {
+        name: 'DecalFix',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Alpha/DecalFix'
+      },
+      {
         name: 'Better Replay Mod',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/BetterReplayMod'
@@ -65,6 +70,11 @@
         name: 'Grind Tools',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/GrindTools'
+      },
+      {
+        name: 'Grab Customizer',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Alpha/GrabCustomizer'
       },
       {
         name: 'Lateflip Mod',
@@ -82,11 +92,6 @@
         route: '/Alpha/BetterObjectDropper'
       },
       {
-        name: 'DecalFix',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/DecalFix'
-      },
-      {
         name: 'XL Random Map',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/XLRandomMap'
@@ -100,11 +105,6 @@
         name: 'Gear Utilities',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/GearUtilities'
-      },
-      {
-        name: 'Grab Customizer',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/GrabCustomizer'
       },
       {
         name: 'Controls Editor',
@@ -121,33 +121,67 @@
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/ControllerRumble'
       },
-/*
-      {
-        name: 'Exposure Controller',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/ExposureController'
-      },
-      {
-        name: 'Map Editor',
-        subcategories: ['Page 1', 'Page 2'],
-        route: '/Alpha/MapEditor'
-      },
-*/
 
     ];
   
    // Categories for Option 2
   const option2Categories = [
     {
+        name: 'XL Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/XLMod'
+    },
+    {
         name: 'XL Graphics',
         subcategories: ['Basic', 'Presets', 'Camera'],
-        route: '/Alpha/XLGraphics'
+        route: '/Public/XLGraphics'
     },
     {
         name: 'Sound Mod',
         subcategories: ['Soundpacks',],
-        route: '/Alpha/SoundMod'
+        route: '/Public/SoundMod'
       },
+      {
+        name: 'Deck Tools',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/DeckTools'
+    },
+    {
+        name: 'Fro\'s Experimental Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/FroMod'
+    },
+    {
+        name: 'Boned Ollie Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/BonedOllieMod'
+    },
+      {
+        name: 'Grind Tools',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/GrindTools'
+    },
+    {
+        name: 'Shape FX',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/ShapeFX'
+    },
+    {
+        name: 'Better Replay Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/BetterReplayMod'
+    },
+    {
+        name: 'XL Menu Mod',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/XLMenuMod'
+    },
+    {
+        name: 'Multiplayer++',
+        subcategories: ['Page 1', 'Page 2'],
+        route: '/Public/Multiplayer++'
+    },
+    
     // Add more categories for Option 2
   ];
 
@@ -175,7 +209,10 @@
 </script>
 
 <aside class="min-w-max bg-gray-300 text-sm h-screen font-bold p-4 overflow-y-auto">
-  <div class="mb-2">
+  <div class="text-center">
+    <h2 class="text-lg mt-0 text-gray-800">Working Mods</h2>
+  </div>
+  <div class="mb-2 flex justify-center">
     <button
       class={`px-4 py-1 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}
       on:click={() => selectOption(true)}>
@@ -187,6 +224,7 @@
       v1.2.7.8
     </button>
   </div>
+  
   <nav>
     <ul class="list-none m-0 p-0">
       {#each currentCategories as category}
@@ -208,6 +246,7 @@
     </ul>
   </nav>
 </aside>
+
 
 
 

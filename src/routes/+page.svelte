@@ -9,7 +9,7 @@
     Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
   </p>
 
-  <h2>Getting Started with Mods</h2>
+  <h2>Getting Started with UnityModManager</h2>
   <p>
     For a step-by-step introduction to the world of modding, visit our 
     <a href="/GettingStarted">Getting Started</a> 

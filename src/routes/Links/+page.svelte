@@ -7,10 +7,10 @@
   
     <h2>UnityModManager</h2>
     <p>
-      For version 1.2.2.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityMod Managerv0.27.4</a>
+      For Skater XL version 1.2.2.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityMod Managerv0.27.4</a>
     </p>
     <p>
-      For version 1.2.7.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
+      For Skater XL version 1.2.7.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
     </p>
     <p>
       <i>Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
