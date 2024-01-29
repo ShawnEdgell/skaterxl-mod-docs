@@ -4,12 +4,26 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>Home</h1>
-  <h2>Skater XL Mod Docs</h2>
-  <p>
-    Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
-  </p>
 
-  <h2>Getting Started with UnityModManager</h2>
+  <!-- Stylish box with color -->
+  <div class="bg-gray-200 p-4 rounded-lg mt-4 flex flex-col md:flex-row items-center">
+    <!-- Text content in the box (50% width) -->
+    <div class="w-full md:w-1/2 pr-4">
+      <h2 class="text-2xl mt-0">Skater XL Mod Docs</h2>
+      <p>
+        Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
+      </p>
+    </div>
+
+    <!-- Image next to the text (50% width) -->
+    <div class="md:w-1/2">
+      <div> <!-- 16:9 Aspect Ratio -->
+        <img src="Home1.jpg" alt="Descriptive Alt Text" class="my-4" />
+      </div>
+    </div>
+  </div>
+
+  <h2>Getting Started</h2>
   <p>
     For a step-by-step introduction to the world of modding, visit our 
     <a href="/GettingStarted">Getting Started</a> 
@@ -30,7 +44,7 @@
     page.
   </p>
 
-  <h2>Watch Our 2024 Modding Guide</h2>
+  <h2>2024 Modding Guide</h2>
   <p>
     If you're more of a visual learner, we've got you covered. Watch our tutorial video to learn how to get started with modding Skater XL. This video covers everything you need to know!
   </p>

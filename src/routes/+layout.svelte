@@ -24,7 +24,7 @@
     modalImg = document.getElementById("modalContent");
 
     document.body.addEventListener('click', event => {
-      if (event.target.tagName === 'IMG') {
+      if (event.target.tagName === 'IMG' && !event.target.classList.contains('no-modal')) {
         openModal(event.target.src, event.target.alt);
       }
     });
@@ -32,6 +32,7 @@
     modal.addEventListener('click', closeModal);
   });
 </script>
+
 
 <Header />
 <div class="flex overflow-hidden" style="height: calc(100vh - var(--header-height));">

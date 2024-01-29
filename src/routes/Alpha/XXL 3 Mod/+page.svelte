@@ -28,7 +28,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XXL 3 Mod (v1.3.3) from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline">Dawgvinci's Discord</a> (#xxlmod section). 
+    Download the XXL 3 Mod (v1.3.3) from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline">DawgVinci's Discord</a> (#xxlmod section). 
   </p>
   <p>
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL to access the mod.
