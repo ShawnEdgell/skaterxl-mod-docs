@@ -1,5 +1,5 @@
 <header class="relative sticky top-0 z-50 bg-blue-500 p-4 flex items-center justify-center">
-  <span class="absolute ml-2 left-4 top-1/2 transform -translate-y-1/2 text-xs text-white opacity-75">pre-pre-alpha</span>
+  <span class="absolute ml-2 left-4 top-1/2 transform -translate-y-1/2 text-white opacity-75">pre-pre-alpha</span>
   
   <nav class="flex justify-center">
     <a href="/" sveltekit-prefetch class="font-bold text-white hover:text-gray-300 mx-4">

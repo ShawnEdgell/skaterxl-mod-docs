@@ -208,9 +208,9 @@
   }
 </script>
 
-<aside class="min-w-max bg-gray-300 text-sm h-screen font-bold p-4 overflow-y-auto">
+<aside class="min-w-max bg-gray-300 text-base h-screen p-4 overflow-y-auto">
   <div class="text-center">
-    <h2 class="text-lg mt-0 text-gray-800">Working Mods</h2>
+    <h2 class="text-xl mt-0 text-gray-800">Working Mods</h2>
   </div>
   <div class="mb-2 flex justify-center">
     <button
