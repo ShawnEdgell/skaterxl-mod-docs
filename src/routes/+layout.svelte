@@ -34,7 +34,7 @@
 </script>
 
 <Header />
-<div class="flex h-screen">
+<div class="flex overflow-hidden" style="height: calc(100vh - var(--header-height));">
   <Sidebar />
   <main class="flex-grow p-4 overflow-auto">
     <slot></slot> <!-- Main content -->
@@ -49,6 +49,10 @@
 
 <!-- Include Modal Styles -->
 <style>
+
+:root {
+    --header-height: 4rem; /* Adjust this value based on your header's height */
+  }
   .modal {
     display: none; 
     position: fixed; 

@@ -226,7 +226,7 @@
   </div>
   
   <nav>
-    <ul class="list-none m-0 p-0">
+    <ul class="list-none m-0 p-0 pb-20">
       {#each currentCategories as category}
         <li class="mb-1">
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block text-gray-800 hover:text-blue-500 px-2 py-1">
