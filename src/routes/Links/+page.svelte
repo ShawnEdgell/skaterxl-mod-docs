@@ -35,9 +35,31 @@
     <p>
       <i>Similar to the SXL Modding Discord, Milky's Barnyard is a good source of information for modding Skater XL. Here you will find links to a variety of presets and settings by Milky and other community members.</i>
     </p>
-    
 
-  
+    <h2>Modder Discords</h2>
+
+    <h2>Gear Discords</h2>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/XHfcp258rv " target="_blank" rel="noopener noreferrer">Speeskeeks Discord</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/cUnwY8ZZej " target="_blank" rel="noopener noreferrer">Sungodpxllz's Discord</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/47pyuCNuxG " target="_blank" rel="noopener noreferrer">Makes's Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/pHQWsYG5Mm " target="_blank" rel="noopener noreferrer">Antikz's Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/WaAKnSw6Ha " target="_blank" rel="noopener noreferrer">Hanzo's Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/xQMXhCKfQ2 " target="_blank" rel="noopener noreferrer">CDT's (ClutchDidThat) Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/dpXEKGSVxw " target="_blank" rel="noopener noreferrer">Merlon Warlock's Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/9EzS82SNqG " target="_blank" rel="noopener noreferrer">Stevyy's Discord Server</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/EUkY43zSWd " target="_blank" rel="noopener noreferrer">Kurbdogg420's Discord Server</a>
+    <p>
+    <h2>Mapper Discord</h2>
+
     <!-- More content here if needed -->
   </div>
   
