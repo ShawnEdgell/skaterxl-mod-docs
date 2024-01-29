@@ -105,7 +105,13 @@
 
   <h3>Step 4</h3>
   <p>
-    Launch Skater XL! You should now see the UnityModManager application open on startup. 🟢 Green icon means your mod is most likely working. Refer to the mod page to find out how to open and use it. 🔴 Red icon means your mod is broken. These mods will need to be uninstalled or updated to the proper working version.
+    Launch Skater XL! You should now see the UnityModManager application open on startup. 
+  </p>
+  <p>
+    🟢 Green icon means your mod is most likely working. Refer to the mod page to find out how to open and use it.
+  </p>
+  <p>
+    🔴 Red icon means your mod is broken. These mods will need to be uninstalled or updated to the proper working version.
   </p>
 
   <img src="UMM4.png" alt="Descriptive Alt Text" class="my-4" />
@@ -113,7 +119,8 @@
   <h3>All done!</h3>
   <p>
     If you have any specific questions or need help from a moderator, refer to the 
-    <a href="https://discord.com/invite/xFfv3CAf67">Skater XL Modding Discord</a>.
+    <a href="https://discord.com/invite/xFfv3CAf67">Skater XL Modding Discord's</a>
+  #support section.
   </p>
 </div>
 
