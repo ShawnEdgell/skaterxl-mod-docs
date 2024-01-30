@@ -14,6 +14,7 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Authors:</b> mcbtay, Redgouf</p>
       <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgearmodifier" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> Integrated into Edit Skater Menu</p>
       <p class="mb-1"><b>Key Features:</b> Dynamic Clothing, Custom Character Models, Complete Appearance Customization</p>
     </div>

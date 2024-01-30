@@ -13,6 +13,7 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
       <p class="mb-1"><b>Working Version:</b> 1.3.3</p>
+      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
       <p class="mb-1"><b>Keybind to Open:</b> "F7"</p>
       <p class="mb-1"><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
     </div>
