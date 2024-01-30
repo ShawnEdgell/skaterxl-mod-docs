@@ -29,10 +29,14 @@
     modalImg = document.getElementById("modalContent");
 
     document.body.addEventListener('click', event => {
-      if (event.target.tagName === 'IMG' && !event.target.classList.contains('no-modal')) {
-        openModal(event.target.src, event.target.alt);
-      }
-    });
+    // Check if the clicked image is within the header
+    const isInsideHeader = event.target.closest('header') !== null;
+
+    if (event.target.tagName === 'IMG' && !event.target.classList.contains('no-modal') && !isInsideHeader) {
+      openModal(event.target.src, event.target.alt);
+    }
+  });
+
 
     modal.addEventListener('click', closeModal);
   });
