@@ -26,7 +26,6 @@
     <div class="md:w-1/2">
       <div> <!-- 16:9 Aspect Ratio -->
         <img src="Home1.jpg" alt="BS Noseblunt by Milky" class="my-4" />
-        <p class="text-center"><i>BS Noseblunt by </i><a href="/GettingStarted">Milky</a></p>
       </div>
     </div>
   </div>
