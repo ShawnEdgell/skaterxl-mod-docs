@@ -7,15 +7,20 @@
 
   let modal, modalImg;
 
+  // Declare a reactive variable for zoom
+  let isZoomed = false;
+
   function openModal(src, alt) {
     modal.style.display = "block";
     modalImg.src = src;
     modalImg.alt = alt || 'Zoomed image';
+    isZoomed = false;
   }
 
   function closeModal(event) {
     if (event.target.classList.contains('close') || event.target === modal) {
       modal.style.display = "none";
+      isZoomed = false;
     }
   }
 
@@ -31,7 +36,12 @@
 
     modal.addEventListener('click', closeModal);
   });
+
+  function toggleZoom() {
+    isZoomed = !isZoomed;
+  }
 </script>
+
 
 <div class="flex flex-col h-screen">
   <Header />
@@ -43,56 +53,15 @@
   </div>
 </div>
 
-
 <!-- Modal for image viewing -->
-<div id="imageModal" class="modal" onclick={closeModal}>
-  <span class="close" onclick={closeModal}>&times;</span>
-  <img class="modal-content" id="modalContent" alt="">
+<div id="imageModal" class="fixed inset-0 z-50 hidden overflow-auto bg-black bg-opacity-90 p-[50px_15px]" onclick={closeModal}>
+  <span class="close absolute top-4 right-9 text-white text-5xl font-bold cursor-pointer hover:text-gray-300" onclick={closeModal}>&times;</span>
+  <img class="modal-content block mx-auto mt-5 max-w-[95%] max-h-[90vh] w-auto h-auto cursor-zoom-in" id="modalContent" alt="">
 </div>
 
-<!-- Include Modal Styles -->
 <style>
-  :root {
-    --header-height: 4rem; /* Adjust this value based on your header's height */
-  }
-
-  .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1000; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.9); 
-  }
-
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    max-height: 80vh;
-    object-fit: contain;
-    cursor: zoom-in;
-  }
-
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  /* Add this style if the Tailwind hover class doesn't provide the desired effect */
+  .close:hover {
+    color: #bbb; /* Adjust color as needed */
   }
 </style>

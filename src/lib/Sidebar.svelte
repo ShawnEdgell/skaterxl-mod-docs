@@ -209,9 +209,6 @@
 </script>
 
 <aside class="min-w-max font-bold bg-gray-300 text-base h-screen p-4 overflow-y-auto">
-  <div class="text-center">
-    <h2 class="text-xl mt-0 text-gray-800">Working Mods</h2>
-  </div>
   <div class="mb-2 flex justify-center">
     <button
       class={`px-4 py-1 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}
