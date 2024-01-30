@@ -5,6 +5,7 @@
     // Store to track the open state of each category
     const openCategory = writable(null);
   
+    // Categories for Alpha v1.2.2.8
     const option1Categories = [
       {
         name: 'XXL 3 Mod',
@@ -121,10 +122,9 @@
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/ControllerRumble'
       },
-
     ];
   
-   // Categories for Option 2
+   // Categories for Public v1.2.7.8
   const option2Categories = [
     {
         name: 'XL Mod',
@@ -180,16 +180,14 @@
         name: 'Multiplayer++',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Public/Multiplayer++'
-    },
-    
-    // Add more categories for Option 2
+    }
   ];
 
-  let currentCategories = option1Categories; // Start with Option 1
-  let isOption1Selected = true; // State to track which option is selected
+  let currentCategories = option1Categories;
+  let isOption1Selected = true;
 
-  const option1Route = '/Alpha/About'; // Replace with your actual route
-  const option2Route = '/Public/About'; // Replace with your actual route
+  const option1Route = '/Alpha/About'; 
+  const option2Route = '/Public/About';
 
   async function selectOption(isOption1) {
     isOption1Selected = isOption1;
@@ -200,7 +198,7 @@
   }
 
   async function handleCategoryClick(event, categoryName) {
-    event.preventDefault(); // Prevents default link behavior
+    event.preventDefault();
     openCategory.update(current => current === categoryName ? null : categoryName);
     if (categoryName !== null) {
       await goto(event.currentTarget.getAttribute('href'));
@@ -222,6 +220,7 @@
     </button>
   </div>
   
+
   <nav>
     <ul class="list-none m-0 p-0 pb-20">
       {#each currentCategories as category}
@@ -229,7 +228,7 @@
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block text-gray-800 hover:text-blue-500 px-2 py-1">
             {category.name}
           </a>
-          {#if $openCategory === category.name}
+          <!-- {#if $openCategory === category.name}
             <ul class="list-none m-0 p-0">
               {#each category.subcategories as sub}
                 <li class="my-0">
@@ -237,7 +236,7 @@
                 </li>
               {/each}
             </ul>
-          {/if}
+          {/if} -->
         </li>
       {/each}
     </ul>

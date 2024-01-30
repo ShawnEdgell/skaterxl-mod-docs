@@ -5,29 +5,40 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Sound Mod</h1>
   
-  <h2>Comprehensive Sound Customization</h2>
   <p>
-    Elevate your Skater XL experience with the SoundMod, a dynamic tool that allows you to customize nearly every sound in the game. From the clatter of wheels on concrete to the unique sounds of different skateboarding tricks, personalize your auditory experience to match the realism of your gameplay.
+    Transform the auditory landscape of your Skater XL gameplay with the Sound Mod. Offering complete customization of gameplay and UI sounds, the mod immerses you in a skateboarding experience tailored to your preferences.
   </p>
 
-  <h2>Community-Created Soundpacks</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Authors:</b> Babbo, jbooogie</p>
+      <p class="mb-1"><b>Working Version:</b> 1.3.0</p>
+      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
+      <p class="mb-1"><b>Key Features:</b> Custom Sounds, Community-Created Soundpacks, Enhanced UI Sounds</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/SoundMod.png" alt="Sound Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Immerse yourself in a rich library of custom soundpacks created by the Skater XL community. Choose from a diverse range of audio experiences, each crafted to enhance the realism and immersion of your skating sessions. Experiment with different soundscapes to find the perfect auditory backdrop for your gameplay.
+    Download the Sound Mod from <a href="https://mod.io/g/skaterxl/m/soundmod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you select the correct version for your game. Install the mod using UnityModManager, and access it in Skater XL by opening the game.
   </p>
 
-  <h2>Custom UI and Walking Sounds</h2>
+  <h2>How to Use the Sound Mod</h2>
   <p>
-    SoundMod goes beyond skateboarding sounds, allowing you to also customize the game's UI and walking sounds. Bring a fresh feel to your game interface with unique audio cues and create a more lifelike environment with realistic walking sounds that add depth to your in-game movements.
+    The SoundMod is auto-enabled when you play Skater XL. The custom sounds will automatically be applied, with no UI configuration needed.
+  </p>
+  <p>
+    For more details on customizing your sound experience, visit our <a href="/Alpha/SoundMod/Soundpacks" class="text-blue-600 hover:underline">Soundpacks</a> section to explore and download community-created sound packs.
   </p>
 
-  <h2>Enhanced Bail Sounds and More</h2>
-  <p>
-    Experience the thrill and spills of skateboarding with enhanced bail sounds, adding a new layer of realism to your bails and falls. SoundMod provides a variety of options for you to experiment with, ensuring that every aspect of your Skater XL experience, from triumphant tricks to tough tumbles, sounds as authentic as it looks.
-  </p>
-
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

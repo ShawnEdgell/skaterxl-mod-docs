@@ -12,9 +12,9 @@
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
-      <p class="mb-1"><b>Working Version:</b> 1.3.3 (for Skater XL v1.2.2.8)</p>
+      <p class="mb-1"><b>Working Version:</b> 1.3.3</p>
       <p class="mb-1"><b>Keybind to Open:</b> "F7"</p>
-      <p class="mb-1"><b>Mod Utility:</b> Gameplay Customization</p>
+      <p class="mb-1"><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
     </div>
     <!-- Image or other content can be added here if necessary -->
 
@@ -35,7 +35,7 @@
   <!-- New section: How to Use -->
   <h2>How to Use the XXL 3 Mod</h2>
   <p>
-    Using the XXL 3 Mod is simple and intuitive. To access the mod, simply press <b>F7</b> on your keyboard. This will open the main menu of the mod. From here, you can click through each category/section and set up your settings. If you're starting from scratch, we recommend going through the categories in order from top to bottom to fully customize your Skater XL experience.
+    To access the mod, simply press <b>F7</b> on your keyboard. This will open the main menu of the mod. From here, you can click through each category/section and set up your settings. If you're starting from scratch, we recommend going through the categories in order from top to bottom to fully customize your Skater XL experience.
   </p>
   <p>
     Additionally, the mod allows you to load custom presets created by others. For more information on presets, including how to find and load them, check out our 
