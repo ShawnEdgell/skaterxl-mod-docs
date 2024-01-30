@@ -206,44 +206,64 @@
   }
 </script>
 
-<aside class="min-w-max font-bold bg-gray-300 text-base h-screen p-4 overflow-y-auto">
+<aside class="min-w-max font-bold bg-gray-300 text-base h-screen p-4 overflow-y-auto pb-40">
   <h2 class="p-0 m-0 text-lg text-center">Skater XL Version:</h2>
   <div class="mb-2 flex justify-center">
-    
     <button
-      class={`px-4 py-1 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}
+      class={`px-4 py-1 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-500'} rounded-l`}
       on:click={() => selectOption(true)}>
       v1.2.2.8
     </button>
     <button
-      class={`px-4 py-1 ${isOption1Selected ? 'bg-white text-gray-800' : 'bg-green-500 text-white'} rounded-r`}
+      class={`px-4 py-1 ${isOption1Selected ? 'bg-white text-gray-500' : 'bg-green-500 text-white'} rounded-r`}
       on:click={() => selectOption(false)}>
       v1.2.7.8
     </button>
   </div>
-  
 
-  <nav>
-    <ul class="list-none m-0 p-0 pt-2 pb-20">
-      {#each currentCategories as category}
-        <li class="mb-0">
-          <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block text-gray-800 hover:text-blue-500 px-2 py-1">
-            {category.name}
-          </a>
-          <!-- {#if $openCategory === category.name}
-            <ul class="list-none m-0 p-0">
-              {#each category.subcategories as sub}
-                <li class="my-0">
-                  <a href={`${category.route}/${sub}`} class="block text-gray-800 hover:text-blue-500 pl-6 pr-2 py-1">{sub}</a>
-                </li>
-              {/each}
-            </ul>
-          {/if} -->
-        </li>
-      {/each}
-    </ul>
-  </nav>
+  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 mt-4 text-center border-b border-gray-400 pb-1">Essentials</h3>
+  <ul class="list-none m-0 p-0">
+    {#each currentCategories.slice(0, 5) as category}
+      <li class="mb-2">
+        <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
+           class="block text-black hover:text-blue-500 px-2 py-1 bg-gray-200 rounded-md">
+          {category.name}
+        </a>
+        {#if $openCategory === category.name}
+          <ul class="list-none m-0 p-0 pl-4">
+            {#each category.subcategories as sub}
+              <li class="my-1">
+                <a href={`${category.route}/${sub}`} class="block text-black hover:text-blue-500 px-2 py-1">{sub}</a>
+              </li>
+            {/each}
+          </ul>
+        {/if}
+      </li>
+    {/each}
+  </ul>
+
+  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 text-center border-b border-gray-400 pb-1">Other Mods</h3>
+  <ul class="list-none m-0 p-0">
+    {#each currentCategories.slice(5) as category}
+      <li class="mb-2">
+        <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
+           class="block text-black hover:text-blue-500 px-2 py-1 bg-gray-200 rounded-md">
+          {category.name}
+        </a>
+        {#if $openCategory === category.name}
+          <ul class="list-none m-0 p-0 pl-4">
+            {#each category.subcategories as sub}
+              <li class="my-1">
+                <a href={`${category.route}/${sub}`} class="block text-black hover:text-blue-500 px-2 py-1">{sub}</a>
+              </li>
+            {/each}
+          </ul>
+        {/if}
+      </li>
+    {/each}
+  </ul>
 </aside>
+
 
 
 
