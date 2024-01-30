@@ -13,8 +13,7 @@
       For Skater XL version 1.2.7.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
     </p>
     <p>
-      <i>Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
-      </i>
+      ⚠️ Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
     </p>
 
     <h2>Skater XL Modding Website (mod.io)</h2>
@@ -49,7 +48,7 @@
 
     <h2>Gear Discord Servers</h2>
     <p>
-      Dive into the Gear Discords dedicated to Skater XL gear enthusiasts. Access custom XLGM gear and uniquely style your Skater XL experience.
+      Access custom XLGM gear and uniquely style your Skater XL experience.
     </p>
     <p>
       <a class="text-blue-600" href="https://discord.com/invite/XHfcp258rv " target="_blank" rel="noopener noreferrer">Speeskeeks Discord</a>
@@ -73,7 +72,7 @@
 
     <h2>Mapper Discord Servers</h2>
     <p>
-      Mapper Discords are your gateway to exploring new terrains in Skater XL. Expand your skating world with custom map creations, available in these vibrant communities.
+      Mapper Discords are your gateway to exploring new terrains in Skater XL.
     </p>
     <p>
       <a class="text-blue-600" href="https://discord.com/invite/A6Xm7jzYgT " target="_blank" rel="noopener noreferrer">Koannyc's Discord</a>

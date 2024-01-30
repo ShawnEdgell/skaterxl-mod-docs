@@ -16,7 +16,7 @@
   <img src="XLversion.png" alt="Descriptive Alt Text" class="my-4" />
 
   <p class="italic">
-    Your current game version will be displayed in the bottom left corner when you launch Skater XL.
+    Your current game version will be displayed in the lower left corner when you launch Skater XL.
   </p>
 
   <h2>Changing Skater XL Versions</h2>
@@ -34,15 +34,15 @@
   </p>
 
   <ul>
-    <li>
-      None = Skater XL v1.2.7.8 (Public) <i>- Default version</i>
-    </li>
-    <li>
-      Alpha = Skater XL v1.2.2.8 <i>- Recommended version</i>
-    </li>
-    <li>
-      Beta = Skater XL v1.2.6.0 <i>- Outdated, consider switching to either None or Alpha.</i>
-    </li>
+    <p>
+      <b>None</b> = Skater XL v1.2.7.8 (Public) <i>- Default version</i>
+    </p>
+    <p>
+      <b>Alpha</b> = Skater XL v1.2.2.8 <i>- Recommended version</i>
+    </p>
+    <p>
+      <b>Beta</b> = Skater XL v1.2.6.0 <i>- Outdated, consider switching to either None or Alpha.</i>
+    </p>
   </ul>
 
   <img src="XLDowngrade2.png" alt="Descriptive Alt Text" class="my-4" />
@@ -54,7 +54,7 @@
   <p>
     For Skater XL version 1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314">UnityModManager v0.27.7</a>
   </p>
-  <p class="italic mt-2">
+  <p class="mt-2">
     ⚠️ Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
   </p>
 
