@@ -33,14 +33,16 @@
   });
 </script>
 
-
-<Header />
-<div class="flex overflow-hidden" style="height: calc(100vh - var(--header-height));">
-  <Sidebar />
-  <main class="flex-grow p-4 overflow-auto">
-    <slot></slot> <!-- Main content -->
-  </main>
+<div class="flex flex-col h-screen">
+  <Header />
+  <div class="flex flex-row flex-grow overflow-hidden">
+    <Sidebar />
+    <main class="flex-grow p-4 overflow-auto">
+      <slot></slot> <!-- Main content -->
+    </main>
+  </div>
 </div>
+
 
 <!-- Modal for image viewing -->
 <div id="imageModal" class="modal" onclick={closeModal}>
@@ -50,10 +52,10 @@
 
 <!-- Include Modal Styles -->
 <style>
-
-:root {
+  :root {
     --header-height: 4rem; /* Adjust this value based on your header's height */
   }
+
   .modal {
     display: none; 
     position: fixed; 
@@ -71,7 +73,7 @@
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 90%;
+    max-width: 700px;
     max-height: 80vh;
     object-fit: contain;
     cursor: zoom-in;

@@ -1,21 +1,45 @@
-# Skater XL Modding Documentation / Guide
+# Skater XL Mod Docs (Skater XL Wiki)
 
-Welcome to the Skater XL Modding Documentation/Guide, a comprehensive resource for everything related to modding in Skater XL. This site is designed to provide detailed guides, tutorials, and resources to help both beginners and advanced modders in their Skater XL modding journey.
+Welcome to the Skater XL Mod Docs, an all-encompassing resource dedicated to everything Skater XL. This site acts as a comprehensive wiki, providing a central hub for modding information, working mods, community links, news updates, detailed guides, and much more. Whether you're a beginner or an advanced modder, or simply a player looking to enhance your Skater XL experience, you'll find everything you need here.
 
 ## Live Demo 
 
-https://skaterxl-mod-docs.vercel.app/
+[Skater XL Modding Documentation](https://skaterxl-mod-docs.vercel.app/)
 
 ## Technology Stack
 
-Our website is built using the SvelteKit framework, offering a modern, reactive, and efficient user experience. Here's a brief overview of the technologies involved:
+Our website is built on the SvelteKit framework, ensuring a modern, reactive, and efficient user experience. Here’s a quick overview of the technologies we use:
 
-- **SvelteKit:** SvelteKit is the core framework that powers our site, providing a seamless and performant user interface.
-- **Vite:** Vite is used as the build tool, ensuring fast and efficient development and production builds.
-- **Tailwind CSS:** For styling, we use Tailwind CSS, a utility-first CSS framework packed with classes that can be composed to build any design, directly in the markup.
+- **SvelteKit:** The backbone of our site, offering a seamless interface.
+- **Vite:** A build tool for fast and efficient development.
+- **Tailwind CSS:** A utility-first CSS framework for versatile styling directly in the markup.
 
-## Getting Started
+## Getting Started with Skater XL Modding
 
-To get started with Skater XL modding, navigate through the categories on our sidebar. Each section contains valuable information, tips, and step-by-step guides related to different aspects of Skater XL modding.
+To dive into Skater XL modding, explore the categories in our sidebar. Each section is filled with valuable information, tips, and guides covering various aspects of Skater XL modding. From creating your first mod to advanced modding techniques, our documentation has you covered.
 
-Whether you're looking to create your first mod or aiming to refine your modding skills, our documentation is here to assist you every step of the way.
+## Contributing to the Community
+
+We welcome community contributions! We will be adding features to share your photos, post video links, and interact with fellow enthusiasts. Our site is a dynamic platform for all things Skater XL, driven by its community.
+
+## For Developers: How to Fork and Run the Website
+
+Interested in contributing to the development of the site? Here’s how you can get started:
+
+1. **Fork the Repository:** Start by forking the repository to create your own copy.
+
+2. **Clone the Repository:** Clone the forked repository to your local machine.
+
+3. **Install Dependencies:** Navigate to the project directory and run `npm install` to install all necessary dependencies.
+
+4. **Run the Development Server:** Execute `npm run dev` to start the development server. This will allow you to view changes in real-time.
+
+5. **Make Your Changes:** Modify or add new features to the site.
+
+6. **Test Your Changes:** Ensure that your changes work correctly and are free of bugs.
+
+7. **Commit and Push:** Commit your changes and push them to your forked repository.
+
+8. **Create a Pull Request:** Submit a pull request for your changes to be reviewed and possibly merged into the main project.
+
+By following these steps, you can easily contribute to the development and improvement of the Skater XL Modding Documentation/Guide. Join us in building the ultimate resource for Skater XL enthusiasts!

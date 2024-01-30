@@ -9,7 +9,7 @@
       {
         name: 'XXL 3 Mod',
         subcategories: ['General', 'Catch', 'Flips', 'Lateflips', 'Grabs', 'Fingerflips', 'Footplants', 'Grinds', 'Manuals', 'Powerslides', 'Primo', 'Misc', 'Bails', 'Slowmotion', 'Other', 'Grab Customizer', 'Steeze Customizer', 'Stance Customizer', 'Pin Manager', 'Presets', 'Debug'],
-        route: '/Alpha/XXL 3 Mod'
+        route: '/Alpha/XXL3Mod'
       },
       {
         name: 'XL Graphics',
@@ -228,14 +228,14 @@
   <nav>
     <ul class="list-none m-0 p-0 pb-20">
       {#each currentCategories as category}
-        <li class="mb-1">
+        <li class="mb-0">
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block text-gray-800 hover:text-blue-500 px-2 py-1">
             {category.name}
           </a>
           {#if $openCategory === category.name}
             <ul class="list-none m-0 p-0">
               {#each category.subcategories as sub}
-                <li class="my-1">
+                <li class="my-0">
                   <a href={`${category.route}/${sub}`} class="block text-gray-800 hover:text-blue-500 pl-6 pr-2 py-1">{sub}</a>
                 </li>
               {/each}

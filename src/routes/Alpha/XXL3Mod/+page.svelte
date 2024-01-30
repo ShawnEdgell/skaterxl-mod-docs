@@ -4,8 +4,6 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>XXL 3 Mod (Stats Menu)</h1>
-
-  <h2>About XXL 3 Mod</h2>
   <p>
     Also known as the 'stats menu', the XXL 3 Mod is a game-changer for Skater XL enthusiasts. It opens up a realm of possibilities, allowing you to tweak everything from gravity and flip speeds to stances and grinds, tailoring your skateboarding experience to your personal style.
   </p>
@@ -34,17 +32,23 @@
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL to access the mod.
   </p>
 
-    <h2>Overview of Presets</h2>
-    <p>
-      Presets in the XXL 3 Mod allow for saving, sharing, and installing custom configurations for Skater XL. These include stats, stances, and steeze settings, enabling personalized skateboarding experiences. Remember, your settings might be tailored to your preferred riding stance, whether regular or goofy.
-    </p>
+  <!-- New section: How to Use -->
+  <h2>How to Use the XXL 3 Mod</h2>
+  <p>
+    Using the XXL 3 Mod is simple and intuitive. To access the mod, simply press <b>F7</b> on your keyboard. This will open the main menu of the mod. From here, you can click through each category/section and set up your settings. If you're starting from scratch, we recommend going through the categories in order from top to bottom to fully customize your Skater XL experience.
+  </p>
+  <p>
+    Additionally, the mod allows you to load custom presets created by others. For more information on presets, including how to find and load them, check out our 
+    <a href="/Alpha/XXL3Mod/Presets" class="text-blue-600 hover:underline">Presets </a>
+    page.
+  </p>
+
+  <!-- Note for laptop users -->
+  <h3>Note for Laptop Users</h3>
+  <p>
+    If you are using a laptop and have trouble opening the mod with the F7 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F7). In some cases, laptops have a setting in the BIOS or UEFI firmware to toggle the function keys between multimedia keys and standard function keys. Refer to your laptop's user manual or check the manufacturer's support website for specific instructions.
+  </p>
   
-    <h2>Managing Preset Files</h2>
-    <p>
-      Presets can be managed in the 'Documents/SkaterXL/XXLMod3' folder on your computer. Look for the 'StanceCollections', 'StatsCollections', and 'SteezeCollections' subfolders to add or share custom presets.
-    </p>
-  
-    <!-- More content here if needed -->
   
   
   <!-- More content here if needed -->
