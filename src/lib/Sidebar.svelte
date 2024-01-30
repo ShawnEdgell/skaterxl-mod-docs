@@ -207,7 +207,9 @@
 </script>
 
 <aside class="min-w-max font-bold bg-gray-300 text-base h-screen p-4 overflow-y-auto">
+  <h2 class="p-0 m-0 text-lg text-center">Skater XL Version:</h2>
   <div class="mb-2 flex justify-center">
+    
     <button
       class={`px-4 py-1 ${isOption1Selected ? 'bg-green-500 text-white' : 'bg-white text-gray-800'} rounded-l`}
       on:click={() => selectOption(true)}>
@@ -222,7 +224,7 @@
   
 
   <nav>
-    <ul class="list-none m-0 p-0 pb-20">
+    <ul class="list-none m-0 p-0 pt-2 pb-20">
       {#each currentCategories as category}
         <li class="mb-0">
           <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)} class="block text-gray-800 hover:text-blue-500 px-2 py-1">
