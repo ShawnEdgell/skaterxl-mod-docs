@@ -21,7 +21,7 @@
 
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Replace with actual image link -->
-      <img src="/FroMod.png" alt="Fro's Experimental Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/FroMod.png" alt="Fro's Experimental Mod"/>
     </div>
   </div>
 

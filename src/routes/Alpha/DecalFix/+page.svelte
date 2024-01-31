@@ -5,24 +5,47 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Decal Fix</h1>
   
-  <h2>Enabling Decals and Reflections</h2>
   <p>
-    The Decal Fix Mod is a crucial enhancement for Skater XL, enabling the use of decals and screen space reflections in maps that contain decals. This modification breathes new life into the game's environments, adding a layer of realism and visual appeal with detailed graffiti and reflective surfaces.
+    The Decal Fix Mod significantly enhances Skater XL's visual experience by enabling decals and screen space reflections, adding depth and realism to the game's environments.
   </p>
 
-  <h2>Simple Installation Process</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Brookzee99</p>
+      <p class="mb-1"><b>Working Version:</b> 1.2.2.8 & 1.2.5.6</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/decal-fix" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Installation:</b> Manual File Replacement</p>
+      <p class="mb-1"><b>Key Features:</b> Enhanced Decals, Screen Space Reflections</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <!-- Replace with actual image link -->
+      <img src="/Picture.png" alt="Decal Fix Mod"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Installing the Decal Fix Mod is straightforward. Unlike script mods, it doesn't require Unity Mod Manager. Instead, it involves replacing a single file in the game's directory. After downloading, simply drag the "globalgamemanagers.assets" file to your Skater XL installation folder, and confirm the replacement of the existing file.
+    Download the Decal Fix from <a href="https://mod.io/g/skaterxl/m/decal-fix" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it matches your Skater XL game version.
+  </p>
+  <p>
+    This mod requires manual installation: extract the downloaded file and replace the existing "globalgamemanagers.assets" file in your Skater XL game folder, located here:
+  </p> 
+  <p>
+    <b><code>C:/Program Files (x86)/Steam/steamapps/common/Skater XL/SkaterXL_Data</code>.
+      </b>
+    </p>
+  
+
+  <h2>Experiencing the Difference</h2>
+  <p>
+    After installation, decals and reflections become instantly visible in the game, enhancing maps like "Donevan Recreation Center" and "OldBrooks Factory" with more vivid and realistic graphics.
   </p>
 
-  <h2>Immediate Visual Enhancement</h2>
-  <p>
-    Once installed, the difference is immediately noticeable. Check maps like "Donevan Recreation Center" or "OldBrooks Factory" to see the enhanced graffiti on ramps and walls, offering a more immersive and vibrant skateboarding environment.
-  </p>
-
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

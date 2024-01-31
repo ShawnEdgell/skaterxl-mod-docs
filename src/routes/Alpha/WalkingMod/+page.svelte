@@ -21,7 +21,7 @@
 
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Replace with actual image link -->
-      <img src="/WalkingMod.png" alt="Walking Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/WalkingMod.png" alt="Walking Mod"/>
     </div>
   </div>
 

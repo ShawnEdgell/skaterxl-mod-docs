@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/SoundMod.png" alt="Sound Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/SoundMod.png" alt="Sound Mod"/>
     </div>
   </div>
 

@@ -14,13 +14,13 @@
       <p class="mb-1"><b>Author:</b> Babbo</p>
       <p class="mb-1"><b>Working Version:</b> 1.1.2</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgraphics" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
-      <p class="mb-1"><b>Keybind to Open:</b> "Backspace"</p>
+      <p class="mb-1"><b>Keybind to Open:</b> Backspace</p>
       <p class="mb-1"><b>Key Features:</b> Camera Customization, Fisheye Lens Effect, Follow Camera, Community-driven Presets</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Place your image here -->
-      <img src="/XLGraphics.png" alt="XL Graphics Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/XLGraphics.png" alt="XL Graphics Mod"/>
     </div>
   </div>
 

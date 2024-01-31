@@ -30,3 +30,7 @@ ul {
 i {
   @apply text-black italic;
 }
+
+img {
+  @apply w-full h-auto rounded-lg shadow-md;
+}

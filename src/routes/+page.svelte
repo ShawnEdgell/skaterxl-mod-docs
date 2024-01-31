@@ -5,28 +5,26 @@
 <div class="max-w-4xl mx-auto py-6">
 
   <div class="bg-red-500 text-white p-4 rounded-lg mb-4">
-    <h2 class="text-xl text-white font-bold mt-2">⚠️ Disclaimer</h2>
-    <p class="text-white">
+    <h2 class="text-xl text-white font-bold mt-0">⚠️ Disclaimer</h2>
+    <p class="text-white mb-1">
       Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers enough resources to get you started with modding Skater XL. We appreciate your patience and support!
     </p>
   </div>
   <h1>Home</h1>
 
   <!-- Stylish box with color -->
-  <div class="bg-gray-200 p-4 rounded-lg mt-4 flex flex-col md:flex-row items-center">
-    <!-- Text content in the box (50% width) -->
-    <div class="w-full md:w-1/2 pr-4">
-      <h2 class="text-2xl mt-2">Skater XL Mod Docs</h2>
-      <p>
-        Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
-      </p>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+        <h2 class="text-2xl mt-0">Skater XL Mod Docs</h2>
+        <p>
+            Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
+        </p>
     </div>
 
     <!-- Image next to the text (50% width) -->
-    <div class="md:w-1/2">
-      <div> <!-- 16:9 Aspect Ratio -->
-        <img src="Home1.jpg" alt="BS Noseblunt by Milky" class="my-4" />
-      </div>
+    <div class="flex-1 mt-4 md:mt-0">
+      <!-- Image next to the text -->
+      <img src="Home1.jpg" alt="BS Noseblunt by Milky" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

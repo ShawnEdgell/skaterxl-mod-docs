@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/XLGM.png" alt="XL Gear Modifier Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/XLGM.png" alt="XL Gear Modifier"/>
     </div>
   </div>
 
@@ -45,8 +45,8 @@
   You can find custom XLGM 2 gear on <a href="https://mod.io/g/skaterxl?tags-in=Gear" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> or various Skater XL gear Discord channels. Each piece of XLGM 2 gear will have at least 2 files. To add these items:
 </p>
 <ul class="list-disc mb-4">
-  <p>Place <b>assets</b> into <code>Documents/SkaterXL/XLGearModifier/Assets</code></p>
-  <p>Place <b>textures</b> into <code>Documents/SkaterXL/Gear</code></p>
+  <p>Place <b>assets</b> into <b><code>Documents/SkaterXL/XLGearModifier/Assets</code></b></p>
+  <p>Place <b>textures</b> into <b><code>Documents/SkaterXL/Gear</code></b></p>
 </ul>
 <p>
   Remember, for each piece of custom gear, you need both the asset and its corresponding texture to ensure they appear correctly in the 'Custom Meshes' section in-game.

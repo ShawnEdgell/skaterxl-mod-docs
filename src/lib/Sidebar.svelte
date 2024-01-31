@@ -58,7 +58,7 @@
         route: '/Alpha/Multiplayer++'
       },
       {
-        name: 'DecalFix',
+        name: 'Decal Fix',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/DecalFix'
       },

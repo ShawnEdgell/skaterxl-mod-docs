@@ -5,29 +5,41 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>XL Menu Mod</h1>
   
-  <h2>Enhanced Map Management</h2>
   <p>
-    The XL Menu Mod revolutionizes map management in Skater XL. Organize custom maps in any folder structure. Maps with preview images are displayed alongside, and for maps requiring DLL files, the mod efficiently handles these, ensuring a seamless integration.
+    The XL Menu Mod revolutionizes the way you organize and access custom maps and gear in Skater XL. It offers an intuitive and user-friendly interface to manage your content with ease.
   </p>
 
-  <h2>Advanced Sorting Options</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> mcbtay</p>
+      <p class="mb-1"><b>Working Version:</b> 2.6.1</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's, Advanced Sorting</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="XL Menu Mod"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Navigate your content with ease using various sorting methods such as by name, file size, date, and author. The mod smartly sums up folder sizes and dates, streamlining your browsing experience whether you’re searching for the newest additions or specific authors.
+    Download the XL Menu Mod from <a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure your Skater XL version is compatible with the mod.
+  </p>
+  <p>
+    Install using UnityModManager: Simply drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open the game to access the mod.
   </p>
 
-  <h2>Customizable Gear Organization</h2>
+  <h2>How to Use the XL Menu Mod</h2>
   <p>
-    Organize and access gear efficiently with the XL Menu Mod. It groups official gear by brand and hair by style, letting you select colors separately. You can also arrange your custom gear in any subfolder structure, all reflected in the game’s menu for intuitive access.
+    The XL Menu Mod is seamlessly integrated into Skater XL, offering a straightforward and intuitive interface. Organize your custom maps and gear using its enhanced sorting and folder structure features.
   </p>
+  <p>Press <b><code>CTRL+F10</code></b> and go to the options menu to access some quality of life features.</p>
 
-  <h2>User-Friendly Interface Options</h2>
-  <p>
-    Enhance your menu navigation with user-friendly features like the back button functionality and adjustable font sizes for gear and map lists. Additionally, the mod offers a Dark Mode for a visually comfortable menu browsing experience, and an option to hide official gear for a more customized selection.
-  </p>
-
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

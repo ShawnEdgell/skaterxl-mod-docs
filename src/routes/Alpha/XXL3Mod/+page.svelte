@@ -14,14 +14,14 @@
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
       <p class="mb-1"><b>Working Version:</b> 1.3.3</p>
       <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
-      <p class="mb-1"><b>Keybind to Open:</b> "F7"</p>
+      <p class="mb-1"><b>Keybind to Open:</b> F7</p>
       <p class="mb-1"><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
     </div>
     <!-- Image or other content can be added here if necessary -->
 
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Place your image here -->
-      <img src="/XXL3.png" alt="Description" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/XXL3.png" alt="Description"/>
     </div>
   </div>
 
