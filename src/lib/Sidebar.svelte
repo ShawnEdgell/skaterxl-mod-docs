@@ -222,7 +222,7 @@
 </script>
 
 <aside class="min-w-max text-base h-screen p-4 overflow-y-auto pb-40">
-  <h2 class="p-0 m-0 font-bold text-lg text-center">Skater XL Version:</h2>
+  <h2 class="p-0 m-1 font-bold text-lg text-center">Skater XL Version:</h2>
   <div class="mb-2 flex justify-center">
     <button
       class={`px-4 py-1 ${isOption1Selected ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'} hover:bg-blue-400 hover:text-white rounded-l`}
@@ -236,7 +236,7 @@
     </button>
   </div>
 
-  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 mt-4 text-center border-b border-gray-400 pb-1">Essentials</h3>
+  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 mt-6 text-center border-b border-gray-400 pb-1">Essentials</h3>
   <ul class="list-none m-0 p-0">
     {#each currentCategories.slice(0, 5) as category}
       <li class="mb-2">
