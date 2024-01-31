@@ -15,7 +15,7 @@
   <!-- Stylish box with color -->
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
     <div class="flex-1 md:mr-4">
-        <h2 class="text-2xl mt-0">Skater XL Mod Docs</h2>
+        <h2 class="text-2xl my-0">Skater XL Mod Docs</h2>
         <p>
             Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable.
         </p>
@@ -24,7 +24,8 @@
     <!-- Image next to the text (50% width) -->
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Image next to the text -->
-      <img src="Home1.jpg" alt="BS Noseblunt by Milky" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="DecalFix.png" alt="BS Noseblunt by Milky" class="w-full h-auto rounded-lg shadow-md"/>
+      <p class="mt-2 mb-0 text-center"><a href="https://mod.io/g/skaterxl/m/donevan-recreation-center " target="_blank" rel="noopener noreferrer">Donevan Recreation Center</a> by Alexlaskka</p>
     </div>
   </div>
 
