@@ -12,11 +12,11 @@
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Skate702</p>
+      <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.7.2</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grabs-customizer-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Ctrl + G</p>
-      <p class="mb-1"><b>Key Features:</b> Comprehensive Grab Customization, Seamless Integration with Vanilla and XXL Mechanics</p>
+      <p class="mb-1"><b>Key Features:</b> Comprehensive Grab Customization</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

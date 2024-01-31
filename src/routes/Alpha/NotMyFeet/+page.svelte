@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 1.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/notmyfeet" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> N</p>
-      <p class="mb-1"><b>Key Features:</b> Streamlined Display, Easy Toggle, Enhanced Realism</p>
+      <p class="mb-1"><b>Key Features:</b> Hide shoe highlighting when using controller overlay</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

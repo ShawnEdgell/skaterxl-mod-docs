@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> MateusSXL</p>
       <p class="mb-1"><b>Working Version:</b> 1.0.2</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/multiplayer" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Key Features:</b> Improved Room Browsing, Join New Map Functionality, UI Enhancements</p>
+      <p class="mb-1"><b>Key Features:</b> Improved Room Browsing, UI Enhancements</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 2.0d</p>
       <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#gearutils section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> G</p>
-      <p class="mb-1"><b>Key Features:</b> Diverse Gear Collection, Custom Texture Support, Easy Access and Navigation</p>
+      <p class="mb-1"><b>Key Features:</b> Custom Accessories</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

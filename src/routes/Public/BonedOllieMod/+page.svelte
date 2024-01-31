@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 2.4.0</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/boned-ollie-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> F8</p>
-      <p class="mb-1"><b>Key Features:</b> Trick Customization, Enhanced Control, Realism</p>
+      <p class="mb-1"><b>Key Features:</b> Trick Customization, Enhanced Control</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 2.1.0</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Key Features:</b> Interactive Camera Controls, Advanced Replay Tracking, Easy Configuration</p>
+      <p class="mb-1"><b>Key Features:</b> Camera Light, Advanced Replay Tracking</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
