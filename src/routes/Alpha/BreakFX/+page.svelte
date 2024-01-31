@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Break FX Mod</h1>
+  <h1>Break FX</h1>
   
   <p>
     Introducing the Break FX Mod for Skater XL, a thrilling addition that brings the realistic possibility of skateboard breaks into your gameplay. Experience the exhilaration and challenge of managing your board's durability during intense skate sessions.
@@ -14,8 +14,8 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> ModCreatorName</p>
       <p class="mb-1"><b>Working Version:</b> 0.0.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/breakfx" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#breakfx section)</p>
+      <p class="mb-1"><b>Keybind to Open:</b> -</p>
       <p class="mb-1"><b>Key Features:</b> Realistic Board Break Mechanics, Enhanced Replay Experience, Compatibility Considerations</p>
     </div>
 
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Break FX Mod from <a href="https://mod.io/g/skaterxl/m/breakfx" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure compatibility with your current Skater XL game version.
+    Download the Break FX Mod from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#breakfx section). Ensure compatibility with your current Skater XL game version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater XL to experience the new dynamics of skateboard breaks.

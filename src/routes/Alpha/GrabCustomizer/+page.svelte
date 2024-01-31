@@ -14,7 +14,7 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Skate702</p>
       <p class="mb-1"><b>Working Version:</b> 1.7.2</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grab-customizer" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grabs-customizer-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Ctrl + G</p>
       <p class="mb-1"><b>Key Features:</b> Comprehensive Grab Customization, Seamless Integration with Vanilla and XXL Mechanics</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    To download the Grab Customizer Mod, visit <a href="https://mod.io/g/skaterxl/m/grab-customizer" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you're getting the version compatible with your Skater XL game version.
+    To download the Grab Customizer Mod, visit <a href="https://mod.io/g/skaterxl/m/grabs-customizer-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you're getting the version compatible with your Skater XL game version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Relaunch the game to access the mod.

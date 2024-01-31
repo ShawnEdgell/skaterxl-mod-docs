@@ -23,6 +23,15 @@
       <i>Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above.
     </i>
     </p>
+
+    <!-- Grabs Update Section -->
+    <h2 class="text-2xl font-bold my-2">Grabs Update - New Mechanics in Skater XL</h2>
+    <p>The Grabs Update introduced enhanced mechanics for grabs in Skater XL, offering players more control and new trick possibilities.</p>
+  
+  <!-- Video for Grabs Update -->
+    <div class="relative" style="padding-top: 56.25%;">
+      <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/tRuprTKtJOo" frameborder="0" allowfullscreen title="Grabs Update Trailer"></iframe>
+    </div>
   
     <!-- More content here if needed -->
   </div>

@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>XL Random Map Mod</h1>
+  <h1>XL Random Map</h1>
   
   <p>
     Explore the unexpected in Skater XL with the XL Random Map Mod. This mod provides a unique feature to randomly load different maps, offering a fresh and exciting skateboarding experience every time.
@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> ModCreatorName</p>
       <p class="mb-1"><b>Working Version:</b> 0.0.2</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlrandommap" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Keybind to Open:</b> X/Square while the Map Menu is open</p>
       <p class="mb-1"><b>Key Features:</b> Spontaneous Map Selection, Easy Access in Map Menu</p>
     </div>
 

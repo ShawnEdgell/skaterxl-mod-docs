@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> Brookzee99</p>
       <p class="mb-1"><b>Working Version:</b> 1.2.2.8 & 1.2.5.6</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/decal-fix" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
       <p class="mb-1"><b>Key Features:</b> Enhanced Decals, Screen Space Reflections</p>
     </div>
 

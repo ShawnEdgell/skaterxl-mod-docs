@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.5.0</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Keybind to Open:</b> CTRL + F10</p>
       <p class="mb-1"><b>Key Features:</b> Interactive Camera Controls, Advanced Replay Tracking, Easy Configuration</p>
     </div>
 
@@ -34,7 +34,7 @@
 
   <h2>How to Use the Better Replay Mod</h2>
   <p>
-    The mod enhances replays with interactive camera controls and advanced tracking. Access its features through the UnityModManager interface, opened with <b>CTRL+F10</b>>. Add a light to your camera for improved visual quality in replays, making your skateboarding moments more dynamic and realistic.
+    The mod enhances replays with interactive camera controls and advanced tracking. Access its features through the UnityModManager interface, opened with <b>CTRL+F10</b>. Add a light to your camera for improved visual quality in replays, making your skateboarding moments more dynamic and realistic.
   </p>
 
   <!-- Additional content, if needed, goes here -->

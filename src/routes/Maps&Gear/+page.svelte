@@ -101,7 +101,7 @@
     <p>
       <a class="text-blue-600" href="https://discord.com/invite/PZrYPwBW8P " target="_blank" rel="noopener noreferrer">Jean-Olive's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/RZbYQjxHdW " target="_blank" rel="noopener noreferrer">Bralunits's Discord</a>
+      <a class="text-blue-600" href="https://discord.com/invite/RZbYQjxHdW " target="_blank" rel="noopener noreferrer">Bralunits Discord</a>
     <p>
       <a class="text-blue-600" href="https://discord.com/invite/DVcJEhPh8M " target="_blank" rel="noopener noreferrer">B-row580's Discord</a>
     <p>
@@ -115,6 +115,13 @@
     <p>
       <a class="text-blue-600" href="https://discord.com/invite/qkvAMhrswY " target="_blank" rel="noopener noreferrer">BigCat's Discord</a>
     <p>
+      <a class="text-blue-600" href="https://discord.com/invite/5RDe5PN3W3 " target="_blank" rel="noopener noreferrer">GuineaTiggs's Discord</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/EqYtcMYM9b " target="_blank" rel="noopener noreferrer">Blxcklock's Discord</a>
+    <p>
+      <a class="text-blue-600" href="https://discord.com/invite/s6fbmCx7 " target="_blank" rel="noopener noreferrer">Alexlaskka's Discord</a>
+    <p>
+  
 
 <!-- More content here if needed -->
 </div>

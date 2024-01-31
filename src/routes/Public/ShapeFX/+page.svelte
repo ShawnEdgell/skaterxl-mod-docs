@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Shape FX Mod</h1>
+  <h1>Shape FX</h1>
   
   <p>
     The Shape FX Mod, created for Skater XL, introduces an innovative way to modify the shape of your skateboard deck. This unique feature allows for a more personalized skateboarding experience, giving you the freedom to adjust the deck shape to match your style or preference.
@@ -32,6 +32,12 @@
   <h2>How to Use Shape FX</h2>
   <p>
     After installation, access the Shape FX Mod in-game by pressing <b>F6</b>. The mod offers an intuitive interface to reshape your skateboard deck, allowing you to experiment with different shapes and sizes for a custom skateboarding experience.
+  </p>
+
+  <!-- Note for laptop users -->
+  <h3>Note for Laptop Users</h3>
+  <p>
+    If you are using a laptop and have trouble opening the mod with the F6 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F7). In some cases, laptops have a setting in the BIOS or UEFI firmware to toggle the function keys between multimedia keys and standard function keys. Refer to your laptop's user manual or check the manufacturer's support website for specific instructions.
   </p>
 
   <!-- Additional content, if needed, goes here -->

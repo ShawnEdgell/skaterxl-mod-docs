@@ -15,7 +15,7 @@
       <p class="mb-1"><b>Author:</b> mcbtay</p>
       <p class="mb-1"><b>Working Version:</b> 2.6.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
       <p class="mb-1"><b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's, Advanced Sorting</p>
     </div>
 

@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Gear Utilities Mod</h1>
+  <h1>Gear Utilities</h1>
   
   <p>
     Discover the Gear Utilities Mod for Skater XL, offering a vast array of customizable gear options. This mod enhances the game with an extensive collection of accessories and styles, allowing you to personalize your skater's look to your liking.
@@ -14,8 +14,8 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> GearUtilitiesCreator</p>
       <p class="mb-1"><b>Working Version:</b> 2.0d</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/gearutilities" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
+      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#gearutils section)</p>
+      <p class="mb-1"><b>Keybind to Open:</b> G</p>
       <p class="mb-1"><b>Key Features:</b> Diverse Gear Collection, Custom Texture Support, Easy Access and Navigation</p>
     </div>
 
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Gear Utilities Mod from <a href="https://mod.io/g/skaterxl/m/gearutilities" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your version of Skater XL.
+    Download the Gear Utilities from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#gearutils section). Ensure compatibility with your current Skater XL game version.
   </p>
   <p>
     Install by placing the mod files in the 'Documents/SkaterXL/GearUtils/' directory. Relaunch Skater XL to access the new gear options.
@@ -34,7 +34,7 @@
 
   <h2>How to Use the Gear Utilities Mod</h2>
   <p>
-    Engage with the Gear Utilities Mod effortlessly in-game by pressing 'G' to open the mod menu. Navigate through the wide range of gear options to customize your skater's appearance, from hairstyles and hats to unique accessories.
+    Engage with the Gear Utilities Mod effortlessly in-game by pressing <b>G</b> to open the mod menu. Navigate through the wide range of gear options to customize your skater's appearance, from hairstyles and hats to unique accessories.
   </p>
 
   <!-- Additional content, if needed, goes here -->
