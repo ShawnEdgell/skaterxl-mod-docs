@@ -34,7 +34,13 @@
 
   <h2>How to Use the Better Replay Mod</h2>
   <p>
-    The mod enhances replays with interactive camera controls and advanced tracking. Access its features through the UnityModManager interface, opened with <b>CTRL+F10</b>. Add a light to your camera for improved visual quality in replays, making your skateboarding moments more dynamic and realistic.
+    Access the Better Replay Mod settings through the UnityModManager interface, opened with <b>CTRL + F10</b>. Add a light to your camera for improved visual quality in replays, making your skateboarding moments more dynamic and realistic.
+  </p>
+  <p>
+    Toggle the camera light using <b>Ctrl + L</b> or by double pressing the left stick on your controller.
+  </p>
+  <p>
+    Double press and hold the left stick to change the light intensity using <b>LB/RB</b> (Xbox) or <b>L1/R1</b> (Playstation)
   </p>
 
   <!-- Additional content, if needed, goes here -->

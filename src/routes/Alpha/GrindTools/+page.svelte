@@ -34,7 +34,7 @@
 
   <h2>How to Use Grind Tools</h2>
   <p>
-    Activate the Grind Tools Mod in-game from the pause menu or in map editor mode. Effortlessly switch between the Grind Spline Tool and the Wax Tool for an enriched skateboarding environment. Intuitive controls and on-screen options ensure a user-friendly experience.
+    Activate the Grind Tools Mod in-game from the pause menu or by clicking the right stick while in map editor mode. Additional controls are provided within the mod's interface.
   </p>
 
   <!-- Additional content, if needed, goes here -->

@@ -34,7 +34,7 @@
 
   <h2>How to Use the XL Random Map Mod</h2>
   <p>
-    Easily access the random map selection feature from the map menu. With a simple press of X (Xbox controllers) or Square (PlayStation controllers), immerse yourself in a spontaneously chosen map and enjoy diverse skating experiences.
+    Press <b>X</b> (Xbox controllers) or <b>Square</b> (PlayStation controllers) while you have the Map Menu open. The mod will automatically select a new map for you to skate.
   </p>
 
   <!-- Additional content, if needed, goes here -->

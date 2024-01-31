@@ -34,7 +34,7 @@
 
   <h2>How to Use the XL Object Dropper Mod</h2>
   <p>
-    Activate the mod via the game's pause menu for easy access to the Object Dropper. With its advanced saving/loading functionalities and custom asset support, personalize your skate parks with a variety of objects and detailed customizations.
+    Activate the mod via the game's pause menu for easy access to the Object Dropper. Additional controls are provided within the mod's interface.
   </p>
 
   <!-- Additional content, if needed, goes here -->

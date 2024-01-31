@@ -36,8 +36,9 @@
 
   <h2>How to Use the Controller Rumble Mod</h2>
   <p>
-    Once installed, the Controller Rumble Mod can be configured through the UnityModManager in-game. Tailor the rumble intensity and patterns to match various actions and surfaces in the game for an immersive skateboarding experience.
+     Simply press <b>F9</b> to open the mod interface. This allows you to customize the controller's rumble intensity and patterns, matching them with different actions and surfaces encountered in Skater XL for a more immersive experience.
   </p>
+
 
   <!-- Note for laptop users -->
   <h3>Note for Laptop Users</h3>

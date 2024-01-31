@@ -34,7 +34,7 @@
 
   <h2>How to Use the Better Object Dropper Mod</h2>
   <p>
-    Activate the mod to enjoy full control over object placement and rotation. Utilize group manipulation for efficient park building, and experiment with advanced scaling options to customize your environment. Save your favorite setups as presets for quick access in future sessions.
+    Activate the mod by pressing <b>L3</b> while in regular object dropper mode. Utilize group manipulation for efficient park building, and experiment with advanced scaling options to customize your environment. Save your favorite setups as presets for quick access in future sessions.
   </p>
 
   <!-- Additional content, if needed, goes here -->

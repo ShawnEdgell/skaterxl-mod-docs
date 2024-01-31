@@ -34,7 +34,7 @@
 
   <h2>How to Use the Gear Utilities Mod</h2>
   <p>
-    Engage with the Gear Utilities Mod effortlessly in-game by pressing <b>G</b> to open the mod menu. Navigate through the wide range of gear options to customize your skater's appearance, from hairstyles and hats to unique accessories.
+    Open the Gear Utilities Mod by pressing <b>G</b>. Navigate through a variety of gear options to customize your skater's appearance, from hairstyles and hats to unique accessories.
   </p>
 
   <!-- Additional content, if needed, goes here -->

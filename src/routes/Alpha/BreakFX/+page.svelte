@@ -34,7 +34,7 @@
 
   <h2>How to Use the Break FX Mod</h2>
   <p>
-    The Break FX Mod is automatically activated in-game. Monitor the impacts and velocity of your tricks and landings, as these will influence the likelihood of your skateboard breaking. For the most immersive experience, enter the replay mode before respawning to view your skateboard's dramatic breaks.
+    The Break FX Mod is automatically activated in-game. Monitor the impacts and velocity of your tricks and landings, as these will influence the likelihood of your skateboard breaking. Press <b>B</b> to break your board on demand.
   </p>
 
   <!-- Additional content, if needed, goes here -->

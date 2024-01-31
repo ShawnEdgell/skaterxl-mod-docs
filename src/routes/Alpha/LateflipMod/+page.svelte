@@ -34,8 +34,13 @@
 
   <h2>How to Use the Lateflip Mod</h2>
   <p>
-    Activate the mod in-game by toggling it with the specified key. The mod enhances late flips and shuvs, integrating seamlessly with XXL3 for an improved skateboarding experience. Customize the settings under XXL3's flip options for a tailored late trick experience.
+    To execute late flips in Skater XL, click the pop stick and then use the flip stick. For late shuvs, both the click and flick motions are performed using the pop stick. The timing for these tricks is precise and may require practice to master. You can adjust the settings for these tricks within the XXL mod for a customized experience.
   </p>
+  <p>
+    Lateflips are enabled by default when the mod is installed. You can disable/enable late flips by pressing <b>L + F</b>.
+  </p>
+
+
 
   <!-- Additional content, if needed, goes here -->
 </div>
