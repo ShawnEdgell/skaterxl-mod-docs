@@ -187,13 +187,12 @@
   let currentCategories = option1Categories;
   let isOption1Selected = true;
 
-  const option1Route = '/Alpha/About'; 
+  const option1Route = '/Alpha/About';
   const option2Route = '/Public/About';
 
   async function selectOption(isOption1) {
     isOption1Selected = isOption1;
     currentCategories = isOption1 ? option1Categories : option2Categories;
-    // Close all categories when a new version is selected
     openCategory.set(null);
     await goto(isOption1 ? option1Route : option2Route);
   }
@@ -201,10 +200,9 @@
   async function handleCategoryClick(event, categoryName) {
     event.preventDefault();
     const href = event.currentTarget.getAttribute('href');
-    const isSubcategoryClick = href.startsWith(`${$page.url.pathname}/`);
+    const isSubcategoryClick = href.includes(`${categoryName}/`);
 
-    // Keep the category open if it's a subcategory click
-    if (!isSubcategoryClick && $openCategory === categoryName) {
+    if ($openCategory === categoryName && !isSubcategoryClick) {
       openCategory.set(null);
     } else {
       openCategory.set(categoryName);
@@ -213,13 +211,12 @@
     await goto(href);
   }
 
-  // Close all categories when navigating to a non-related page
-  $: {
-    if ($page.url.pathname && !currentCategories.some(category => $page.url.pathname.startsWith(category.route))) {
+  // Close categories when navigating away
+  $: if ($page.url.pathname && !currentCategories.some(category => $page.url.pathname.startsWith(category.route))) {
       openCategory.set(null);
-    }
   }
 </script>
+
 
 <aside class="min-w-max text-base h-screen p-4 overflow-y-auto pb-40">
   <h2 class="p-0 m-1 font-bold text-lg text-center">Skater XL Version:</h2>
@@ -241,7 +238,7 @@
     {#each currentCategories.slice(0, 5) as category}
       <li class="mb-2">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-           class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name && $page.url.pathname === category.route ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
+           class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
           {category.name}
         </a>
         <!-- {#if $openCategory === category.name}
@@ -262,10 +259,10 @@
     {#each currentCategories.slice(5) as category}
       <li class="mb-2">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-           class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name && $page.url.pathname === category.route ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
-          {category.name}
+          class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
+         {category.name}
         </a>
-        <!-- {#if $openCategory === category.name}
+         <!-- {#if $openCategory === category.name}
           <ul class="list-none m-0 p-0 pl-8">
             {#each category.subcategories as sub}
               <li class="my-1">
