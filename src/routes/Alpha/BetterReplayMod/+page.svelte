@@ -15,6 +15,7 @@
       <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.5.0</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Keybind to Open:</b> SpecifiedKey</p>
       <p class="mb-1"><b>Key Features:</b> Interactive Camera Controls, Advanced Replay Tracking, Easy Configuration</p>
     </div>
 

@@ -14,8 +14,8 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.3.0</p>
-      <p class="mb-1"><b>Keybind to Open:</b> X+A / Square+X (controller)</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/walking-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Keybind to Open:</b> X+A / Square+X (controller)</p>
       <p class="mb-1"><b>Key Features:</b> Walking, Custom Animations and Emotes, Communication with Sound Bites</p>
     </div>
 
