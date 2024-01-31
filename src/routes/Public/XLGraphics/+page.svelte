@@ -4,30 +4,51 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>XL Graphics</h1>
-  
-  <h2>Camera Customization</h2>
   <p>
     The XL Graphics Mod transforms Skater XL into a visually stunning skateboarding experience. It gives players complete control over camera settings, allowing for the creation of dynamic, cinematic skate videos.
   </p>
 
-  <h2>Fisheye Lens Effect</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Babbo</p>
+      <p class="mb-1"><b>Working Version:</b> 2.0.2</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgraphics" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Keybind to Open:</b> Backspace</p>
+      <p class="mb-1"><b>Key Features:</b> Camera Customization, Fisheye Lens Effect, Follow Camera, Community-driven Presets</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <!-- Place your image here -->
+      <img src="/XLGraphics.png" alt="XL Graphics Mod"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Embrace the iconic skateboarding aesthetic with the mod's fisheye lens feature. This effect adds a new dimension to your gameplay and recordings, offering a classic, wide-angle view that's synonymous with skate culture. Whether you're recording a session or just enjoying the game, the fisheye lens brings a touch of authenticity to your visuals.
+    To download and install the XL Graphics Mod, head to <a href="https://mod.io/g/skaterxl/m/xlgraphics" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure to grab the version that corresponds to your Skater XL version. 
+  </p>
+  <p>
+    Use UnityModManager to install: After downloading the mod, open UnityModManager and drag and drop the .zip file into the 'Mods' tab. Ensure Skater XL is closed during this process. Once installed, open Skater XL to access the mod.
   </p>
 
-  <h2>Community-Powered Presets</h2>
+  <h2>How to Use the XL Graphics Mod</h2>
   <p>
-    Dive into a world of shared creativity with presets crafted by the Skater XL community. The XL Graphics Mod allows you to easily download and apply presets from other players, giving you access to a diverse range of visual styles. Share your own custom presets and contribute to an ever-growing library of graphical enhancements.
+    To access the mod in-game, press <b>Backspace</b> on your keyboard. The mod interface is divided into three sections: Basic, Presets, and Camera. Each section offers different customization options:
+  </p>
+  <ul class="list-disc pl-5 mb-4">
+    <p><b>Basic:</b> Basic graphics settings and adjustments.</p>
+    <p><b>Presets:</b> Access and apply presets created by the community or save your own.</p>
+    <p><b>Camera:</b> Gameplay camera modes.</p>
+  </ul>
+  <p>
+  For more in-depth information about these sections, refer to their respective pages on our site.
   </p>
 
-  <h2>Total Visual Overhaul</h2>
-  <p>
-    Beyond camera settings, the XL Graphics Mod offers extensive options to tweak the game's overall visual presentation. Adjust lighting, textures, and color grading to create a game environment that's visually unique. From realistic lighting to stylized color palettes, tailor every aspect of how Skater XL looks and feels.
-  </p>
+  <!-- Additional content, if needed, goes here -->
 
-  <!-- More content here if needed -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

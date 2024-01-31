@@ -7,10 +7,17 @@
 
   <h2>Confirm your Skater XL Version</h2>
   <p>
-    Before you start modding Skater XL, confirm that you have the correct version. The ideal version for modding is v1.2.2.8. If you have a different version, you can downgrade to v1.2.2.8 by following the instructions below.
+    Before you start modding Skater XL, confirm that you have the correct version. The ideal version for modding is v1.2.2.8. If you have a different version, you can easily switch to v1.2.2.8 by following the instructions below.
   </p>
   <p>
-    💡 Tip: You can read more about the different Skater XL versions by selecting v1.2.2.8 or v1.2.7.8 from the sidebar.
+    You can read more about the different Skater XL versions here:
+  </p>
+  <p>
+    <b><a href="/Alpha/About">Skater XL v1.2.2.8 (Alpha)</a></b>
+  </p> 
+  <p>
+    <b><a href="/Public/About">Skater XL v1.2.7.8 (Public)</a></b> 
+    <i>- default Steam branch</i>
   </p>
 
   <img src="XLversion.png" alt="Descriptive Alt Text" class="my-4" />

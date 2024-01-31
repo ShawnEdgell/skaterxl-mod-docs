@@ -18,11 +18,11 @@
 
   <!-- Grabs Update Section -->
   <div class="border-t border-gray-300 pt-4 mb-8">
-    <h2 class="text-2xl font-bold my-2">Grabs Update - A Glimpse into 2023's Promises</h2>
+    <h2 class="text-2xl font-bold my-2">Grabs Update - New Mechanics in Skater XL</h2>
     <p><i>August 30, 2023</i></p>
-    <p>The Grabs Update, unveiled earlier, showcased enhanced grab mechanics, a sneak peek into the exciting features planned for 2023.</p>
-    
-    <!-- Video for Grabs Update -->
+    <p>The Grabs Update introduced enhanced mechanics for grabs in Skater XL, offering players more control and new trick possibilities.</p>
+  
+  <!-- Video for Grabs Update -->
     <div class="relative" style="padding-top: 56.25%;">
       <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/tRuprTKtJOo" frameborder="0" allowfullscreen title="Grabs Update Trailer"></iframe>
     </div>

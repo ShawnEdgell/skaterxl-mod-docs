@@ -3,26 +3,42 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Boned Ollie Mod</h1>
+  <h1>Grind Tools</h1>
   
-  <h2>Ultimate Trick Customization</h2>
   <p>
-    The Boned Ollie Mod takes skateboarding in Skater XL to new heights of personalization. This mod is a game-changer for players seeking to customize every aspect of their skateboarding tricks. Whether it's an ollie, a flip, or a more complex maneuver, this mod lets you tweak and fine-tune each trick to achieve a truly unique style.
+    Grind Tools Mod revolutionizes map interaction in Skater XL, introducing innovative features like the Grind Spline Tool and the Wax Tool for a more dynamic skateboarding experience.
   </p>
 
-  <h2>Create Your Signature Style</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Guru</p>
+      <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Customizable Grind Splines, Wax Tool</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Grind Tools Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    With the Boned Ollie Mod, every trick in your repertoire can be tailored to your specific preferences. This is the ultimate 'steeze' mod for players who want to stand out. Adjust the inputs and animation to make each trick look and feel different, reflecting your personal skateboarding flair.
+    Download the Grind Tools Mod from <a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure it aligns with your Skater XL version.
+  </p>
+  <p>
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Relaunch the game to access the mod.
   </p>
 
-  <h2>Enhanced Realism and Control</h2>
+  <h2>How to Use Grind Tools</h2>
   <p>
-    Beyond just aesthetics, the Boned Ollie Mod enhances the realism and control of each trick. Fine-tune the mechanics to match real-world skateboarding dynamics, adding an extra layer of authenticity to your gameplay. This mod is perfect for players who want to push the boundaries of what's possible in Skater XL.
+    Activate the Grind Tools Mod in-game from the pause menu or in map editor mode. Effortlessly switch between the Grind Spline Tool and the Wax Tool for an enriched skateboarding environment. Intuitive controls and on-screen options ensure a user-friendly experience.
   </p>
 
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

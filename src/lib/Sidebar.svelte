@@ -28,7 +28,7 @@
         route: '/Alpha/DeckFX'
       },
       {
-        name: 'XL Gear Mod',
+        name: 'XL Gear Modifier',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Alpha/XLGearMod'
       },

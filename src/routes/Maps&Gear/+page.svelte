@@ -16,7 +16,7 @@
       After downloading custom map files, extract them from their ZIP folders. Then, move the extracted files to the following directory:
     </p>
     <p><b><code>Documents/SkaterXL/Maps</code></b></p>
-    <p>Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access custom maps.</p>
+    <p>💡 Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access custom maps.</p>
   </div>
 
   <div class="bg-gray-200 p-4 rounded-lg my-4">
@@ -25,9 +25,21 @@
       Similar to maps, extract your downloaded gear files from their ZIP folders. Place the extracted files into this directory:
     </p>
     <p><b><code>Documents/SkaterXL/Gear</code></b></p>
-    <p>Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access custom gear.</p>
+    <p>💡 Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access custom gear.</p>
   </div>
   <!-- In-Game Mod Browser and skaterxl.mod.io sections -->
+
+    <!-- XL Gear Modifier Section -->
+
+      <h2 class="mt-1">XL Gear Modifier (XLGM 2)</h2>
+      <p>
+        The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.
+      </p>
+      <p>
+        Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.
+      </p>
+      <img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto"/>
+
 
   <h2>XLHub</h2>
 <p>

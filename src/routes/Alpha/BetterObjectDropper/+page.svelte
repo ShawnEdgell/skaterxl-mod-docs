@@ -5,29 +5,40 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Better Object Dropper Mod</h1>
   
-  <h2>Flexible Object Movement and Rotation</h2>
   <p>
-    The Better Object Dropper Mod revolutionizes object interaction in Skater XL. It empowers players to move and rotate objects freely around the map, offering unprecedented control in customizing skateboarding spaces. Whether you're tweaking a rail's position or angling a ramp, this mod brings your creative vision to life with ease.
+    Unleash your creative potential in Skater XL with the Better Object Dropper Mod, offering unparalleled flexibility in designing skate parks.
   </p>
 
-  <h2>Group Object Manipulation</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> ModAuthorName</p>
+      <p class="mb-1"><b>Working Version:</b> VersionNumber</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/betterobjectdropper" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Flexible Object Movement, Group Manipulation, Advanced Scaling, Preset Saves</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Better Object Dropper Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Elevate your park building with the ability to select and move multiple objects as a group. This feature streamlines the process of designing complex skate areas, making it simpler and more efficient to create intricate layouts and obstacle courses.
+    Download the Better Object Dropper Mod from <a href="https://mod.io/g/skaterxl/m/betterobjectdropper" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it matches your Skater XL game version.
+  </p>
+  <p>
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to begin shaping your skateboarding landscape.
   </p>
 
-  <h2>Advanced Scaling Options</h2>
+  <h2>How to Use the Better Object Dropper Mod</h2>
   <p>
-    The mod introduces scaling capabilities, allowing you to resize objects up to 3x their original size. In private rooms, scale objects freely, and in public rooms, unlock additional scaling options with the room master's permission, offering a new dimension of customization.
+    Activate the mod to enjoy full control over object placement and rotation. Utilize group manipulation for efficient park building, and experiment with advanced scaling options to customize your environment. Save your favorite setups as presets for quick access in future sessions.
   </p>
 
-  <h2>Save and Use Presets</h2>
-  <p>
-    Enhance your workflow with the ability to save groups of objects as presets for future use. This time-saving feature is currently limited to standard obstacles available on all maps, ensuring compatibility and ease of use across different skateboarding environments.
-  </p>
-
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

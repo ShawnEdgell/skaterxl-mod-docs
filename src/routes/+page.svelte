@@ -17,7 +17,7 @@
     <div class="flex-1 md:mr-4">
         <h2 class="text-2xl mt-0">Skater XL Mod Docs</h2>
         <p>
-            Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable, without the hassle of setting up accounts or navigating complex forums.
+            Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable.
         </p>
     </div>
 

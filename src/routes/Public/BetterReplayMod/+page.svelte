@@ -3,26 +3,42 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Boned Ollie Mod</h1>
+  <h1>Better Replay Mod</h1>
   
-  <h2>Ultimate Trick Customization</h2>
   <p>
-    The Boned Ollie Mod takes skateboarding in Skater XL to new heights of personalization. This mod is a game-changer for players seeking to customize every aspect of their skateboarding tricks. Whether it's an ollie, a flip, or a more complex maneuver, this mod lets you tweak and fine-tune each trick to achieve a truly unique style.
+    The Better Replay Mod enhances Skater XL's replay system with advanced tracking, interactive controls, and user-friendly configuration. Experience your skateboarding sessions with greater detail and control.
   </p>
 
-  <h2>Create Your Signature Style</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Froquede</p>
+      <p class="mb-1"><b>Working Version:</b> 2.1.0</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Interactive Camera Controls, Advanced Replay Tracking, Easy Configuration</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Better Replay Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    With the Boned Ollie Mod, every trick in your repertoire can be tailored to your specific preferences. This is the ultimate 'steeze' mod for players who want to stand out. Adjust the inputs and animation to make each trick look and feel different, reflecting your personal skateboarding flair.
+    Download the Better Replay Mod from <a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it is compatible with your version of Skater XL.
+  </p>
+  <p>
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to access the mod.
   </p>
 
-  <h2>Enhanced Realism and Control</h2>
+  <h2>How to Use the Better Replay Mod</h2>
   <p>
-    Beyond just aesthetics, the Boned Ollie Mod enhances the realism and control of each trick. Fine-tune the mechanics to match real-world skateboarding dynamics, adding an extra layer of authenticity to your gameplay. This mod is perfect for players who want to push the boundaries of what's possible in Skater XL.
+    The mod enhances replays with interactive camera controls and advanced tracking. Access its features through the UnityModManager interface, opened with <b>CTRL+F10</b>. Add a light to your camera for improved visual quality in replays, making your skateboarding moments more dynamic and realistic.
   </p>
 
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

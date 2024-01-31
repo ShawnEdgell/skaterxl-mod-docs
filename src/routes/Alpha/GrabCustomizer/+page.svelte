@@ -5,29 +5,41 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Grab Customizer</h1>
   
-  <h2>Enhanced Grab Customization</h2>
   <p>
-    Elevate your skateboarding experience with the Grab Customizer Mod, a dynamic tool that allows you to personalize your grab tricks in Skater XL. This mod provides the flexibility to modify grabs, ensuring that your skateboarding style is uniquely your own. It seamlessly works with both vanilla and XXL grab mechanics, offering a comprehensive customization experience.
+    Transform your grab tricks in Skater XL with the Grab Customizer Mod, offering unparalleled customization to reflect your unique skateboarding style.
   </p>
 
-  <h2>Easy Activation</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Skate702</p>
+      <p class="mb-1"><b>Working Version:</b> 1.1.0</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grab-customizer" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Keybind to Open:</b> Ctrl + G</p>
+      <p class="mb-1"><b>Key Features:</b> Comprehensive Grab Customization, Seamless Integration with Vanilla and XXL Mechanics</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Grab Customizer Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Activating the Grab Customizer Mod is effortless. Simply press Ctrl+G while in-game to open the customization menu. This quick access lets you fine-tune your grabs on the go, ensuring that your style is always fresh and tailored to your preferences.
+    To download the Grab Customizer Mod, visit <a href="https://mod.io/g/skaterxl/m/grab-customizer" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you're getting the version compatible with your Skater XL game version.
+  </p>
+  <p>
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Relaunch the game to access the mod.
   </p>
 
-  <h2>Simple Installation</h2>
+  <h2>How to Use the Grab Customizer</h2>
   <p>
-    Installing the mod is straightforward and user-friendly. Drag and drop the zip file into UnityModManager, and you're all set to start customizing your grabs. The mod's simplicity ensures a hassle-free setup, allowing you to dive straight into enhancing your gameplay.
+    In-game, activate the mod by pressing <b>Ctrl + G</b>. This keybind brings up the customization menu, allowing you to tailor your grabs according to your preference. Fine-tune your skateboarding experience with detailed and intuitive adjustments.
   </p>
 
-  <h2>Compatibility</h2>
-  <p>
-    The Grab Customizer Mod is designed to work with Skater XL public version 1.2.2.x, ensuring a smooth and stable experience. Its compatibility with this version of Skater XL means you can enjoy enhanced grab customization without worrying about technical issues.
-  </p>
-
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

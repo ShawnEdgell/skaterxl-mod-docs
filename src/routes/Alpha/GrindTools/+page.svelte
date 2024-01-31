@@ -5,24 +5,40 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Grind Tools</h1>
   
-  <h2>Innovative Grind Spline Tool</h2>
   <p>
-    The Grind Tools Mod introduces the Grind Spline Tool, a groundbreaking feature that allows players to add and remove custom splines in Skater XL maps. Tailor your skating environment with scalable splines, and choose between box and capsule collider types for varied skating experiences.
+    Grind Tools Mod revolutionizes map interaction in Skater XL, introducing innovative features like the Grind Spline Tool and the Wax Tool for a more dynamic skateboarding experience.
   </p>
 
-  <h2>Wax Tool for Enhanced Control</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> Guru</p>
+      <p class="mb-1"><b>Working Version:</b> 1.2.0</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Customizable Grind Splines, Wax Tool</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Grind Tools Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    The Wax Tool is a key feature of the mod, enabling players to adjust friction levels on surfaces. This tool transforms regular grindable surfaces into coping, and even allows you to switch the material tag from concrete to metal, providing more control over your skating session.
+    Download the Grind Tools Mod from <a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure it aligns with your Skater XL version.
+  </p>
+  <p>
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Relaunch the game to access the mod.
   </p>
 
-  <h2>Easy Access and Additional Controls</h2>
+  <h2>How to Use Grind Tools</h2>
   <p>
-    Activating Grind Tools in-game is effortless. Access it from the pause menu or in map editor mode with a simple button press. Easily toggle between the Wax tool and the Grind Spline Tool with intuitive controls, and additional options are conveniently displayed on-screen for smooth navigation.
+    Activate the Grind Tools Mod in-game from the pause menu or in map editor mode. Effortlessly switch between the Grind Spline Tool and the Wax Tool for an enriched skateboarding environment. Intuitive controls and on-screen options ensure a user-friendly experience.
   </p>
 
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>

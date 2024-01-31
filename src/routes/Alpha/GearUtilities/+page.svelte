@@ -3,26 +3,42 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1>Gear Utilities</h1>
+  <h1>Gear Utilities Mod</h1>
   
-  <h2>Diverse Gear Collection</h2>
   <p>
-    The Gear Utilities Mod, an earlier yet significant addition to Skater XL, introduces a wide range of new gear to enhance your skateboarding experience. While it may be an older mod compared to the newer XL Gear Mod, it still stands out for its unique offerings. Dive into a collection that includes 17 hairstyles, 7 facial hair styles, 26 hats, and various accessories like watches, earrings, and masks.
+    Discover the Gear Utilities Mod for Skater XL, offering a vast array of customizable gear options. This mod enhances the game with an extensive collection of accessories and styles, allowing you to personalize your skater's look to your liking.
   </p>
 
-  <h2>Custom Texture Support</h2>
+  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+    <div class="flex-1 md:mr-4">
+      <h3 class="mb-2 mt-0">Mod Information</h3>
+      <p class="mb-1"><b>Author:</b> GearUtilitiesCreator</p>
+      <p class="mb-1"><b>Working Version:</b> GearUtilitiesVersion</p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/gearutilities" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Key Features:</b> Diverse Gear Collection, Custom Texture Support, Easy Access and Navigation</p>
+    </div>
+
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="/Picture.png" alt="Gear Utilities Mod" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
+
+  <h2>Download + Installation</h2>
   <p>
-    Customize your gear with personal flair using the mod's custom texture support. Compatible with XLSE, you can apply your own textures to the gear by placing files in the 'Documents/SkaterXL/GearUtils/' directory, giving you the creative freedom to design your own skateboarding style.
+    Download the Gear Utilities Mod from <a href="https://mod.io/g/skaterxl/m/gearutilities" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your version of Skater XL.
+  </p>
+  <p>
+    Install by placing the mod files in the 'Documents/SkaterXL/GearUtils/' directory. Relaunch Skater XL to access the new gear options.
   </p>
 
-  <h2>Easy Access and Navigation</h2>
+  <h2>How to Use the Gear Utilities Mod</h2>
   <p>
-    Accessing the Gear Utilities Mod is straightforward – simply press 'G' in-game to open the mod's menu. This simple navigation makes it easy to explore and experiment with the various gear options available, even for those new to modding in Skater XL.
+    Engage with the Gear Utilities Mod effortlessly in-game by pressing 'G' to open the mod menu. Navigate through the wide range of gear options to customize your skater's appearance, from hairstyles and hats to unique accessories.
   </p>
 
-  <!-- More content here if needed -->
+  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
-  /* Add any page-specific styles here */
+  /* Tailwind utility classes are used, no additional styles needed */
 </style>
