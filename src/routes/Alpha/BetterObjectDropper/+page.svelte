@@ -12,7 +12,7 @@
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> ModAuthorName</p>
+      <p class="mb-1"><b>Authors:</b> manu & mu35li</p>
       <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Open with L3 (controller) while in normal object dropper mode</p>

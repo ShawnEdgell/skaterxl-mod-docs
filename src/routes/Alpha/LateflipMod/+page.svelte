@@ -12,7 +12,7 @@
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> ModAuthorName</p>
+      <p class="mb-1"><b>Author:</b> MateusSXL</p>
       <p class="mb-1"><b>Working Version:</b> 1.1.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/late-flip-mod-with-animations" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled, toggle On/Off with L+F</p>

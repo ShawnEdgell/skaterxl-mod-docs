@@ -1,4 +1,4 @@
-<header class="sticky top-0 z-50 bg-slate-800 p-4 flex items-center justify-center">
+<header class="sticky top-0 z-50 bg-slate-900 p-4 flex items-center justify-center">
   <span class="text-sm absolute left-4 top-1/2 transform -translate-y-1/2 text-white opacity-75 hidden md:block">pre-pre-alpha</span>
   
   <nav class="flex justify-center">
