@@ -7,7 +7,7 @@
   <div class="bg-red-500 text-white p-4 rounded-lg mb-4">
     <h2 class="text-xl text-white font-bold mt-0">⚠️ Disclaimer</h2>
     <p class="text-white mb-1">
-      Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers enough resources to get you started with modding Skater XL. We appreciate your patience and support!
+      Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!
     </p>
   </div>
   <h1>Home</h1>

@@ -35,7 +35,7 @@
   <p>
     The XL Menu Mod is seamlessly integrated into Skater XL, offering a straightforward and intuitive interface. Organize your custom maps and gear using its enhanced sorting and folder structure features.
   </p>
-  <p>Press <b><code>CTRL+F10</code></b> and go to the options menu to access some quality of life features.</p>
+  <p>Press <b>CTRL + F10</b> and go to the options menu to access some quality of life features.</p>
 
   <!-- Additional content, if needed, goes here -->
 </div>
