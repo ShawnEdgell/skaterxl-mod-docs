@@ -21,7 +21,7 @@
 
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Replace with actual image link -->
-      <img src="/Picture.png" alt="Decal Fix Mod"/>
+      <img src="/DecalFix.png" alt="Decal Fix Mod"/>
     </div>
   </div>
 

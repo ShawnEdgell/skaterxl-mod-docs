@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Grind Tools Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/GrindTools.png" alt="Grind Tools Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

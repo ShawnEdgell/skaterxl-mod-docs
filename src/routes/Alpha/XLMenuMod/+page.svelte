@@ -16,11 +16,11 @@
       <p class="mb-1"><b>Working Version:</b> 2.6.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
-      <p class="mb-1"><b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's, Advanced Sorting</p>
+      <p class="mb-1"><b>Key Features:</b> Advanced Map and Gear Sorting, Preview Images for Maps, Dark Mode</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="XL Menu Mod"/>
+      <img src="/XLMenuMod2.png" alt="XL Menu Mod"/>
     </div>
   </div>
 
@@ -37,6 +37,7 @@
     The XL Menu Mod is seamlessly integrated into Skater XL, offering a straightforward and intuitive interface. Organize your custom maps and gear using its enhanced sorting and folder structure features.
   </p>
   <p>Press <b>CTRL + F10</b> and go to the options menu to access some quality of life features.</p>
+  <img src="/XLMenuMod.png" alt="XL Menu Mod"/>
 
   <!-- Additional content, if needed, goes here -->
 </div>

@@ -19,7 +19,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Better Replay Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/BetterReplay.png" alt="Better Replay Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

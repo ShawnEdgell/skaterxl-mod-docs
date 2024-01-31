@@ -19,7 +19,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="XL Menu Mod"/>
+      <img src="/XLMenuMod2.png" alt="XL Menu Mod"/>
     </div>
   </div>
 
@@ -36,6 +36,7 @@
     The XL Menu Mod is seamlessly integrated into Skater XL, offering a straightforward and intuitive interface. Organize your custom maps and gear using its enhanced sorting and folder structure features.
   </p>
   <p>Press <b>CTRL + F10</b> and go to the options menu to access some quality of life features.</p>
+  <img src="/XLMenuMod.png" alt="XL Menu Mod"/>
 
   <!-- Additional content, if needed, goes here -->
 </div>

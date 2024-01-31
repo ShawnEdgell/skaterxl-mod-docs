@@ -19,7 +19,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Multiplayer++ Mod"/>
+      <img src="/Multiplayer.png" alt="Multiplayer++ Mod"/>
     </div>
   </div>
 
