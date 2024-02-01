@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 1.18.3</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/fros-experimental-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> CTRL + F</p>
-      <p class="mb-1"><b>Key Features:</b> Enhanced Physics/Realism, Custom Animations, Regular Updates</p>
+      <p class="mb-1"><b>Key Features:</b> Enhanced Physics, Custom Animations, Regular Updates</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

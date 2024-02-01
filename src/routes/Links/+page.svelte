@@ -12,9 +12,11 @@
     <p>
       For Skater XL version 1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
     </p>
-    <p>
-      ⚠️ Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
-    </p>
+    <div class="warning">
+      <p>
+        ⚠️ Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
+      </p>
+    </div>    
 
     <h2>Skater XL Modding Website (mod.io)</h2>
     <p>This is where you can download custom maps, gear, and other mods.</p>

@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 0.0.1</p>
       <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#breakfx section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled, board will break randomly. Press B to break manually.</p>
-      <p class="mb-1"><b>Key Features:</b> Realistic Board Break Mechanics, Enhanced Replay Experience, Compatibility Considerations</p>
+      <p class="mb-1"><b>Key Features:</b> Realistic Board Break Mechanics, Enhanced Replay Experience</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

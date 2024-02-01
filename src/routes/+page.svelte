@@ -4,12 +4,14 @@
 
 <div class="max-w-4xl mx-auto py-6">
 
-  <div class="bg-red-500 text-white p-4 rounded-lg mb-4">
-    <h2 class="text-xl text-white font-bold mt-0">⚠️ Disclaimer</h2>
-    <p class="text-white mb-1">
+  <!-- Updated Disclaimer Section Using Custom Warning Component -->
+  <div class="note">
+    <h2 class="text-xl font-bold mt-0">⚠️ Disclaimer</h2>
+    <p>
       Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!
     </p>
   </div>
+  
   <h1>Home</h1>
 
   <!-- Stylish box with color -->
@@ -23,7 +25,6 @@
 
     <!-- Image next to the text (50% width) -->
     <div class="flex-1 mt-4 md:mt-0">
-      <!-- Image next to the text -->
       <img src="DecalFix.png" alt="Donevan Recreation Center" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
@@ -55,7 +56,7 @@
   </p>
 
   <h3>2024 Mod Guide by Milky</h3>
-  <div class="mt-2 relative" style="padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+  <div class="mt-2 relative" style="padding-top: 56.25%;">
     <iframe 
         class="absolute top-0 left-0 w-full h-full" 
         src="https://www.youtube.com/embed/veZlQE7tfHw" 
@@ -66,7 +67,7 @@
   </div>
 
   <h3>2024 Mod Guide by DJBIGGUMS</h3>
-  <div class="mt-2 relative" style="padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+  <div class="mt-2 relative" style="padding-top: 56.25%;">
     <iframe 
         class="absolute top-0 left-0 w-full h-full" 
         src="https://www.youtube.com/embed/meHtrJgfDpg" 
