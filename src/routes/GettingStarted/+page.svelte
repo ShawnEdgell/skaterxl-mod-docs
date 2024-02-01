@@ -4,133 +4,69 @@
 
 <div class="max-w-4xl mx-auto py-6">
   <h1>Getting Started</h1>
+  <p>Welcome to the world of Skater XL modding! Follow these steps to begin your modding journey.</p>
 
-  <h2>Confirm your Skater XL Version</h2>
-  <p>
-    Before you start modding Skater XL, confirm that you have the correct version. The ideal version for modding is v1.2.2.8. If you have a different version, you can easily switch to v1.2.2.8 by following the instructions below.
-  </p>
-  <p>
-    You can read more about the different Skater XL versions here:
-  </p>
-  <p>
-    <b><a href="/Alpha/About">Skater XL v1.2.2.8 (Alpha)</a></b>
-  </p> 
-  <p>
-    <b><a href="/Public/About">Skater XL v1.2.7.8 (Public)</a></b> 
-    <i>- default Steam branch</i>
-  </p>
+  <h2>1. Confirm Your Skater XL Version</h2>
+  <p>Both the Alpha and Public branches of Skater XL are viable for modding. However, we recommend version v1.2.2.8 (Alpha) for its extensive mod support. If your game isn't already on this version, follow the steps below to switch.</p>
+  <div>
+      Learn about each version:
+      <ul>
+          <li><a href="/Alpha/About" class="text-blue-600 hover:text-blue-800 font-semibold">Skater XL v1.2.2.8 (Alpha)</a> - Best mod support</li>
+          <li><a href="/Public/About" class="text-blue-600 hover:text-blue-800 font-semibold">Skater XL v1.2.7.8 (Public)</a> - Default Steam version, also moddable</li>
+      </ul>
+  </div>
+  <img src="XLversion.png" alt="Game Version Display" class="my-4" />
+  <div class="note">
+      <p><strong>Note:</strong> You can easily check your current game version in the lower left corner upon launching Skater XL.</p>
+  </div>
+  
 
-  <img src="XLversion.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <p class="italic">
-    Your current game version will be displayed in the lower left corner when you launch Skater XL.
-  </p>
-
-  <h2>Changing Skater XL Versions</h2>
-
-  <h3>Step 1</h3>
-  <p>
-    Right-click Skater XL in your Steam library and select <b>Properties.</b>
-  </p>
-
-  <img src="XLDowngrade1.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <h3>Step 2</h3>
-  <p>
-    Select the <b>Betas</b> tab and choose the version you want to play from the drop-down menu.
-  </p>
-
-  <ul>
-    <p>
-      <b>None</b> = Skater XL v1.2.7.8 (Public) <i>- Default version</i>
-    </p>
-    <p>
-      <b>Alpha</b> = Skater XL v1.2.2.8 <i>- Recommended version</i>
-    </p>
-    <p>
-      <b>Beta</b> = Skater XL v1.2.6.0 <i>- Outdated, consider switching to either None or Alpha.</i>
-    </p>
+  <h2>2. Changing Skater XL Versions</h2>
+  <p>Switching between Skater XL versions is straightforward via Steam:</p>
+  <ol class="list-decimal ml-4">
+    <li>Right-click Skater XL in your Steam library > Properties.</li>
+    <li>Select the <b>Betas</b> tab and choose the desired version from the dropdown.</li>
+  </ol>
+  <p>Versions available:</p>
+  <ul class="list-disc ml-6">
+    <li><b>None</b> - Skater XL v1.2.7.8 (Public), the default version</li>
+    <li><b>Alpha</b> - Skater XL v1.2.2.8, recommended for modding</li>
+    <li><b>Beta</b> - Skater XL v1.2.6.0, outdated</li>
   </ul>
+  <img src="XLDowngrade2.png" alt="Version Selection" class="my-4" />
 
-  <img src="XLDowngrade2.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <h2>Download & Setup UnityModManager</h2>
-  <p>
-    For Skater XL version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224">UnityModManager v0.27.4</a>
-  </p>
-  <p>
-    For Skater XL version 1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314">UnityModManager v0.27.7</a>
-  </p>
-  <p class="mt-2">
-    ⚠️ Choosing the right version is mandatory for your mods to work. Delete your old mod manager before using one of these.
-  </p>
-
-  <h3>Step 1</h3>
-  <p>
-    After you have the .zip file downloaded, right-click it and select Extract All. This will create a new folder with the same name as the .zip file. You can then open the folder and proceed to the next step.
-  </p>
-
-  <img src="UMM1.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <p class="italic">
-    In this example, we are saving UnityModManager to our Desktop. You can save it anywhere you want, just make sure you know where it is.
-  </p>
-
-  <h3>Step 2</h3>
-  <p>
-    Open the UnityModManager.exe file. This will open a window that looks like the one below.
-  </p>
-  <p class="mt-2">
-    Set <b>Game</b> to Skater XL from the drop-down menu. Set <b>Folder</b> to your Skater XL game folder, usually located here:
-  </p>
-  <p class="ml-2 italic">
-    This PC > Local Disk (C:) > Program Files (x86) > Steam > steamapps > common > Skater XL
-  </p>
-  <p>
-    Click <b>Install</b> or <b>Update.</b> You should now see Ingame Version: 0.27.X.X. This means your UnityModManager is set up, and you can go ahead and install your mods.
-  </p>
-
-  <img src="UMM2.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <p class="italic">
-    If you don't see Ingame Version: 0.27.X.X, you may have selected the wrong game folder or forgot to click Install.
-  </p>
-
-  <h3>Step 3</h3>
-  <p class="mt-2">
-    <b>Download</b> mods. You can use the sidebar to find every working mod in Skater XL. <b>Drag & Drop</b> your mod .zip files into UnityModManager. This will complete the installation process, and they will now be usable in-game!
-  </p>
-
-  <img src="UMM3.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <p>
-    All of your installed mods will say <b>Status: OK</b> or <b>Status: Update X.X.X,</b> this means the mod is installed properly. If this section is blank, the mod is not installed in your game. You can right-click each mod to manually install/uninstall.
-  </p>
-  <p class="italic mt-2">
-    ⚠️ Tip: Do not 'Update' your mods here unless you are sure you are switching to the correct version. This can cause your mods to break, and you will have to reinstall them.
-  </p>
-
-  <h3>Step 4</h3>
-  <p>
-    Launch Skater XL! You should now see the UnityModManager application open on startup. 
-  </p>
-  <p>
-    🟢 Green icon means your mod is most likely working. Refer to the mod page to find out how to open and use it.
-  </p>
-  <p>
-    🔴 Red icon means your mod is broken. These mods will need to be uninstalled or updated to the proper working version.
-  </p>
-
-  <img src="UMM4.png" alt="Descriptive Alt Text" class="my-4" />
-
-  <h3>All done!</h3>
-  <p>
-    If you have any specific questions or need help from a moderator, refer to the 
-    <a href="https://discord.com/invite/xFfv3CAf67">Skater XL Modding Discord's</a>
-  #support section.
-  </p>
+  <h2>3. Download & Setup UnityModManager</h2>
+  <p>UnityModManager is essential for installing and managing Skater XL mods. Download the correct version based on your game:</p>
+  <ul>
+    <li>v1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a></li>
+    <li>v1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a></li>
+  </ul>
+  
+  <div class="warning">
+    <p><strong>Warning:</strong> Ensure you download the UnityModManager version that matches your Skater XL version. Failure to do so may result in mods not working. Uninstall any previous mod manager versions before installing a new one.</p>
+  </div>
+  
+  <h3 class="pb-2">Installation Steps:</h3>
+  <ol class="list-decimal ml-4">
+    <li><strong>Extract UnityModManager:</strong> After downloading, extract the .zip file. Open this folder to access UnityModManager.exe.</li>
+    <li><strong>Setup UnityModManager:</strong> Run UnityModManager.exe, set the game to Skater XL, and direct it to your game folder. For most users, the game folder is located here:</li>
+      <p><i>This PC > Local Disk (C:) > Program Files (x86) > Steam > steamapps > common > Skater XL</i>
+      <p>Click "Install" or "Update" to complete setup.</p>
+      <img src="UMM2.png" alt="UnityModManager Setup" class="my-4" />
+      <li><strong>Downloading and Installing Mods:</strong> To acquire mods, navigate through our sidebar which grants convenient access to a comprehensive list of mods compatible with your game. Simply drag and drop the downloaded .zip mod files into the "Mods" tab of UnityModManager for installation.</li>
+      <img src="UMM3.png" alt="UnityModManager Setup" class="my-4" />
+      <div class="note">
+        <p><strong>Tip:</strong> In UnityModManager, "Status: OK" or "Status: Update to X.X.X" indicates a mod is installed. Avoid updating mods directly from UnityModManager, as changing versions may render them incompatible. For manual installation or uninstallation, right-click each mod.</p>
+      </div>
+      <li><strong>Launch Game:</strong> Start Skater XL. UnityModManager will open, indicating mod status. A green icon suggests the mod is working, while a red icon indicates issues.</li>
+  </ol>
+  <img src="UMM4.png" alt="Launch Game" class="my-4" />
+  
+  
+  <h3>Need More Help?</h3>
+  <p>If you encounter any issues or have questions, the <a href="https://discord.com/invite/xFfv3CAf67" target="_blank">Skater XL Modding Discord</a> is an excellent resource for support.</p>
 </div>
 
 <style>
-  /* Additional page-specific styles can be added here if needed */
+  /* Additional styling if needed */
 </style>
