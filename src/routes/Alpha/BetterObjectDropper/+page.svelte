@@ -6,7 +6,7 @@
   <h1>Better Object Dropper</h1>
   
   <p>
-    Unleash your creative potential in Skater XL with the Better Object Dropper Mod, offering unparalleled flexibility in designing skate parks.
+    Unleash your creative potential in Skater XL with the Better Object Dropper Mod, offering unparalleled flexibility in designing custom skate spots.
   </p>
 
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Better Object Dropper Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/BetterObjectDropper.png" alt="Better Object Dropper Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

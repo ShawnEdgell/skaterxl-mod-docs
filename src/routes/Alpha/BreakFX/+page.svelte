@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Break FX Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/BreakFX.png" alt="Break FX Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 
@@ -36,6 +36,7 @@
   <p>
     The Break FX Mod is automatically activated in-game. Monitor the impacts and velocity of your tricks and landings, as these will influence the likelihood of your skateboard breaking. Press <b>B</b> to break your board on demand.
   </p>
+  <img src="/BreakFX2.png" alt="Break FX Mod Example" class="w-full h-auto rounded-lg shadow-md"/>
 
   <!-- Additional content, if needed, goes here -->
 </div>

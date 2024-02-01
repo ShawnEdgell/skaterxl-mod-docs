@@ -24,8 +24,7 @@
     <!-- Image next to the text (50% width) -->
     <div class="flex-1 mt-4 md:mt-0">
       <!-- Image next to the text -->
-      <img src="DecalFix.png" alt="BS Noseblunt by Milky" class="w-full h-auto rounded-lg shadow-md"/>
-      <p class="mt-2 mb-0 text-center"><a href="https://mod.io/g/skaterxl/m/donevan-recreation-center " target="_blank" rel="noopener noreferrer">Donevan Recreation Center</a> by Alexlaskka</p>
+      <img src="DecalFix.png" alt="Donevan Recreation Center" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

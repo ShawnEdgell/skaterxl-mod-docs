@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Not My Feet Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/NotMyFeet.png" alt="Not My Feet Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 
@@ -34,7 +34,10 @@
 
   <h2>How to Use the Not My Feet Mod</h2>
   <p>
-    Activate the mod in-game by pressing <b>N</b>. Easily toggle the feet indicators on or off for a more immersive gameplay experience, especially beneficial when focusing on mastering controls and tricks.
+    Activate the mod in-game by pressing <b>N</b>, then turn Display Controller ON in the menu. You must do it in this order for the feature to work.
+  </p>
+  <p>
+    Easily toggle the feet indicators on or off for a more immersive gameplay experience, especially beneficial when focusing on mastering controls and tricks.
   </p>
 
   <!-- Additional content, if needed, goes here -->

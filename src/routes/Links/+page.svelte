@@ -17,11 +17,8 @@
     </p>
 
     <h2>Skater XL Modding Website (mod.io)</h2>
+    <p>This is where you can download custom maps, gear, and other mods.</p>
     <a href="https://skaterxl.mod.io/" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
-    <p>
-      <i>This is where you can download custom maps, gear, and other mods.
-      </i>
-    </p>
 
     <h2>Skater XL Modding Discord</h2>
     <p>Your #1 source for Skater XL modding info. The ideal spot for quick answers to your questions and engaging with fellow community members.</p>
@@ -31,8 +28,14 @@
 
     <div class="bg-blue-100 p-4 rounded-lg mb-4 mt-6">
       <h2 class="text-xl font-bold mt-2 mb-3">Content Creator Discord Servers</h2>
-      <p>These Discord servers are ideal for connecting with the Skater XL community, offering downloads for mod stats and presets, and a platform to ask questions and share tips.</p>
-      <a href="https://discord.com/invite/CeKjWbGhmf " target="_blank" rel="noopener noreferrer">Milky's Discord</a>
+      <p>These Discord servers are ideal for connecting with the Skater XL community, offering popular downloads for mod stats and presets, and a platform to ask questions and share tips.</p>
+      <div class="flex flex-wrap gap-6">
+        <a href="https://discord.com/invite/Nrz5XmtCCA " target="_blank" rel="noopener noreferrer">Garrett Ginner's Discord</a>
+        <a href="https://discord.com/invite/BTcDFd86XB " target="_blank" rel="noopener noreferrer">jbooogie's Discord</a>
+        <a href="https://discord.com/invite/CeKjWbGhmf " target="_blank" rel="noopener noreferrer">Milky's Discord</a>
+        <a href="https://discord.com/invite/B7MG9AdW2B " target="_blank" rel="noopener noreferrer">Pigeontheif's Discord</a>
+        
+      </div>
     </div>
 
     <div class="flex flex-wrap -mx-2">

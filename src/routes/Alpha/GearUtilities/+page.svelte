@@ -6,7 +6,7 @@
   <h1>Gear Utilities</h1>
   
   <p>
-    Discover the Gear Utilities Mod for Skater XL, offering a vast array of customizable gear options. This mod enhances the game with an extensive collection of accessories and styles, allowing you to personalize your skater's look to your liking.
+    Discover the Gear Utilities Mod for Skater XL, offering an array of customizable gear options. This mod enhances the game with an extensive collection of accessories and styles, allowing you to personalize your skater's look to your liking.
   </p>
 
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Gear Utilities Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/GearUtilities.png" alt="Gear Utilities Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 

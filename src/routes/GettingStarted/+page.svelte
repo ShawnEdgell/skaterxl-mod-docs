@@ -103,11 +103,11 @@
 
   <img src="UMM3.png" alt="Descriptive Alt Text" class="my-4" />
 
-  <p class="italic">
+  <p>
     All of your installed mods will say <b>Status: OK</b> or <b>Status: Update X.X.X,</b> this means the mod is installed properly. If this section is blank, the mod is not installed in your game. You can right-click each mod to manually install/uninstall.
   </p>
   <p class="italic mt-2">
-    ⚠️ Do not 'Update' your mods here unless you are sure you are switching to the correct version. This can cause your mods to break, and you will have to reinstall them.
+    ⚠️ Tip: Do not 'Update' your mods here unless you are sure you are switching to the correct version. This can cause your mods to break, and you will have to reinstall them.
   </p>
 
   <h3>Step 4</h3>
