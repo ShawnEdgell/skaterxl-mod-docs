@@ -7,14 +7,16 @@
   <p>Welcome to the world of Skater XL modding! Follow these steps to begin your modding journey.</p>
 
   <h2>1. Confirm Your Skater XL Version</h2>
-  <p>Both the Alpha and Public branches of Skater XL are viable for modding. However, we recommend version v1.2.2.8 (Alpha) for its extensive mod support. If your game isn't already on this version, follow the steps below to switch.</p>
+  <p>It's crucial to know which version of Skater XL you're installing mods into, as mod compatibility depends on your game version. Both the Alpha and Public branches are viable for modding, but we recommend version v1.2.2.8 (Alpha) due to its extensive mod support.</p>
   <div>
-      Learn about each version:
+      Learn more about each version:
       <ul>
           <li><a href="/Alpha/About" class="text-blue-600 hover:text-blue-800 font-semibold">Skater XL v1.2.2.8 (Alpha)</a> - Best mod support</li>
           <li><a href="/Public/About" class="text-blue-600 hover:text-blue-800 font-semibold">Skater XL v1.2.7.8 (Public)</a> - Default Steam version, also moddable</li>
       </ul>
-  </div>
+  <p>
+    If your game version does not match your desired version, please follow the instructions below to switch.</p>
+  </div>  
   <img src="XLversion.png" alt="Game Version Display" class="my-4" />
   <div class="note">
       <p><strong>Note:</strong> You can easily check your current game version in the lower left corner upon launching Skater XL.</p>
