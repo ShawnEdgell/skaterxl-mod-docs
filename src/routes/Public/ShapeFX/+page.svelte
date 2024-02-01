@@ -16,11 +16,11 @@
       <p class="mb-1"><b>Working Version:</b> 1.0.0</p>
       <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#shapefx section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> F6</p>
-      <p class="mb-1"><b>Key Features:</b> Customizable Skateboard Deck Shapes</p>
+      <p class="mb-1"><b>Key Features:</b> Skateboard Deck Shapes, Custom Materials</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="/Picture.png" alt="Shape FX Mod" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="/ShapeFX.png" alt="Shape FX Mod" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
 
