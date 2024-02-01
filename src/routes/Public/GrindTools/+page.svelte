@@ -25,7 +25,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Grind Tools Mod from <a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure it aligns with your Skater XL version.
+    Download the Grind Tools Mod from <a href="https://mod.io/g/skaterxl/m/grind-tools" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Click "View Other Versions" to find v2.0.1. Make sure it aligns with your Skater XL version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Relaunch the game to access the mod.

@@ -13,7 +13,7 @@
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> mcbtay</p>
-      <p class="mb-1"><b>Working Version:</b> 2.6.3</p>
+      <p class="mb-1"><b>Working Version:</b> 2.6.3 (see instructions below)</p>
       <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's, Advanced Sorting</p>
     </div>
@@ -25,11 +25,16 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XL Menu Mod from <a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure your Skater XL version is compatible with the mod.
+    Download the XL Menu Mod v2.6.2 from <a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>.
   </p>
   <p>
-    Install using UnityModManager: Simply drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open the game to access the mod.
+    Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to access the mod.
   </p>
+  <div class="note">
+    <p><strong>Note:</strong> To ensure the mod functions correctly, manually update it in UnityModManager by right-clicking and selecting 'Update' after installation. This will change it to v2.6.3. You will likely need to restart UnityModManager to see this update option.</p>
+    <p>If you encounter issues, using v2.6.2 should resolve them.</p>
+  </div>
+  
 
   <h2>How to Use the XL Menu Mod</h2>
   <p>

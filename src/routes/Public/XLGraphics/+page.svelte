@@ -11,9 +11,9 @@
   <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Babbo</p>
+      <p class="mb-1"><b>Authors:</b> Babbo, Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 2.0.2</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgraphics" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Download: </b><a href="https://discord.gg/mBJ5wCchVm" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Fro's Discord</a> (#open-source-mods section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> Backspace</p>
       <p class="mb-1"><b>Key Features:</b> Camera Customization, Fisheye Lens Effect, Follow Camera, Community-driven Presets</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    To download and install the XL Graphics Mod, head to <a href="https://mod.io/g/skaterxl/m/xlgraphics" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure to grab the version that corresponds to your Skater XL version. 
+    To download and install the XL Graphics Mod v2.0.2, head to <a href="https://discord.gg/mBJ5wCchVm" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Fro's Discord</a> (#open-source-mods section). Make sure to grab the version that corresponds to your Skater XL version. 
   </p>
   <p>
     Use UnityModManager to install: After downloading the mod, open UnityModManager and drag and drop the .zip file into the 'Mods' tab. Ensure Skater XL is closed during this process. Once installed, open Skater XL to access the mod.

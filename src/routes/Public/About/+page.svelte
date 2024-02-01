@@ -21,7 +21,7 @@
     </p>
     <div class="warning">
       <p>
-        ⚠️ Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Delete your old mod manager before installing the new one.
+        <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
       </p>
     </div>
 

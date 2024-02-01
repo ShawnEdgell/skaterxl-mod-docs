@@ -17,11 +17,11 @@
 
     <h2>UnityModManager</h2>
     <p>
-      For version 1.2.2.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityMod Managerv0.27.4</a>
+      For version 1.2.2.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
     </p>
     <div class="warning">
       <p>
-        ⚠️ Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Delete your old mod manager before installing the new one.
+        <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
       </p>
     </div>
 

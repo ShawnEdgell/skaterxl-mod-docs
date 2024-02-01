@@ -21,7 +21,6 @@
   <div class="note">
       <p><strong>Note:</strong> You can easily check your current game version in the lower left corner upon launching Skater XL.</p>
   </div>
-  
 
   <h2>2. Changing Skater XL Versions</h2>
   <p>Switching between Skater XL versions is straightforward via Steam:</p>
@@ -45,7 +44,7 @@
   </ul>
   
   <div class="warning">
-    <p><strong>Warning:</strong> Ensure you download the UnityModManager version that matches your Skater XL version. Failure to do so may result in mods not working. Uninstall any previous mod manager versions before installing a new one.</p>
+    <p><strong>⚠️ Warning:</strong> Ensure you download the UnityModManager version that matches your Skater XL version. Failure to do so may result in mods not working. Uninstall any previous mod manager versions before installing a new one.</p>
   </div>
   
   <h3 class="pb-2">Installation Steps:</h3>

@@ -25,7 +25,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Better Replay Mod from <a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it is compatible with your version of Skater XL.
+    Download the Better Replay Mod from <a href="https://mod.io/g/skaterxl/m/better-replay-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Click "View Other Versions" to find v2.1.0. Ensure it is compatible with your version of Skater XL.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to access the mod.

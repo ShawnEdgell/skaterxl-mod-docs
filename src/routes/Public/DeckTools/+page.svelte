@@ -14,7 +14,7 @@
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Guru</p>
       <p class="mb-1"><b>Working Version:</b> 0.0.2</p>
-      <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/RDh7tg2Bs5" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Guru's Discord</a></p>
+      <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/RDh7tg2Bs5" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Guru's Discord</a> (#deck-tools section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> CTRL + D</p>
       <p class="mb-1"><b>Key Features:</b> Customizable Decks, Trucks, Wheels, Adjustable Truck Tightness</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download Deck Tools from <a href="https://discord.com/invite/RDh7tg2Bs5" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Guru's Discord</a>. 
+    Download Deck Tools from <a href="https://discord.com/invite/RDh7tg2Bs5" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Guru's Discord</a> (#deck-tools section). 
     Ensure the version matches your Skater XL game version.
   </p>
   <p>
