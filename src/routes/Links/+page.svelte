@@ -26,15 +26,22 @@
       <a href="https://discord.com/invite/xFfv3CAf67" target="_blank" rel="noopener noreferrer">Skater XL Modding Discord</a>
     </p>
 
+    <h2>XLGM Discord</h2>
+    <p>The go-to hub for everything related to the XL Gear Modifier (XLGM). This official Discord server is the premier destination for discovering the latest on creating and downloading custom gear packs, engaging with the modding community, and getting answers to your XLGM-related questions.</p>
+    <p>
+      <a href="https://discord.com/invite/UJHGbCyFDX" target="_blank" rel="noopener noreferrer">XLGM Discord</a>
+    </p>
+
+
     <div class="bg-blue-100 p-4 rounded-lg mb-4 mt-6">
       <h2 class="text-xl font-bold mt-2 mb-3">Content Creator Discord Servers</h2>
       <p>These Discord servers are ideal for connecting with the Skater XL community, offering popular downloads for mod stats and presets, and a platform to ask questions and share tips.</p>
-      <div class="flex flex-wrap gap-6">
+      <div class="flex flex-wrap gap-y-3 gap-x-6">
         <a href="https://discord.com/invite/Nrz5XmtCCA " target="_blank" rel="noopener noreferrer">Garrett Ginner's Discord</a>
         <a href="https://discord.com/invite/BTcDFd86XB " target="_blank" rel="noopener noreferrer">jbooogie's Discord</a>
         <a href="https://discord.com/invite/CeKjWbGhmf " target="_blank" rel="noopener noreferrer">Milky's Discord</a>
         <a href="https://discord.com/invite/B7MG9AdW2B " target="_blank" rel="noopener noreferrer">Pigeontheif's Discord</a>
-        
+        <a href="https://discord.com/invite/Qmy9epDW3Q " target="_blank" rel="noopener noreferrer">Triohs' Discord</a>
       </div>
     </div>
 

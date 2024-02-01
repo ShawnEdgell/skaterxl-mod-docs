@@ -30,23 +30,22 @@
   <!-- In-Game Mod Browser and skaterxl.mod.io sections -->
 
     <!-- XL Gear Modifier Section -->
-
-      <h2 class="mt-1">XL Gear Modifier (XLGM 2)</h2>
-      <p>
-        The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.
-      </p>
-      <p>
-        Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.
-      </p>
+    <h2 class="mt-1">XL Gear Modifier (XLGM 2)</h2>
+    <p>The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.</p>
+    <p>Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.</p>
       <img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto"/>
-
+    <h2>XLGM Discord</h2>
+      <p>The go-to hub for everything related to the XL Gear Modifier (XLGM). This official Discord server is the premier destination for discovering the latest on creating and downloading custom gear packs, engaging with the modding community, and getting answers to your XLGM-related questions.</p>
+      <p>
+        <a href="https://discord.com/invite/UJHGbCyFDX" target="_blank" rel="noopener noreferrer">XLGM Discord</a>
+      </p>
 
   <h2>XLHub</h2>
 <p>
   Simplify your Skater XL map management with XLHub, created by Fro. This app allows for easy downloading and deleting of maps from <a href="https://skaterxl.mod.io" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Its automatic unzipping feature makes map installation straightforward.
 </p>
 <p>
-  <a href="https://mod.io/g/skaterxl/m/xlhub" class="text-blue-600 hover:underline font-bold" target="_blank" rel="noopener noreferrer">Download XLHub here</a>.
+  <a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer">Download XLHub</a>
 </p>
 <img src="/XLHub.png" alt="Mod Browser" class="w-full h-auto"/>
 
