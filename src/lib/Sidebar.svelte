@@ -16,9 +16,14 @@
         route: '/Alpha/XLGraphics'
       },
       {
-        name: 'Sound Mod',
-        subcategories: ['Soundpacks',],
-        route: '/Alpha/SoundMod'
+        "name": "Sound Mod",
+        "subcategories": [
+        {
+          "name": "Soundpacks",
+          "route": "/Soundpacks" // This points directly to the Soundpacks section
+        }
+      ],
+        "route": "/Alpha/SoundMod" // This points to the main Sound Mod page
       },
       {
         name: 'Deck FX',
@@ -135,11 +140,16 @@
         route: '/Public/XLGraphics'
     },
     {
-        name: 'Sound Mod',
-        subcategories: ['Soundpacks',],
-        route: '/Public/SoundMod'
-      },
-      {
+        "name": "Sound Mod",
+        "subcategories": [
+        {
+          "name": "Soundpacks",
+          "route": "/Soundpacks" // This points directly to the Soundpacks section
+        }
+      ],
+        "route": "/Public/SoundMod" // This points to the main Sound Mod page
+    },
+    {
         name: 'Deck Tools',
         subcategories: ['Page 1', 'Page 2'],
         route: '/Public/DeckTools'

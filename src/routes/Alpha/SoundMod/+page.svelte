@@ -34,7 +34,7 @@
     The SoundMod is auto-enabled when you play Skater XL. The custom sounds will automatically be applied, with no UI configuration needed.
   </p>
   <p>
-    For more details on customizing your sound experience, visit our <a href="/Alpha/SoundMod/Soundpacks" class="text-blue-600 hover:underline">Soundpacks</a> section to explore and download community-created sound packs.
+    For more details on customizing your sound experience, visit our <a href="/Soundpacks" class="text-blue-600 hover:underline">Soundpacks</a> section to explore and download community-created sound packs.
   </p>
 
   <!-- Additional content, if needed, goes here -->

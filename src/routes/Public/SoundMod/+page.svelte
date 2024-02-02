@@ -31,11 +31,16 @@
 
   <h2>How to Use the Sound Mod</h2>
   <p>
-    The SoundMod is auto-enabled when you play Skater XL. The custom sounds will automatically be applied, with no UI configuration needed.
+      The Sound Mod is auto-enabled upon launching Skater XL, no UI configuration needed.
   </p>
+  <div class="note">
+      <p><b>Note: </b>SoundMod version 1.2.0 does not include any pre-installed sounds. You'll need to download and manually install a soundpack. Place the soundpack files into the following directory: </p> 
+      <p><code>Steam/steamapps/common/SkaterXL/Mods/XLSoundMod/Sounds</code></p>
+  </div> 
   <p>
-    For more details on customizing your sound experience, visit our <a href="/Public/SoundMod/Soundpacks" class="text-blue-600 hover:underline">Soundpacks</a> section to explore and download community-created sound packs.
+      For a comprehensive guide on installing soundpacks and to explore a variety of community-created soundpacks, please visit our <a href="/Soundpacks" class="text-blue-600 hover:underline">Soundpacks page</a>.
   </p>
+  
 
   <!-- Additional content, if needed, goes here -->
 </div>
