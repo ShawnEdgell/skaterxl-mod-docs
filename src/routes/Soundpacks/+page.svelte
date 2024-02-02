@@ -23,55 +23,65 @@
     <!-- SoundPack Example 1 -->
     <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
       <div class="flex-1 md:mr-4">
-        <h3 class="mb-2 mt-0">N33zy's Sound Pack Volume 2</h3>
+        <h3 class="mb-2 mt-0">FREE DAWG - a n33zy sound pack</h3>
         <p class="mb-1"><b>Author:</b> N33zy</p>
-        <p class="mb-1"><b>Download: </b><a href="https://skaterxl.mod.io/n33zys-sound-pack-volume-2" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io/n33zys-sound-pack-volume-2</a></p>
-        <p class="mb-1"><b>Key Features:</b> Enhanced grind sounds, realistic skate park ambience, custom trick sounds</p>
+        <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/free-dawg-a-n33zy-sound-pack1" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       </div>
-      <div class="flex-1 mt-4 md:mt-0">
-        <img src="/Picture.png" alt="N33zy's Sound Pack Volume 2"/>
+    </div>
+
+    <!-- SoundPack Example 2 -->
+    <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
+        <div class="flex-1 md:mr-4">
+          <h3 class="mb-2 mt-0">N33ZY VOL. 3 SOUND PACK</h3>
+          <p class="mb-1"><b>Author:</b> N33zy</p>
+          <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/n33zy-vol-3-sound-pack" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+        </div>
+    </div>
+  
+    <!-- SoundPack Example 2 -->
+    <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
+      <div class="flex-1 md:mr-4">
+        <h3 class="mb-2 mt-0">N33ZY'S FREE CANDY</h3>
+        <p class="mb-1"><b>Author:</b> N33zy</p>
+        <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/n33zys-free-candy-sound-pack" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       </div>
     </div>
   
     <!-- SoundPack Example 2 -->
     <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
       <div class="flex-1 md:mr-4">
-        <h3 class="mb-2 mt-0">Urban Skater Ambience</h3>
-        <p class="mb-1"><b>Author:</b> Sk8rDude</p>
-        <p class="mb-1"><b>Download: </b><a href="https://skaterxl.mod.io/urbanskaterambience" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io/urbanskaterambience</a></p>
-        <p class="mb-1"><b>Key Features:</b> City sounds, busy streets background, distant traffic</p>
-      </div>
-      <div class="flex-1 mt-4 md:mt-0">
-        <img src="/Picture.png" alt="Urban Skater Ambience"/>
+        <h3 class="mb-2 mt-0">n33zy's Vol 2: GOLD EDITION</h3>
+        <p class="mb-1"><b>Author:</b> N33zy</p>
+        <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/neezy-vol-2-gold-edition" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       </div>
     </div>
-  
+
     <!-- SoundPack Example 2 -->
     <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
-      <div class="flex-1 md:mr-4">
-        <h3 class="mb-2 mt-0">Urban Skater Ambience</h3>
-        <p class="mb-1"><b>Author:</b> Sk8rDude</p>
-        <p class="mb-1"><b>Download: </b><a href="https://skaterxl.mod.io/urbanskaterambience" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io/urbanskaterambience</a></p>
-        <p class="mb-1"><b>Key Features:</b> City sounds, busy streets background, distant traffic</p>
+        <div class="flex-1 md:mr-4">
+          <h3 class="mb-2 mt-0">n33zy's soundpack volume 2</h3>
+          <p class="mb-1"><b>Author:</b> N33zy</p>
+          <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/n33zys-sound-pack-volume-2" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+        </div>
       </div>
-      <div class="flex-1 mt-4 md:mt-0">
-        <img src="/Picture.png" alt="Urban Skater Ambience"/>
-      </div>
-    </div>
-  
-        <!-- SoundPack Example 2 -->
+
+    <!-- SoundPack Example 2 -->
     <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
-      <div class="flex-1 md:mr-4">
-        <h3 class="mb-2 mt-0">Urban Skater Ambience</h3>
-        <p class="mb-1"><b>Author:</b> Sk8rDude</p>
-        <p class="mb-1"><b>Download: </b><a href="https://skaterxl.mod.io/urbanskaterambience" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io/urbanskaterambience</a></p>
-        <p class="mb-1"><b>Key Features:</b> City sounds, busy streets background, distant traffic</p>
+        <div class="flex-1 md:mr-4">
+          <h3 class="mb-2 mt-0">n33zy's sound pack volume 1</h3>
+          <p class="mb-1"><b>Author:</b> N33zy</p>
+          <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/n33zys-sound" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+        </div>
       </div>
-      <div class="flex-1 mt-4 md:mt-0">
-        <img src="/Picture.png" alt="Urban Skater Ambience"/>
+
+    <!-- SoundPack Example 2 -->
+    <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg my-4">
+        <div class="flex-1 md:mr-4">
+          <h3 class="mb-2 mt-0">OVALORD VX SOUNDMOD</h3>
+          <p class="mb-1"><b>Author:</b> OVALORD</p>
+          <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/ovalord-vx-soundmod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+        </div>
       </div>
-    </div>
-  
   
   </div>
   
