@@ -242,7 +242,7 @@
            class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
           {category.name}
         </a>
-        <!-- {#if $openCategory === category.name}
+        {#if $openCategory === category.name}
           <ul class="list-none m-0 p-0 pl-8">
             {#each category.subcategories as sub}
               <li class="my-1">
@@ -250,7 +250,7 @@
               </li>
             {/each}
           </ul>
-        {/if} -->
+        {/if}
       </li>
     {/each}
   </ul>
@@ -263,7 +263,7 @@
           class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
          {category.name}
         </a>
-         <!-- {#if $openCategory === category.name}
+         {#if $openCategory === category.name}
           <ul class="list-none m-0 p-0 pl-8">
             {#each category.subcategories as sub}
               <li class="my-1">
@@ -271,7 +271,7 @@
               </li>
             {/each}
           </ul>
-        {/if} -->
+        {/if}
       </li>
     {/each}
   </ul>
