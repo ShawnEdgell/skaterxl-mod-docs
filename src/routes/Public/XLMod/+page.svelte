@@ -16,7 +16,7 @@
       <p class="mb-1"><b>Working Version:</b> 1.0.0c</p>
       <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8)</p>
       <p class="mb-1"><b>Keybind to Open:</b> F7</p>
-      <p class="mb-1"><b>Key Features:</b> New Stats Menu, Compatible with Grabs Update, Darkslides, Wallrides</p>
+      <p class="mb-1"><b>Key Features:</b> New Stats Menu, Compatible with Grabs Update, Darkslides, Wallrides, Improved Lateflips</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

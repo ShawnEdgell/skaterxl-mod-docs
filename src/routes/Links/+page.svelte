@@ -70,6 +70,7 @@
     <p><a href="https://discord.com/invite/EUkY43zSWd " target="_blank" rel="noopener noreferrer">Kurbdogg420's Discord</a></p>
     <p><a href="https://discord.com/invite/47pyuCNuxG " target="_blank" rel="noopener noreferrer">Makes's Discord</a></p>
     <p><a href="https://discord.com/invite/dpXEKGSVxw " target="_blank" rel="noopener noreferrer">Merlon Warlock's Discord</a></p>
+    <p><a href="https://discord.com/invite/jJEajVZUGd " target="_blank" rel="noopener noreferrer">Pierce's Discord</a></p>
     <p><a href="https://discord.com/invite/XHfcp258rv " target="_blank" rel="noopener noreferrer">Speeskeeks Discord</a></p>
     <p><a href="https://discord.com/invite/9EzS82SNqG " target="_blank" rel="noopener noreferrer">Stevyy's Discord</a></p>
     <p><a href="https://discord.com/invite/cUnwY8ZZej " target="_blank" rel="noopener noreferrer">Sungodpxllz's Discord</a></p>
