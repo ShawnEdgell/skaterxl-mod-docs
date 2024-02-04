@@ -4,6 +4,7 @@
   import Footer from '$lib/Footer.svelte';
   import Sidebar from '$lib/Sidebar.svelte';
   import '../app.css';
+  import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit"
 
   let isSidebarVisible = true; // Default to true for SSR or initial load
   let modal, modalImg;
