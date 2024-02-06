@@ -9,12 +9,12 @@
     The Controls Editor, also known as the XL Controller Rotation Mod, revolutionizes your control scheme in Skater XL. Customize the controls for an enhanced and personalized skateboarding experience.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Silentbaws</p>
       <p class="mb-1"><b>Working Version:</b> 0.1.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/controls-editor" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/controls-editor" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> CTRL + F10</p>
       <p class="mb-1"><b>Key Features:</b> Control Customization, Personalized Trick Mechanics</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Controls Editor Mod from <a href="https://mod.io/g/skaterxl/m/controls-editor" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your version of Skater XL.
+    Download the Controls Editor Mod from <a href="https://mod.io/g/skaterxl/m/controls-editor" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your version of Skater XL.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to configure your controls.

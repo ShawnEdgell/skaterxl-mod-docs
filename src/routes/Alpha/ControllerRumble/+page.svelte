@@ -9,12 +9,12 @@
     The Controller Rumble Mod adds a new dimension to Skater XL, offering customizable tactile feedback through your controller, enhancing the realism of the gameplay.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Authors:</b> billowper, froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.2.3</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/controller-rumble" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/controller-rumble" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> F9</p>
       <p class="mb-1"><b>Key Features:</b> Customizable Rumble Feedback</p>
       <p class="mb-1"><b>Considerations:</b> May cause stability issues.</p>
@@ -28,7 +28,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Controller Rumble Mod from <a href="https://mod.io/g/skaterxl/m/controller-rumble" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure the version is compatible with your Skater XL version.
+    Download the Controller Rumble Mod from <a href="https://mod.io/g/skaterxl/m/controller-rumble" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Make sure the version is compatible with your Skater XL version.
   </p>
   <p>
     Install using UnityModManager: Simply drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open the game to experience the mod.

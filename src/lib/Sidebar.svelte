@@ -219,27 +219,27 @@
 </script>
 
 
-<aside class="min-w-max text-base h-screen p-4 overflow-y-auto pb-40">
+<aside class="bg-neutral-950 min-w-max text-base h-screen p-4 overflow-y-auto pb-40">
   <h2 class="p-0 m-1 font-bold text-lg text-center">Skater XL Version:</h2>
   <div class="mb-2 flex justify-center">
     <button
-      class={`px-4 py-1 ${isOption1Selected ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'} hover:bg-blue-400 hover:text-white rounded-l`}
+      class={`font-bold px-4 py-1 border-b-4 ${isOption1Selected ? 'border-cyan-500 text-white' : 'border-transparent text-neutral-700'} hover:text-white hover:border-cyan-500 rounded-l transition-colors duration-150`}
       on:click={() => selectOption(true)}>
       v1.2.2.8
     </button>
     <button
-      class={`px-4 py-1 ${isOption1Selected ? 'bg-gray-300 text-gray-700' : 'bg-blue-500 text-white'} hover:bg-blue-400 hover:text-white rounded-r`}
+      class={`font-bold px-4 py-1 border-b-4 ${!isOption1Selected ? 'border-cyan-500 text-white' : 'border-transparent text-neutral-700'} hover:text-white hover:border-cyan-500 rounded-r transition-colors duration-150`}
       on:click={() => selectOption(false)}>
       v1.2.7.8
     </button>
   </div>
 
-  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 mt-6 text-center border-b border-gray-400 pb-1">Essentials</h3>
+  <h3 class="text-sm uppercase tracking-wide mb-2 mt-8 pb-2">Essential Mods</h3>
   <ul class="list-none m-0 p-0">
     {#each currentCategories.slice(0, 5) as category}
       <li class="mb-2">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-           class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
+           class={`font-normal block px-4 border-l-2 ${$openCategory === category.name ? 'text-cyan-500 border-cyan-500 hover:text-white' : 'text-neutral-400 border-neutral-900 hover:border-cyan-500 hover:text-white'}`}>
           {category.name}
         </a>
 <!--         {#if $openCategory === category.name}
@@ -255,13 +255,13 @@
     {/each}
   </ul>
 
-  <h3 class="text-sm text-gray-500 uppercase tracking-wide mb-2 text-center border-b border-gray-400 pb-1">Other Mods</h3>
+  <h3 class="text-sm uppercase tracking-wide mt-8 mb-2 pb-2">Other Mods</h3>
   <ul class="list-none m-0 p-0">
     {#each currentCategories.slice(5) as category}
       <li class="mb-2">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-          class={`block text-black px-4 py-1 rounded-full ${$openCategory === category.name ? 'bg-blue-200' : 'hover:bg-gray-200'}`}>
-         {category.name}
+           class={`font-normal block px-4 border-l-2 ${$openCategory === category.name ? 'text-cyan-500 border-cyan-500 hover:text-white' : 'text-neutral-400 border-neutral-900 hover:border-cyan-500 hover:text-white'}`}>
+          {category.name}
         </a>
 <!--          {#if $openCategory === category.name}
           <ul class="list-none m-0 p-0 pl-8">

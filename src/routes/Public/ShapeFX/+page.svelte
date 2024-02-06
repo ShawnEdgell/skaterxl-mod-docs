@@ -9,12 +9,12 @@
     The Shape FX Mod, created for Skater XL, introduces an innovative way to modify the shape of your skateboard deck. This unique feature allows for a more personalized skateboarding experience, giving you the freedom to adjust the deck shape to match your style or preference.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
       <p class="mb-1"><b>Working Version:</b> 1.0.0</p>
-      <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#shapefx section)</p>
+      <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#shapefx section)</p>
       <p class="mb-1"><b>Keybind to Open:</b> F6</p>
       <p class="mb-1"><b>Key Features:</b> Skateboard Deck Shapes, Custom Materials</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download Shape FX from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a>, specifically in the #shapefx section. Follow the instructions provided there for installation.
+    Download Shape FX from <a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a>, specifically in the #shapefx section. Follow the instructions provided there for installation.
   </p>
 
   <h2>How to Use Shape FX</h2>

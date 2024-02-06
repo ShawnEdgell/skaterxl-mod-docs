@@ -9,12 +9,12 @@
     Transform the auditory landscape of your Skater XL gameplay with the Sound Mod. Offering complete customization of gameplay and UI sounds, the mod immerses you in a skateboarding experience tailored to your preferences.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Authors:</b> Babbo, jbooogie</p>
       <p class="mb-1"><b>Working Version:</b> 1.3.0</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/soundmod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/soundmod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
       <p class="mb-1"><b>Key Features:</b> Custom Sounds, Community-Created Soundpacks, Enhanced UI Sounds</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the Sound Mod from <a href="https://mod.io/g/skaterxl/m/soundmod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you select the correct version for your game. Install the mod using UnityModManager, and access it in Skater XL by opening the game.
+    Download the Sound Mod from <a href="https://mod.io/g/skaterxl/m/soundmod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you select the correct version for your game. Install the mod using UnityModManager, and access it in Skater XL by opening the game.
   </p>
 
   <h2>How to Use the Sound Mod</h2>
@@ -34,7 +34,7 @@
     The SoundMod is auto-enabled when you play Skater XL. The custom sounds will automatically be applied, with no UI configuration needed.
   </p>
   <p>
-    For more details on customizing your sound experience, visit our <a href="/Soundpacks" class="text-blue-600 hover:underline">Soundpacks</a> section to explore and download community-created sound packs.
+    For more details on customizing your sound experience, visit our <a href="/Soundpacks">Soundpacks</a> section to explore and download community-created sound packs.
   </p>
 
   <!-- Additional content, if needed, goes here -->

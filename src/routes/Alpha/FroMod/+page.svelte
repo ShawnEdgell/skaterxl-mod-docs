@@ -9,12 +9,12 @@
     Fro's Experimental Mod is a comprehensive tool for Skater XL, offering an extensive suite of features for a fully customizable skateboarding experience. Beyond advanced physics and animation tweaks, the mod allows players to adjust the scale of maps and character body parts, enrich gameplay with multiplayer options, and includes numerous quality of life enhancements. This mod stands out for its depth and versatility, allowing you to personalize every aspect of the game to an unprecedented degree.
   </p>  
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Froquede</p>
       <p class="mb-1"><b>Working Version:</b> 1.18.3</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/fros-experimental-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/fros-experimental-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> CTRL + F</p>
       <p class="mb-1"><b>Key Features:</b> Enhanced Physics, Custom Animations, Regular Updates</p>
     </div>
@@ -27,7 +27,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download Fro's Experimental Mod from <a href="https://mod.io/g/skaterxl/m/fros-experimental-mod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure the version matches your Skater XL game version.
+    Download Fro's Experimental Mod from <a href="https://mod.io/g/skaterxl/m/fros-experimental-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure the version matches your Skater XL game version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater XL to access the mod.

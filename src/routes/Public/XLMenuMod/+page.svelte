@@ -9,12 +9,12 @@
     The XL Menu Mod revolutionizes the way you organize and access custom maps and gear in Skater XL. It offers an intuitive and user-friendly interface to manage your content with ease.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> mcbtay</p>
       <p class="mb-1"><b>Working Version:</b> 2.6.3 (see instructions below)</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlmenumod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's, Advanced Sorting</p>
     </div>
 
@@ -25,7 +25,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XL Menu Mod v2.6.2 from <a href="https://mod.io/g/skaterxl/m/xlmenumod" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>.
+    Download the XL Menu Mod v2.6.2 from <a href="https://mod.io/g/skaterxl/m/xlmenumod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to access the mod.

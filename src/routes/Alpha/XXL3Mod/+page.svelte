@@ -8,12 +8,12 @@
     Also known as the 'stats menu', the XXL 3 Mod is a game-changer for Skater XL enthusiasts. It opens up a realm of possibilities, allowing you to tweak everything from gravity and flip speeds to stances and grinds, tailoring your skateboarding experience to your personal style.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
       <p class="mb-1"><b>Working Version:</b> 1.3.3</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
+      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
       <p class="mb-1"><b>Keybind to Open:</b> F7</p>
       <p class="mb-1"><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
     </div>
@@ -27,7 +27,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XXL 3 Mod (v1.3.3) from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline">DawgVinci's Discord</a> (#xxlmod section for Skater XL v1.2.2.8). 
+    Download the XXL 3 Mod (v1.3.3) from <a href="https://discord.com/invite/GmuBn6UzUh">DawgVinci's Discord</a> (#xxlmod section for Skater XL v1.2.2.8). 
   </p>
   <p>
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL to access the mod.
@@ -40,7 +40,7 @@
   </p>
   <p>
     Additionally, the mod allows you to load custom presets created by others. For more information on presets, including how to find and load them, check out our 
-    <a href="/Alpha/XXL3Mod/Presets" class="text-blue-600 hover:underline">Presets </a>
+    <a href="/Alpha/XXL3Mod/Presets">Presets </a>
     page.
   </p>
 

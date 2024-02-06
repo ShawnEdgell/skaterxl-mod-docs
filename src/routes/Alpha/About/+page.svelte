@@ -17,7 +17,7 @@
 
     <h2>UnityModManager</h2>
     <p>
-      For version 1.2.2.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
+      For version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
     </p>
     <div class="warning">
       <p>
@@ -25,24 +25,24 @@
       </p>
     </div>
 
-    <div class="bg-gray-200 p-4 rounded-lg mt-2 mb-4">
+    <div class="border p-4 rounded-lg mt-2 mb-4">
       <h2 class="font-bold text-xl mb-4 mt-1">Most Popular Mods</h2>
       <div class="grid md:grid-cols-2 gap-4">
         <div>
-          <a href="/Alpha/XXL3Mod" class="text-blue-600 hover:text-blue-800 font-semibold">XXL 3 Mod (Stats Menu)</a>
-          <p class="text-gray-700 mb-2">Gameplay physics</p> 
-          <a href="/Alpha/XLGraphics" class="text-blue-600 hover:text-blue-800 font-semibold">XL Graphics</a>
-          <p class="text-gray-700 mb-2">Camera mod</p>   
-          <a href="/Alpha/SoundMod" class="text-blue-600 hover:text-blue-800 font-semibold">SoundMod</a>
-          <p class="text-gray-700 mb-2">Audio enhancements</p>
+          <a href="/Alpha/XXL3Mod" class="font-semibold">XXL 3 Mod (Stats Menu)</a>
+          <p class="text-white mb-2">Gameplay physics</p> 
+          <a href="/Alpha/XLGraphics" class="font-semibold">XL Graphics</a>
+          <p class="text-white mb-2">Camera mod</p>   
+          <a href="/Alpha/SoundMod" class="font-semibold">SoundMod</a>
+          <p class="text-white mb-2">Audio enhancements</p>
         </div>    
         <div>
-          <a href="/Alpha/DeckFx" class="text-blue-600 hover:text-blue-800 font-semibold">Deck FX</a>
-          <p class="text-gray-700 mb-2">Skateboard customization</p>   
-          <a href="/Alpha/XLGearMod" class="text-blue-600 hover:text-blue-800 font-semibold">XL Gear Modifier</a>
-          <p class="text-gray-700 mb-2">Gear editing tool</p> 
-          <a href="/Alpha/FroMod" class="text-blue-600 hover:text-blue-800 font-semibold">Fro's Experimental Mod</a>
-          <p class="text-gray-700 mb-2">Gameplay enhancements</p>
+          <a href="/Alpha/DeckFx" class="font-semibold">Deck FX</a>
+          <p class="text-white mb-2">Skateboard customization</p>   
+          <a href="/Alpha/XLGearMod" class="font-semibold">XL Gear Modifier</a>
+          <p class="text-white mb-2">Gear editing tool</p> 
+          <a href="/Alpha/FroMod" class="font-semibold">Fro's Experimental Mod</a>
+          <p class="text-white mb-2">Gameplay enhancements</p>
         </div>
       </div>
   </div>

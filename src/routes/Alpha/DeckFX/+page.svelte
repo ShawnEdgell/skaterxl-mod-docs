@@ -9,12 +9,12 @@
     Deck FX Mod allows for in-depth customization of deck shape, size, wheels, and trucks, offering a tailored skateboarding experience in Skater XL.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> Klepto</p>
       <p class="mb-1"><b>Working Version:</b> 1.4</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/deckfx" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/deckfx" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> F3</p>
       <p class="mb-1"><b>Key Features:</b> Deck, Wheels, and Truck Customization</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    To download the Deck FX Mod, visit <a href="https://mod.io/g/skaterxl/m/deckfx" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you download the correct version for your game.
+    To download the Deck FX Mod, visit <a href="https://mod.io/g/skaterxl/m/deckfx" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you download the correct version for your game.
   </p>
   <p>
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL to access the mod.

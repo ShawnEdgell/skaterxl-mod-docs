@@ -9,12 +9,12 @@
     Revolutionize your Skater XL environment with the XL Object Dropper Mod, an intuitive tool for customizing your skateboarding world with ease and creativity.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Authors:</b> mcbtay, SqueegeeDinoToy</p>
       <p class="mb-1"><b>Working Version:</b> 1.0.5</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlobjectdropper" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlobjectdropper" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
       <p class="mb-1"><b>Keybind to Open:</b> Integrated into Pause Menu</p>
       <p class="mb-1"><b>Key Features:</b> Objects, NPC's, Custom Asset Support</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XL Object Dropper Mod from <a href="https://mod.io/g/skaterxl/m/xlobjectdropper" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your Skater XL game version.
+    Download the XL Object Dropper Mod from <a href="https://mod.io/g/skaterxl/m/xlobjectdropper" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure it's compatible with your Skater XL game version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to start customizing your skateboarding environment.

@@ -17,7 +17,7 @@
 
     <h2>UnityModManager</h2>
     <p>
-        For Skater XL version 1.2.7.8: <a class="text-blue-600" href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
+        For Skater XL version 1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
     </p>
     <div class="warning">
       <p>

@@ -9,12 +9,12 @@
     The XL Gear Modifier Mod (XLGM 2) offers expansive customization options for your gear in Skater XL, enhancing your character's appearance with personalized style and accessories.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Authors:</b> mcbtay, Redgouf</p>
       <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgearmodifier" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgearmodifier" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
       <p class="mb-1"><b>Keybind to Open:</b> Integrated into Edit Skater Menu</p>
       <p class="mb-1"><b>Key Features:</b> Dynamic Clothing, Custom Character Models, Complete Appearance Customization</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XL Gear Mod from <a href="https://mod.io/g/skaterxl/m/xlgearmodifier" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you download the correct version for your game.
+    Download the XL Gear Mod from <a href="https://mod.io/g/skaterxl/m/xlgearmodifier" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Ensure you download the correct version for your game.
   </p>
   <p>
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL, and you'll find the mod integrated into the Custom Player Menu.
@@ -42,8 +42,8 @@
   While the XLGM 2 Mod comes equipped with a variety of gear options, you have the freedom to add even more custom gear. The process is simple and allows for significant personalization.
 </p>
 <p>
-  You can find custom XLGM 2 gear on <a href="https://mod.io/g/skaterxl?tags-in=Gear" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> or various Skater XL gear Discord channels. Each piece of XLGM 2 gear will have at least 2 files. To add these items:
-</p>
+  You can find custom XLGM 2 gear on <a href="https://mod.io/g/skaterxl?tags-in=Gear" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> or various Skater XL gear Discord channels. Each piece of XLGM 2 gear will have at least 2 files.</p>
+  <p>To add these items:</p>
 <ul class="list-disc mb-4">
   <p>Place <b>assets</b> into <b><code>Documents/SkaterXL/XLGearModifier/Assets</code></b></p>
   <p>Place <b>textures</b> into <b><code>Documents/SkaterXL/Gear</code></b></p>
@@ -57,23 +57,23 @@
       Dive into the Gear Discords dedicated to Skater XL gear enthusiasts. Access custom XLGM gear and uniquely style your Skater XL experience.
     </p>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/XHfcp258rv " target="_blank" rel="noopener noreferrer">Speeskeeks Discord</a>
+      <a href="https://discord.com/invite/XHfcp258rv " target="_blank" rel="noopener noreferrer">Speeskeeks Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/cUnwY8ZZej " target="_blank" rel="noopener noreferrer">Sungodpxllz's Discord</a>
+      <a href="https://discord.com/invite/cUnwY8ZZej " target="_blank" rel="noopener noreferrer">Sungodpxllz's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/47pyuCNuxG " target="_blank" rel="noopener noreferrer">Makes's Discord</a>
+      <a href="https://discord.com/invite/47pyuCNuxG " target="_blank" rel="noopener noreferrer">Makes's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/pHQWsYG5Mm " target="_blank" rel="noopener noreferrer">Antikz's Discord</a>
+      <a href="https://discord.com/invite/pHQWsYG5Mm " target="_blank" rel="noopener noreferrer">Antikz's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/WaAKnSw6Ha " target="_blank" rel="noopener noreferrer">Hanzo's Discord</a>
+      <a href="https://discord.com/invite/WaAKnSw6Ha " target="_blank" rel="noopener noreferrer">Hanzo's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/xQMXhCKfQ2 " target="_blank" rel="noopener noreferrer">CDT's (ClutchDidThat) Discord</a>
+      <a href="https://discord.com/invite/xQMXhCKfQ2 " target="_blank" rel="noopener noreferrer">CDT's (ClutchDidThat) Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/dpXEKGSVxw " target="_blank" rel="noopener noreferrer">Merlon Warlock's Discord</a>
+      <a href="https://discord.com/invite/dpXEKGSVxw " target="_blank" rel="noopener noreferrer">Merlon Warlock's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/9EzS82SNqG " target="_blank" rel="noopener noreferrer">Stevyy's Discord</a>
+      <a href="https://discord.com/invite/9EzS82SNqG " target="_blank" rel="noopener noreferrer">Stevyy's Discord</a>
     <p>
-      <a class="text-blue-600" href="https://discord.com/invite/EUkY43zSWd " target="_blank" rel="noopener noreferrer">Kurbdogg420's Discord</a>
+      <a href="https://discord.com/invite/EUkY43zSWd " target="_blank" rel="noopener noreferrer">Kurbdogg420's Discord</a>
     <p>
   <!-- Additional content, if needed, goes here -->
 </div>

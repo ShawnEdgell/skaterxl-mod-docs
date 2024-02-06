@@ -4,23 +4,23 @@
 
 /* Global styles for HTML elements */
 h1 {
-  @apply text-3xl font-bold text-black mb-4;
+  @apply text-3xl font-bold text-white mb-4;
 }
 
 h2 {
-  @apply text-2xl font-semibold text-black mb-2 mt-6;
+  @apply text-2xl font-semibold text-white mb-2 mt-6;
 }
 
 h3 {
-  @apply text-lg font-bold text-black mt-4;
+  @apply text-lg font-bold text-white mt-4;
 }
 
 p, li {
-  @apply text-black mb-3;
+  @apply text-white mb-3;
 }
 
 a {
-  @apply text-blue-600;
+  @apply text-cyan-400 hover:text-cyan-600 font-bold;
 }
 
 ul {
@@ -28,7 +28,7 @@ ul {
 }
 
 i {
-  @apply text-black italic;
+  @apply text-white italic;
 }
 
 img {
@@ -38,11 +38,15 @@ img {
 /* Custom Utilities for Warning and Note */
 @layer components {
   .warning {
-    @apply bg-red-100 border-l-4 border-red-500 text-red-700 px-4 pt-4 pb-1 mb-4;
+    @apply bg-red-100 border-l-4 border-red-500 px-4 pt-4 pb-1 mb-4;
   }
 
   .note {
-    @apply bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 px-4 pt-4 pb-1  mb-4;
+    @apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1  mb-4;
+  }
+
+   .note > p, .note > h2, .warning > p, .warning > h2 {
+    @apply text-black;
   }
   
 }

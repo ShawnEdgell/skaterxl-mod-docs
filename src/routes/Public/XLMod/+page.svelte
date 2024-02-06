@@ -9,12 +9,12 @@
     Developed by DawgVinci, the XL Mod serves as a new and improved stats menu for Skater XL v1.2.7.8, compatible with the latest Grabs Update. This version enriches the gameplay with additional features like darkslides and wallrides, enhancing the skateboarding experience while maintaining harmony with the game's core mechanics.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border bg-gray-200 rounded-lg">
+  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
     <div class="flex-1 md:mr-4">
       <h3 class="mb-2 mt-0">Mod Information</h3>
       <p class="mb-1"><b>Author:</b> DawgVinci</p>
       <p class="mb-1"><b>Working Version:</b> 1.0.0c</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8)</p>
+      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8)</p>
       <p class="mb-1"><b>Keybind to Open:</b> F7</p>
       <p class="mb-1"><b>Key Features:</b> New Stats Menu, Compatible with Grabs Update, Darkslides, Wallrides, Improved Lateflips</p>
     </div>
@@ -26,7 +26,7 @@
 
   <h2>Download + Installation</h2>
   <p>
-    Download the XL Mod from <a href="https://discord.com/invite/GmuBn6UzUh" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8). Ensure it matches your Skater XL game version.
+    Download the XL Mod from <a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8). Ensure it matches your Skater XL game version.
   </p>
   <p>
     Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Launch the game to access the mod.

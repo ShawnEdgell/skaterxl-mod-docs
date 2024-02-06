@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import Header from '$lib/Header.svelte';
-  import Footer from '$lib/Footer.svelte';
   import Sidebar from '$lib/Sidebar.svelte';
   import '../app.css';
   import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit"
@@ -59,9 +58,7 @@
   });
 </script>
 
-
-
-<div class="flex flex-col h-screen">
+<div class="flex flex-col h-screen bg-neutral-950">
   <Header />
   <div class="flex flex-row flex-grow overflow-hidden">
     {#if isSidebarVisible}
@@ -85,7 +82,6 @@
     </main>
   </div>
 </div>
-
 
 <!-- Modal for image viewing -->
 <div id="imageModal" class="fixed inset-0 z-50 hidden overflow-auto bg-black bg-opacity-90 p-[50px_15px]" onclick={closeModal}>
