@@ -48,5 +48,26 @@ img {
    .note > p, .note > h2, .warning > p, .warning > h2 {
     @apply text-black;
   }
+
+  /* For Webkit browsers like Chrome, Safari */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Color of the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners on the scrollbar thumb */
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: #555 #2e2e2e; /* Thumb and track color */
+  }
+
   
 }
