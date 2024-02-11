@@ -239,7 +239,7 @@
     {#each currentCategories.slice(0, 5) as category}
       <li class="mb-0">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-           class={`font-normal block px-4 py-1 border-l-2 ${$openCategory === category.name ? 'text-custom-green border-custom-green hover:text-custom-green' : 'text-white border-neutral-700 hover:border-custom-green hover:text-custom-green'}`}>
+           class={`text-sm font-normal block px-4 py-1 border-l-2 ${$openCategory === category.name ? 'text-custom-green border-custom-green hover:text-custom-green' : 'text-white border-neutral-800 hover:border-custom-green hover:text-custom-green'}`}>
           {category.name}
         </a>
 <!--         {#if $openCategory === category.name}
@@ -260,7 +260,7 @@
     {#each currentCategories.slice(5) as category}
       <li class="mb-0">
         <a href={category.route} on:click={(event) => handleCategoryClick(event, category.name)}
-           class={`font-normal block px-4  py-1 border-l-2 ${$openCategory === category.name ? 'text-custom-green border-custom-green hover:text-custom-green' : 'text-white border-neutral-700 hover:border-custom-green hover:text-custom-green'}`}>
+           class={`text-sm font-normal block px-4  py-1 border-l-2 ${$openCategory === category.name ? 'text-custom-green border-custom-green hover:text-custom-green' : 'text-white border-neutral-800 hover:border-custom-green hover:text-custom-green'}`}>
           {category.name}
         </a>
 <!--          {#if $openCategory === category.name}
