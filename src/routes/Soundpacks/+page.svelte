@@ -21,7 +21,7 @@
     </div>
   
     <!-- SoundPack Example 1 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
       <div class="flex-1 md:mr-4">
         <h3 class="mb-2 mt-0">FREE DAWG - a n33zy sound pack</h3>
         <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -30,7 +30,7 @@
     </div>
 
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
         <div class="flex-1 md:mr-4">
           <h3 class="mb-2 mt-0">N33ZY VOL. 3 SOUND PACK</h3>
           <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -39,7 +39,7 @@
     </div>
   
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
       <div class="flex-1 md:mr-4">
         <h3 class="mb-2 mt-0">N33ZY'S FREE CANDY</h3>
         <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -48,7 +48,7 @@
     </div>
   
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
       <div class="flex-1 md:mr-4">
         <h3 class="mb-2 mt-0">n33zy's Vol 2: GOLD EDITION</h3>
         <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -57,7 +57,7 @@
     </div>
 
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
         <div class="flex-1 md:mr-4">
           <h3 class="mb-2 mt-0">n33zy's soundpack volume 2</h3>
           <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -66,7 +66,7 @@
       </div>
 
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
         <div class="flex-1 md:mr-4">
           <h3 class="mb-2 mt-0">n33zy's sound pack volume 1</h3>
           <p class="mb-1"><b>Author:</b> N33zy</p>
@@ -75,7 +75,7 @@
       </div>
 
     <!-- SoundPack Example 2 -->
-    <div class="flex flex-col md:flex-row p-4 border rounded-lg my-4">
+    <div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
         <div class="flex-1 md:mr-4">
           <h3 class="mb-2 mt-0">OVALORD VX SOUNDMOD</h3>
           <p class="mb-1"><b>Author:</b> OVALORD</p>

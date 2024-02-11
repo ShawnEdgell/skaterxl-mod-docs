@@ -44,7 +44,7 @@
   </ul>
   
   <div class="warning ">
-    <p><strong>⚠️ Warning:</strong> Ensure you download the UnityModManager version that matches your Skater XL version. Failure to do so may result in mods not working. Uninstall any previous mod manager versions before installing a new one.</p>
+    <p><strong>⚠️ Important:</strong> Ensure you download the UnityModManager version that matches your Skater XL version. Failure to do so may result in mods not working. Uninstall any previous mod manager versions before installing a new one.</p>
   </div>
   
   <h3 class="pb-2">Installation Steps:</h3>

@@ -14,7 +14,7 @@
     </p>
     <div class="warning">
       <p>
-        ⚠️ Choosing the right version is mandatory for your mods to work. Always delete old mod managers before installing a new one.
+        ⚠️ <b>Important: </b>Choosing the right version is mandatory for your mods to work. Always delete old mod managers before installing a new one.
       </p>
     </div>    
 
@@ -35,7 +35,7 @@
     </p>
 
 
-    <div class="border p-4 rounded-lg mb-4 mt-6">
+    <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4 mt-6">
       <h2 class="text-xl font-bold mt-2 mb-3">Content Creator Discord Servers</h2>
       <p>These Discord servers are ideal for connecting with the Skater XL community, offering popular downloads for mod stats and presets, and a platform to ask questions and share tips.</p>
       <div class="flex flex-wrap gap-y-3 gap-x-6">
@@ -52,7 +52,7 @@
       <div class="w-full md:w-1/2 px-2">
 
     <!-- Modder Discord Servers Section -->
-    <div class="border p-4 rounded-lg mb-4">
+    <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
       <h2 class="text-xl font-bold mt-2 mb-3">Modder Discord Servers</h2>
       <p>Join the Modder Discords to connect directly with the creative minds behind your favorite Skater XL mods.</p>
       <p><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a></p>
@@ -61,7 +61,7 @@
     </div>
 
     <!-- Gear Discord Servers Section -->
-    <div class="border p-4 rounded-lg mb-4">
+    <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
       <h2 class="text-xl font-bold mt-2 mb-3">Gear Discord Servers</h2>
     <p>Access custom XLGM gear and uniquely style your Skater XL experience.</p>
     <p><a href="https://discord.com/invite/pHQWsYG5Mm " target="_blank" rel="noopener noreferrer">Antikz's Discord</a></p>
@@ -79,7 +79,7 @@
 
     <!-- Right Column for Mapper Discord Servers -->
     <div class="w-full md:w-1/2 px-2">
-      <div class="border p-4 rounded-lg mb-4">
+      <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
         <h2 class="text-xl font-bold mt-2 mb-3">Mapper Discord Servers</h2>
         <p>Mapper Discords are your gateway to exploring new terrains in Skater XL.</p>
         <p><a href="https://discord.com/invite/FfF6aFs4MX " target="_blank" rel="noopener noreferrer">Aaronb543's Discord</a></p>

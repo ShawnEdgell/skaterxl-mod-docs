@@ -38,7 +38,7 @@ img {
 
 /* Stylish Box */
 .stylish-box {
-  @apply flex flex-col md:flex-row p-4 border rounded-lg;
+  @apply flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg;
 }
 
 .stylish-box > div:first-child {

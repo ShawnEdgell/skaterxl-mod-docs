@@ -10,7 +10,7 @@
     Visit <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> for a wide range of public maps and gear uploaded by the community. This site is a hub for the latest and most popular Skater XL mods.
   </p>
 
-  <div class="p-4 border rounded-lg my-4">
+  <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
     <h2 class="mt-1">Installing Custom Maps</h2>
     <p>
       After downloading custom map files, extract them from their ZIP folders. Then, move the extracted files to the following directory:
@@ -19,7 +19,7 @@
     <p>💡 Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access custom maps.</p>
   </div>
 
-  <div class="border p-4 rounded-lg my-4">
+  <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
     <h2 class="mt-1">Installing Custom Gear</h2>
     <p>
       Similar to maps, extract your downloaded gear files from their ZIP folders. Place the extracted files into this directory:
@@ -62,7 +62,7 @@
   <div class="w-full md:w-1/2 px-2">
 
 <!-- Gear Discord Servers Section -->
-<div class="border p-4 rounded-lg mb-4">
+<div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
   <h2 class="text-xl font-bold mt-2 mb-3">Gear Discord Servers</h2>
 <p>Access custom XLGM gear and uniquely style your Skater XL experience.</p>
 <p><a href="https://discord.com/invite/pHQWsYG5Mm " target="_blank" rel="noopener noreferrer">Antikz's Discord</a></p>
@@ -80,7 +80,7 @@
 
 <!-- Right Column for Mapper Discord Servers -->
 <div class="w-full md:w-1/2 px-2">
-  <div class="border p-4 rounded-lg mb-4">
+  <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
     <h2 class="text-xl font-bold mt-2 mb-3">Mapper Discord Servers</h2>
     <p>Mapper Discords are your gateway to exploring new terrains in Skater XL.</p>
     <p><a href="https://discord.com/invite/FfF6aFs4MX " target="_blank" rel="noopener noreferrer">Aaronb543's Discord</a></p>
