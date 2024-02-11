@@ -9,14 +9,14 @@
     Transform the auditory landscape of your Skater XL gameplay with the Sound Mod. Offering complete customization of gameplay and UI sounds, the mod immerses you in a skateboarding experience tailored to your preferences.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Authors:</b> Babbo, jbooogie</p>
-      <p class="mb-1"><b>Working Version:</b> 1.3.0</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/soundmod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
-      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
-      <p class="mb-1"><b>Key Features:</b> Custom Sounds, Community-Created Soundpacks, Enhanced UI Sounds</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Authors:</b> Babbo, jbooogie</p>
+      <p><b>Working Version:</b> 1.3.0</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/soundmod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p><b>Keybind to Open:</b> Auto-enabled</p>
+      <p><b>Key Features:</b> Custom Sounds, Community-Created Soundpacks, Enhanced UI Sounds</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

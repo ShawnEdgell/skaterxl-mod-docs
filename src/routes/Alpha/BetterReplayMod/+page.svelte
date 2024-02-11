@@ -9,14 +9,14 @@
     The Better Replay Mod enhances Skater XL's replay system with advanced tracking, interactive controls, and user-friendly configuration. Experience your skateboarding sessions with greater detail and control.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Froquede</p>
-      <p class="mb-1"><b>Working Version:</b> 1.5.0</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> CTRL + F10</p>
-      <p class="mb-1"><b>Key Features:</b> Camera Light, Advanced Replay Tracking</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Froquede</p>
+      <p><b>Working Version:</b> 1.5.0</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-replay-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> CTRL + F10</p>
+      <p><b>Key Features:</b> Camera Light, Advanced Replay Tracking</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

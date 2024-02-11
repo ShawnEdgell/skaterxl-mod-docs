@@ -9,14 +9,14 @@
     The Walking Mod introduces the revolutionary ability to walk in Skater XL. Step off the skateboard and explore the game's environments on foot, adding a new dimension of interaction and immersion.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Froquede</p>
-      <p class="mb-1"><b>Working Version:</b> 1.3.0</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/walking-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> X+A / Square+X (controller)</p>
-      <p class="mb-1"><b>Key Features:</b> Walking, Custom Animations and Emotes, Sound Bites</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Froquede</p>
+      <p><b>Working Version:</b> 1.3.0</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/walking-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> X+A / Square+X (controller)</p>
+      <p><b>Key Features:</b> Walking, Custom Animations and Emotes, Sound Bites</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

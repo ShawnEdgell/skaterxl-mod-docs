@@ -9,14 +9,14 @@
     The XL Gear Modifier Mod (XLGM 2) offers expansive customization options for your gear in Skater XL, enhancing your character's appearance with personalized style and accessories.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Authors:</b> mcbtay, Redgouf</p>
-      <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgearmodifier" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
-      <p class="mb-1"><b>Keybind to Open:</b> Integrated into Edit Skater Menu</p>
-      <p class="mb-1"><b>Key Features:</b> Dynamic Clothing, Custom Character Models, Complete Appearance Customization</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Authors:</b> mcbtay, Redgouf</p>
+      <p><b>Working Version:</b> 2.0.1</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/xlgearmodifier" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>
+      <p><b>Keybind to Open:</b> Integrated into Edit Skater Menu</p>
+      <p><b>Key Features:</b> Dynamic Clothing, Custom Character Models, Complete Appearance Customization</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

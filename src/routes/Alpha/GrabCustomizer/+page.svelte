@@ -9,14 +9,14 @@
     Transform your grab tricks in Skater XL with the Grab Customizer Mod, offering unparalleled customization to reflect your unique skateboarding style.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Froquede</p>
-      <p class="mb-1"><b>Working Version:</b> 1.7.2</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grabs-customizer-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> Ctrl + G</p>
-      <p class="mb-1"><b>Key Features:</b> Comprehensive Grab Customization</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Froquede</p>
+      <p><b>Working Version:</b> 1.7.2</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grabs-customizer-mod" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> Ctrl + G</p>
+      <p><b>Key Features:</b> Comprehensive Grab Customization</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

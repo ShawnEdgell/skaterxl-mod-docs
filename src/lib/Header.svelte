@@ -1,13 +1,13 @@
-<header class="sticky top-0 z-50 bg-neutral-950 p-2 md:p-4 flex items-center justify-center border-b border-neutral-500">
+<header class="sticky top-0 z-50 bg-custom-bluegray-light p-2 md:p-4 flex items-center justify-center">
   <span class="text-xs md:text-sm left-4 top-1/2 -translate-y-1/2 text-neutral-500 hidden md:hidden lg:block absolute">pre-pre-alpha</span>
   
   <nav class="text-xs sm:text-base">
     <!-- Navigation Links -->
-    <a href="/" sveltekit-prefetch class="font-bold text-white hover:text-cyan-400 mx-2 sm:mx-6">Home</a>
-    <a href="/GettingStarted" sveltekit-prefetch class="font-bold text-white hover:text-cyan-400 mx-2 sm:mx-6">Getting Started</a>
-    <a href="/Maps&Gear" sveltekit-prefetch class="font-bold text-white hover:text-cyan-400 mx-2 sm:mx-6">Maps & Gear</a>
-    <a href="/Links" sveltekit-prefetch class="font-bold text-white hover:text-cyan-400 mx-2 sm:mx-6">Links</a>
-    <a href="/News" sveltekit-prefetch class="font-bold text-white hover:text-cyan-400 mx-2 sm:mx-6">News</a>
+    <a href="/" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Home</a>
+    <a href="/GettingStarted" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Getting Started</a>
+    <a href="/Maps&Gear" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Maps & Gear</a>
+    <a href="/Links" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Links</a>
+    <a href="/News" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">News</a>
   </nav>
 
   <!-- Twitch Link -->

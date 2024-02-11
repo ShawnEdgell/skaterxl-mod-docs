@@ -9,14 +9,14 @@
     Unleash your creative potential in Skater XL with the Better Object Dropper Mod, offering unparalleled flexibility in designing custom skate spots.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Authors:</b> manu & mu35li</p>
-      <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> Open with L3 (controller) while in normal object dropper mode</p>
-      <p class="mb-1"><b>Key Features:</b> Flexible Object Movement, Group Manipulation, Advanced Scaling, Preset Saves</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Authors:</b> manu & mu35li</p>
+      <p><b>Working Version:</b> 2.0.1</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> Open with L3 (controller) while in normal object dropper mode</p>
+      <p><b>Key Features:</b> Flexible Object Movement, Group Manipulation, Advanced Scaling, Preset Saves</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

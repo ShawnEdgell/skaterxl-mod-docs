@@ -9,14 +9,14 @@
     Deck Tools is an innovative mod for Skater XL, offering comprehensive customization for your skateboard setup. It allows you to change your deck, trucks, wheels, including their shape and size, and even adjust truck tightness, providing a personalized skateboarding experience down to the finest detail.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Guru</p>
-      <p class="mb-1"><b>Working Version:</b> 0.0.2</p>
-      <p class="mb-1"><b>Download:</b> <a href="https://discord.com/invite/RDh7tg2Bs5" target="_blank" rel="noopener noreferrer">Guru's Discord</a> (#deck-tools section)</p>
-      <p class="mb-1"><b>Keybind to Open:</b> CTRL + D</p>
-      <p class="mb-1"><b>Key Features:</b> Customizable Decks, Trucks, Wheels, Adjustable Truck Tightness</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Guru</p>
+      <p><b>Working Version:</b> 0.0.2</p>
+      <p><b>Download:</b> <a href="https://discord.com/invite/RDh7tg2Bs5" target="_blank" rel="noopener noreferrer">Guru's Discord</a> (#deck-tools section)</p>
+      <p><b>Keybind to Open:</b> CTRL + D</p>
+      <p><b>Key Features:</b> Customizable Decks, Trucks, Wheels, Adjustable Truck Tightness</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

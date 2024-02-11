@@ -9,13 +9,13 @@
     Grind Tools Mod revolutionizes map interaction in Skater XL, introducing innovative features like the Grind Spline Tool and the Wax Tool for a more dynamic skateboarding experience.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Guru</p>
-      <p class="mb-1"><b>Working Version:</b> 2.0.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grind-tools" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Key Features:</b> Customizable Grind Splines, Wax Tool</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Guru</p>
+      <p><b>Working Version:</b> 2.0.1</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/grind-tools" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Key Features:</b> Customizable Grind Splines, Wax Tool</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

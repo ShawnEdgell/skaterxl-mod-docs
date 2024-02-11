@@ -9,14 +9,14 @@
     Developed by DawgVinci, the XL Mod serves as a new and improved stats menu for Skater XL v1.2.7.8, compatible with the latest Grabs Update. This version enriches the gameplay with additional features like darkslides and wallrides, enhancing the skateboarding experience while maintaining harmony with the game's core mechanics.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> DawgVinci</p>
-      <p class="mb-1"><b>Working Version:</b> 1.0.0c</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8)</p>
-      <p class="mb-1"><b>Keybind to Open:</b> F7</p>
-      <p class="mb-1"><b>Key Features:</b> New Stats Menu, Compatible with Grabs Update, Darkslides, Wallrides, Improved Lateflips</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> DawgVinci</p>
+      <p><b>Working Version:</b> 1.0.0c</p>
+      <p><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xlmod section for Skater XL v1.2.7.8)</p>
+      <p><b>Keybind to Open:</b> F7</p>
+      <p><b>Key Features:</b> New Stats Menu, Compatible with Grabs Update, Darkslides, Wallrides, Improved Lateflips</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

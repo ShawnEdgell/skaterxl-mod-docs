@@ -9,14 +9,14 @@
     Enhance your Skater XL experience with the Lateflip Mod, offering refined late flip mechanics for more realistic and precise skateboarding maneuvers.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> MateusSXL</p>
-      <p class="mb-1"><b>Working Version:</b> 1.1.1</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/late-flip-mod-with-animations" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled, toggle On/Off with L+F</p>
-      <p class="mb-1"><b>Key Features:</b> Realistic Late Flip Mechanics</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> MateusSXL</p>
+      <p><b>Working Version:</b> 1.1.1</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/late-flip-mod-with-animations" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> Auto-enabled, toggle On/Off with L+F</p>
+      <p><b>Key Features:</b> Realistic Late Flip Mechanics</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

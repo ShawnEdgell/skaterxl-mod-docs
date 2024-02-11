@@ -9,13 +9,13 @@
     The Multiplayer++ Mod revolutionizes the online experience in Skater XL, offering enhanced features for browsing and joining online rooms. It makes finding and participating in online sessions effortless and more engaging.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> MateusSXL</p>
-      <p class="mb-1"><b>Working Version:</b> 1.0.2</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/multiplayer" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Key Features:</b> Improved Room Browsing, UI Enhancements</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> MateusSXL</p>
+      <p><b>Working Version:</b> 1.0.2</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/multiplayer" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Key Features:</b> Improved Room Browsing, UI Enhancements</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

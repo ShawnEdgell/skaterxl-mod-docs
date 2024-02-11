@@ -9,14 +9,14 @@
     Discover the Gear Utilities Mod for Skater XL, offering an array of customizable gear options. This mod enhances the game with an extensive collection of accessories and styles, allowing you to personalize your skater's look to your liking.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> DawgVinci</p>
-      <p class="mb-1"><b>Working Version:</b> 2.0d</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#gearutils section)</p>
-      <p class="mb-1"><b>Keybind to Open:</b> G</p>
-      <p class="mb-1"><b>Key Features:</b> Custom Accessories</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> DawgVinci</p>
+      <p><b>Working Version:</b> 2.0d</p>
+      <p><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#gearutils section)</p>
+      <p><b>Keybind to Open:</b> G</p>
+      <p><b>Key Features:</b> Custom Accessories</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

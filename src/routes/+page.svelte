@@ -14,9 +14,9 @@
   <h1>Home</h1>
 
   <!-- Stylish box with color -->
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-        <h2 class="text-2xl my-0">Skater XL Mod Docs</h2>
+  <div class="stylish-box">
+    <div>
+        <h2>Skater XL Mod Docs</h2>
         <p>
             Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable.
         </p>

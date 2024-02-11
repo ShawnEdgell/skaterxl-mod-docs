@@ -8,14 +8,14 @@
     The XL Graphics Mod transforms Skater XL into a visually stunning skateboarding experience. It gives players complete control over camera settings, allowing for the creation of dynamic, cinematic skate videos.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Authors:</b> Babbo, Froquede</p>
-      <p class="mb-1"><b>Working Version:</b> 2.0.2</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.gg/mBJ5wCchVm" target="_blank" rel="noopener noreferrer">Fro's Discord</a> (#open-source-mods section)</p>
-      <p class="mb-1"><b>Keybind to Open:</b> Backspace</p>
-      <p class="mb-1"><b>Key Features:</b> Camera Customization, Fisheye Lens Effect, Follow Camera, Community-driven Presets</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Authors:</b> Babbo, Froquede</p>
+      <p><b>Working Version:</b> 2.0.2</p>
+      <p><b>Download: </b><a href="https://discord.gg/mBJ5wCchVm" target="_blank" rel="noopener noreferrer">Fro's Discord</a> (#open-source-mods section)</p>
+      <p><b>Keybind to Open:</b> Backspace</p>
+      <p><b>Key Features:</b> Camera Customization, Fisheye Lens Effect, Follow Camera, Community-driven Presets</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

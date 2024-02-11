@@ -20,7 +20,7 @@ p, li {
 }
 
 a {
-  @apply text-cyan-400 hover:text-cyan-600 font-bold;
+  @apply text-custom-green hover:text-custom-green font-bold;
 }
 
 ul {
@@ -34,6 +34,30 @@ i {
 img {
   @apply w-full h-auto rounded-lg shadow-md;
 }
+
+
+/* Stylish Box */
+.stylish-box {
+  @apply flex flex-col md:flex-row p-4 border rounded-lg;
+}
+
+.stylish-box > div:first-child {
+  @apply flex-1 md:mr-4;
+}
+
+.stylish-box h2 {
+  @apply text-2xl my-0;
+}
+
+/* Adding styles for h3 and p variations */
+.stylish-box h3 {
+  @apply mb-2 mt-0;
+}
+
+.stylish-box p {
+  @apply mb-1;
+}
+
 
 /* Custom Utilities for Warning and Note */
 @layer components {
@@ -67,7 +91,7 @@ img {
   * {
     scrollbar-width: thin; /* "auto" or "thin" */
     scrollbar-color: #555 #2e2e2e; /* Thumb and track color */
-  }
+}
 
   
 }

@@ -9,14 +9,14 @@
     The Decal Fix Mod significantly enhances Skater XL's visual experience by enabling decals and screen space reflections, adding depth and realism to the game's environments.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> Brookzee99</p>
-      <p class="mb-1"><b>Working Version:</b> 1.2.2.8 & 1.2.5.6</p>
-      <p class="mb-1"><b>Download: </b><a href="https://mod.io/g/skaterxl/m/decal-fix" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
-      <p class="mb-1"><b>Keybind to Open:</b> Auto-enabled</p>
-      <p class="mb-1"><b>Key Features:</b> Enhanced Decals, Screen Space Reflections</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> Brookzee99</p>
+      <p><b>Working Version:</b> 1.2.2.8 & 1.2.5.6</p>
+      <p><b>Download: </b><a href="https://mod.io/g/skaterxl/m/decal-fix" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a></p>
+      <p><b>Keybind to Open:</b> Auto-enabled</p>
+      <p><b>Key Features:</b> Enhanced Decals, Screen Space Reflections</p>
     </div>
 
     <div class="flex-1 mt-4 md:mt-0">

@@ -58,7 +58,7 @@
   });
 </script>
 
-<div class="flex flex-col h-screen bg-neutral-950">
+<div class="flex flex-col h-screen bg-custom-bluegray-dark">
   <Header />
   <div class="flex flex-row flex-grow overflow-hidden">
     {#if isSidebarVisible}

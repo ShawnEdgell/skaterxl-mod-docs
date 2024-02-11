@@ -8,14 +8,14 @@
     Also known as the 'stats menu', the XXL 3 Mod is a game-changer for Skater XL enthusiasts. It opens up a realm of possibilities, allowing you to tweak everything from gravity and flip speeds to stances and grinds, tailoring your skateboarding experience to your personal style.
   </p>
 
-  <div class="flex flex-col md:flex-row p-4 border rounded-lg">
-    <div class="flex-1 md:mr-4">
-      <h3 class="mb-2 mt-0">Mod Information</h3>
-      <p class="mb-1"><b>Author:</b> DawgVinci</p>
-      <p class="mb-1"><b>Working Version:</b> 1.3.3</p>
-      <p class="mb-1"><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
-      <p class="mb-1"><b>Keybind to Open:</b> F7</p>
-      <p class="mb-1"><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
+  <div class="stylish-box">
+    <div>
+      <h3>Mod Information</h3>
+      <p><b>Author:</b> DawgVinci</p>
+      <p><b>Working Version:</b> 1.3.3</p>
+      <p><b>Download: </b><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> (#xxlmod section)
+      <p><b>Keybind to Open:</b> F7</p>
+      <p><b>Key Features:</b> Stats Customization, Stance and Steeze Options, Enhanced Gameplay Control</p>
     </div>
     <!-- Image or other content can be added here if necessary -->
 
