@@ -5,13 +5,7 @@
 <div class="max-w-4xl mx-auto py-6">
 
   <h1>Home</h1>
-
-  <div class="note">
-    <h3 class="text-black mt-0">⚠️ Disclaimer</h3>
-    <p>Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!</p>
-  </div>
   
-
   <!-- Stylish box with color -->
   <div class="stylish-box">
     <div>
@@ -41,12 +35,12 @@
     page.
   </p>
 
-  <h2>Links</h2>
+  <!-- <h2>Links</h2>
   <p>
     Quick links to the most popular Skater XL modding resources. Visit our 
     <a href="/Links">Links</a> 
     page.
-  </p>
+  </p> -->
 
   <h2>Modding Guides</h2>
   <p>

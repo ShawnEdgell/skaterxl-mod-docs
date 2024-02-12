@@ -5,10 +5,15 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Maps and Gear for Skater XL</h1>
 
-  <h2>skaterxl.mod.io</h2>
+
+
+  <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
+    <h2 class="mt-1">Downloading Custom Maps & Gear</h2>
   <p>
     Visit <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> for a wide range of public maps and gear uploaded by the community. This site is a hub for the latest and most popular Skater XL mods.
   </p>
+  <p>You can also find many custom maps and gear options on Discord. Check our links down below to join some popular map and gear servers! </p>
+  </div>
 
   <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
     <h2 class="mt-1">Installing Custom Maps</h2>
@@ -29,18 +34,18 @@
   </div>
   <!-- In-Game Mod Browser and skaterxl.mod.io sections -->
 
-    <!-- XL Gear Modifier Section -->
-    <h2 class="mt-1">XL Gear Modifier (XLGM 2)</h2>
-    <p>The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.</p>
-    <p>Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.</p>
-      <img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto"/>
-    <h2>XLGM Discord</h2>
-      <p>The go-to hub for everything related to the XL Gear Modifier (XLGM). This official Discord server is the premier destination for discovering the latest on creating and downloading custom gear packs, engaging with the modding community, and getting answers to your XLGM-related questions.</p>
-      <p>
-        <a href="https://discord.com/invite/UJHGbCyFDX" target="_blank" rel="noopener noreferrer">XLGM Discord</a>
-      </p>
+  <!-- XL Gear Modifier Section -->
+  <h2>XL Gear Modifier (XLGM 2)</h2>
+  <p>The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.</p>
+  <p>Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.</p>
+    <img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto"/>
+  <h2>XLGM Discord</h2>
+  <p>The go-to hub for everything related to the XL Gear Modifier (XLGM). This official Discord server is the premier destination for discovering the latest on creating and downloading custom gear packs, engaging with the modding community, and getting answers to your XLGM-related questions.</p>
+  <p>
+    <a href="https://discord.com/invite/UJHGbCyFDX" target="_blank" rel="noopener noreferrer">XLGM Discord</a>
+  </p>
 
-  <h2>XLHub</h2>
+<h2>XLHub</h2>
 <p>
   Simplify your Skater XL map management with XLHub, created by Fro. This app allows for easy downloading and deleting of maps from <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Its automatic unzipping feature makes map installation straightforward.
 </p>
@@ -49,17 +54,18 @@
 </p>
 <img src="/XLHub.png" alt="Mod Browser" class="w-full h-auto"/>
 
-
-<h2>Mod Browser</h2>
-<p>
-  Skater XL's in-game mod browser allows you to download maps and gear directly. It's the easiest and most convenient way to access a few quality maps and gear options.
-</p>
-<!-- Include an image related to the mod browser here -->
-<img src="/ModBrowser.png" alt="Mod Browser" class="w-full h-auto"/>
-
 <div class="flex flex-wrap -mx-2 mt-6">
   <!-- Left Column for Gear and Modder Discord Servers -->
   <div class="w-full md:w-1/2 px-2">
+
+  <!-- Modder Discord Servers Section -->
+  <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
+    <h2 class="text-xl font-bold mt-2 mb-3">Modder Discord Servers</h2>
+    <p>Join the Modder Discords to connect directly with the creative minds behind your favorite Skater XL mods.</p>
+    <p><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a></p>
+    <p><a href="https://discord.com/invite/6575k57jbk" target="_blank" rel="noopener noreferrer">Fro's Discord</a></p>
+    <p><a href="https://discord.com/invite/bYK5w53Jg6" target="_blank" rel="noopener noreferrer">Guru's Discord</a></p>
+  </div>
 
 <!-- Gear Discord Servers Section -->
 <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">

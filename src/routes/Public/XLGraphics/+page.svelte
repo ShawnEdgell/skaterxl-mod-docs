@@ -41,9 +41,6 @@
     <p><b>Presets:</b> Access and apply presets created by the community or save your own.</p>
     <p><b>Camera:</b> Gameplay camera modes.</p>
   </ul>
-  <p>
-  For more in-depth information about these sections, refer to their respective pages on our site.
-  </p>
 
   <!-- Additional content, if needed, goes here -->
 

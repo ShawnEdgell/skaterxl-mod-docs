@@ -3,11 +3,11 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
-  <h1 class="text-4xl font-bold mb-4">News</h1>
+  <h1>News</h1>
 
   <!-- Latest Update Section -->
   <div class="mb-8">
-    <h2 class="text-2xl font-bold my-2">Latest Update - Skater XL on Nintendo Switch</h2>
+    <h2>Latest Update - Skater XL on Nintendo Switch</h2>
     <p><i>November 27, 2023</i></p>
     <p>Skater XL is now available on Nintendo Switch, bringing the thrill of skateboarding to a wider audience with its portable gameplay.</p>
 
@@ -18,7 +18,7 @@
 
   <!-- Grabs Update Section -->
   <div class="border-t border-gray-300 pt-4 mb-8">
-    <h2 class="text-2xl font-bold my-2">Grabs Update - New Mechanics in Skater XL</h2>
+    <h2>Grabs Update - New Mechanics in Skater XL</h2>
     <p><i>August 30, 2023</i></p>
     <p>The Grabs Update introduced enhanced mechanics for grabs in Skater XL, offering players more control and new trick possibilities.</p>
   
@@ -30,7 +30,7 @@
 
   <!-- 2023 Preview Section -->
   <div class="border-t border-gray-300 pt-4 mb-8">
-    <h2 class="text-2xl font-bold my-2">2023 Preview - Anticipated Features Still Awaited in 2024</h2>
+    <h2>2023 Preview - Anticipated Features Still Awaited in 2024</h2>
     <p>While 2023 was expected to be a big year for Skater XL with numerous updates, as we move into 2024, players are still eagerly awaiting the release of some of these anticipated features.</p>
     
     <!-- Video for 2023 Preview -->
