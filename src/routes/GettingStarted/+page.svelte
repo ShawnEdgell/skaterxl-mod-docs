@@ -3,6 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto py-6">
+
   <h1>Getting Started</h1>
   <p>Welcome to the world of Skater XL modding! Follow these steps to begin your modding journey.</p>
 
@@ -37,7 +38,7 @@
   <img src="XLDowngrade2.png" alt="Version Selection" class="my-4" />
 
   <h2>3. Download & Setup UnityModManager</h2>
-  <p>UnityModManager is essential for installing and managing Skater XL mods. Download the correct version based on your game:</p>
+  <p>UnityModManager is essential for installing and managing Skater XL mods. You will need to create an account and download the correct version based on your game:</p>
   <ul>
     <li>v1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a></li>
     <li>v1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a></li>

@@ -11,10 +11,11 @@
     <!-- Download + Installation Section -->
     <h2>Download + Installation</h2>
       <ol>
-        <li>Download your chosen Sound Pack from the provided links.</li>
-        <li>Extract the Sound Pack files if they are zipped.</li>
-        <li>Copy the Sound files into the SoundMod directory: <code>Steam/steamapps/common/SkaterXL/Mods/SoundMod/Sounds</code></li>
-        <li>Launch Skater XL, and the new sounds will be automatically applied.</li>
+        <li>1. Download your chosen Sound Pack from the provided links.</li>
+        <li>2. Extract the Sound Pack files if they are zipped.</li>
+        <li>3. Copy the Sound files into the SoundMod directory: </li>
+          <p><b><code>Steam/steamapps/common/SkaterXL/Mods/SoundMod/Sounds</code></b></p>
+        <li>4. Launch Skater XL, and the new sounds will be automatically applied.</li>
       </ol>
     <div class="note">
       <p><b>Tip: </b>You can easily swap between different Soundpacks by deleting all your old sounds and dragging new ones in, or by simply "Replacing" your entire Sounds folder with a new one. </p>

@@ -17,8 +17,8 @@
 
     <h2>UnityModManager</h2>
     <p>
-      For version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" >UnityModManager v0.27.4</a>
- target="_blank" rel="noopener noreferrer"   </p>
+      For Skater XL version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
+    </p>
     <div class="warning">
       <p>
         <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
@@ -49,7 +49,7 @@
   
   
 
-  <img src="/Alpha.png" alt="Description" class="w-full h-auto"/>
+  <img src="/Alpha2.jpg" alt="Danny Headshot" class="w-full h-auto"/>
 
     <!-- More content here if needed -->
   </div>

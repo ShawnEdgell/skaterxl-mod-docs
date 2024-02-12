@@ -1,5 +1,4 @@
 <header class="sticky top-0 z-50 bg-custom-bluegray-light p-2 md:p-4 flex items-center justify-center">
-  <span class="text-xs md:text-sm left-4 top-1/2 -translate-y-1/2 text-neutral-500 hidden md:hidden lg:block absolute">pre-pre-alpha</span>
   
   <nav class="text-xs sm:text-base">
     <!-- Navigation Links -->

@@ -4,14 +4,13 @@
 
 <div class="max-w-4xl mx-auto py-6">
 
-  <!-- Updated Disclaimer Section Using Custom Warning Component -->
-  <div class="note">
-    <h2 class="text-xl font-bold mt-0 text-black">⚠️ Disclaimer</h2>
-    <p>
-      Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!
-    </p>
-  </div>
   <h1>Home</h1>
+
+  <div class="note">
+    <h3 class="text-black mt-0">⚠️ Disclaimer</h3>
+    <p>Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!</p>
+  </div>
+  
 
   <!-- Stylish box with color -->
   <div class="stylish-box">
@@ -24,10 +23,10 @@
 
     <!-- Image next to the text (50% width) -->
     <div class="flex-1 mt-4 md:mt-0">
-      <img src="DecalFix.png" alt="Donevan Recreation Center" class="w-full h-auto rounded-lg shadow-md"/>
+      <img src="Alpha2.jpg" alt="Danny Headshot" class="w-full h-auto rounded-lg shadow-md"/>
     </div>
   </div>
-
+  
   <h2>Getting Started</h2>
   <p>
     For a step-by-step introduction to the world of modding, visit our 
