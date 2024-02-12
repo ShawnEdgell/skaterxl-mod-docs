@@ -49,7 +49,7 @@
   
   
 
-    <img src="/Alpha.png" alt="Description" class="w-full h-auto"/>
+  <img src="/Alpha.png" alt="Description" class="w-full h-auto"/>
 
     <!-- More content here if needed -->
   </div>
