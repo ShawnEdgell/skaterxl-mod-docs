@@ -51,7 +51,7 @@
   </div>
 
   <p>
-    To fix this, head to <a href="https://discord.com/invite/GmuBn6UzUh">DawgVinci's Discord</a> and grab the 'DeckFX Fix' file from the #xxlmod section. You will need to scroll up to find the <a href="https://discord.com/channels/752873695344853033/752879229842096239/845745450677174373">DeckFX Fix for v1.2</a>.
+    To fix this, head to <a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a> and grab the 'DeckFX Fix' file from the #xxlmod section. You will need to scroll up to find the <a href="https://discord.com/channels/752873695344853033/752879229842096239/845745450677174373" target="_blank" rel="noopener noreferrer">DeckFX Fix for v1.2</a>.
   </p>
   <p>
     Download and extract the file, then place the DeckFX.dll file here:
