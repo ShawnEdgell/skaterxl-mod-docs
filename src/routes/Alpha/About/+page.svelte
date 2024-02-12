@@ -17,15 +17,15 @@
 
     <h2>UnityModManager</h2>
     <p>
-      For version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
-    </p>
+      For version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" >UnityModManager v0.27.4</a>
+ target="_blank" rel="noopener noreferrer"   </p>
     <div class="warning">
       <p>
         <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
       </p>
     </div>
 
-    <div class="border p-4 rounded-lg mt-2 mb-4">
+    <div class="bg-custom-bluegray-light p-4 rounded-lg mt-2 mb-4">
       <h2 class="font-bold text-xl mb-4 mt-1">Most Popular Mods</h2>
       <div class="grid md:grid-cols-2 gap-4">
         <div>
