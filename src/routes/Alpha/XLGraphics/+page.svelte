@@ -42,7 +42,19 @@
     <p><b>Camera:</b> Gameplay camera modes.</p>
   </ul>
 
-  <!-- Additional content, if needed, goes here -->
+  <!-- Embedded YouTube Video Section -->
+  <h2>Getting Started Guide</h2>
+  <div class="aspect-w-16 aspect-h-9">
+    <div class="mt-2 relative" style="padding-top: 56.25%;">
+      <iframe 
+          class="absolute top-0 left-0 w-full h-full" 
+          src="https://www.youtube.com/embed/5U-OL4O4Kmk" 
+          frameborder="0" 
+          allowfullscreen
+          title="XL Graphics - Getting Started">
+      </iframe>
+    </div>
+  </div>
 
 </div>
 

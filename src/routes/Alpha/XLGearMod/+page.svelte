@@ -52,7 +52,21 @@
   Remember, for each piece of custom gear, you need both the asset and its corresponding texture to ensure they appear correctly in the 'Custom Meshes' section in-game.
 </p>
 
-<h2>Gear Discord Servers</h2>
+  <!-- Embedded YouTube Video Section -->
+  <h2>Getting Started Guide</h2>
+  <div class="aspect-w-16 aspect-h-9">
+    <div class="mt-2 relative" style="padding-top: 56.25%;">
+      <iframe 
+          class="absolute top-0 left-0 w-full h-full" 
+          src="https://www.youtube.com/embed/FgBUi8X5th0" 
+          frameborder="0" 
+          allowfullscreen
+          title="XL Gear Modifier - Getting Started">
+      </iframe>
+    </div>
+  </div>
+
+  <h2>Gear Discord Servers</h2>
     <p>
       Dive into the Gear Discords dedicated to Skater XL gear enthusiasts. Access custom XLGM gear and uniquely style your Skater XL experience.
     </p>
@@ -75,7 +89,7 @@
     <p>
       <a href="https://discord.com/invite/EUkY43zSWd " target="_blank" rel="noopener noreferrer">Kurbdogg420's Discord</a>
     <p>
-  <!-- Additional content, if needed, goes here -->
+
 </div>
 
 <style>
