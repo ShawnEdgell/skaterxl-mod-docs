@@ -33,16 +33,26 @@
     Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL to access the mod.
   </p>
 
-  <!-- New section: How to Use -->
-  <h2>How to Use the XXL 3 Mod</h2>
-  <p>
-    To access the mod, simply press <b>F7</b> on your keyboard. This will open the main menu of the mod. From here, you can click through each category/section and set up your settings. If you're starting from scratch, we recommend going through the categories in order from top to bottom to fully customize your Skater XL experience.
-  </p>
-  <p>
-    Additionally, the mod allows you to load custom presets created by others. For more information on presets, including how to find and load them, check out our 
-    <a href="/Alpha/XXL3Mod/Presets">Presets </a>
-    page.
-  </p>
+<!-- New section: How to Use -->
+<h2>How to Use the XXL 3 Mod</h2>
+<p>
+  To access the mod, simply press <b>F7</b> on your keyboard. This will open the main menu of the mod. From here, you can click through each category/section and set up your settings. If you're starting from scratch, we recommend going through the categories in order from top to bottom to fully customize your Skater XL experience.
+</p>
+
+<!-- Embedded YouTube Video Section -->
+<h2>Getting Started Guide</h2>
+<div class="aspect-w-16 aspect-h-9">
+  <div class="mt-2 relative" style="padding-top: 56.25%;">
+    <iframe 
+        class="absolute top-0 left-0 w-full h-full" 
+        src="https://www.youtube.com/embed/BgJ1Pxa23fE" 
+        frameborder="0" 
+        allowfullscreen
+        title="XXL 3 Mod - Getting Started">
+    </iframe>
+  </div>
+</div>
+
 
   <!-- Note for laptop users -->
   <h3>Note for Laptop Users</h3>

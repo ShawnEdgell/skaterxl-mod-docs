@@ -5,7 +5,13 @@
 <div class="max-w-4xl mx-auto py-6">
 
   <h1>Home</h1>
+
+  <div class="note">
+    <h3 class="text-black mt-0">⚠️ Disclaimer</h3>
+    <p>Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!</p>
+  </div>
   
+
   <!-- Stylish box with color -->
   <div class="stylish-box">
     <div>
@@ -30,8 +36,15 @@
 
   <h2>Maps & Gear</h2>
   <p>
-    Easily enhance your Skater XL experience with our guide on installing new maps and gear. Discover the best and latest content from trusted sources within the Skater XL community to elevate your gameplay. Learn more by visiting our 
+    Discover the best and latest content from trusted sources within the Skater XL community to elevate your gameplay. Learn more by visiting our 
     <a href="/Maps&Gear">Maps & Gear</a> 
+    page.
+  </p>
+
+  <h2>Stats & Settings</h2>
+  <p>
+    Learn how to set up your mods to get the most out of your Skater XL experience. Visit our
+    <a href="/Stats&Settings">Stats & Settings</a> 
     page.
   </p>
 
