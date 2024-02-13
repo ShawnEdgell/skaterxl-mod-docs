@@ -41,12 +41,12 @@
     page.
   </p>
 
-  <h2>Stats & Settings</h2>
+  <!-- <h2>Stats & Settings</h2>
   <p>
     Learn how to set up your mods to get the most out of your Skater XL experience. Visit our
     <a href="/Stats&Settings">Stats & Settings</a> 
     page.
-  </p>
+  </p> -->
 
   <!-- <h2>Links</h2>
   <p>

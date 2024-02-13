@@ -46,11 +46,23 @@
   <!-- Note for laptop users -->
   <h3>Note for Laptop Users</h3>
   <p>
-    If you are using a laptop and have trouble opening the mod with the F8 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F7). In some cases, laptops have a setting in the BIOS or UEFI firmware to toggle the function keys between multimedia keys and standard function keys. Refer to your laptop's user manual or check the manufacturer's support website for specific instructions.
+    If you are using a laptop and have trouble opening the mod with the F8 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F8). In some cases, laptops have a setting in the BIOS or UEFI firmware to toggle the function keys between multimedia keys and standard function keys. Refer to your laptop's user manual or check the manufacturer's support website for specific instructions.
   </p>
   
+  <!-- Embedded YouTube Video Section -->
+  <h2>Getting Started Guide</h2>
+  <div class="aspect-w-16 aspect-h-9">
+    <div class="mt-2 relative" style="padding-top: 56.25%;">
+      <iframe 
+          class="absolute top-0 left-0 w-full h-full" 
+          src="https://www.youtube.com/embed/CedYPAYrnkE" 
+          frameborder="0" 
+          allowfullscreen
+          title="Boned Ollie Mod - Getting Started">
+      </iframe>
+    </div>
+  </div>
 
-  <!-- Additional content, if needed, goes here -->
 </div>
 
 <style>
