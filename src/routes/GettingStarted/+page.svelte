@@ -55,7 +55,7 @@
       <p><i>This PC > Local Disk (C:) > Program Files (x86) > Steam > steamapps > common > Skater XL</i>
       <p>Click "Install" or "Update" to complete setup.</p>
       <img src="UMM2.png" alt="UnityModManager Setup" class="my-4" />
-      <li><strong>Downloading and Installing Mods:</strong> To acquire mods, navigate through our sidebar which grants convenient access to a comprehensive list of mods compatible with your game. Simply drag and drop the downloaded .zip mod files into the "Mods" tab of UnityModManager for installation.</li>
+      <li><strong>Download and Install Mods:</strong> To acquire mods, navigate through our sidebar which grants convenient access to a comprehensive list of mods compatible with your game. Simply drag and drop the downloaded .zip mod files into the "Mods" tab of UnityModManager for installation.</li>
       <img src="UMM3.png" alt="UnityModManager Setup" class="my-4" />
       <div class="note">
         <p><strong>Note:</strong> In UnityModManager, <b>"Status: OK"</b> or <b>"Status: Update to X.X.X"</b> indicates a mod is installed. Avoid updating mods directly from UnityModManager, as changing versions may render them incompatible. For manual installation or uninstallation, right-click each mod.</p>
@@ -63,8 +63,9 @@
       <div class="warning ">
         <p><strong>⚠️ Troubleshooting:</strong> If you get <b>"method on enter"</b> or <b>"method on start"</b> in UnityModManager, it's because you have the wrong version of UMM. You will need to delete your UnityModManager and download the right one for your game.  </p>
       </div>
-      <li><strong>Launch Game:</strong> Start Skater XL. UnityModManager will open, indicating mod status. A green icon suggests the mod is working, while a red icon indicates issues.</li>
-  </ol>
+    </ol>
+      <h2>4. Launch Game</h2>
+      <p>Start Skater XL. UnityModManager will open, indicating mod status. A green icon suggests the mod is working, while a red icon indicates issues.</p>
   <img src="UMM4.png" alt="Launch Game" class="my-4" />
   
   <h3>Need More Help?</h3>

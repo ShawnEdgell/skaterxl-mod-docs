@@ -20,15 +20,16 @@
     </div>
   </div>
 
-  <h2>Getting Started</h2>
+  <h2>Getting Started with XL Hub</h2>
   <ol>
-    <li>Open XL Hub and log in with your mod.io account to access a wide range of maps and mods.</li>
-    <li>Set the <strong>'Maps Folder'</strong> to the correct location where you want to store your downloaded maps. Typically, this is <strong><code>Documents/SkaterXL/Maps</code></strong>.</li>
-    <li>Set the <strong>'Game Folder'</strong> to where your Skater XL game is installed. The common path is <strong><code>Steam/steamapps/common/SkaterXL</code></strong>, but this may vary based on your installation.</li>
+    <li>Download and open XL Hub, then log in with your mod.io account to browse and download a wide range of maps and mods directly to your Skater XL game.</li>
+    <li>XL Hub automatically detects your Skater XL game installation through Steam, simplifying the setup process.</li>
+    <li>Set the <strong>'Maps Folder'</strong> to the desired location for your downloaded maps. The default and recommended location is <strong><code>Documents/SkaterXL/Maps</code></strong>.</li>
   </ol>
   <div class="note">
-    <p><b>Note: </b>The provided paths, especially for the game folder, are common defaults. Please adjust according to your actual installation location for proper functionality.</p>
+    <p><b>Note:</b> While XL Hub typically finds the Skater XL game folder automatically, you have the option to manually adjust the <strong>'Game Folder'</strong> location if needed. This is particularly useful if your game is installed in a non-standard location. The usual path is <strong><code>Steam/steamapps/common/SkaterXL</code></strong>. Please modify this setting only if XL Hub does not correctly identify your game installation.</p>
   </div>
+  
 
 
   <img src="/XLHub2.png" alt="XL Hub Setup" class="w-full h-auto"/>
