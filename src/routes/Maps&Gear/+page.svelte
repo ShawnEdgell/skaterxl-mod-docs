@@ -33,7 +33,7 @@
   <!-- XL Gear Modifier Section -->
   <h2>XL Gear Modifier (XLGM 2)</h2>
   <p>The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows players to use dynamic clothing, custom accessories, and more, adding an extra dimension of realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants, and an array of unique gear options.</p>
-  <p>Install XLGM using UnityModManager for an enhanced gear customization experience. For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.</p>
+  <p>For more information and a step-by-step guide, visit our <a href="/Alpha/XLGearMod" target="_blank" rel="noopener noreferrer">XL Gear Modifier</a> page.</p>
     <img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto"/>
 
 <div class="flex flex-wrap -mx-2 mt-6">
