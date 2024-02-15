@@ -12,16 +12,22 @@
 
     <h2>Considerations for the Public Version</h2>
     <p>
-      While Skater XL v1.2.7.8 brings exciting core gameplay improvements, it's important to note that it offers less flexibility in customizing gear and trick styling compared to the alpha version. The absence of mods like the XL Gear Mod means that players have more limited options in tailoring their skater's appearance and gear. Additionally, the scope for customizing trick mechanics and styles is not as extensive as in the alpha version.
+      While Skater XL v1.2.7.8 brings exciting core gameplay changes, it's important to note that it offers less flexibility in customizing gear and trick styling compared to the alpha version. The absence of mods like the XL Gear Mod means that players have more limited options in tailoring their skater's appearance and gear. Additionally, the scope for customizing trick mechanics and styles is not as extensive as in the alpha version. 
     </p>
+
+    <p>However, this simplicity also makes the public version more streamlined and accessible, catering to players who prefer to focus on the core gameplay mechanics without the complexity of additional mods.</p>
 
     <h2>UnityModManager</h2>
     <p>
         For Skater XL version 1.2.7.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.7</a>
     </p>
+
     <div class="warning">
       <p>
-        <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
+        <b>⚠️ Important:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
+      </p>
+      <p>
+        If you get <b>"method on enter"</b> or <b>"method on start"</b> in UnityModManager, it's because you have the wrong version of UMM.  
       </p>
     </div>
 

@@ -6,12 +6,6 @@
 
   <h1>Home</h1>
 
-  <div class="note">
-    <h3 class="text-black mt-0">⚠️ Disclaimer</h3>
-    <p>Please note, this site is still a work in progress. New pages and content are being added daily. While not yet complete, the site currently offers all the resources you need to get started with modding Skater XL. We appreciate your patience and support!</p>
-  </div>
-  
-
   <!-- Stylish box with color -->
   <div class="stylish-box">
     <div>
@@ -40,6 +34,34 @@
     <a href="/Maps&Gear">Maps & Gear</a> 
     page.
   </p>
+
+  <h2>XL Hub</h2>
+  <p>
+    Simplify your Skater XL map and mod management with XLHub. This standalone app allows for easy downloading and deleting of maps and script mods from <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a>. Its automatic unzipping feature makes map and mod installation extremely straightforward. Learn more by visiting our 
+    <a href="/XLHub">XL Hub</a> 
+    page.
+  </p>
+
+  <h2>Top Skater XL Modding Discord Servers</h2>
+
+  <div class="bg-custom-bluegray-light p-4 rounded-lg mt-2 mb-4">
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <a href="https://discord.com/invite/uDkSEBKdga" target="_blank" rel="noopener noreferrer">SXL Modding Discord</a>
+        <p class="text-white mb-2">Join the largest community for Skater XL modding enthusiasts.</p> 
+        <a href="https://discord.com/invite/HqYbRxYGCG" target="_blank" rel="noopener noreferrer">XLGM Discord</a>
+        <p class="text-white mb-2">The go-to server for everything related to XL Gear Mod.</p>   
+        <a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a>
+        <p class="text-white mb-2">Discover all of DawgVinci's latest mods.</p>
+      </div>    
+      <div>
+        <a href="https://discord.com/invite/6575k57jbk" target="_blank" rel="noopener noreferrer">Fro's Discord</a>
+        <p class="text-white mb-2">Explore all of the latest mods created by Fro.</p>   
+        <a href="https://discord.com/invite/bYK5w53Jg6" target="_blank" rel="noopener noreferrer">Guru's Discord</a>
+        <p class="text-white mb-2">Access and exclusive collection of Guru's mods and collect with fellow users.</p> 
+      </div>
+    </div>
+  </div>
 
   <!-- <h2>Stats & Settings</h2>
   <p>

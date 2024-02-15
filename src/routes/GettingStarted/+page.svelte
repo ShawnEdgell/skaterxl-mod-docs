@@ -58,7 +58,7 @@
       <li><strong>Downloading and Installing Mods:</strong> To acquire mods, navigate through our sidebar which grants convenient access to a comprehensive list of mods compatible with your game. Simply drag and drop the downloaded .zip mod files into the "Mods" tab of UnityModManager for installation.</li>
       <img src="UMM3.png" alt="UnityModManager Setup" class="my-4" />
       <div class="note">
-        <p><strong>Tip:</strong> In UnityModManager, "Status: OK" or "Status: Update to X.X.X" indicates a mod is installed. Avoid updating mods directly from UnityModManager, as changing versions may render them incompatible. For manual installation or uninstallation, right-click each mod.</p>
+        <p><strong>Note:</strong> In UnityModManager, <b>"Status: OK"</b> or <b>"Status: Update to X.X.X"</b> indicates a mod is installed. Avoid updating mods directly from UnityModManager, as changing versions may render them incompatible. For manual installation or uninstallation, right-click each mod.</p>
       </div>
       <li><strong>Launch Game:</strong> Start Skater XL. UnityModManager will open, indicating mod status. A green icon suggests the mod is working, while a red icon indicates issues.</li>
   </ol>

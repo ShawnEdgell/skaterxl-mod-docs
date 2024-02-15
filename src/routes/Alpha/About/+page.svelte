@@ -19,9 +19,13 @@
     <p>
       For Skater XL version 1.2.2.8: <a href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224" target="_blank" rel="noopener noreferrer">UnityModManager v0.27.4</a>
     </p>
+
     <div class="warning">
       <p>
-        <b>⚠️ Warning:</b> Other versions of UnityModManager may not work with 1.2.7.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
+        <b>⚠️ Important:</b> Other versions of UnityModManager may not work with 1.2.2.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
+      </p>
+      <p>
+        If you get <b>"method on enter"</b> or <b>"method on start"</b> in UnityModManager, it's because you have the wrong version of UMM.  
       </p>
     </div>
 
@@ -49,7 +53,7 @@
   
   
 
-  <img src="/Alpha2.jpg" alt="Danny Headshot" class="w-full h-auto"/>
+  <img src="/Home2.jpg" alt="Danny Headshot" class="w-full h-auto"/>
 
     <!-- More content here if needed -->
   </div>

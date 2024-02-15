@@ -5,15 +5,11 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>Maps and Gear for Skater XL</h1>
 
-
-
-  <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
-    <h2 class="mt-1">Downloading Custom Maps & Gear</h2>
   <p>
     Visit <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer">skaterxl.mod.io</a> for a wide range of public maps and gear uploaded by the community. This site is a hub for the latest and most popular Skater XL mods.
   </p>
   <p>You can also find many custom maps and gear options on Discord. Check our links down below to join some popular map and gear servers! </p>
-  </div>
+
 
   <div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
     <h2 class="mt-1">Installing Custom Maps</h2>
@@ -57,15 +53,6 @@
 <div class="flex flex-wrap -mx-2 mt-6">
   <!-- Left Column for Gear and Modder Discord Servers -->
   <div class="w-full md:w-1/2 px-2">
-
-  <!-- Modder Discord Servers Section -->
-  <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">
-    <h2 class="text-xl font-bold mt-2 mb-3">Modder Discord Servers</h2>
-    <p>Join the Modder Discords to connect directly with the creative minds behind your favorite Skater XL mods.</p>
-    <p><a href="https://discord.com/invite/GmuBn6UzUh" target="_blank" rel="noopener noreferrer">DawgVinci's Discord</a></p>
-    <p><a href="https://discord.com/invite/6575k57jbk" target="_blank" rel="noopener noreferrer">Fro's Discord</a></p>
-    <p><a href="https://discord.com/invite/bYK5w53Jg6" target="_blank" rel="noopener noreferrer">Guru's Discord</a></p>
-  </div>
 
 <!-- Gear Discord Servers Section -->
 <div class="bg-custom-bluegray-light p-4 rounded-lg mb-4">

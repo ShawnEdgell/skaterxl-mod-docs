@@ -6,7 +6,8 @@
     <a href="/GettingStarted" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Getting Started</a>
     <a href="/Maps&Gear" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Maps & Gear</a>
     <!-- <a href="/Stats&Settings" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Stats & Settings</a> -->
-    <a href="/News" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">News</a>
+    <a href="/XLHub" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">XL Hub</a>
+    <!-- <a href="/News" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">News</a> -->
     <!-- <a href="/Links" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Links</a> -->
   </nav>
 

@@ -35,7 +35,7 @@
   </p>
   <div class="note">
       <p><b>Note: </b>SoundMod version 1.2.0 does not include any pre-installed sounds. You'll need to download and manually install a soundpack. Place the soundpack files into the following directory: </p> 
-      <p><code>Steam/steamapps/common/SkaterXL/Mods/XLSoundMod/Sounds</code></p>
+      <p><code><b>Steam/steamapps/common/SkaterXL/Mods/XLSoundMod/Sounds</b></code></p>
   </div> 
   <p>
       For a comprehensive guide on installing soundpacks and to explore a variety of community-created soundpacks, please visit our <a href="/Soundpacks" class="text-blue-600 hover:underline">Soundpacks page</a>.
