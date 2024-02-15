@@ -20,10 +20,12 @@
   <div class="note">
     <p><b>Note: </b>The provided paths, especially for the game folder, are common defaults. Please adjust according to your actual installation location for proper functionality.</p>
   </div>
+
+  <img src="/XLHub2.png" alt="XL Hub Setup" class="w-full h-auto"/>
   <!-- More content here if needed -->
 </div>
 
-<img src="/XLHub2.png" alt="XL Hub Setup" class="w-full h-auto"/>
+
 
 <style>
   /* Add any page-specific styles here */
