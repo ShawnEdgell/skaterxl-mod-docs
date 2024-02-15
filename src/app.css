@@ -46,7 +46,7 @@ img {
 }
 
 .stylish-box h2 {
-  @apply text-2xl my-0;
+  @apply text-2xl mt-0 mb-2;
 }
 
 /* Adding styles for h3 and p variations */

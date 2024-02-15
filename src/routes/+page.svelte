@@ -9,7 +9,7 @@
   <!-- Stylish box with color -->
   <div class="stylish-box">
     <div>
-        <h2>Skater XL Mod Docs</h2>
+      <h2>Skater XL Mod Docs</h2>
         <p>
             Welcome to your one-stop resource for Skater XL modding. Here, you'll find the latest working mods, easy-to-follow guides, and comprehensive documentation. Our goal is to make your modding journey smoother and more enjoyable.
         </p>

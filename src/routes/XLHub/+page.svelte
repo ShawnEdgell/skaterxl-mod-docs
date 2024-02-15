@@ -5,11 +5,20 @@
 <div class="max-w-4xl mx-auto py-6">
   <h1>XL Hub</h1>
 
-  <p>
-    Introducing <a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer">XL Hub</a> by Fro, the ultimate tool for browsing, downloading, and managing your Skater XL maps and mods. With a user-friendly interface and no need for UnityModManager, XL Hub makes modding easier than ever before.
-  </p>
+  <!-- Stylish box with color -->
+  <div class="stylish-box">
+    <div>
+      <h2>Skater XL Modding Made Easy</h2>
+        <p>
+          Introducing <a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer">XL Hub</a> by Fro, the ultimate tool for browsing, downloading, and managing your Skater XL maps and mods. With a user-friendly interface and no need for UnityModManager, XL Hub makes modding easier than ever before.
+        </p>
+    </div>
 
-  <img src="/XLHub.png" alt="XL Hub" class="w-full h-auto"/>
+    <!-- Image next to the text (50% width) -->
+    <div class="flex-1 mt-4 md:mt-0">
+      <img src="XLHub.png" alt="XL Hub" class="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+  </div>
 
   <h2>Getting Started</h2>
   <ol>
@@ -20,6 +29,7 @@
   <div class="note">
     <p><b>Note: </b>The provided paths, especially for the game folder, are common defaults. Please adjust according to your actual installation location for proper functionality.</p>
   </div>
+
 
   <img src="/XLHub2.png" alt="XL Hub Setup" class="w-full h-auto"/>
   <!-- More content here if needed -->
