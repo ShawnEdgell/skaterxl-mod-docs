@@ -236,7 +236,7 @@
   <div class="md:flex-1 md:pr-4">
     <h3>Presets</h3>
     <p>
-      When you're done, you can save your settings here! Click on the <strong>'STATS'</strong> tab, give your settings a name, and click 'Save Current Stats.'
+      When you're done, you can save your settings here. Click on the <strong>'STATS'</strong> tab, give your settings a name, and click 'Save Current Stats.'
     </p>
     <p>
       Your preset files can be found here: <code><b>Documents/SkaterXL/XXLMod3/StatsCollections</b></code>
