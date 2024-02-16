@@ -24,9 +24,6 @@
       <p>
         <b>⚠️ Important:</b> Other versions of UnityModManager may not work with 1.2.2.8, so make sure to use the one linked above. Always delete old mod managers before installing a new one.
       </p>
-      <p>
-        If you get <b>"method on enter"</b> or <b>"method on start"</b> in UnityModManager, it's because you have the wrong version of UMM.  
-      </p>
     </div>
 
     <div class="bg-custom-bluegray-light p-4 rounded-lg mt-2 mb-4">
