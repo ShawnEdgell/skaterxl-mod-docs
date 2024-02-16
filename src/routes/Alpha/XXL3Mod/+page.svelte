@@ -112,9 +112,11 @@
   <div class="md:flex-1 md:pr-4">
     <h3>Flips</h3>
     <ul class="list-none p-0">
-      <li><strong>Catch Correction:</strong> On</li>
-      <li><strong>Foot Catch Speed:</strong> 8.00</li>
-      <li><strong>Catch Mode:</strong> Realistic</li>
+      <li><strong>Flip Speed:</strong> 1.60</li>
+      <li><strong>Scoop Speed:</strong> 1.40</li>
+      <li><strong>Verticality:</strong> 1.50</li>
+      <li><strong>Decoupled Board:</strong> Simple</li>
+      <li><strong>Vertical Scoop:</strong> XXL2</li>
       <!-- Add more items as needed -->
     </ul>
   </div>
