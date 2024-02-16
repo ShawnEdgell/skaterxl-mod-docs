@@ -60,7 +60,7 @@
 		{/if}
 		<main class="flex-grow p-4 overflow-auto">
 			<button
-				class="p-2 rounded-full bg-blue-500 text-white shadow-lg md:hidden focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 hover:bg-blue-600 transition duration-150 ease-in-out"
+				class="p-2 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden focus:outline-none focus:ring-2 hover:bg-white transition duration-150 ease-in-out"
 				on:click={toggleSidebar}
 			>
 				{#if isSidebarVisible}

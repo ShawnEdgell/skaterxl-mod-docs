@@ -33,7 +33,7 @@ i {
 }
 
 img {
-	@apply w-full h-auto rounded-lg shadow-md;
+	@apply w-full h-auto shadow-md;
 }
 
 /* Stylish Box */
@@ -45,17 +45,41 @@ img {
 	@apply flex-1 md:mr-4;
 }
 
+.stylish-box img {
+	@apply rounded-lg;
+}
+
 .stylish-box h2 {
 	@apply text-2xl mt-0 mb-2;
 }
 
-/* Adding styles for h3 and p variations */
 .stylish-box h3 {
 	@apply mb-2 mt-0;
 }
 
 .stylish-box p {
 	@apply mb-1;
+}
+
+.stylish-box ul {
+	@apply list-none;
+}
+
+/* Adjusted section-style for consistent styling within stylish-box */
+.section-style {
+	@apply flex flex-wrap md:flex-nowrap mb-4;
+}
+
+.section-style > div:first-child {
+	@apply w-full md:w-1/2;
+}
+
+.section-style > div:last-child {
+	@apply w-full md:w-1/2 flex justify-center items-center;
+}
+
+.section-style img {
+	@apply h-auto object-contain rounded-lg shadow-md max-w-full;
 }
 
 /* Custom Utilities for Warning and Note */
@@ -65,7 +89,7 @@ img {
 	}
 
 	.note {
-		@apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1  mb-4;
+		@apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1 mb-4;
 	}
 
 	.note > p,

@@ -96,10 +96,10 @@
 		Catch, adjust your pop, catch, and grind settings as needed.
 	</p>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>General</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Gravity:</strong> -13.00</li>
 				<li><strong>Default Force:</strong> 3.00</li>
 				<li><strong>High Pop Multi:</strong> 0.40</li>
@@ -115,30 +115,30 @@
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-General.png" alt="General Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-General.png" alt="General Tab" />
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Catch</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Catch Correction:</strong> On</li>
 				<li><strong>Foot Catch Speed:</strong> 8.00</li>
 				<li><strong>Catch Mode:</strong> Realistic</li>
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Catch.png" alt="Catch Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Catch.png" alt="Catch Tab" />
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Flips</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Flip Speed:</strong> 1.60</li>
 				<li><strong>Scoop Speed:</strong> 1.40</li>
 				<li><strong>Verticality:</strong> 1.50</li>
@@ -147,22 +147,22 @@
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Flips.png" alt="Flips Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Flips.png" alt="Flips Tab" />
 		</div>
 	</div>
 
 	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+		<div>
 			<h3>Lateflips, Grabs, Fingerflips, Footplants</h3>
 			<p>These tabs can be left on default. Experiment with these settings as needed.</p>
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Grinds</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Bump Out Pop Force:</strong> 1.25</li>
 				<li><strong>Bump Out Sideways Force:</strong> 0.80</li>
 				<li><strong>Friction:</strong> 0.25</li>
@@ -177,15 +177,15 @@
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Grinds.png" alt="Grinds Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Grinds.png" alt="Grinds Tab" />
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Manuals</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Max Angle:</strong> 15.00</li>
 				<li><strong>Manual Delay:</strong> Off</li>
 				<li><strong>Pop Delay:</strong> Off</li>
@@ -193,68 +193,68 @@
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Manuals.png" alt="Manuals Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Manuals.png" alt="Manuals Tab" />
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Powerslides</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Revert Animation Cancel:</strong> On</li>
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Powerslides.png" alt="Powerslides Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Powerslides.png" alt="Powerslides Tab" />
 		</div>
 	</div>
 
 	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+		<div>
 			<h3>Primo</h3>
 			<p>This tabs can be left on default. Experiment with these settings as needed.</p>
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Misc</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Auto Pump:</strong> Off</li>
 				<li><strong>Wind Up Speed:</strong> 6.00</li>
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Misc.png" alt="Misc Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Misc.png" alt="Misc Tab" />
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+	<div class="stylish-box section-style">
+		<div>
 			<h3>Bails</h3>
-			<ul class="list-none p-0">
+			<ul>
 				<li><strong>Auto Respawn:</strong> Off</li>
 				<li><strong>Better Bails:</strong> On</li>
 				<!-- Add more items as needed -->
 			</ul>
 		</div>
-		<div class="md:w-auto md:ml-4">
-			<img src="/XXL-Bails.png" alt="Bails Tab" class="w-full md:w-96 h-auto" />
+		<div>
+			<img src="/XXL-Bails.png" alt="Bails Tab" />
 		</div>
 	</div>
 
 	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+		<div>
 			<h3>Slowmotion, Other, Grab Customizer, Steeze Customizer, Stance Customizer, Pin Manager</h3>
 			<p>These tabs can be left on default. Experiment with these settings as needed.</p>
 		</div>
 	</div>
 
 	<div class="stylish-box mb-4">
-		<div class="md:flex-1 md:pr-4">
+		<div>
 			<h3>Presets</h3>
 			<p>
 				When you're done, you can save your settings here. Click on the <strong>'STATS'</strong> tab,
