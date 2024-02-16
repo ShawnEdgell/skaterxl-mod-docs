@@ -69,8 +69,8 @@ img {
     @apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1  mb-4;
   }
 
-   .note > p, .note > h2, .warning > p, .warning > h2 {
-    @apply text-black;
+   .note > p, .note > h2, .warning > p, .warning > h2, .note > h3 {
+    @apply text-black mt-0;
   }
 
   /* For Webkit browsers like Chrome, Safari */

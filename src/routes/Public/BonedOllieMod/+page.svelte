@@ -44,11 +44,12 @@
   </p>
 
   <!-- Note for laptop users -->
-  <h3>Note for Laptop Users</h3>
-  <p>
-    If you are using a laptop and have trouble opening the mod with the F8 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F8). In some cases, laptops have a setting in the BIOS or UEFI firmware to toggle the function keys between multimedia keys and standard function keys. Refer to your laptop's user manual or check the manufacturer's support website for specific instructions.
-  </p>
-  
+  <div class="note">
+    <h3>Note for Laptop Users</h3>
+    <p>
+    If you are using a laptop and have trouble opening the mod with the F8 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F8).
+    </p>
+  </div>
   <!-- Embedded YouTube Video Section -->
   <h2>Getting Started Guide</h2>
   <div class="aspect-w-16 aspect-h-9">

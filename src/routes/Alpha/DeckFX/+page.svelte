@@ -72,10 +72,13 @@
     Once installed, the Deck FX Mod can be accessed in-game by pressing <b>F3</b>. Use the sliders to adjust various aspects of your skateboard to suit your preferences.
   </p>
   
-  <h3>Note for Laptop Users</h3>
-  <p>
-    If you're using a laptop and find it challenging to activate the mod using the F3 key, you may need to enable your function keys. This can typically be done by pressing the <b>Fn</b> key in combination with the respective function key (e.g., Fn + F3). Some laptops also have a BIOS or UEFI firmware setting to switch the function keys from multimedia to standard functionalities. Check your laptop's user manual or the manufacturer's support site for specific guidance.
-  </p>
+  <!-- Note for laptop users -->
+  <div class="note">
+    <h3>Note for Laptop Users</h3>
+    <p>
+    If you are using a laptop and have trouble opening the mod with the F3 key, you might need to enable your function keys. This is often done by pressing the <b>Fn</b> key along with the respective function key (e.g., Fn + F3).
+    </p>
+  </div>
 
   <!-- Additional content, if needed, goes here -->
 </div>
