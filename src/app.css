@@ -4,94 +4,95 @@
 
 /* Global styles for HTML elements */
 h1 {
-  @apply text-3xl font-bold text-white mb-4;
+	@apply text-3xl font-bold text-white mb-4;
 }
 
 h2 {
-  @apply text-2xl font-semibold text-white mb-2 mt-6;
+	@apply text-2xl font-semibold text-white mb-2 mt-6;
 }
 
 h3 {
-  @apply text-lg font-bold text-white mt-4;
+	@apply text-lg font-bold text-white mt-4;
 }
 
-p, li {
-  @apply text-white mb-3;
+p,
+li {
+	@apply text-white mb-3;
 }
 
 a {
-  @apply text-custom-green hover:text-custom-green font-bold;
+	@apply text-custom-green hover:text-custom-green font-bold;
 }
 
 ul {
-  @apply list-disc ml-5 mt-3;
+	@apply list-disc ml-5 mt-3;
 }
 
 i {
-  @apply text-white italic;
+	@apply text-white italic;
 }
 
 img {
-  @apply w-full h-auto rounded-lg shadow-md;
+	@apply w-full h-auto rounded-lg shadow-md;
 }
-
 
 /* Stylish Box */
 .stylish-box {
-  @apply flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg;
+	@apply flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg;
 }
 
 .stylish-box > div:first-child {
-  @apply flex-1 md:mr-4;
+	@apply flex-1 md:mr-4;
 }
 
 .stylish-box h2 {
-  @apply text-2xl mt-0 mb-2;
+	@apply text-2xl mt-0 mb-2;
 }
 
 /* Adding styles for h3 and p variations */
 .stylish-box h3 {
-  @apply mb-2 mt-0;
+	@apply mb-2 mt-0;
 }
 
 .stylish-box p {
-  @apply mb-1;
+	@apply mb-1;
 }
-
 
 /* Custom Utilities for Warning and Note */
 @layer components {
-  .warning {
-    @apply bg-red-100 border-l-4 border-red-500 px-4 pt-4 pb-1 mb-4;
-  }
+	.warning {
+		@apply bg-red-100 border-l-4 border-red-500 px-4 pt-4 pb-1 mb-4;
+	}
 
-  .note {
-    @apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1  mb-4;
-  }
+	.note {
+		@apply bg-yellow-100 border-l-4 border-yellow-500 px-4 pt-4 pb-1  mb-4;
+	}
 
-   .note > p, .note > h2, .warning > p, .warning > h2, .note > h3 {
-    @apply text-black mt-0;
-  }
+	.note > p,
+	.note > h2,
+	.warning > p,
+	.warning > h2,
+	.note > h3 {
+		@apply text-black mt-0;
+	}
 
-  /* For Webkit browsers like Chrome, Safari */
-  ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-  }
+	/* For Webkit browsers like Chrome, Safari */
+	::-webkit-scrollbar {
+		width: 12px; /* Width of the scrollbar */
+	}
 
-  ::-webkit-scrollbar-track {
-    background: #2e2e2e; /* Color of the scrollbar track */
-  }
+	::-webkit-scrollbar-track {
+		background: #2e2e2e; /* Color of the scrollbar track */
+	}
 
-  ::-webkit-scrollbar-thumb {
-    background: #555; /* Color of the scrollbar thumb */
-    border-radius: 6px; /* Rounded corners on the scrollbar thumb */
-  }
+	::-webkit-scrollbar-thumb {
+		background: #555; /* Color of the scrollbar thumb */
+		border-radius: 6px; /* Rounded corners on the scrollbar thumb */
+	}
 
-  /* For Firefox */
-  * {
-    scrollbar-width: thin; /* "auto" or "thin" */
-    scrollbar-color: #555 #2e2e2e; /* Thumb and track color */
-}
-
-  
+	/* For Firefox */
+	* {
+		scrollbar-width: thin; /* "auto" or "thin" */
+		scrollbar-color: #555 #2e2e2e; /* Thumb and track color */
+	}
 }
