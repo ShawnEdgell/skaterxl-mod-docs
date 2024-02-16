@@ -32,7 +32,7 @@
 	</div>
 	<img src="XLversion.png" alt="Game Version Display" class="my-4" />
 	<div class="note">
-		<p class="">
+		<p>
 			<strong>Note:</strong> You can easily check your current game version in the lower left corner
 			upon launching Skater XL.
 		</p>
@@ -40,7 +40,7 @@
 
 	<h2>2. Changing Skater XL Versions</h2>
 	<p>Switching between Skater XL versions is straightforward via Steam:</p>
-	<ol class="list-decimal ml-4">
+	<ol class="list-decimal ml-6">
 		<li>Right-click Skater XL in your Steam library > Properties.</li>
 		<li>Select the <b>Betas</b> tab and choose the desired version from the dropdown.</li>
 	</ol>

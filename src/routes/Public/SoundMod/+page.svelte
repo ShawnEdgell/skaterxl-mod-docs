@@ -54,9 +54,7 @@
 	</div>
 	<p>
 		For a comprehensive guide on installing soundpacks and to explore a variety of community-created
-		soundpacks, please visit our <a href="/Soundpacks" class="text-blue-600 hover:underline"
-			>Soundpacks page</a
-		>.
+		soundpacks, please visit our <a href="/Soundpacks">Soundpacks page</a>.
 	</p>
 
 	<!-- Additional content, if needed, goes here -->

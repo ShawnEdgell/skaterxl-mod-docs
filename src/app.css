@@ -33,7 +33,7 @@ i {
 }
 
 img {
-	@apply w-full h-auto shadow-md;
+	@apply w-full h-auto shadow-md rounded-lg;
 }
 
 /* Stylish Box */
