@@ -73,9 +73,7 @@
 				<a href="https://discord.com/invite/bYK5w53Jg6" target="_blank" rel="noopener noreferrer"
 					>Guru's Discord</a
 				>
-				<p class="text-white mb-2">
-					Access and exclusive collection of Guru's mods and collect with fellow users.
-				</p>
+				<p class="text-white mb-2">Access and exclusive collection of Guru's mods.</p>
 			</div>
 		</div>
 	</div>
