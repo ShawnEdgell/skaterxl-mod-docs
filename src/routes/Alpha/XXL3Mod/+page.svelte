@@ -152,7 +152,7 @@
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
+	<div class="stylish-box">
 		<div>
 			<h3>Lateflips, Grabs, Fingerflips, Footplants</h3>
 			<p>These tabs can be left on default. Experiment with these settings as needed.</p>
@@ -211,7 +211,7 @@
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
+	<div class="stylish-box">
 		<div>
 			<h3>Primo</h3>
 			<p>This tabs can be left on default. Experiment with these settings as needed.</p>
@@ -246,14 +246,14 @@
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
+	<div class="stylish-box">
 		<div>
 			<h3>Slowmotion, Other, Grab Customizer, Steeze Customizer, Stance Customizer, Pin Manager</h3>
 			<p>These tabs can be left on default. Experiment with these settings as needed.</p>
 		</div>
 	</div>
 
-	<div class="stylish-box mb-4">
+	<div class="stylish-box">
 		<div>
 			<h3>Presets</h3>
 			<p>

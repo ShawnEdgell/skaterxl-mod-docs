@@ -17,30 +17,42 @@
 			<p><b>Author:</b> Froquede</p>
 			<p><b>Working Version:</b> 1.3.0</p>
 			<p>
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/walking-mod"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				<b>Download:</b>
+				<a href="https://mod.io/g/skaterxl/m/walking-mod" target="_blank" rel="noopener noreferrer"
+					>skaterxl.mod.io</a
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> X+A / Square+X (controller)</p>
 			<p><b>Key Features:</b> Walking, Custom Animations and Emotes, Sound Bites</p>
 		</div>
 
 		<div class="flex-1 mt-4 md:mt-0">
-			<!-- Replace with actual image link -->
 			<img src="/WalkingMod.png" alt="Walking Mod" />
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the Walking Mod from <a
-			href="https://mod.io/g/skaterxl/m/walking-mod"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Install by dragging the zip file into UnityModManager.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a streamlined installation process, opt for XL Hub. This platform
+			simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the Walking Mod directly from
+			<a href="https://mod.io/g/skaterxl/m/walking-mod" target="_blank" rel="noopener noreferrer"
+				>skaterxl.mod.io</a
+			>. Follow the installation instructions provided on the download page. Install by dragging the
+			zip file into UnityModManager with Skater XL closed, then launch the game to access the mod's
+			features.
+		</li>
+	</ul>
 
 	<h2>How to Use the Walking Mod</h2>
 	<p>

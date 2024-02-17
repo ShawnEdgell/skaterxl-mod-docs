@@ -16,11 +16,13 @@
 			<p><b>Author:</b> Klepto</p>
 			<p><b>Working Version:</b> 1.4</p>
 			<p>
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/deckfx"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				<b>Download:</b>
+				<a href="https://mod.io/g/skaterxl/m/deckfx" target="_blank" rel="noopener noreferrer"
+					>skaterxl.mod.io</a
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> F3</p>
 			<p><b>Key Features:</b> Deck, Wheels, and Truck Customization</p>
@@ -31,23 +33,30 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		To download the Deck FX Mod, visit <a
-			href="https://mod.io/g/skaterxl/m/deckfx"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Ensure you download the correct version for your game.
-	</p>
-	<p>
-		Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Open Skater XL to access the mod.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a hassle-free installation experience, opt for XL Hub. This
+			platform simplifies the process, enabling quick and straightforward mod management.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the Deck FX Mod directly from
+			<a href="https://mod.io/g/skaterxl/m/deckfx" target="_blank" rel="noopener noreferrer"
+				>skaterxl.mod.io</a
+			>. Make sure to select the correct version for your game. Install the mod using
+			UnityModManager by dragging and dropping the .zip file into the 'Mods' tab with Skater XL
+			closed. Launch Skater XL to access the mod.
+		</li>
+	</ul>
 
 	<div class="warning">
 		<p>
-			<b>⚠️ Important:</b> After installing the DeckFX and XXL3 mods, you should then head to DawgVinci's
-			discord to grab the 'DeckFX Fix' file. This next step is crucial to prevent gameplay issues.
+			<b>⚠️ Important:</b> After installing the DeckFX, make sure to visit DawgVinci's discord to grab
+			the 'DeckFX Fix' file. This step is essential to avoid any gameplay issues.
 		</p>
 	</div>
 

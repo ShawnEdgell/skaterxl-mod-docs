@@ -27,17 +27,6 @@
 		},
 		{
 			name: "Fro's Experimental Mod",
-			subcategories: [
-				'Animations',
-				'Body',
-				'Head',
-				'Camera',
-				'Gameplay',
-				'Multiplayer',
-				'Misc',
-				'Map',
-				'Experimental'
-			],
 			route: '/Alpha/FroMod'
 		},
 		{

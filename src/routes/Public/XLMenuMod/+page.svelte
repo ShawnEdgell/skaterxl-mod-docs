@@ -16,11 +16,13 @@
 			<p><b>Author:</b> mcbtay</p>
 			<p><b>Working Version:</b> 2.6.3 (see instructions below)</p>
 			<p>
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/xlmenumod"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				<b>Download:</b>
+				<a href="https://mod.io/g/skaterxl/m/xlmenumod" target="_blank" rel="noopener noreferrer"
+					>skaterxl.mod.io</a
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p>
 				<b>Key Features:</b> Custom Folder Structures, Preview Images for Maps, Auto-load Map DLL's,
@@ -33,25 +35,32 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the XL Menu Mod v2.6.2 from <a
-			href="https://mod.io/g/skaterxl/m/xlmenumod"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>.
-	</p>
-	<p>
-		Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Launch the game to access the mod.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a streamlined installation process, opt for XL Hub. This platform
+			simplifies the mod installation and management.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the XL Menu Mod v2.6.2 directly from
+			<a href="https://mod.io/g/skaterxl/m/xlmenumod" target="_blank" rel="noopener noreferrer"
+				>skaterxl.mod.io</a
+			>. Install using UnityModManager by dragging and dropping the .zip file into the 'Mods' tab
+			with Skater XL closed. Launch the game to access the mod.
+		</li>
+	</ul>
+
 	<div class="note">
 		<p>
 			<strong>Note:</strong> To ensure the mod functions correctly, manually update it in UnityModManager
-			by right-clicking and selecting 'Update' after installation. This will change it to v2.6.3. You
-			will likely need to restart UnityModManager to see this update option.
+			by right-clicking and selecting 'Update' after installation to upgrade it to v2.6.3. You may need
+			to restart UnityModManager to see the update option.
 		</p>
-		<p>If you encounter issues, using v2.6.2 should resolve them.</p>
+		<p>If you encounter issues, reverting to v2.6.2 should resolve them.</p>
 	</div>
 
 	<h2>How to Use the XL Menu Mod</h2>

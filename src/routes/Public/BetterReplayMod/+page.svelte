@@ -17,12 +17,17 @@
 			<p><b>Author:</b> Froquede</p>
 			<p><b>Working Version:</b> 2.1.0</p>
 			<p>
-				<b>Download: </b><a
+				<b>Download:</b>
+				<a
 					href="https://mod.io/g/skaterxl/m/better-replay-mod"
 					target="_blank"
 					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
+			<p><b>Keybind to Open:</b> CTRL + F10</p>
 			<p><b>Key Features:</b> Camera Light, Advanced Replay Tracking</p>
 		</div>
 
@@ -35,19 +40,27 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the Better Replay Mod from <a
-			href="https://mod.io/g/skaterxl/m/better-replay-mod"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Click "View Other Versions" to find v2.1.0. Ensure it is compatible with your version of
-		Skater XL.
-	</p>
-	<p>
-		Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Launch the game to access the mod.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a streamlined installation process, opt for XL Hub. This platform
+			simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the Better Replay Mod directly from
+			<a
+				href="https://mod.io/g/skaterxl/m/better-replay-mod"
+				target="_blank"
+				rel="noopener noreferrer">skaterxl.mod.io</a
+			>. Ensure you select the correct version for your game. Install using UnityModManager by
+			dragging and dropping the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater
+			XL to access the mod.
+		</li>
+	</ul>
 
 	<h2>How to Use the Better Replay Mod</h2>
 	<p>

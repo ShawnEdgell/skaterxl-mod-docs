@@ -16,11 +16,15 @@
 			<p><b>Authors:</b> mcbtay, Redgouf</p>
 			<p><b>Working Version:</b> 2.0.1</p>
 			<p>
-				<b>Download: </b><a
+				<b>Download:</b>
+				<a
 					href="https://mod.io/g/skaterxl/m/xlgearmodifier"
 					target="_blank"
 					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> Integrated into Edit Skater Menu</p>
 			<p>
@@ -33,18 +37,25 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the XL Gear Mod from <a
-			href="https://mod.io/g/skaterxl/m/xlgearmodifier"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Ensure you download the correct version for your game.
-	</p>
-	<p>
-		Use UnityModManager to install: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Open Skater XL, and you'll find the mod integrated into the Custom Player Menu.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For an effortless installation experience, use XL Hub. This tool
+			simplifies the process, allowing for quick and easy mod management.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the XL Gear Mod directly from
+			<a href="https://mod.io/g/skaterxl/m/xlgearmodifier" target="_blank" rel="noopener noreferrer"
+				>skaterxl.mod.io</a
+			>. Ensure you download the correct version for your game. Use UnityModManager to install: Drag
+			and drop the .zip file into the 'Mods' tab with Skater XL closed. Open Skater XL, and you'll
+			find the mod integrated into the Custom Player Menu.
+		</li>
+	</ul>
 
 	<h2>How to Use the XL Gear Modifier Mod</h2>
 	<p>

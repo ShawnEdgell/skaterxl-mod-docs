@@ -16,11 +16,13 @@
 			<p><b>Author:</b> Babbo</p>
 			<p><b>Working Version:</b> 1.1.2</p>
 			<p>
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/xlgraphics"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				<b>Download:</b>
+				<a href="https://mod.io/g/skaterxl/m/xlgraphics" target="_blank" rel="noopener noreferrer"
+					>skaterxl.mod.io</a
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> Backspace</p>
 			<p>
@@ -30,24 +32,29 @@
 		</div>
 
 		<div class="flex-1 mt-4 md:mt-0">
-			<!-- Place your image here -->
 			<img src="/XLGraphics.png" alt="XL Graphics Mod" />
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		To download and install the XL Graphics Mod, head to <a
-			href="https://mod.io/g/skaterxl/m/xlgraphics"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Make sure to grab the version that corresponds to your Skater XL version.
-	</p>
-	<p>
-		Use UnityModManager to install: After downloading the mod, open UnityModManager and drag and
-		drop the .zip file into the 'Mods' tab. Ensure Skater XL is closed during this process. Once
-		installed, open Skater XL to access the mod.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a straightforward installation process, opt for XL Hub. This
+			platform simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the XL Graphics Mod directly from
+			<a href="https://mod.io/g/skaterxl/m/xlgraphics" target="_blank" rel="noopener noreferrer"
+				>skaterxl.mod.io</a
+			>. Ensure you select the correct version for your game. Use UnityModManager to install by
+			dragging and dropping the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater
+			XL to access the mod.
+		</li>
+	</ul>
 
 	<h2>How to Use the XL Graphics Mod</h2>
 	<p>
@@ -72,6 +79,59 @@
 				title="XL Graphics - Getting Started"
 			>
 			</iframe>
+		</div>
+	</div>
+
+	<h2>Follow Camera</h2>
+	<p class="mb-4">
+		The XL Graphics Follow Camera is an essential feature for enhancing your Skater XL experience.
+		It provides a smoother gameplay experience by allowing the camera to fluidly follow the skater's
+		movements. You can adjust the camera settings to your liking, creating a more immersive skating
+		session. Below are some example settings to get you started, but we highly recommend customizing
+		these settings to fit your personal preference.
+	</p>
+
+	<div class="stylish-box section-style">
+		<div>
+			<h3>Settings</h3>
+			<ul>
+				<li><strong>FOV:</strong> 78</li>
+				<li><strong>Movement Response:</strong> 0.45</li>
+				<li><strong>Rotation Response:</strong> 0.45</li>
+				<li><strong>Clip Distance:</strong> 0.03</li>
+				<li><strong>Right/Left:</strong> 0.36</li>
+				<li><strong>Down/Up:</strong> 0.11</li>
+				<li><strong>Back/Forward:</strong> -1.36</li>
+				<!-- Add more items as needed -->
+			</ul>
+		</div>
+		<div>
+			<img src="/FollowCam1.png" alt="Catch Tab" />
+			<!-- Add more images as needed -->
+		</div>
+	</div>
+
+	<h2>Fisheye Presets</h2>
+	<p class="mb-4">
+		For fisheye settings in Skater XL, we recommend installing a custom-made preset. These settings
+		are fine-tuned to replicate real-life fisheye cameras. Place XL graphic presets in your presets
+		folder to install them.
+	</p>
+
+	<div class="stylish-box section-style">
+		<div>
+			<h3>Centennial Optics Fisheye Pack</h3>
+			<p>
+				To get started with the Centennial Optics Fisheye Pack, download the preset from <a
+					href="https://mod.io/g/skaterxl/m/centennial-optics-3x-ultra-fisheye-complete-set"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				> and follow the installation instructions.
+			</p>
+		</div>
+		<div>
+			<img src="/CentennialOptics.png" alt="Centennial Optics" />
+			<!-- Add more images as needed -->
 		</div>
 	</div>
 </div>

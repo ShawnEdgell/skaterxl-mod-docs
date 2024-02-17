@@ -41,12 +41,8 @@
 	<h2>XL Hub</h2>
 	<p>
 		Simplify your Skater XL map and mod management with XLHub. This standalone app allows for easy
-		downloading and deleting of maps and script mods from <a
-			href="https://skaterxl.mod.io"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Its automatic unzipping feature makes map and mod installation extremely straightforward.
-		Learn more by visiting our
+		downloading and deleting of maps and script mods. Its automatic unzipping feature makes map and
+		mod installation extremely straightforward. Learn more by visiting our
 		<a href="/XLHub">XL Hub</a>
 		page.
 	</p>

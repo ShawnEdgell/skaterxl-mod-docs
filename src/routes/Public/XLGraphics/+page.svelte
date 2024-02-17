@@ -74,6 +74,59 @@
 			</iframe>
 		</div>
 	</div>
+
+	<h2>Follow Camera</h2>
+	<p class="mb-4">
+		The XL Graphics Follow Camera is an essential feature for enhancing your Skater XL experience.
+		It provides a smoother gameplay experience by allowing the camera to fluidly follow the skater's
+		movements. You can adjust the camera settings to your liking, creating a more immersive skating
+		session. Below are some example settings to get you started, but we highly recommend customizing
+		these settings to fit your personal preference.
+	</p>
+
+	<div class="stylish-box section-style">
+		<div>
+			<h3>Settings</h3>
+			<ul>
+				<li><strong>FOV:</strong> 78</li>
+				<li><strong>Movement Response:</strong> 0.45</li>
+				<li><strong>Rotation Response:</strong> 0.45</li>
+				<li><strong>Clip Distance:</strong> 0.03</li>
+				<li><strong>Right/Left:</strong> 0.36</li>
+				<li><strong>Down/Up:</strong> 0.11</li>
+				<li><strong>Back/Forward:</strong> -1.36</li>
+				<!-- Add more items as needed -->
+			</ul>
+		</div>
+		<div>
+			<img src="/FollowCam1.png" alt="Catch Tab" />
+			<!-- Add more images as needed -->
+		</div>
+	</div>
+
+	<h2>Fisheye Presets</h2>
+	<p class="mb-4">
+		For fisheye settings in Skater XL, we recommend installing a custom-made preset. These settings
+		are fine-tuned to replicate real-life fisheye cameras. Place XL graphic presets in your presets
+		folder to install them.
+	</p>
+
+	<div class="stylish-box section-style">
+		<div>
+			<h3>Centennial Optics Fisheye Pack</h3>
+			<p>
+				To get started with the Centennial Optics Fisheye Pack, download the preset from <a
+					href="https://mod.io/g/skaterxl/m/centennial-optics-3x-ultra-fisheye-complete-set"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				> and follow the installation instructions.
+			</p>
+		</div>
+		<div>
+			<img src="/CentennialOptics.png" alt="Centennial Optics" />
+			<!-- Add more images as needed -->
+		</div>
+	</div>
 </div>
 
 <style>

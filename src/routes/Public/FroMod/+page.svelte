@@ -20,34 +20,50 @@
 			<p><b>Author:</b> Froquede</p>
 			<p><b>Working Version:</b> 2.0.1</p>
 			<p>
-				<b>Download: </b><a
+				<b>Download:</b>
+				<a
 					href="https://mod.io/g/skaterxl/m/fros-experimental-mod"
 					target="_blank"
 					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> CTRL + F</p>
-			<p><b>Key Features:</b> Enhanced Physics/Realism, Custom Animations, Regular Updates</p>
+			<p><b>Key Features:</b> Enhanced Physics, Custom Animations</p>
 		</div>
 
 		<div class="flex-1 mt-4 md:mt-0">
-			<!-- Replace with actual image link -->
 			<img src="/FroMod.png" alt="Fro's Experimental Mod" />
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For an effortless installation experience, opt for XL Hub. This
+			platform simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download Fro's Experimental Mod directly from
+			<a
+				href="https://mod.io/g/skaterxl/m/fros-experimental-mod"
+				target="_blank"
+				rel="noopener noreferrer">skaterxl.mod.io</a
+			>. Ensure you select the correct version for your game. Install using UnityModManager by
+			dragging and dropping the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater
+			XL to access the mod.
+		</li>
+	</ul>
 	<p>
-		Download Fro's Experimental Mod from <a
-			href="https://mod.io/g/skaterxl/m/fros-experimental-mod"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Click "View Other Versions" to find v2.0.1. Ensure the version matches your Skater XL game
-		version.
-	</p>
-	<p>
-		Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Launch Skater XL to access the mod.
+		Ensure the mod version is compatible with your Skater XL game version. For assistance with
+		installation or troubleshooting, refer to the mod's documentation or reach out to the community
+		for support.
 	</p>
 
 	<h2>How to Use Fro's Experimental Mod</h2>

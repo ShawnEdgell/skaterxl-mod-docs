@@ -70,48 +70,6 @@
 
 	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
 		<div class="flex-1 md:mr-4">
-			<h3 class="mb-2 mt-0">n33zy's Vol 2: GOLD EDITION</h3>
-			<p class="mb-1"><b>Author:</b> N33zy</p>
-			<p class="mb-1">
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/neezy-vol-2-gold-edition"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
-			</p>
-		</div>
-	</div>
-
-	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
-		<div class="flex-1 md:mr-4">
-			<h3 class="mb-2 mt-0">n33zy's soundpack volume 2</h3>
-			<p class="mb-1"><b>Author:</b> N33zy</p>
-			<p class="mb-1">
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/n33zys-sound-pack-volume-2"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
-			</p>
-		</div>
-	</div>
-
-	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
-		<div class="flex-1 md:mr-4">
-			<h3 class="mb-2 mt-0">n33zy's sound pack volume 1</h3>
-			<p class="mb-1"><b>Author:</b> N33zy</p>
-			<p class="mb-1">
-				<b>Download: </b><a
-					href="https://mod.io/g/skaterxl/m/n33zys-sound"
-					target="_blank"
-					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
-			</p>
-		</div>
-	</div>
-
-	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
-		<div class="flex-1 md:mr-4">
 			<h3 class="mb-2 mt-0">OVALORD VX SOUNDMOD</h3>
 			<p class="mb-1"><b>Author:</b> OVALORD</p>
 			<p class="mb-1">
