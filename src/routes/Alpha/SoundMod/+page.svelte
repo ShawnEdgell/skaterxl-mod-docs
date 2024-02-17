@@ -1,6 +1,5 @@
 <div class="max-w-4xl mx-auto py-6">
 	<h1>Sound Mod</h1>
-
 	<p>
 		Transform the auditory landscape of your Skater XL gameplay with the Sound Mod. Offering
 		complete customization of gameplay and UI sounds, the mod immerses you in a skateboarding
@@ -37,7 +36,7 @@
 			simplifies the process, allowing for quick and easy mod management.
 			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
 				>Download via XL Hub</a
-			>
+			>.
 		</li>
 		<li>
 			<strong>Manual Installation:</strong> Download the Sound Mod directly from
@@ -54,10 +53,78 @@
 		applied, with no UI configuration needed.
 	</p>
 	<p>
-		For more details on customizing your sound experience, visit our <a href="/Soundpacks"
-			>Soundpacks</a
-		> section to explore and download community-created sound packs.
+		For more details on customizing your sound experience, explore the available sound packs to
+		download community-created sound packs.
 	</p>
 
-	<!-- Additional content, if needed, goes here -->
+	<!-- Download + Installation Section for Soundpacks -->
+	<h2>Soundpacks</h2>
+	<ol>
+		<li>Download your chosen Sound Pack from the provided links.</li>
+		<li>Extract the Sound Pack files if they are zipped.</li>
+		<li>
+			Copy the Sound files into the SoundMod directory: <b
+				><code>Steam/steamapps/common/SkaterXL/Mods/SoundMod/Sounds</code></b
+			>
+		</li>
+		<li>Launch Skater XL, and the new sounds will be automatically applied.</li>
+	</ol>
+
+	<!-- Soundpack Listings -->
+	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
+		<div class="flex-1 md:mr-4">
+			<h3 class="mb-2 mt-0">FREE DAWG - a n33zy sound pack</h3>
+			<p class="mb-1"><b>Author:</b> N33zy</p>
+			<p class="mb-1">
+				<b>Download: </b><a
+					href="https://mod.io/g/skaterxl/m/free-dawg-a-n33zy-sound-pack1"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				>
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
+		<div class="flex-1 md:mr-4">
+			<h3 class="mb-2 mt-0">N33ZY VOL. 3 SOUND PACK</h3>
+			<p class="mb-1"><b>Author:</b> N33zy</p>
+			<p class="mb-1">
+				<b>Download: </b><a
+					href="https://mod.io/g/skaterxl/m/n33zy-vol-3-sound-pack"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				>
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
+		<div class="flex-1 md:mr-4">
+			<h3 class="mb-2 mt-0">N33ZY'S FREE CANDY</h3>
+			<p class="mb-1"><b>Author:</b> N33zy</p>
+			<p class="mb-1">
+				<b>Download: </b><a
+					href="https://mod.io/g/skaterxl/m/n33zys-free-candy-sound-pack"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				>
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4">
+		<div class="flex-1 md:mr-4">
+			<h3 class="mb-2 mt-0">OVALORD VX SOUNDMOD</h3>
+			<p class="mb-1"><b>Author:</b> OVALORD</p>
+			<p class="mb-1">
+				<b>Download: </b><a
+					href="https://mod.io/g/skaterxl/m/ovalord-vx-soundmod"
+					target="_blank"
+					rel="noopener noreferrer">skaterxl.mod.io</a
+				>
+			</p>
+		</div>
+	</div>
+	<!-- Add more soundpack listings as required -->
 </div>
