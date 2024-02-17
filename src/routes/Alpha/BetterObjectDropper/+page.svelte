@@ -16,11 +16,15 @@
 			<p><b>Authors:</b> manu & mu35li</p>
 			<p><b>Working Version:</b> 2.0.1</p>
 			<p>
-				<b>Download: </b><a
+				<b>Download:</b>
+				<a
 					href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li"
 					target="_blank"
 					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> Open with L3 (controller) while in normal object dropper mode</p>
 			<p>
@@ -37,18 +41,27 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the Better Object Dropper Mod from <a
-			href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Ensure it matches your Skater XL game version.
-	</p>
-	<p>
-		Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Launch the game to begin shaping your skateboarding landscape.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a streamlined installation process, opt for XL Hub. This platform
+			simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the Better Object Dropper Mod directly from
+			<a
+				href="https://mod.io/g/skaterxl/m/better-object-dropper-mod-by-manu-mu35li"
+				target="_blank"
+				rel="noopener noreferrer">skaterxl.mod.io</a
+			>. Ensure you select the correct version for your game. Install using UnityModManager by
+			dragging and dropping the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater
+			XL to begin shaping your skateboarding landscape.
+		</li>
+	</ul>
 
 	<h2>How to Use the Better Object Dropper Mod</h2>
 	<p>

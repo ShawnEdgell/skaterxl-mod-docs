@@ -17,11 +17,15 @@
 			<p><b>Author:</b> Silentbaws</p>
 			<p><b>Working Version:</b> 0.1.1</p>
 			<p>
-				<b>Download: </b><a
+				<b>Download:</b>
+				<a
 					href="https://mod.io/g/skaterxl/m/controls-editor"
 					target="_blank"
 					rel="noopener noreferrer">skaterxl.mod.io</a
-				>
+				>, or use
+				<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+					>XL Hub</a
+				> for easy installation.
 			</p>
 			<p><b>Keybind to Open:</b> CTRL + F10</p>
 			<p><b>Key Features:</b> Control Customization, Personalized Trick Mechanics</p>
@@ -36,18 +40,27 @@
 		</div>
 	</div>
 
-	<h2>Download + Installation</h2>
-	<p>
-		Download the Controls Editor Mod from <a
-			href="https://mod.io/g/skaterxl/m/controls-editor"
-			target="_blank"
-			rel="noopener noreferrer">skaterxl.mod.io</a
-		>. Ensure it's compatible with your version of Skater XL.
-	</p>
-	<p>
-		Install using UnityModManager: Drag and drop the .zip file into the 'Mods' tab with Skater XL
-		closed. Launch the game to configure your controls.
-	</p>
+	<h2>Installation Methods</h2>
+	<p>Choose your preferred method of installation:</p>
+	<ul>
+		<li>
+			<strong>XL Hub:</strong> For a streamlined installation process, opt for XL Hub. This platform
+			simplifies mod management, enabling quick and easy installations.
+			<a href="https://mod.io/g/skaterxl/m/xlhub" target="_blank" rel="noopener noreferrer"
+				>Download via XL Hub</a
+			>.
+		</li>
+		<li>
+			<strong>Manual Installation:</strong> Download the Controls Editor Mod directly from
+			<a
+				href="https://mod.io/g/skaterxl/m/controls-editor"
+				target="_blank"
+				rel="noopener noreferrer">skaterxl.mod.io</a
+			>. Ensure you select the correct version for your game. Install using UnityModManager by
+			dragging and dropping the .zip file into the 'Mods' tab with Skater XL closed. Launch Skater
+			XL to configure your controls.
+		</li>
+	</ul>
 
 	<h2>How to Use the Controls Editor Mod</h2>
 	<p>
