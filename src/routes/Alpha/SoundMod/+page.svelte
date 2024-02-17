@@ -53,8 +53,8 @@
 		applied, with no UI configuration needed.
 	</p>
 	<p>
-		For more details on customizing your sound experience, explore the available sound packs to
-		download community-created sound packs.
+		For more details on customizing your sound experience, explore the available sound packs down
+		below.
 	</p>
 
 	<!-- Download + Installation Section for Soundpacks -->
