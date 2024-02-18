@@ -1,13 +1,10 @@
 import adapter from '@sveltejs/adapter-node';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const config = {
   kit: {
-    adapter: adapter({
-      // Specify the output directory here
-      out: 'public', // Adjust the directory name as needed
-    }),
+    adapter: adapter(),
+    // Specify the output directory
+    // This can be done in your adapter configuration
   },
 };
 
