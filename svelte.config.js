@@ -1,4 +1,6 @@
 import adapter from '@sveltejs/adapter-node';
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Revised SvelteKit config
 const config = {
