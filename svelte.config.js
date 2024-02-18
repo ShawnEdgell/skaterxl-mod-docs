@@ -6,7 +6,7 @@ const config = {
   kit: {
     adapter: adapter({
       // Specify the output directory here
-      out: 'build', // Adjust the directory name as needed
+      out: 'public', // Adjust the directory name as needed
     }),
   },
 };
