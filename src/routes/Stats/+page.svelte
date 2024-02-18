@@ -1,41 +1,42 @@
 <script>
-	import { onMount } from 'svelte';
-	import { supabase } from '$lib/supabaseClient';
+	import { writable } from 'svelte/store';
 
-	let files = null;
+	// Store to hold uploaded file names
+	const uploadedFiles = writable([]);
 
-	async function fetchFiles() {
+	async function uploadFile(event) {
+		const formData = new FormData();
+		formData.append('file', event.target.files[0]);
+
 		try {
-			console.log('Fetching files...');
-			const { data, error } = await supabase.storage.from('XXL Mod Settings').list('');
+			const response = await fetch('/api/upload', {
+				method: 'POST',
+				body: formData
+			});
 
-			if (error) {
-				throw error;
-			} else {
-				console.log('Files fetched successfully:', data);
-				files = data;
+			if (!response.ok) {
+				throw new Error('File upload failed');
 			}
+
+			const { uploaded } = await response.json();
+			uploadedFiles.update((files) => [...files, uploaded]);
 		} catch (error) {
-			console.error('Error fetching files:', error);
+			console.error('Error uploading file:', error.message);
+			alert('File upload failed');
 		}
 	}
-
-	onMount(fetchFiles);
 </script>
 
 <main class="max-w-4xl mx-auto mt-10">
-	<h1 class="text-2xl font-bold">Files in XXL Mod Settings Bucket</h1>
-	{#if files}
-		<ul class="list-disc ml-5">
-			{#each files as file}
-				<li><a href={file.url} target="_blank" rel="noopener noreferrer">{file.name}</a></li>
-			{/each}
-		</ul>
-	{:else}
-		<p class="text-gray-500">Loading files...</p>
-	{/if}
-</main>
+	<form method="POST">
+		<input type="file" name="file" required onchange={uploadFile} />
+		<button type="submit">Upload</button>
+	</form>
 
-<style>
-	/* Add your styling here */
-</style>
+	<h2>Uploaded Files:</h2>
+	<ul>
+		{#each $uploadedFiles as file}
+			<li>{file}</li>
+		{/each}
+	</ul>
+</main>
