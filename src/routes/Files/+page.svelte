@@ -12,7 +12,7 @@
 		const fileName = `${Math.random()}.${fileExt}`;
 		const filePath = `uploads/${fileName}`;
 
-		let { error } = await supabase.storage.from('XXL Mod Setting').upload(filePath, selectedFile);
+		let { error } = await supabase.storage.from('XXL Mod Settings').upload(filePath, selectedFile);
 
 		if (error) {
 			alert(`Error uploading file: ${error.message}`);
@@ -23,7 +23,7 @@
 	}
 
 	async function fetchFiles() {
-		let { data, error } = await supabase.storage.from('XXL Mod Setting').list('uploads', {
+		let { data, error } = await supabase.storage.from('XXL Mod Settings').list('uploads', {
 			limit: 100,
 			offset: 0,
 			sortBy: { column: 'created_at', order: 'desc' }
@@ -41,7 +41,7 @@
 	});
 
 	async function downloadFile(path, filename) {
-		const { data, error } = await supabase.storage.from('XXL Mod Setting').download(path);
+		const { data, error } = await supabase.storage.from('XXL Mod Settings').download(path);
 		if (error) {
 			alert(`Error downloading file: ${error.message}`);
 			return;
