@@ -4,10 +4,10 @@ dotenv.config();
 
 const config = {
   kit: {
-    adapter: adapter(),
-    // Specify the output directory
-    target: '#app',
-    // Optionally, you can specify other kit options here
+    adapter: adapter({
+      // Specify the output directory here
+      out: 'build', // Adjust the directory name as needed
+    }),
   },
 };
 
