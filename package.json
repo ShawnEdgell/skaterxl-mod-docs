@@ -33,8 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@supabase/storage-js": "^2.5.5",
-		"@supabase/supabase-js": "^2.39.6",
 		"@vercel/analytics": "^1.1.2",
 		"@vercel/speed-insights": "^1.0.9"
 	}
