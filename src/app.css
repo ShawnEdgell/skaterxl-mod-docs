@@ -36,6 +36,10 @@ img {
 	@apply w-full h-auto shadow-md rounded-lg;
 }
 
+button {
+	@apply text-white;
+}
+
 /* Stylish Box */
 .stylish-box {
 	@apply flex flex-col md:flex-row p-4 bg-custom-bluegray-light rounded-lg my-4;
