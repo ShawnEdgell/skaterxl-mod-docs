@@ -12,8 +12,9 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-node": "^4.0.1",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/kit": "^2.5.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
 		"autoprefixer": "^10.4.17",
@@ -26,13 +27,15 @@
 		"prettier-plugin-svelte": "^3.1.2",
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.4.1",
+		"typescript": "^5.3.3",
 		"vite": "^5.0.3"
 	},
 	"type": "module",
 	"dependencies": {
 		"@supabase/storage-js": "^2.5.5",
+		"@supabase/supabase-js": "^2.39.6",
 		"@vercel/analytics": "^1.1.2",
-		"@vercel/blob": "^0.22.0",
+		"@vercel/blob": "^0.0.2",
 		"@vercel/speed-insights": "^1.0.9"
 	}
 }
