@@ -9,7 +9,6 @@ Explore modding guides and resources directly on our [website](https://skaterxl-
 ## Features
 
 - **Supabase Integration**: Users can now upload and download their favorite stats and settings directly from our Supabase storage, enhancing the modding experience.
-- **Community Contributions**: Share photos, post videos, and engage with the Skater XL community.
 - **Comprehensive Guides**: From basic introductions to advanced techniques, our guides cover all aspects of Skater XL modding.
 
 ## Technology Stack
