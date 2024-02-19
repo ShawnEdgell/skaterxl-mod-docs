@@ -28,40 +28,22 @@
 	}
 
 	async function completeUpload() {
-		// Assuming fileToUpload, description, uploaderName, and additionalInfo are already defined
-
 		if (!fileToUpload) {
 			alert('No file selected for upload.');
 			return;
 		}
 
 		const filePath = `uploads/${Date.now()}-${fileToUpload.name}`;
-		const { error: uploadError } = await supabase.storage
-			.from('Stats')
-			.upload(filePath, fileToUpload);
+		const { error } = await supabase.storage.from('Stats').upload(filePath, fileToUpload);
 
-		if (uploadError) {
-			console.error(uploadError);
+		if (error) {
+			console.error(error);
 			alert('Upload failed.');
-			return;
-		}
-
-		// Insert file metadata into the database
-		const { data, error: insertError } = await supabase.from('uploads').insert([
-			{
-				file_name: fileToUpload.name,
-				description: description, // Variable holding the description from the form
-				uploader_name: uploaderName, // Variable holding the uploader's name from the form
-				additional_info: additionalInfo // JSON object holding any additional information
-			}
-		]);
-
-		if (insertError) {
-			console.error(insertError);
-			alert('Failed to save file information.');
 		} else {
 			alert('File uploaded successfully.');
-			// Reset your form and state variables as necessary
+			fileToUpload = null;
+			fileName.set('No file selected');
+			fetchFiles(); // Reload the list of files
 		}
 	}
 
