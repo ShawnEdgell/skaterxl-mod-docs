@@ -18,8 +18,8 @@
 		}
 
 		// Update size check to 100KB
-		if (file.size > 100 * 1024) {
-			alert('File size must be under 100KB.');
+		if (file.size > 50 * 1024) {
+			alert('File size must be under 50KB.');
 			return;
 		}
 
@@ -28,22 +28,40 @@
 	}
 
 	async function completeUpload() {
+		// Assuming fileToUpload, description, uploaderName, and additionalInfo are already defined
+
 		if (!fileToUpload) {
 			alert('No file selected for upload.');
 			return;
 		}
 
 		const filePath = `uploads/${Date.now()}-${fileToUpload.name}`;
-		const { error } = await supabase.storage.from('Stats').upload(filePath, fileToUpload);
+		const { error: uploadError } = await supabase.storage
+			.from('Stats')
+			.upload(filePath, fileToUpload);
 
-		if (error) {
-			console.error(error);
+		if (uploadError) {
+			console.error(uploadError);
 			alert('Upload failed.');
+			return;
+		}
+
+		// Insert file metadata into the database
+		const { data, error: insertError } = await supabase.from('uploads').insert([
+			{
+				file_name: fileToUpload.name,
+				description: description, // Variable holding the description from the form
+				uploader_name: uploaderName, // Variable holding the uploader's name from the form
+				additional_info: additionalInfo // JSON object holding any additional information
+			}
+		]);
+
+		if (insertError) {
+			console.error(insertError);
+			alert('Failed to save file information.');
 		} else {
 			alert('File uploaded successfully.');
-			fileToUpload = null;
-			fileName.set('No file selected');
-			fetchFiles(); // Reload the list of files
+			// Reset your form and state variables as necessary
 		}
 	}
 
@@ -92,9 +110,9 @@
 	<h1 class="text-3xl font-bold mb-4">Stats & Settings (BETA)</h1>
 	<div class="note mb-6">
 		<p>
-			⚠️ This page is dedicated to uploading and downloading community-made setting packs for the
-			XXL Mod, BonedOllieMod, and Fro's Mod. Each pack should contain XML files only, organized
-			properly to ensure clarity and usability. Files should be under 100KB.
+			⚠️ This page is dedicated to uploading and downloading community-made stat packs for the XXL
+			Mod, BonedOllieMod, and Fro's Mod. Each pack should contain XML files only, organized properly
+			to ensure clarity and usability. Files should be under 50KB.
 		</p>
 	</div>
 
@@ -105,21 +123,21 @@
 			them according to their function (e.g., "Stats_Default.xml", "Steeze_Expert.xml"). This helps
 			users understand and select the right settings for their needs.
 		</p>
-		<div class="flex items-center space-x-4">
+		<div class="flex flex-wrap items-center space-x-2 md:space-x-4">
 			<input
 				type="file"
 				accept=".zip"
-				class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer"
+				class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer flex-1"
 				on:change={prepareUpload}
 			/>
 			<button
-				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-150 ease-in-out"
+				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-150 ease-in-out mt-2 md:mt-0"
 				on:click={completeUpload}
 			>
 				Upload File
 			</button>
 		</div>
-		<p class="text-sm mt-2 text-gray-400">Accepted format: .zip (Max size: 100KB)</p>
+		<p class="text-sm mt-2 text-gray-400">Accepted format: .zip (Max size: 50KB)</p>
 
 		<!-- Template Download Link at the Very Bottom -->
 		<div class="template-download mt-4">
@@ -128,7 +146,7 @@
 			</p>
 			<a
 				href="My-Stat-Pack-Template.zip"
-				class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded transition-colors duration-150 ease-in-out"
+				class="inline-block hover:text-white bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded transition-colors duration-150 ease-in-out"
 				download="My-Stat-Pack-Template.zip"
 			>
 				Download Template
