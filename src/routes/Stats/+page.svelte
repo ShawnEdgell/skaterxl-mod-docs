@@ -64,23 +64,49 @@
 		});
 	}
 
+	async function handleDownload(fileUrl, fileName) {
+		try {
+			const response = await fetch(fileUrl);
+			if (!response.ok) throw new Error(`Failed to fetch ${fileName}: ${response.statusText}`);
+			const blob = await response.blob();
+			const downloadUrl = window.URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = downloadUrl;
+			a.download = fileName; // Set the file name for the download
+			document.body.appendChild(a); // Temporarily add the link to the document
+			a.click(); // Programmatically click the link to trigger the download
+			document.body.removeChild(a); // Remove the link from the document
+			window.URL.revokeObjectURL(downloadUrl); // Clean up the URL object
+		} catch (error) {
+			console.error('Error downloading file:', error);
+			alert('Download failed');
+		}
+	}
+
 	onMount(() => {
 		fetchFiles();
 	});
 </script>
 
-<input type="file" accept=".xml" on:change={prepareUpload} />
-<button on:click={completeUpload}>Upload File</button>
+<div class="max-w-4xl mx-auto py-6">
+	<input type="file" accept=".xml" on:change={prepareUpload} />
+	<button on:click={completeUpload}>Upload File</button>
 
-<p>Selected file: {$fileName}</p>
-<p>Upload an XML file (max 500KB).</p>
+	<p>Selected file: {$fileName}</p>
+	<p>Upload an XML file (max 500KB).</p>
 
-<ul>
-	{#each files as file}
-		<li>
-			{file.name}
-			<!-- Direct link for download -->
-			<a href={file.url} download={file.name}>Download</a>
-		</li>
-	{/each}
-</ul>
+	<ul>
+		{#each files as file}
+			<li>
+				{file.name}
+				<!-- Updated link for download with improved accessibility -->
+				<a
+					href="#"
+					on:click|preventDefault={() => handleDownload(file.url, file.name)}
+					role="button"
+					style="cursor: pointer;">Download</a
+				>
+			</li>
+		{/each}
+	</ul>
+</div>
