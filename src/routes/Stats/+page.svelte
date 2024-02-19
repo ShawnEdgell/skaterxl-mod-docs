@@ -88,7 +88,7 @@
 	});
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="max-w-4xl mx-auto py-6 text-white">
 	<input type="file" accept=".xml" on:change={prepareUpload} />
 	<button on:click={completeUpload}>Upload File</button>
 

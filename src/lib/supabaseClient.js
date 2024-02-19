@@ -10,8 +10,8 @@ if (import.meta.env.DEV) {
   supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 } else {
   // Use production environment variables (or fallback if not set)
-  supabaseUrl = process.env.SUPABASE_URL;
-  supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
+  supabaseUrl = process.env.PUBLIC_SUPABASE_URL;
+  supabaseAnonKey = process.env.PUBLIC_SUPABASE_KEY;
 }
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
