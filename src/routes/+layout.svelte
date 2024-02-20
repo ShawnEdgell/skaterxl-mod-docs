@@ -1,28 +1,34 @@
 <script>
+	// Import necessary modules
 	import { onMount } from 'svelte';
 	import Header from '$lib/Header.svelte';
 	import Sidebar from '$lib/Sidebar.svelte';
 	import '../app.css';
 
+	// Define variables and functions
 	let isSidebarVisible = true; // Default to true for SSR or initial load
 	let modal, modalImg;
 
-	function toggleSidebar() {
+	// Function to toggle sidebar visibility
+	export function toggleSidebar() {
 		isSidebarVisible = !isSidebarVisible;
 	}
 
+	// Function to open modal
 	function openModal(src, alt) {
 		modal.style.display = 'block';
 		modalImg.src = src;
 		modalImg.alt = alt || 'Zoomed image';
 	}
 
+	// Function to close modal
 	function closeModal(event) {
 		if (event.target.classList.contains('close') || event.target === modal) {
 			modal.style.display = 'none';
 		}
 	}
 
+	// On mount, set up event listeners and check sidebar visibility
 	onMount(() => {
 		modal = document.getElementById('imageModal');
 		modalImg = document.getElementById('modalContent');
@@ -37,6 +43,7 @@
 		// Initial check to set sidebar state correctly on client load
 		checkSidebarVisibility();
 
+		// Add event listener to open modal on image click
 		document.body.addEventListener('click', (event) => {
 			const isInsideHeader = event.target.closest('header') !== null;
 			if (event.target.tagName === 'IMG' && !isInsideHeader) {
@@ -44,8 +51,10 @@
 			}
 		});
 
+		// Add event listener to close modal on click outside
 		modal.addEventListener('click', closeModal);
 
+		// Remove event listener on component destruction
 		return () => {
 			window.removeEventListener('resize', checkSidebarVisibility);
 		};
@@ -53,50 +62,20 @@
 </script>
 
 <div class="flex flex-col h-screen bg-custom-bluegray-dark">
-	<Header />
+	<!-- Include the Header component and pass the toggleSidebar function -->
+	<Header {toggleSidebar} />
+
 	<div class="flex flex-row flex-grow overflow-hidden">
+		<!-- Check if sidebar should be visible -->
 		{#if isSidebarVisible}
+			<!-- Include the Sidebar component -->
 			<Sidebar />
 		{/if}
+
 		<main class="flex-grow p-4 overflow-auto">
-			<button
-				class="p-2 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden focus:outline-none focus:ring-2 hover:bg-white transition duration-150 ease-in-out"
-				on:click={toggleSidebar}
-			>
-				{#if isSidebarVisible}
-					<!-- Icon for "Hide Sidebar" -->
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					</svg>
-				{:else}
-					<!-- Icon for "Show Sidebar" -->
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h16m-7 6h7"
-						/>
-					</svg>
-				{/if}
-			</button>
+			<!-- Button to toggle sidebar visibility -->
+
+			<!-- Main content slot -->
 			<slot />
 			<!-- Main content -->
 		</main>
@@ -111,8 +90,10 @@
 >
 	<span
 		class="close absolute top-4 right-9 text-white text-5xl font-bold cursor-pointer hover:text-gray-300"
-		onclick={closeModal}>&times;</span
+		onclick={closeModal}
 	>
+		&times;
+	</span>
 	<img
 		class="modal-content block mx-auto mt-5 max-w-[95%] max-h-[90vh] w-auto h-auto cursor-zoom-in"
 		id="modalContent"

@@ -77,19 +77,19 @@
 					bind:value={email}
 					placeholder="Email"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+					class="appearance-none w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<input
 					type="password"
 					bind:value={password}
 					placeholder="Password"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+					class="appearance-none w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<button
 					type="submit"
 					disabled={loading}
-					class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+					class="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
 				>
 					{loading ? 'Logging in...' : 'Log In'}
 				</button>
@@ -101,7 +101,7 @@
 					type="button"
 					on:click={handleLogout}
 					disabled={loading}
-					class="group relative flex justify-center py-2 px-4 border border-transparent text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+					class="flex justify-center py-2 px-4 border border-transparent text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
 				>
 					{loading ? 'Logging out...' : 'Log Out'}
 				</button>

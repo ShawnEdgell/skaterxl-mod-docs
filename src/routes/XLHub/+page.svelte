@@ -46,13 +46,3 @@
 
 	<img src="/XLHub2.png" alt="XL Hub Setup" class="w-full h-auto mt-4" />
 </div>
-
-<style>
-	/* Tailwind CSS is assumed for styling. Add any additional page-specific styles here */
-	.stylish-box {
-		/* Additional styling for the stylish box if needed */
-	}
-	.note {
-		/* Styling for the note section */
-	}
-</style>
