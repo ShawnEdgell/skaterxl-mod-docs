@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
-	import supabase from '$lib/supabaseClient';
+	import { supabase } from '$lib/supabaseClient';
 
 	let files = [];
 	let fileToUpload = null;

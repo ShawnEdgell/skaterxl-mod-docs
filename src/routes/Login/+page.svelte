@@ -1,5 +1,5 @@
 <script>
-	import supabase from '$lib/supabaseClient';
+	import { logIn, logOut, onAuthStateChange } from '$lib/supabaseClient';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
@@ -9,51 +9,42 @@
 	let message = '';
 	let isLoggedIn = false;
 
-	async function logIn() {
+	async function handleLogin() {
 		loading = true;
 		try {
-			const { error } = await supabase.auth.signIn({ email, password });
-			if (error) {
-				throw error;
-			} else {
-				message = 'Login successful!';
-				goto('/'); // Redirect to home page after successful login
-			}
+			await logIn(email, password);
+			isLoggedIn = true; // Manually update state
+			message = 'Login successful!';
+			goto('/');
 		} catch (error) {
 			console.error('Error logging in:', error.message);
-			message = 'Error logging in';
+			message = 'Error logging in: ' + error.message;
+			isLoggedIn = false; // Ensure state is updated on error
+		} finally {
+			loading = false;
 		}
-		loading = false;
 	}
 
-	async function logOut() {
+	async function handleLogout() {
 		loading = true;
 		try {
-			const { error } = await supabase.auth.signOut();
-			if (error) {
-				throw error;
-			} else {
-				message = 'Logged out successfully!';
-				isLoggedIn = false;
-			}
+			await logOut();
+			isLoggedIn = false; // Manually update state
+			message = 'Logged out successfully!';
 		} catch (error) {
 			console.error('Error logging out:', error.message);
-			message = 'Error logging out';
+			message = 'Error logging out: ' + error.message;
+		} finally {
+			loading = false;
 		}
-		loading = false;
 	}
 
 	// Listen for changes in authentication state
 	onMount(() => {
-		const { data: authListener } = supabase.auth.onAuthStateChange((event, session) => {
-			if (event === 'SIGNED_IN') {
-				isLoggedIn = true;
-			} else if (event === 'SIGNED_OUT') {
-				isLoggedIn = false;
-			}
+		const { data: authListener } = onAuthStateChange((event, session) => {
+			isLoggedIn = event === 'SIGNED_IN';
 		});
 
-		// Unsubscribe from the auth listener when the component is destroyed
 		return () => {
 			authListener.unsubscribe();
 		};
@@ -63,23 +54,23 @@
 <div class="min-h-screen flex justify-center py-12 px-4 sm:px-6 lg:px-8">
 	<div class="max-w-md w-full space-y-8">
 		<div>
-			<h2 class="mt-6 text-center text-3xl font-extrabold">Log In</h2>
+			<h2 class="text-white mt-6 text-center text-3xl font-extrabold">Log In</h2>
 		</div>
 		{#if !isLoggedIn}
-			<form class="mt-8 space-y-6" on:submit|preventDefault={logIn}>
+			<form class="mt-8 space-y-6" on:submit|preventDefault={handleLogin}>
 				<input
 					type="email"
 					bind:value={email}
 					placeholder="Email"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<input
 					type="password"
 					bind:value={password}
 					placeholder="Password"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm mt-3"
+					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<button
 					type="submit"
@@ -94,8 +85,9 @@
 			<div class="mt-8 flex justify-center">
 				<button
 					type="button"
+					on:click={handleLogout}
+					disabled={loading}
 					class="group relative flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-					on:click={logOut}
 				>
 					{loading ? 'Logging out...' : 'Log Out'}
 				</button>

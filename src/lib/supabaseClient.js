@@ -1,5 +1,3 @@
-// supabaseClient.js
-
 import { createClient } from '@supabase/supabase-js';
 
 // Retrieve environment variables directly, assuming VITE_ prefix for custom variables
@@ -14,4 +12,30 @@ if (!supabaseUrl || !supabaseAnonKey) {
 // Initialize the Supabase client
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-export default supabase;
+export async function logIn(email, password) {
+  // Use signInWithPassword if it's the correct method for v2
+  // Adjust based on the actual Supabase v2 documentation
+  const { error, session } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
+
+  if (error) throw error;
+  return session;
+}
+
+export async function logOut() {
+  const { error } = await supabase.auth.signOut();
+  if (error) throw error;
+}
+
+export function getSession() {
+  return supabase.auth.session();
+}
+
+export function onAuthStateChange(callback) {
+  return supabase.auth.onAuthStateChange(callback);
+}
+
+// Export the supabase client as well for other operations
+export { supabase };

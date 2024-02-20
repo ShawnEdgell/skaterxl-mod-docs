@@ -1,5 +1,5 @@
 <script>
-	import supabase from '$lib/supabaseClient';
+	import { supabase } from '$lib/supabaseClient';
 	import { goto } from '$app/navigation';
 	import bcrypt from 'bcryptjs'; // Import the bcrypt library
 
