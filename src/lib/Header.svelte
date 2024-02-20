@@ -49,6 +49,7 @@
 		<a href="/Maps&Gear" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Maps & Gear</a
 		>
 		<a href="/XLHub" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">XL Hub</a>
+		<a href="/Stats" sveltekit-prefetch class="font-bold text-white mx-2 sm:mx-6">Stats</a>
 	</nav>
 
 	<!-- Login/Logout Button -->

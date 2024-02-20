@@ -110,5 +110,11 @@
 		<p class="text-center mt-4">
 			Need an account? <a href="/SignUp" class="text-blue-500 hover:text-blue-600">Sign Up</a>
 		</p>
+		<div class="note">
+			<p>
+				Login will be used for future features, such as the ability to upload, edit, and delete
+				presets and mod files.
+			</p>
+		</div>
 	</div>
 </div>
