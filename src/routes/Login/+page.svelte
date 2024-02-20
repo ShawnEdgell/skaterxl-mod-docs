@@ -1,7 +1,7 @@
 <script>
-	import { logIn, logOut, onAuthStateChange } from '$lib/supabaseClient';
-	import { goto } from '$app/navigation';
 	import { onMount, onDestroy } from 'svelte';
+	import { onAuthStateChange, logIn, logOut, getSession } from '$lib/supabaseClient';
+	import { goto } from '$app/navigation';
 
 	let email = '';
 	let password = '';
@@ -9,13 +9,37 @@
 	let message = '';
 	let isLoggedIn = false;
 
+	let authListener;
+
+	onMount(() => {
+		authListener = onAuthStateChange((event, session) => {
+			isLoggedIn = !!session;
+		});
+
+		checkSession();
+	});
+
+	onDestroy(() => {
+		if (authListener && typeof authListener.unsubscribe === 'function') {
+			authListener.unsubscribe();
+		}
+	});
+
+	async function checkSession() {
+		const session = getSession();
+		if (session) {
+			isLoggedIn = true;
+			goto('/');
+		}
+	}
+
 	async function handleLogin() {
 		loading = true;
 		try {
 			await logIn(email, password);
 			isLoggedIn = true;
 			message = 'Login successful!';
-			goto('/');
+			goto('/Login');
 		} catch (error) {
 			console.error('Error logging in:', error.message);
 			message = 'Error logging in: ' + error.message;
@@ -39,25 +63,9 @@
 			loading = false;
 		}
 	}
-
-	// Initialize authListener outside of onMount to avoid reactivity issues
-	let authListener;
-
-	onMount(() => {
-		authListener = onAuthStateChange((event, session) => {
-			isLoggedIn = !!session;
-		});
-	});
-
-	onDestroy(() => {
-		// Ensure you're calling unsubscribe correctly
-		if (authListener && typeof authListener.unsubscribe === 'function') {
-			authListener.unsubscribe();
-		}
-	});
 </script>
 
-<div class="min-h-screen flex justify-center py-12 px-4 sm:px-6 lg:px-8">
+<div class="flex justify-center max-w-4xl mx-auto py-6">
 	<div class="max-w-md w-full space-y-8">
 		<div>
 			<h2 class="text-white mt-6 text-center text-3xl font-extrabold">Log In</h2>
