@@ -1,7 +1,7 @@
 <script>
 	import { logIn, logOut, onAuthStateChange } from '$lib/supabaseClient';
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 
 	let email = '';
 	let password = '';
@@ -13,13 +13,13 @@
 		loading = true;
 		try {
 			await logIn(email, password);
-			isLoggedIn = true; // Manually update state
+			isLoggedIn = true;
 			message = 'Login successful!';
 			goto('/');
 		} catch (error) {
 			console.error('Error logging in:', error.message);
 			message = 'Error logging in: ' + error.message;
-			isLoggedIn = false; // Ensure state is updated on error
+			isLoggedIn = false;
 		} finally {
 			loading = false;
 		}
@@ -29,8 +29,9 @@
 		loading = true;
 		try {
 			await logOut();
-			isLoggedIn = false; // Manually update state
+			isLoggedIn = false;
 			message = 'Logged out successfully!';
+			goto('/Login');
 		} catch (error) {
 			console.error('Error logging out:', error.message);
 			message = 'Error logging out: ' + error.message;
@@ -39,15 +40,20 @@
 		}
 	}
 
-	// Listen for changes in authentication state
-	onMount(() => {
-		const { data: authListener } = onAuthStateChange((event, session) => {
-			isLoggedIn = event === 'SIGNED_IN';
-		});
+	// Initialize authListener outside of onMount to avoid reactivity issues
+	let authListener;
 
-		return () => {
+	onMount(() => {
+		authListener = onAuthStateChange((event, session) => {
+			isLoggedIn = !!session;
+		});
+	});
+
+	onDestroy(() => {
+		// Ensure you're calling unsubscribe correctly
+		if (authListener && typeof authListener.unsubscribe === 'function') {
 			authListener.unsubscribe();
-		};
+		}
 	});
 </script>
 
