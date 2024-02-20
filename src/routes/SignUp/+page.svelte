@@ -36,7 +36,7 @@
 			}
 
 			message = 'Signup successful! Check your email to confirm.';
-			goto('/Login');
+			goto('/');
 		} catch (error) {
 			message = error.message;
 		}
@@ -112,5 +112,8 @@
 		{#if message}
 			<p class="mt-2 text-center text-sm text-red-600">{message}</p>
 		{/if}
+		<p class="text-center mt-4">
+			Already have an account? <a href="/Login" class="text-blue-500 hover:text-blue-600">Login</a>
+		</p>
 	</div>
 </div>

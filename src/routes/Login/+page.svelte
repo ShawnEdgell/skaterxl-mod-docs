@@ -39,7 +39,7 @@
 			await logIn(email, password);
 			isLoggedIn = true;
 			message = 'Login successful!';
-			goto('/Login');
+			goto('/');
 		} catch (error) {
 			console.error('Error logging in:', error.message);
 			message = 'Error logging in: ' + error.message;
@@ -77,14 +77,14 @@
 					bind:value={email}
 					placeholder="Email"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<input
 					type="password"
 					bind:value={password}
 					placeholder="Password"
 					required
-					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+					class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
 				/>
 				<button
 					type="submit"
@@ -101,11 +101,14 @@
 					type="button"
 					on:click={handleLogout}
 					disabled={loading}
-					class="group relative flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+					class="group relative flex justify-center py-2 px-4 border border-transparent text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
 				>
 					{loading ? 'Logging out...' : 'Log Out'}
 				</button>
 			</div>
 		{/if}
+		<p class="text-center mt-4">
+			Need an account? <a href="/SignUp" class="text-blue-500 hover:text-blue-600">Sign Up</a>
+		</p>
 	</div>
 </div>
