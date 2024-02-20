@@ -11,5 +11,5 @@ if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('Supabase URL and Anonymous Key must be defined in environment variables');
 }
 
-// Create and export the Supabase client
+// Initialize the Supabase client
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
