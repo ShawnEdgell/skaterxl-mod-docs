@@ -49,9 +49,7 @@
 	});
 </script>
 
-<header
-	class="sticky top-0 bg-custom-bluegray-light p-2 md:p-4 flex items-center justify-between w-full"
->
+<header class="sticky top-0 bg-custom-bluegray-light p-4 flex items-center justify-between w-full">
 	<!-- Green Button -->
 	<div>
 		<button
@@ -109,7 +107,7 @@
 		<!-- Custom SVG Icon for Menu -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			class="h-6 w-6 text-white transform rotate-180"
+			class="h-6 w-6 text-white transform mb-2 rotate-180"
 			fill="none"
 			viewBox="0 0 24 24"
 			stroke="currentColor"
