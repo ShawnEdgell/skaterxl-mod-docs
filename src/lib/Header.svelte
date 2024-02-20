@@ -124,7 +124,7 @@
 	<div class="flex-none">
 		<button
 			on:click={handleLoginClick}
-			class="text-sm px-2 py-1 sm:px-4 sm:py-2 border border-transparent rounded-md text-white bg-{isLoggedIn
+			class="text-sm px-2 py-1 md:px-4 md:py-2 border border-transparent rounded-md text-white bg-{isLoggedIn
 				? 'red'
 				: 'blue'}-600 hover:bg-{isLoggedIn
 				? 'red'
@@ -141,13 +141,36 @@
 		<nav
 			class="absolute top-full left-0 w-full bg-custom-bluegray-light p-2 flex flex-col items-center z-10 md:hidden"
 		>
-			<a href="/" sveltekit-prefetch class="font-bold text-white my-2">Home</a>
-			<a href="/GettingStarted" sveltekit-prefetch class="font-bold text-white my-2"
-				>Getting Started</a
+			<a
+				href="/"
+				sveltekit-prefetch
+				class="font-bold text-white my-2"
+				on:click={() => (showMenu = false)}>Home</a
 			>
-			<a href="/Maps&Gear" sveltekit-prefetch class="font-bold text-white my-2">Maps & Gear</a>
-			<a href="/XLHub" sveltekit-prefetch class="font-bold text-white my-2">XL Hub</a>
-			<a href="/Stats" sveltekit-prefetch class="font-bold text-white my-2">Stats</a>
+			<a
+				href="/GettingStarted"
+				sveltekit-prefetch
+				class="font-bold text-white my-2"
+				on:click={() => (showMenu = false)}>Getting Started</a
+			>
+			<a
+				href="/Maps&Gear"
+				sveltekit-prefetch
+				class="font-bold text-white my-2"
+				on:click={() => (showMenu = false)}>Maps & Gear</a
+			>
+			<a
+				href="/XLHub"
+				sveltekit-prefetch
+				class="font-bold text-white my-2"
+				on:click={() => (showMenu = false)}>XL Hub</a
+			>
+			<a
+				href="/Stats"
+				sveltekit-prefetch
+				class="font-bold text-white my-2"
+				on:click={() => (showMenu = false)}>Stats</a
+			>
 		</nav>
 	{/if}
 </header>
