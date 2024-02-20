@@ -55,7 +55,7 @@
 	<!-- Login/Logout Button -->
 	<button
 		on:click={handleLoginClick}
-		class="group relative py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-{isLoggedIn
+		class="group relative py-1 px-2 sm:py-2 sm:px-4 border border-transparent text-xs sm:text-sm font-medium rounded-md text-white bg-{isLoggedIn
 			? 'red'
 			: 'blue'}-600 hover:bg-{isLoggedIn
 			? 'red'
