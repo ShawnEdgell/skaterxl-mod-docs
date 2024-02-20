@@ -143,9 +143,15 @@
 	<ul>
 		{#each files as file}
 			<li class="bg-gray-700 py-2 px-4 rounded-lg flex justify-between items-center mb-2">
-				<span>{file.name}</span>
-				<a href="#" on:click|preventDefault={() => handleDownload(file.url, file.name)}>Download</a>
+				<span class="text-sm md:text-base">{file.name}</span>
+				<button
+					class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm rounded-md transition-colors duration-150 ease-in-out"
+					on:click={completeUpload}
+				>
+					Download
+				</button>
 			</li>
 		{/each}
 	</ul>
+	Adjustm
 </div>
