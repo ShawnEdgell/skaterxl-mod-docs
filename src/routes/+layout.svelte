@@ -63,7 +63,7 @@
 
 <div class="flex flex-col h-screen bg-custom-bluegray-dark">
 	<!-- Include the Header component and pass the toggleSidebar function -->
-	<Header {toggleSidebar} />
+	<Header {isSidebarVisible} {toggleSidebar} />
 
 	<div class="flex flex-row flex-grow overflow-hidden">
 		<!-- Check if sidebar should be visible -->
