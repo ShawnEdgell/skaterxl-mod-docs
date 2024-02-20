@@ -8,8 +8,7 @@
 	<p>
 		Visit <a href="https://skaterxl.mod.io" target="_blank" rel="noopener noreferrer"
 			>skaterxl.mod.io</a
-		> for a wide range of public maps and gear uploaded by the community. This site is a hub for the
-		latest and most popular Skater XL mods.
+		> for a wide range of public maps and gear uploaded by the community.
 	</p>
 	<p>
 		You can also find many custom maps and gear options on Discord. Check our links down below to
@@ -18,10 +17,7 @@
 
 	<div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
 		<h2 class="mt-1">Installing Custom Maps</h2>
-		<p>
-			After downloading custom map files, extract them from their ZIP folders. Then, move the
-			extracted files to the following directory:
-		</p>
+		<p>Download and unzip custom maps, then place them in:</p>
 		<p><b><code>Documents/SkaterXL/Maps</code></b></p>
 		<p>
 			💡 Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access
@@ -31,14 +27,11 @@
 
 	<div class="p-4 bg-custom-bluegray-light rounded-lg my-4">
 		<h2 class="mt-1">Installing Custom Gear</h2>
-		<p>
-			Similar to maps, extract your downloaded gear files from their ZIP folders. Place the
-			extracted files into this directory:
-		</p>
+		<p>Download and unzip custom gear, then place them in:</p>
 		<p><b><code>Documents/SkaterXL/Gear</code></b></p>
 		<p>
 			💡 Tip: Make sure "Allow User Generated Content" is turned ON in the game settings to access
-			custom gear.
+			custom maps.
 		</p>
 	</div>
 	<!-- In-Game Mod Browser and skaterxl.mod.io sections -->
@@ -46,17 +39,16 @@
 	<!-- XL Gear Modifier Section -->
 	<h2>XL Gear Modifier (XLGM 2)</h2>
 	<p>
-		The XL Gear Modifier takes gear customization in Skater XL to a new level. This mod allows
-		players to use dynamic clothing, custom accessories, and more, adding an extra dimension of
-		realism to the game. Unlike simple texture mods, XLGM introduces moving clothes, baggy pants,
-		and an array of unique gear options.
+		The XL Gear Modifier offers advanced customization options, including dynamic clothing and
+		unique accessories, enhancing realism in Skater XL. It goes beyond simple texture mods by
+		introducing moving garments and a variety of gear.
 	</p>
 	<p>
-		For more information and a step-by-step guide, visit our <a
+		For detailed information and guides, visit our <a
 			href="/Alpha/XLGearMod"
 			target="_blank"
-			rel="noopener noreferrer">XL Gear Modifier</a
-		> page.
+			rel="noopener noreferrer">XL Gear Modifier page</a
+		>.
 	</p>
 	<img src="/XLGM.png" alt="XL Gear Modifier" class="w-full h-auto" />
 

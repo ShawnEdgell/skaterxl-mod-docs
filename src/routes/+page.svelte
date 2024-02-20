@@ -29,7 +29,6 @@
 		page. Here, you'll find detailed instructions on how to install script mods using UnityModManager,
 		simplifying what might initially seem like a daunting process.
 	</p>
-
 	<h2>Maps & Gear</h2>
 	<p>
 		Discover the best and latest content from trusted sources within the Skater XL community to
@@ -46,6 +45,13 @@
 		<a href="/XLHub">XL Hub</a>
 		page.
 	</p>
+
+	<h2>Stats & Settings (BETA)</h2>
+	<p>
+		The 'Stats & Settings' page, currently in beta, offers Skater XL players the ability to upload
+		and download complete stat packs for the XXL3 Mod, BonedOllieMod, and Fro's Mod.
+	</p>
+	<p>Learn more by visiting our <a href="/Stats&Settings">Stats & Settings</a> page.</p>
 
 	<h2>Top Skater XL Modding Discord Servers</h2>
 
