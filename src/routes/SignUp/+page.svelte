@@ -36,7 +36,7 @@
 			}
 
 			message = 'Signup successful! Check your email to confirm.';
-			goto('/');
+			goto('/Login');
 		} catch (error) {
 			message = error.message;
 		}
@@ -55,9 +55,9 @@
 <div class="flex justify-center max-w-4xl mx-auto py-6">
 	<div class="max-w-md w-full space-y-8">
 		<div>
-			<h2 class="mt-6 text-center text-3xl font-extrabold">Sign Up</h2>
+			<h1 class="text-center mb-8">Sign Up</h1>
 		</div>
-		<form class="mt-8 space-y-6" on:submit|preventDefault={signUp}>
+		<form class="space-y-6" on:submit|preventDefault={signUp}>
 			<input type="hidden" name="remember" value="true" />
 			<div>
 				<label for="email" class="sr-only">Email address</label>

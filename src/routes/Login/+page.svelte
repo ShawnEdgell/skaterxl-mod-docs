@@ -68,10 +68,10 @@
 <div class="flex justify-center max-w-4xl mx-auto py-6">
 	<div class="max-w-md w-full space-y-8">
 		<div>
-			<h2 class="text-white mt-6 text-center text-3xl font-extrabold">Log In</h2>
+			<h1 class=" text-center">Log In</h1>
 		</div>
 		{#if !isLoggedIn}
-			<form class="mt-8 space-y-6" on:submit|preventDefault={handleLogin}>
+			<form class="space-y-6" on:submit|preventDefault={handleLogin}>
 				<input
 					type="email"
 					bind:value={email}
@@ -110,11 +110,5 @@
 		<p class="text-center mt-4">
 			Need an account? <a href="/SignUp" class="text-blue-500 hover:text-blue-600">Sign Up</a>
 		</p>
-		<div class="note">
-			<p>
-				Login will be used for future features, such as the ability to upload, edit, and delete
-				presets and mod files.
-			</p>
-		</div>
 	</div>
 </div>
