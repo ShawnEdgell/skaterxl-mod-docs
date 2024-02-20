@@ -105,20 +105,23 @@
 			them according to their function (e.g., "Stats_Default.xml", "Steeze_Expert.xml"). This helps
 			users understand and select the right settings for their needs.
 		</p>
-		<div class="flex flex-wrap items-center space-x-2 md:space-x-4">
+		<div
+			class="flex flex-col md:flex-row items-center space-x-0 md:space-x-2 space-y-2 md:space-y-0"
+		>
 			<input
 				type="file"
 				accept=".zip"
-				class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer flex-1"
+				class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
 				on:change={prepareUpload}
 			/>
 			<button
-				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-150 ease-in-out mt-2 md:mt-0"
+				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-150 ease-in-out w-full md:w-auto"
 				on:click={completeUpload}
 			>
 				Upload File
 			</button>
 		</div>
+
 		<p class="text-sm mt-2 text-gray-400">Accepted format: .zip (Max size: 50KB)</p>
 
 		<!-- Template Download Link at the Very Bottom -->
