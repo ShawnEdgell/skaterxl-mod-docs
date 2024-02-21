@@ -254,13 +254,15 @@
 				{/if}
 			</div>
 
-			<div class="flex flex-col gap-x-2 gap-y-1 md:flex-row items-center space-y-2 md:space-y-0">
+			<div
+				class="mt-6 flex flex-col gap-x-2 gap-y-1 md:flex-row items-center space-y-2 md:space-y-0"
+			>
 				<!-- File Input -->
 				<input
 					type="file"
 					id="fileInput"
 					accept=".zip,.zipx,.zipped"
-					class="mt-4 file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
+					class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
 					on:change={prepareUpload}
 					required
 				/>
