@@ -6,7 +6,7 @@
 	import '../app.css';
 
 	// Define variables and functions
-	let isSidebarVisible = true; // Default to true for SSR or initial load
+	let isSidebarVisible = true; // Default to false to hide sidebar on initial load
 	let modal, modalImg;
 
 	// Function to toggle sidebar visibility
@@ -63,7 +63,7 @@
 
 <div class="flex flex-col h-screen bg-custom-bluegray-dark">
 	<!-- Include the Header component and pass the toggleSidebar function -->
-	<Header {toggleSidebar} />
+	<Header {isSidebarVisible} {toggleSidebar} />
 
 	<div class="flex flex-row flex-grow overflow-hidden">
 		<!-- Check if sidebar should be visible -->
