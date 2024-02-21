@@ -50,7 +50,9 @@
 </script>
 
 <div class="flex justify-center bg-custom-bluegray-light">
-	<header class="top-0 z-9999 py-2 px-4 flex items-center justify-between w-full max-w-5xl">
+	<header
+		class="sticky px-6 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-5xl"
+	>
 		<!-- Green Button -->
 		<button
 			class="p-2 mr-3 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden"
