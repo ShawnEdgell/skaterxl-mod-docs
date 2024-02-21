@@ -72,7 +72,7 @@
 			<Sidebar />
 		{/if}
 
-		<main class="flex-grow p-4 overflow-auto">
+		<main class="p-4 overflow-auto">
 			<!-- Button to toggle sidebar visibility -->
 
 			<!-- Main content slot -->
