@@ -88,7 +88,7 @@
 	});
 </script>
 
-<div class="max-w-4xl mx-auto py-6 overflow-hidden">
+<div class="main-container">
 	<h1>Stats & Settings (BETA)</h1>
 	<div class="note">
 		<p>

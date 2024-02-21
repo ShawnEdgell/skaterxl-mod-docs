@@ -52,11 +52,9 @@
 	}
 </script>
 
-<div class="flex justify-center max-w-4xl mx-auto py-6 overflow-hidden">
-	<div class="max-w-md w-full space-y-8">
-		<div>
-			<h1 class="text-center mb-8">Sign Up</h1>
-		</div>
+<div class="main-container flex justify-center">
+	<div class="max-w-md w-full">
+		<h1 class="text-center mb-8">Sign Up</h1>
 		<form class="space-y-6" on:submit|preventDefault={signUp}>
 			<input type="hidden" name="remember" value="true" />
 			<div>

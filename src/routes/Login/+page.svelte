@@ -65,11 +65,9 @@
 	}
 </script>
 
-<div class="flex justify-center max-w-4xl mx-auto py-6 overflow-hidden">
-	<div class="max-w-md w-full space-y-8">
-		<div>
-			<h1 class=" text-center">Log In</h1>
-		</div>
+<div class="main-container flex justify-center">
+	<div class="max-w-md w-full">
+		<h1 class=" text-center">Log In</h1>
 		{#if !isLoggedIn}
 			<form class="space-y-6" on:submit|preventDefault={handleLogin}>
 				<input
