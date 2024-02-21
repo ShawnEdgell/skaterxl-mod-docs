@@ -52,7 +52,7 @@
 	}
 </script>
 
-<div class="main-container flex justify-center">
+<div class="main-container flex justify-center h-full">
 	<div class="max-w-md w-full">
 		<h1 class="text-center mb-8">Sign Up</h1>
 		<form class="space-y-6" on:submit|preventDefault={signUp}>

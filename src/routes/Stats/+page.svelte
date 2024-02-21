@@ -88,7 +88,7 @@
 	});
 </script>
 
-<div class="main-container">
+<div class="main-container h-full">
 	<h1>Stats & Settings (BETA)</h1>
 	<div class="note">
 		<p>
