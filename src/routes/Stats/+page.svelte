@@ -196,14 +196,6 @@
 				required
 			/>
 
-			<script>
-				let selectedTags = [];
-			</script>
-
-			<script>
-				let selectedTags = [];
-			</script>
-
 			<div class="mb-2 mt-6 text-white">
 				<div class="flex gap-2 flex-wrap justify-start items-center">
 					<!-- Tag 1: XXL Mod Stats -->
