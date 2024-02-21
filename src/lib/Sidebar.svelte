@@ -244,7 +244,7 @@
 			</svg>
 		</button>
 		{#if isDropdownOpen}
-			<div class="absolute z-10 mt-10 w-50 bg-white rounded-lg shadow-lg border border-gray-300">
+			<div class="absolute z-50 mt-10 w-50 bg-white rounded-lg shadow-lg border border-gray-300">
 				{#if isOption1Selected}
 					<button
 						class="block w-full text-left px-4 py-2 text-sm text-blue-500 font-bold hover:bg-gray-200"
