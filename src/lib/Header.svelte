@@ -50,11 +50,11 @@
 </script>
 
 <div class="flex justify-center bg-custom-bluegray-light">
-	<header
-		class="sticky px-4 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-5xl"
-	>
+	<header class="px-4 top-0 z-9999 py-2 px w-full max-w-5xl">
 		<div class="flex flex-col w-full">
-			<div class="flex flex-row justify-between items-center w-full">
+			<!-- Header Content -->
+			<div class="flex flex-row w-full justify-between items-center">
+				<!-- Updated to flex-col -->
 				<!-- Green Button -->
 				<button
 					class="p-2 mr-3 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden"
@@ -126,8 +126,9 @@
 					</svg>
 				</button>
 
-				<!-- Login Button: Always aligned to the right -->
-				<div>
+				<!-- Login Button: Aligned to the right -->
+				<div class="flex justify-end">
+					<!-- Updated to justify-end -->
 					<button
 						on:click={handleLoginClick}
 						class="text-sm px-2 py-1 md:px-4 md:py-2 border border-transparent rounded-md text-white bg-{isLoggedIn
@@ -141,45 +142,40 @@
 						{isLoggedIn ? 'Logout' : 'Login'}
 					</button>
 				</div>
-
-				{#if showMenu}
-					<!-- Dropdown Menu for Smaller Screens -->
-					<nav
-						class=" top-full left-0 w-full bg-custom-bluegray-light p-2 flex flex-col items-center md:hidden"
-					>
-						<a
-							href="/"
-							sveltekit-prefetch
-							class=" text-white my-2"
-							on:click={() => (showMenu = false)}>Home</a
-						>
-						<a
-							href="/GettingStarted"
-							sveltekit-prefetch
-							class=" text-white my-2"
-							on:click={() => (showMenu = false)}>Getting Started</a
-						>
-						<a
-							href="/Maps&Gear"
-							sveltekit-prefetch
-							class=" text-white my-2"
-							on:click={() => (showMenu = false)}>Maps & Gear</a
-						>
-						<a
-							href="/XLHub"
-							sveltekit-prefetch
-							class=" text-white my-2"
-							on:click={() => (showMenu = false)}>XL Hub</a
-						>
-						<a
-							href="/Stats"
-							sveltekit-prefetch
-							class=" text-white my-2"
-							on:click={() => (showMenu = false)}>Stats</a
-						>
-					</nav>
-				{/if}
 			</div>
+
+			<!-- Dropdown Menu for Smaller Screens -->
+			{#if showMenu}
+				<div class="md:hidden bg-custom-bluegray-light p-2 flex flex-col items-center w-full">
+					<a href="/" sveltekit-prefetch class="text-white my-2" on:click={() => (showMenu = false)}
+						>Home</a
+					>
+					<a
+						href="/GettingStarted"
+						sveltekit-prefetch
+						class="text-white my-2"
+						on:click={() => (showMenu = false)}>Getting Started</a
+					>
+					<a
+						href="/Maps&Gear"
+						sveltekit-prefetch
+						class="text-white my-2"
+						on:click={() => (showMenu = false)}>Maps & Gear</a
+					>
+					<a
+						href="/XLHub"
+						sveltekit-prefetch
+						class="text-white my-2"
+						on:click={() => (showMenu = false)}>XL Hub</a
+					>
+					<a
+						href="/Stats"
+						sveltekit-prefetch
+						class="text-white my-2"
+						on:click={() => (showMenu = false)}>Stats</a
+					>
+				</div>
+			{/if}
 		</div>
 	</header>
 </div>
