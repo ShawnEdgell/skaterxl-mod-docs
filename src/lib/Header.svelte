@@ -49,7 +49,9 @@
 	});
 </script>
 
-<header class="sticky top-0 bg-custom-bluegray-light p-4 flex items-center justify-between w-full">
+<header
+	class="sticky top-0 z-9999 bg-custom-bluegray-light p-4 flex items-center justify-between w-full"
+>
 	<!-- Green Button -->
 	<button
 		class="p-2 mr-3 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden"

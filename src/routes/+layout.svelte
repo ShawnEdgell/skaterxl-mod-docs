@@ -61,7 +61,7 @@
 	});
 </script>
 
-<div class="flex flex-col h-screen bg-custom-bluegray-dark">
+<div class="flex flex-col">
 	<!-- Include the Header component and pass the toggleSidebar function -->
 	<Header {isSidebarVisible} {toggleSidebar} />
 
