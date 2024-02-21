@@ -51,47 +51,45 @@
 
 <header class="sticky top-0 bg-custom-bluegray-light p-4 flex items-center justify-between w-full">
 	<!-- Green Button -->
-	<div>
-		<button
-			class="p-2 mr-3 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden focus:outline-none focus:ring-2 hover:bg-white transition duration-150 ease-in-out"
-			on:click={toggleSidebar}
-		>
-			<!-- Toggle sidebar icon -->
-			{#if isSidebarVisible}
-				<!-- Icon for "Hide Sidebar" (X icon) -->
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-6 w-6"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M6 18L18 6M6 6l12 12"
-					/>
-				</svg>
-			{:else}
-				<!-- Icon for "Show Sidebar" (Burger menu icon) -->
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-6 w-6"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M4 6h16M4 12h16m-7 6h7"
-					/>
-				</svg>
-			{/if}
-		</button>
-	</div>
+	<button
+		class="p-2 mr-3 rounded-full bg-custom-green text-custom-bluegray-dark md:hidden"
+		on:click={toggleSidebar}
+	>
+		<!-- Toggle sidebar icon -->
+		{#if isSidebarVisible}
+			<!-- Icon for "Hide Sidebar" (X icon) -->
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M6 18L18 6M6 6l12 12"
+				/>
+			</svg>
+		{:else}
+			<!-- Icon for "Show Sidebar" (Burger menu icon) -->
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M4 6h16M4 12h16m-7 6h7"
+				/>
+			</svg>
+		{/if}
+	</button>
 
 	<!-- Navigation Links: Hidden on small screens and visible on larger screens -->
 	<nav class="hidden pl-3 md:flex flex-grow space-x-10">
