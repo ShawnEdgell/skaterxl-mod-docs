@@ -98,7 +98,7 @@
 		</p>
 	</div>
 
-	<div class="mb-8 p-6 bg-gray-800 rounded-lg border border-blue-500">
+	<div class=" p-6 bg-gray-800 rounded-lg border border-blue-500">
 		<h2 class="mt-1">Upload ZIP Pack</h2>
 		<p class="text-sm mb-4 text-gray-400">
 			Ensure your pack includes only <strong>XML files</strong>. Organize files clearly by naming
@@ -110,10 +110,11 @@
 		>
 			<input
 				type="file"
-				accept=".zip"
+				accept=".zip,.zipx,.zipped"
 				class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
 				on:change={prepareUpload}
 			/>
+
 			<button
 				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-150 ease-in-out w-full md:w-auto"
 				on:click={completeUpload}
