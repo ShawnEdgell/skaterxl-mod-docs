@@ -54,7 +54,12 @@
 
 <div class="main-container flex justify-center">
 	<div class="max-w-md w-full">
-		<h1 class="text-center mb-8">Sign Up</h1>
+		<h1 class="text-center">Sign Up</h1>
+		<p class="text-center mt-4">
+			Login functionality is ready, and it'll soon unlock exciting new features. Stay tuned for
+			updates!
+		</p>
+
 		<form class="space-y-6" on:submit|preventDefault={signUp}>
 			<input type="hidden" name="remember" value="true" />
 			<div>
