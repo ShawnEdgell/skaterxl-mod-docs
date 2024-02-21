@@ -67,7 +67,7 @@
 	<Header {isSidebarVisible} {toggleSidebar} />
 
 	<div class="flex justify-center overflow-hidden">
-		<div class="flex flex-row max-w-5xl w-full">
+		<div class="flex flex-row max-w-6xl w-full">
 			<!-- Check if sidebar should be visible -->
 			{#if isSidebarVisible}
 				<!-- Include the Sidebar component -->
