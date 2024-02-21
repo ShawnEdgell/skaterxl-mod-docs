@@ -2,7 +2,7 @@
 	// Add any page-specific JavaScript here
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>XL Hub</h1>
 
 	<div class="stylish-box flex flex-col md:flex-row">

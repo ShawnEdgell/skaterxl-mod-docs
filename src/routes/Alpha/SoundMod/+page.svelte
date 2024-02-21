@@ -1,4 +1,4 @@
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>Sound Mod</h1>
 	<p>
 		Transform the auditory landscape of your Skater XL gameplay with the Sound Mod. Offering
@@ -63,9 +63,8 @@
 		<li>Download your chosen Sound Pack from the provided links.</li>
 		<li>Extract the Sound Pack files if they are zipped.</li>
 		<li>
-			Copy the Sound files into the SoundMod directory: <b
-				><code>Steam/steamapps/common/SkaterXL/Mods/SoundMod/Sounds</code></b
-			>
+			Copy the Sound files into the SoundMod directory:
+			<b><code>SkaterXL/Mods/SoundMod/Sounds</code></b>
 		</li>
 		<li>Launch Skater XL, and the new sounds will be automatically applied.</li>
 	</ol>

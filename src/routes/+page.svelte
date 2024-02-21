@@ -2,7 +2,7 @@
 	// Page-specific JavaScript can be added here if needed
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>Home</h1>
 
 	<!-- Stylish box with color -->

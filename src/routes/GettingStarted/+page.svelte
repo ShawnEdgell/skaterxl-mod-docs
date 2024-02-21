@@ -2,7 +2,7 @@
 	// Page-specific JavaScript can be added here if needed
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>Getting Started</h1>
 	<p>
 		Welcome to the world of Skater XL modding! Follow these steps to begin your modding journey.

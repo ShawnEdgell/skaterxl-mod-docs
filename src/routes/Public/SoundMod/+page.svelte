@@ -2,7 +2,7 @@
 	// Add any page-specific JavaScript here
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>Sound Mod</h1>
 
 	<p>
@@ -62,7 +62,7 @@
 			download and manually install a soundpack. Place the soundpack files into the following
 			directory:
 		</p>
-		<p><code><b>Steam/steamapps/common/SkaterXL/Mods/XLSoundMod/Sounds</b></code></p>
+		<p><code><b>SkaterXL/Mods/XLSoundMod/Sounds</b></code></p>
 	</div>
 
 	<!-- Download + Installation Section for Soundpacks -->

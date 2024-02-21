@@ -2,7 +2,7 @@
 	// Add any page-specific JavaScript here
 </script>
 
-<div class="max-w-4xl mx-auto py-6 overflow-hidden">
+<div class="main-container">
 	<h1>XXL 3 Mod (Stats Menu)</h1>
 	<p>
 		Also known as the 'stats menu', the XXL 3 Mod is a game-changer for Skater XL enthusiasts. It

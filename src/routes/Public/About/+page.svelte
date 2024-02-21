@@ -2,7 +2,7 @@
 	// Add any page-specific JavaScript here
 </script>
 
-<div class="max-w-4xl mx-auto py-6">
+<div class="main-container">
 	<h1>Skater XL v1.2.7.8 (Public Version)</h1>
 
 	<h2>Optimized for Vert Skating</h2>
