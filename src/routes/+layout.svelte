@@ -63,22 +63,24 @@
 
 <div class="flex flex-col h-screen bg-custom-bluegray-dark">
 	<!-- Include the Header component and pass the toggleSidebar function -->
+
 	<Header {isSidebarVisible} {toggleSidebar} />
 
-	<div class="flex flex-row flex-grow overflow-hidden">
-		<!-- Check if sidebar should be visible -->
-		{#if isSidebarVisible}
-			<!-- Include the Sidebar component -->
-			<Sidebar />
-		{/if}
-
-		<main class="flex-grow p-4 overflow-auto">
-			<!-- Button to toggle sidebar visibility -->
-
-			<!-- Main content slot -->
-			<slot />
-			<!-- Main content -->
-		</main>
+	<div class="flex justify-center overflow-hidden">
+		<div class="flex flex-row max-w-5xl w-full">
+			<!-- Check if sidebar should be visible -->
+			{#if isSidebarVisible}
+				<!-- Include the Sidebar component -->
+				<Sidebar class="flex-shrink-0" />
+			{/if}
+			<div class="flex-grow max-h-screen overflow-auto">
+				<main class="flex justify-center p-0 m-0">
+					<!-- Main content slot -->
+					<slot />
+					<!-- Main content -->
+				</main>
+			</div>
+		</div>
 	</div>
 </div>
 

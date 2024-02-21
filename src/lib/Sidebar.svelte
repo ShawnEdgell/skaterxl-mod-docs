@@ -186,7 +186,7 @@
 	}
 </script>
 
-<aside class="bg-custom-bluegray-mid min-w-max text-base h-screen p-4 overflow-y-auto pb-40">
+<aside class="min-w-max text-base h-full p-4 overflow-y-auto">
 	<h2 class="p-0 m-1 font-bold text-lg text-center">Skater XL Version:</h2>
 	<div class="mb-2 flex justify-center">
 		<button
@@ -203,7 +203,7 @@
 		</button>
 	</div>
 
-	<h3 class="text-sm uppercase tracking-wide mb-2 mt-8 pb-2">Essential Mods</h3>
+	<h3 class="text-sm tracking-wide mb-2 mt-8 pb-2">Essential Mods</h3>
 	<ul class="list-none m-0 p-0">
 		{#each currentCategories.slice(0, 5) as category}
 			<li class="mb-0">
@@ -218,7 +218,7 @@
 		{/each}
 	</ul>
 
-	<h3 class="text-sm uppercase tracking-wide mt-8 mb-2 pb-2">Other Mods</h3>
+	<h3 class="text-sm tracking-wide mt-8 mb-2 pb-2">Other Mods</h3>
 	<ul class="list-none m-0 p-0">
 		{#each currentCategories.slice(5) as category}
 			<li class="mb-0">
