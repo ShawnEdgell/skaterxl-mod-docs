@@ -49,10 +49,9 @@
 	});
 </script>
 
-<div class="flex flex-col justify-center bg-custom-bluegray-light">
-	<!-- Main Header -->
+<div class="flex justify-center bg-custom-bluegray-light">
 	<header
-		class="sticky px-4 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-5xl bg-custom-bluegray-light"
+		class="sticky px-4 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-5xl"
 	>
 		<div class="flex flex-col w-full">
 			<div class="flex flex-row justify-between items-center w-full">
@@ -142,40 +141,45 @@
 						{isLoggedIn ? 'Logout' : 'Login'}
 					</button>
 				</div>
+
+				{#if showMenu}
+					<!-- Dropdown Menu for Smaller Screens -->
+					<nav
+						class=" top-full left-0 w-full bg-custom-bluegray-light p-2 flex flex-col items-center md:hidden"
+					>
+						<a
+							href="/"
+							sveltekit-prefetch
+							class=" text-white my-2"
+							on:click={() => (showMenu = false)}>Home</a
+						>
+						<a
+							href="/GettingStarted"
+							sveltekit-prefetch
+							class=" text-white my-2"
+							on:click={() => (showMenu = false)}>Getting Started</a
+						>
+						<a
+							href="/Maps&Gear"
+							sveltekit-prefetch
+							class=" text-white my-2"
+							on:click={() => (showMenu = false)}>Maps & Gear</a
+						>
+						<a
+							href="/XLHub"
+							sveltekit-prefetch
+							class=" text-white my-2"
+							on:click={() => (showMenu = false)}>XL Hub</a
+						>
+						<a
+							href="/Stats"
+							sveltekit-prefetch
+							class=" text-white my-2"
+							on:click={() => (showMenu = false)}>Stats</a
+						>
+					</nav>
+				{/if}
 			</div>
 		</div>
 	</header>
-
-	<!-- Dropdown Menu for Smaller Screens -->
-	{#if showMenu}
-		<nav class="md:hidden flex flex-col items-center w-full bg-custom-bluegray-light p-2">
-			<a href="/" sveltekit-prefetch class="text-white my-2" on:click={() => (showMenu = false)}
-				>Home</a
-			>
-			<a
-				href="/GettingStarted"
-				sveltekit-prefetch
-				class="text-white my-2"
-				on:click={() => (showMenu = false)}>Getting Started</a
-			>
-			<a
-				href="/Maps&Gear"
-				sveltekit-prefetch
-				class="text-white my-2"
-				on:click={() => (showMenu = false)}>Maps & Gear</a
-			>
-			<a
-				href="/XLHub"
-				sveltekit-prefetch
-				class="text-white my-2"
-				on:click={() => (showMenu = false)}>XL Hub</a
-			>
-			<a
-				href="/Stats"
-				sveltekit-prefetch
-				class="text-white my-2"
-				on:click={() => (showMenu = false)}>Stats</a
-			>
-		</nav>
-	{/if}
 </div>

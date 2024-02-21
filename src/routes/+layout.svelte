@@ -6,7 +6,7 @@
 	import '../app.css';
 
 	// Define variables and functions
-	let isSidebarVisible = false; // Default to false to hide sidebar on initial load
+	let isSidebarVisible = true; // Default to false to hide sidebar on initial load
 	let modal, modalImg;
 
 	// Function to toggle sidebar visibility
@@ -33,6 +33,16 @@
 		modal = document.getElementById('imageModal');
 		modalImg = document.getElementById('modalContent');
 
+		// Adjust sidebar visibility based on viewport width
+		const checkSidebarVisibility = () => {
+			// Example breakpoint check; adjust as needed
+			isSidebarVisible = window.innerWidth > 768;
+		};
+
+		window.addEventListener('resize', checkSidebarVisibility);
+		// Initial check to set sidebar state correctly on client load
+		checkSidebarVisibility();
+
 		// Add event listener to open modal on image click
 		document.body.addEventListener('click', (event) => {
 			const isInsideHeader = event.target.closest('header') !== null;
@@ -44,27 +54,16 @@
 		// Add event listener to close modal on click outside
 		modal.addEventListener('click', closeModal);
 
-		// Adjust height of main content area based on viewport height
-		function adjustMainContentHeight() {
-			const vh = window.innerHeight * 0.01;
-			document.documentElement.style.setProperty('--vh', `${vh}px`);
-		}
-
-		// Initial adjustment on component mount
-		adjustMainContentHeight();
-
-		// Update height when window is resized
-		window.addEventListener('resize', adjustMainContentHeight);
-
-		// Clean up event listeners on component destruction
+		// Remove event listener on component destruction
 		return () => {
-			window.removeEventListener('resize', adjustMainContentHeight);
+			window.removeEventListener('resize', checkSidebarVisibility);
 		};
 	});
 </script>
 
 <div class="flex flex-col h-screen bg-custom-bluegray-dark">
 	<!-- Include the Header component and pass the toggleSidebar function -->
+
 	<Header {isSidebarVisible} {toggleSidebar} />
 
 	<div class="flex justify-center overflow-hidden">
@@ -74,7 +73,7 @@
 				<!-- Include the Sidebar component -->
 				<Sidebar class="flex-shrink-0" />
 			{/if}
-			<div class="flex-grow max-h-[calc(var(--vh, 1vh) * 100 - 120px)] overflow-auto">
+			<div class="flex-grow max-h-screen overflow-auto">
 				<main class="flex justify-center p-0 m-0">
 					<!-- Main content slot -->
 					<slot />
