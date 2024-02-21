@@ -6,7 +6,7 @@
 	import '../app.css';
 
 	// Define variables and functions
-	let isSidebarVisible = true; // Default to false to hide sidebar on initial load
+	let isSidebarVisible = true; // Default to true for SSR or initial load
 	let modal, modalImg;
 
 	// Function to toggle sidebar visibility
@@ -65,14 +65,14 @@
 	<!-- Include the Header component and pass the toggleSidebar function -->
 	<Header {isSidebarVisible} {toggleSidebar} />
 
-	<div class="flex flex-row flex-grow overflow-auto">
+	<div class="flex flex-row flex-grow overflow-hidden">
 		<!-- Check if sidebar should be visible -->
 		{#if isSidebarVisible}
 			<!-- Include the Sidebar component -->
 			<Sidebar />
 		{/if}
 
-		<main class="p-4">
+		<main class="flex-grow p-4 overflow-auto">
 			<!-- Button to toggle sidebar visibility -->
 
 			<!-- Main content slot -->
