@@ -4,7 +4,7 @@
 
 /* Main container */
 .main-container {
-	@apply max-w-4xl mx-auto py-6;
+	@apply max-w-4xl mx-auto py-6 overflow-hidden;
 }
 
 /* Global styles for HTML elements */

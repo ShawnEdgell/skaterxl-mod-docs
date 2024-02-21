@@ -65,14 +65,14 @@
 	<!-- Include the Header component and pass the toggleSidebar function -->
 	<Header {isSidebarVisible} {toggleSidebar} />
 
-	<div class="flex flex-row flex-grow overflow-hidden">
+	<div class="flex flex-row flex-grow overflow-auto">
 		<!-- Check if sidebar should be visible -->
 		{#if isSidebarVisible}
 			<!-- Include the Sidebar component -->
 			<Sidebar />
 		{/if}
 
-		<main class="p-4 overflow-auto">
+		<main class="p-4">
 			<!-- Button to toggle sidebar visibility -->
 
 			<!-- Main content slot -->
