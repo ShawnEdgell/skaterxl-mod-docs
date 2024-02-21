@@ -6,7 +6,7 @@
 	import '../app.css';
 
 	// Define variables and functions
-	let isSidebarVisible = true; // Default to false to hide sidebar on initial load
+	let isSidebarVisible = false; // Default to false to hide sidebar on initial load
 	let modal, modalImg;
 
 	// Function to toggle sidebar visibility
