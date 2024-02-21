@@ -7,6 +7,7 @@ module.exports = {
         'custom-bluegray-mid': '#191b1f',
         'custom-bluegray-light': '#25272c',
         'custom-green': '#85f932',
+        'custom-blue': '#3B82F6',
       },
     },
   },
