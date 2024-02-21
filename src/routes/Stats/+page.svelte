@@ -196,45 +196,61 @@
 				required
 			/>
 
-			<div class="mb-4 mt-2 text-white">
-				<div class="flex flex-wrap">
-					<div class="px-2 w-full sm:w-auto">
-						<label class="inline-flex items-center mt-3">
-							<input
-								type="checkbox"
-								class="form-checkbox h-5 w-5 text-green-600"
-								bind:group={selectedTags}
-								value="XXL Mod Stats"
-							/>
-							<span class="ml-2 text-gray-200">XXL Mod Stats</span>
-						</label>
-					</div>
-					<div class="px-2 w-full sm:w-auto">
-						<label class="inline-flex items-center mt-3">
-							<input
-								type="checkbox"
-								class="form-checkbox h-5 w-5 text-green-600"
-								bind:group={selectedTags}
-								value="Fro's Mod"
-							/>
-							<span class="ml-2 text-gray-200">Fro's Mod Settings</span>
-						</label>
-					</div>
-					<div class="px-2 w-full sm:w-auto">
-						<label class="inline-flex items-center mt-3">
-							<input
-								type="checkbox"
-								class="form-checkbox h-5 w-5 text-green-600"
-								bind:group={selectedTags}
-								value="BonedOllieMod"
-							/>
-							<span class="ml-2 text-gray-200">BonedOllieMod Settings</span>
-						</label>
-					</div>
+			<script>
+				let selectedTags = [];
+			</script>
+
+			<script>
+				let selectedTags = [];
+			</script>
+
+			<div class="mb-2 mt-6 text-white">
+				<div class="flex gap-2 flex-wrap justify-start items-center">
+					<!-- Tag 1: XXL Mod Stats -->
+					<label class="inline-flex items-center cursor-pointer">
+						<input
+							type="checkbox"
+							class="form-checkbox hidden h-5 w-5 text-green-600"
+							bind:group={selectedTags}
+							value="XXL Mod Stats"
+						/>
+						<span
+							class={`${selectedTags.includes('XXL Mod Stats') ? 'text-gray-200 bg-blue-500' : 'text-gray-200 bg-gray-500'} py-1 px-3 rounded-full text-xs`}
+						>
+							XXL Mod Stats
+						</span>
+					</label>
+					<!-- Tag 2: Fro's Mod -->
+					<label class="inline-flex items-center cursor-pointer">
+						<input
+							type="checkbox"
+							class="form-checkbox hidden h-5 w-5 text-green-600"
+							bind:group={selectedTags}
+							value="Fro's Mod"
+						/>
+						<span
+							class={`${selectedTags.includes("Fro's Mod") ? 'text-gray-200 bg-blue-500' : 'text-gray-200 bg-gray-500'} py-1 px-3 rounded-full text-xs`}
+						>
+							Fro's Mod Settings
+						</span>
+					</label>
+					<!-- Tag 3: BonedOllieMod -->
+					<label class="inline-flex items-center cursor-pointer">
+						<input
+							type="checkbox"
+							class="form-checkbox hidden h-5 w-5 text-green-600"
+							bind:group={selectedTags}
+							value="BonedOllieMod"
+						/>
+						<span
+							class={` ${selectedTags.includes('BonedOllieMod') ? 'text-gray-200 bg-blue-500' : 'text-gray-200 bg-gray-500'} py-1 px-3 rounded-full text-xs`}
+						>
+							BonedOllieMod Settings
+						</span>
+					</label>
 				</div>
-				<!-- Hint for user -->
 				{#if selectedTags.length === 0}
-					<p class="text-gray-400 text-sm mt-1">Please select at least one preset tag.</p>
+					<p class="mt-2 -mb-2 text-gray-400 text-sm">Please select at least one preset tag.</p>
 				{/if}
 			</div>
 
@@ -244,7 +260,7 @@
 					type="file"
 					id="fileInput"
 					accept=".zip,.zipx,.zipped"
-					class="file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
+					class="mt-4 file-input bg-gray-700 text-white py-2 px-4 rounded-md cursor-pointer w-full md:flex-1"
 					on:change={prepareUpload}
 					required
 				/>
@@ -290,7 +306,7 @@
 				<div
 					class="bg-gray-700 p-4 rounded-lg flex flex-col md:flex-row items-start space-y-2 md:space-y-0 md:items-center"
 				>
-					<div class="flex-1">
+					<div class="flex-1 md:pr-10">
 						<p class="text-white font-bold">{file.file_name}</p>
 						<p class="text-gray-400 text-sm p-0 m-0">Uploaded By: {file.creator || 'Anonymous'}</p>
 						<p class="text-gray-400 text-sm m-0">Upload Date: {formatDate(file.uploaded_at)}</p>
