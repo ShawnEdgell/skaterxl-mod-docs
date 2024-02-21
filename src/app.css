@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	height: --webkit-fill-available;
+}
+
+body {
+	height: 100vh;
+	height: --webkit-fill-available;
+}
+
 /* Main container */
 .main-container {
 	@apply p-4 overflow-hidden;
