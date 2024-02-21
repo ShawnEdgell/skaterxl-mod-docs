@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-	@apply bg-custom-bluegray-dark;
-}
-
 /* Main container */
 .main-container {
 	@apply max-w-4xl mx-auto py-6 overflow-hidden;
