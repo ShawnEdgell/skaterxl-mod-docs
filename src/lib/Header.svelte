@@ -51,7 +51,7 @@
 
 <div class="flex justify-center bg-custom-bluegray-light">
 	<header
-		class="sticky px-6 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-6xl"
+		class="relative px-6 top-0 z-9999 py-2 px flex items-center justify-between w-full max-w-6xl"
 	>
 		<!-- Green Button -->
 		<button
