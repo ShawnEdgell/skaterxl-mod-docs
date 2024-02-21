@@ -226,7 +226,7 @@
 </script>
 
 <aside class="min-w-max text-base h-full p-4 overflow-y-auto">
-	<div class="mb-2 relative rounded-lg flex">
+	<div class="my-2 relative rounded-lg flex">
 		<button
 			class="font-bold text-sm px-4 py-2 bg-blue-500 text-white rounded-full"
 			on:click={toggleDropdown}
