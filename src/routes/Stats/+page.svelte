@@ -11,8 +11,9 @@
 		const file = event.target.files[0];
 		if (!file) return;
 
-		// Check for ZIP file type
-		if (file.type !== 'application/zip') {
+		// Check for ZIP file extension
+		const extension = file.name.split('.').pop().toLowerCase();
+		if (!['zip', 'zipx', 'zipped'].includes(extension)) {
 			alert('Please upload only ZIP files.');
 			return;
 		}
