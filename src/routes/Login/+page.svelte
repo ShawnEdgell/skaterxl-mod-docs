@@ -65,7 +65,7 @@
 	}
 </script>
 
-<div class="main-container flex justify-center h-full">
+<div class="main-container flex justify-center">
 	<div class="max-w-md w-full">
 		<h1 class=" text-center">Log In</h1>
 		{#if !isLoggedIn}
