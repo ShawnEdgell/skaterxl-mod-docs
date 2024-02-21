@@ -98,7 +98,7 @@
 		</p>
 	</div>
 
-	<div class="p-6 bg-gray-800 rounded-lg border border-blue-500">
+	<div class="mb-8 p-6 bg-gray-800 rounded-lg border border-blue-500">
 		<h2 class="mt-1">Upload ZIP Pack</h2>
 		<p class="text-sm mb-4 text-gray-400">
 			Ensure your pack includes only <strong>XML files</strong>. Organize files clearly by naming
@@ -123,6 +123,20 @@
 		</div>
 
 		<p class="text-sm mt-2 text-gray-400">Accepted format: .zip (Max size: 50KB)</p>
+
+		<!-- Template Download Link -->
+		<!--
+		<p class="text-sm text-gray-400">
+			Not sure how to organize your pack? Download our template as a guide:
+		</p>
+		<a
+			href="My-Stat-Pack-Template.zip"
+			class="inline-block hover:text-white bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded transition-colors duration-150 ease-in-out"
+			download="My-Stat-Pack-Template.zip"
+		>
+			Download Template
+		</a>
+		-->
 	</div>
 
 	<h2>Downloads</h2>
@@ -130,8 +144,8 @@
 		<li class="bg-gray-700 py-2 px-4 rounded-lg flex justify-between items-center">
 			<span class="text-sm md:text-base">{file.name}</span>
 			<button
+				on:click={() => handleDownload(file.url, file.name)}
 				class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm rounded-md transition-colors duration-150 ease-in-out"
-				on:click={completeUpload}
 			>
 				Download
 			</button>
