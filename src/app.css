@@ -9,10 +9,6 @@
 
 /* Global styles for HTML elements */
 
-iframe {
-	@apply relative z-0;
-}
-
 h1 {
 	@apply text-3xl font-bold text-white mb-4;
 }
