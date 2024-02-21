@@ -117,17 +117,24 @@
 
 	async function handleDownload(fileUrl, fileName) {
 		try {
-			const response = await fetch(fileUrl);
-			if (!response.ok) throw new Error(`Failed to fetch ${fileName}: ${response.statusText}`);
-			const blob = await response.blob();
-			const downloadUrl = window.URL.createObjectURL(blob);
-			const a = document.createElement('a');
-			a.href = downloadUrl;
-			a.download = fileName;
-			document.body.appendChild(a);
-			a.click();
-			document.body.removeChild(a);
-			window.URL.revokeObjectURL(downloadUrl);
+			const baseUrl = 'https://qpknfrgashybshnpyobs.supabase.co/storage/v1/public/Stats/uploads/';
+			const relativePath = fileUrl.replace(baseUrl, ''); // Extract the relative path
+			const fileDownloadUrl = `${supabase.storageUrl}/object/public/Stats/uploads/${relativePath}`;
+
+			// Create a hidden anchor element
+			const link = document.createElement('a');
+			link.href = fileDownloadUrl;
+			link.download = fileName;
+			link.style.display = 'none'; // Hide the link
+
+			// Append the link to the document body
+			document.body.appendChild(link);
+
+			// Trigger the download by programmatically clicking the link
+			link.click();
+
+			// Remove the link from the document body after the download is initiated
+			document.body.removeChild(link);
 		} catch (error) {
 			console.error('Error downloading file:', error);
 			alert('Download failed');
