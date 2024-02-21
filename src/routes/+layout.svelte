@@ -61,20 +61,23 @@
 	});
 </script>
 
-<div class="flex flex-col h-screen">
-	<!-- Header remains sticky/fixed to the top -->
+<div class="flex flex-col h-screen bg-custom-bluegray-dark">
+	<!-- Include the Header component and pass the toggleSidebar function -->
 	<Header {isSidebarVisible} {toggleSidebar} />
 
-	<!-- Flex container for main content and sidebar, taking up remaining space -->
-	<div class="flex flex-grow overflow-hidden h-screen">
-		<!-- Sidebar visibility toggled -->
+	<div class="flex flex-row flex-grow overflow-hidden">
+		<!-- Check if sidebar should be visible -->
 		{#if isSidebarVisible}
+			<!-- Include the Sidebar component -->
 			<Sidebar />
 		{/if}
 
-		<!-- Main content area should automatically fill the rest -->
 		<main class="flex-grow p-4 overflow-auto">
+			<!-- Button to toggle sidebar visibility -->
+
+			<!-- Main content slot -->
 			<slot />
+			<!-- Main content -->
 		</main>
 	</div>
 </div>
