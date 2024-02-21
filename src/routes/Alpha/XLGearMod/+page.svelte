@@ -87,18 +87,14 @@
 
 	<!-- Embedded YouTube Video Section -->
 	<h2>Getting Started Guide</h2>
-	<div class="aspect-w-16 aspect-h-9">
-		<div class="mt-2 relative" style="padding-top: 56.25%;">
-			<iframe
-				class="absolute top-0 left-0 w-full h-full"
-				src="https://www.youtube.com/embed/FgBUi8X5th0"
-				frameborder="0"
-				allowfullscreen
-				title="XL Gear Modifier - Getting Started"
-			>
-			</iframe>
-		</div>
-	</div>
+	<iframe
+		class="my-2 w-full aspect-video"
+		src="https://www.youtube.com/embed/FgBUi8X5th0"
+		frameborder="0"
+		allowfullscreen
+		title="XL Gear Modifier - Getting Started"
+	>
+	</iframe>
 
 	<h2>Gear Discord Servers</h2>
 	<p>

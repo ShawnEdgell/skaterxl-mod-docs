@@ -90,22 +90,21 @@
 		help you get started with modding Skater XL.
 	</p>
 
-	<h3>2024 Mod Guide by Milky</h3>
-	<div class="mt-2 relative" style="padding-top: 56.25%;">
+	<div class="my-6">
+		<h3>2024 Mod Guide by Milky</h3>
 		<iframe
-			class="absolute top-0 left-0 w-full h-full"
+			class="my-2 w-full aspect-video"
 			src="https://www.youtube.com/embed/veZlQE7tfHw"
 			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen
 			title="Skater XL Modding Guide by Milky"
-		>
-		</iframe>
+		></iframe>
 	</div>
-
-	<h3>2024 Mod Guide by DJBIGGUMS</h3>
-	<div class="mt-2 relative" style="padding-top: 56.25%;">
+	<div class="my-6">
+		<h3>2024 Mod Guide by DJBIGGUMS</h3>
 		<iframe
-			class="absolute top-0 left-0 w-full h-full"
+			class="my-2 w-full aspect-video"
 			src="https://www.youtube.com/embed/meHtrJgfDpg"
 			frameborder="0"
 			allowfullscreen

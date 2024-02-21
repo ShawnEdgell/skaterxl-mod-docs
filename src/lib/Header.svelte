@@ -137,7 +137,7 @@
 	{#if showMenu}
 		<!-- Dropdown Menu for Smaller Screens -->
 		<nav
-			class="absolute top-full left-0 w-full bg-custom-bluegray-light p-2 flex flex-col items-center z-100 md:hidden"
+			class="absolute top-full left-0 w-full bg-custom-bluegray-light p-2 flex flex-col items-center z-9999 md:hidden"
 		>
 			<a
 				href="/"
