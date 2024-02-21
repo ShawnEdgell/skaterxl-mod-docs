@@ -102,12 +102,12 @@
 		<a href="/Stats" sveltekit-prefetch class="font-bold text-white">Stats</a>
 	</nav>
 
-	<!-- Custom Menu Button -->
-	<button on:click={toggleMenu} class="md:hidden flex items-center justify-center">
+	<!-- Custom Menu Button with Increased Click Radius -->
+	<button on:click={toggleMenu} class="md:hidden flex items-center justify-center -m-4">
 		<!-- Custom SVG Icon for Menu -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			class="h-6 w-6 text-white transform mb-2 rotate-180"
+			class="h-6 w-6 text-white transform m-4 rotate-180"
 			fill="none"
 			viewBox="0 0 24 24"
 			stroke="currentColor"
