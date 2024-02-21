@@ -134,6 +134,12 @@
 		}
 	}
 
+	function formatDate(dateString) {
+		const options = { year: 'numeric', month: 'long', day: 'numeric' };
+		const date = new Date(dateString);
+		return date.toLocaleDateString('en-US', options);
+	}
+
 	onMount(() => {
 		fetchFiles();
 	});
@@ -142,8 +148,9 @@
 <div class="main-container">
 	<h1>Stats & Settings (BETA)</h1>
 	<p>
-		This page is dedicated to uploading and downloading community-made stat packs for the XXL Mod,
-		BonedOllieMod, and Fro's Mod.
+		This page is dedicated to uploading and downloading community-made stat and setting presets for
+		the XXL Mod, BonedOllieMod, and Fro's Mod. Please note that this page is still a work in
+		progress with many more features to come.
 	</p>
 
 	<div class="mt-6 p-6 bg-gray-800 rounded-lg border border-blue-500">
@@ -176,6 +183,7 @@
 					<option value="" disabled>Select your stance</option>
 					<option value="Goofy">Goofy</option>
 					<option value="Regular">Regular</option>
+					<option value="Goofy & Regular">Goofy & Regular</option>
 				</select>
 			</div>
 
@@ -276,28 +284,32 @@
 	</div>
 
 	{#if files && files.length > 0}
-		<h2 class="text-xl font-bold mb-4">Downloads</h2>
+		<h2 class="mb-4">Downloads</h2>
 		<div class="grid gap-4">
 			{#each files as file}
 				<div
 					class="bg-gray-700 p-4 rounded-lg flex flex-col md:flex-row items-start space-y-2 md:space-y-0 md:items-center"
 				>
 					<div class="flex-1">
-						<p class="text-white"><strong>Creator:</strong> {file.creator || 'Anonymous'}</p>
-						<p class="text-white"><strong>File Name:</strong> {file.file_name}</p>
+						<p class="text-white font-bold">{file.file_name}</p>
+						<p class="text-gray-400 text-sm p-0 m-0">Uploaded By: {file.creator || 'Anonymous'}</p>
+						<p class="text-gray-400 text-sm m-0">Upload Date: {formatDate(file.uploaded_at)}</p>
 						{#if file.description}
-							<p class="text-white"><strong>Description:</strong> {file.description}</p>
+							<p class="text-gray-400 text-sm">Description: {file.description}</p>
 						{/if}
-						<p class="text-white">
-							<strong>Uploaded At:</strong>
-							{new Date(file.uploaded_at).toLocaleString()}
-						</p>
 						<!-- Display Tags as Presets -->
-						<p class="text-white">
-							<strong>Presets:</strong>
-							{#if file.tags && file.tags.length > 0}{file.tags.join(', ')}{:else}None{/if}
-						</p>
-						<p class="text-white"><strong>Stance:</strong> {file.stance || 'Not specified'}</p>
+						{#if file.tags && file.tags.length > 0}
+							<div class="flex flex-wrap mt-2">
+								{#each file.tags as tag}
+									<div class="bg-blue-500 text-white py-1 px-2 rounded-full text-xs mr-2 mb-2">
+										{tag}
+									</div>
+								{/each}
+							</div>
+						{:else}
+							<p class="text-gray-400 text-sm">Presets: None</p>
+						{/if}
+						<p class=" text-sm">Stance: {file.stance || 'Not specified'}</p>
 					</div>
 					{#if file.url}
 						<button
