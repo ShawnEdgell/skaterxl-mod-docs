@@ -1,111 +1,47 @@
-<script>
-	// Import necessary modules
-	import { onMount } from 'svelte';
-	import Header from '$lib/Header.svelte';
-	import Sidebar from '$lib/Sidebar.svelte';
-	import '../app.css';
+<script lang="ts">
+	import '../app.postcss';
+	import { afterNavigate } from '$app/navigation';
+	import type { AfterNavigate } from '@sveltejs/kit';
+	import Header from '$lib/components/Header.svelte';
+	import Navigation from '$lib/components/Navigation.svelte';
+	import MobileNav from '$lib/components/MobileNav.svelte';
+	import { AppShell, TableOfContents, initializeStores, Drawer } from '@skeletonlabs/skeleton';
 
-	// Define variables and functions
-	let isSidebarVisible = true; // Default to false to hide sidebar on initial load
-	let modal, modalImg;
+	initializeStores();
 
-	// Function to toggle sidebar visibility
-	export function toggleSidebar() {
-		isSidebarVisible = !isSidebarVisible;
-	}
-
-	// Function to open modal
-	function openModal(src, alt) {
-		modal.style.display = 'block';
-		modalImg.src = src;
-		modalImg.alt = alt || 'Zoomed image';
-	}
-
-	// Function to close modal
-	function closeModal(event) {
-		if (event.target.classList.contains('close') || event.target === modal) {
-			modal.style.display = 'none';
+	afterNavigate((params: AfterNavigate) => {
+		const isNewPage = params.from?.url.pathname !== params.to?.url.pathname;
+		const elemPage = document.querySelector('#page');
+		if (isNewPage && elemPage !== null) {
+			elemPage.scrollTop = 0;
 		}
-	}
-
-	// On mount, set up event listeners and check sidebar visibility
-	onMount(() => {
-		modal = document.getElementById('imageModal');
-		modalImg = document.getElementById('modalContent');
-
-		// Adjust sidebar visibility based on viewport width
-		const checkSidebarVisibility = () => {
-			// Example breakpoint check; adjust as needed
-			isSidebarVisible = window.innerWidth > 768;
-		};
-
-		window.addEventListener('resize', checkSidebarVisibility);
-		// Initial check to set sidebar state correctly on client load
-		checkSidebarVisibility();
-
-		// Add event listener to open modal on image click
-		document.body.addEventListener('click', (event) => {
-			const isInsideHeader = event.target.closest('header') !== null;
-			if (event.target.tagName === 'IMG' && !isInsideHeader) {
-				openModal(event.target.src, event.target.alt);
-			}
-		});
-
-		// Add event listener to close modal on click outside
-		modal.addEventListener('click', closeModal);
-
-		// Remove event listener on component destruction
-		return () => {
-			window.removeEventListener('resize', checkSidebarVisibility);
-		};
 	});
 </script>
 
-<div class="flex flex-col h-screen bg-custom-bluegray-dark">
-	<!-- Include the Header component and pass the toggleSidebar function -->
+<Drawer>
+	<MobileNav />
+</Drawer>
 
-	<Header {isSidebarVisible} {toggleSidebar} />
+<AppShell scrollbarGutter="stable" regionPage="scroll-smooth overscroll-none">
+	<svelte:fragment slot="header">
+		<Header />
+	</svelte:fragment>
 
-	<div class="flex justify-center overflow-hidden">
-		<div class="flex flex-row max-w-5xl w-full">
-			<!-- Check if sidebar should be visible -->
-			{#if isSidebarVisible}
-				<!-- Include the Sidebar component -->
-				<Sidebar class="flex-shrink-0" />
-			{/if}
-			<div class="flex-grow max-h-screen overflow-auto">
-				<main class="flex justify-center p-0 m-0">
-					<!-- Main content slot -->
-					<slot />
-					<!-- Main content -->
-				</main>
-			</div>
+	<svelte:fragment slot="sidebarLeft">
+		<div class="hidden sm:block">
+			<Navigation />
+		</div>
+	</svelte:fragment>
+	<!-- Router Slot -->
+	<div class="flex justify-center h-full">
+		<div class="p-6 max-w-6xl">
+			<slot />
+		</div>
+		<div class="p-6 hidden lg:block">
+			<TableOfContents class="sticky top-10 w-44">
+				<h1>On this page</h1>
+			</TableOfContents>
 		</div>
 	</div>
-</div>
-
-<!-- Modal for image viewing -->
-<div
-	id="imageModal"
-	class="fixed inset-0 z-50 hidden overflow-auto bg-black bg-opacity-90 p-[50px_15px]"
-	onclick={closeModal}
->
-	<span
-		class="close absolute top-4 right-9 text-white text-5xl font-bold cursor-pointer hover:text-gray-300"
-		onclick={closeModal}
-	>
-		&times;
-	</span>
-	<img
-		class="modal-content block mx-auto mt-5 max-w-[95%] max-h-[90vh] w-auto h-auto cursor-zoom-in"
-		id="modalContent"
-		alt=""
-	/>
-</div>
-
-<style>
-	/* Add this style if the Tailwind hover class doesn't provide the desired effect */
-	.close:hover {
-		color: #bbb; /* Adjust color as needed */
-	}
-</style>
+	<!-- ---- / ---- -->
+</AppShell>
