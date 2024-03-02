@@ -18,9 +18,7 @@
 
 <AppShell scrollbarGutter="stable" regionPage="scroll-smooth overscroll-none">
 	<svelte:fragment slot="header"><Header /></svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">
-		<div class="hidden sm:block"></div>
-	</svelte:fragment>
+
 	<!-- Router Slot -->
 	<div class="flex justify-center h-full">
 		<div class="p-6 max-w-6xl">
