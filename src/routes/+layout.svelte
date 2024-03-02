@@ -1,10 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { afterNavigate } from '$app/navigation';
-	import type { AfterNavigate } from '@sveltejs/kit';
 	import Header from '$lib/components/Header.svelte';
-	import Navigation from '$lib/components/Navigation.svelte';
-	import MobileNav from '$lib/components/MobileNav.svelte';
+	import type { AfterNavigate } from '@sveltejs/kit';
 	import { AppShell, TableOfContents, initializeStores, Drawer } from '@skeletonlabs/skeleton';
 
 	initializeStores();
@@ -18,19 +16,10 @@
 	});
 </script>
 
-<Drawer>
-	<MobileNav />
-</Drawer>
-
 <AppShell scrollbarGutter="stable" regionPage="scroll-smooth overscroll-none">
-	<svelte:fragment slot="header">
-		<Header />
-	</svelte:fragment>
-
+	<svelte:fragment slot="header"><Header /></svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
-		<div class="hidden sm:block">
-			<Navigation />
-		</div>
+		<div class="hidden sm:block"></div>
 	</svelte:fragment>
 	<!-- Router Slot -->
 	<div class="flex justify-center h-full">
