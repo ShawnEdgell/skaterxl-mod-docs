@@ -121,122 +121,119 @@
 				<svelte:fragment slot="summary"><strong>Getting Started Guide</strong></svelte:fragment>
 				<svelte:fragment slot="content">
 					<div class="space-y-5">
-						<div class="p-3">
-							<Stepper>
-								<Step>
-									<svelte:fragment slot="header">Step 1: Confirm Your Game Version</svelte:fragment>
-									<p>
-										It's crucial to know which version of Skater XL you're installing mods into, as
-										mod compatibility depends on your game version.
-									</p>
-									<p>Check your game version in the lower left corner at launch.</p>
-									<p>v1.2.2.8 and v1.2.7.8 are the most common versions.</p>
-									<img src="images/XLversion.webp" alt="Game Version Check" />
-								</Step>
-								<Step>
-									<svelte:fragment slot="header"
-										>Step 2: Switching Game Versions (optional)</svelte:fragment
-									>
-									<p>
-										Both the Alpha (v1.2.2.8) and Public (v.1.2.7.8) branches are viable for
-										modding, but we recommend version v1.2.2.8 (Alpha) due to its extensive mod
-										support.
-									</p>
-									<p>
-										To change versions, right-click Skater XL in your Steam library, select
-										Properties > Betas.
-									</p>
-									<p>Choose your preferred version from the dropdown menu.</p>
-									<img src="images/XLDowngrade2.webp" alt="Downgrade Step" />
-								</Step>
-								<Step>
-									<svelte:fragment slot="header">Step 3: Download UnityModManager</svelte:fragment>
-									<p>
-										Select your game version below and follow the link to download the corresponding
-										UnityModManager (UMM) version.
-									</p>
-									<p>You will need to login to Nexusmods, then select "Slow Download."</p>
-									<Accordion autocollapse>
-										<AccordionItem>
-											<svelte:fragment slot="summary"
-												><strong>Skater XL v1.2.2.8 (Alpha)</strong></svelte:fragment
-											>
-											<svelte:fragment slot="content">
-												<div class="p-6">
-													<a
-														href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224"
-														class="btn variant-filled"
-														target="_blank">UnityModManager v0.27.4</a
-													>
-												</div>
-											</svelte:fragment>
-										</AccordionItem>
-										<AccordionItem>
-											<svelte:fragment slot="summary"
-												><strong>Skater XL v1.2.7.8 (Public)</strong></svelte:fragment
-											>
-											<svelte:fragment slot="content">
-												<div class="p-6">
-													<a
-														href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314"
-														class="btn variant-filled"
-														target="_blank">UnityModManager v0.27.7</a
-													>
-												</div>
-											</svelte:fragment>
-										</AccordionItem>
-									</Accordion>
-									<p>
-										To keep things easy, make sure you only have one version of UnityModManager
-										downloaded at a time.
-									</p>
-								</Step>
-								<Step>
-									<svelte:fragment slot="header">Step 4: UnityModmanger Setup</svelte:fragment>
-									<p>
-										After downloading, extract the .zip file. Open this folder to access
-										UnityModManager.exe. Set the following paths:
-									</p>
-									<p><strong>Game:</strong> Skater XL</p>
-									<p>
-										<strong>Folder:</strong> This PC > Local Disk (C:) > Program Files (x86) > Steam
-										> steamapps > common > Skater XL
-									</p>
-									<img src="images/UMM2.webp" alt="UnityModManager Setup" />
-									<p>
-										Click <strong>Install</strong> or <strong>Update</strong> to complete the setup.
-									</p>
-									<p>
-										<strong>Troubleshooting: </strong>If you get a "method on start" error it means
-										you are using the wrong version of UnityModManager. Refer back to step 3 to
-										ensure you have the right version.
-									</p>
-								</Step>
-								<Step>
-									<svelte:fragment slot="header">Step 5: Download and Install Mods</svelte:fragment>
-									<p>
-										Download compatible mods and drop them into UnityModManager. For a full list of
-										working mods for your game, check out our Mods tab.
-									</p>
-									<img src="images/UMM3.webp" alt="Installing Mods" />
-									<p>
-										<strong>Note:</strong> In UnityModManager, "Status: OK" or "Status: Update to X.X.X"
-										indicates a mod is installed. Avoid updating mods directly from UnityModManager,
-										as changing versions may render them incompatible.
-									</p>
-									<p>For manual installation or uninstallation, right-click each mod.</p>
-								</Step>
-								<Step>
-									<svelte:fragment slot="header">Step 6: Launch Skater XL!</svelte:fragment>
-									<p>
-										Start Skater XL. UnityModManager will open, indicating mod status. A green icon
-										suggests the mod is working, while a red icon indicates issues.
-									</p>
-									<img src="images/UMM5.webp" alt="Launch Skater XL" />
-								</Step>
-								<!-- ... -->
-							</Stepper>
-						</div>
+						<Stepper>
+							<Step>
+								<svelte:fragment slot="header">Step 1: Confirm Your Game Version</svelte:fragment>
+								<p>
+									It's crucial to know which version of Skater XL you're installing mods into, as
+									mod compatibility depends on your game version.
+								</p>
+								<p>Check your game version in the lower left corner at launch.</p>
+								<p>v1.2.2.8 and v1.2.7.8 are the most common versions.</p>
+								<img src="images/XLversion.webp" alt="Game Version Check" />
+							</Step>
+							<Step>
+								<svelte:fragment slot="header"
+									>Step 2: Switching Game Versions (optional)</svelte:fragment
+								>
+								<p>
+									Both the Alpha (v1.2.2.8) and Public (v.1.2.7.8) branches are viable for modding,
+									but we recommend version v1.2.2.8 (Alpha) due to its extensive mod support.
+								</p>
+								<p>
+									To change versions, right-click Skater XL in your Steam library, select Properties
+									> Betas.
+								</p>
+								<p>Choose your preferred version from the dropdown menu.</p>
+								<img src="images/XLDowngrade2.webp" alt="Downgrade Step" />
+							</Step>
+							<Step>
+								<svelte:fragment slot="header">Step 3: Download UnityModManager</svelte:fragment>
+								<p>
+									Select your game version below and follow the link to download the corresponding
+									UnityModManager (UMM) version.
+								</p>
+								<p>You will need to login to Nexusmods, then select "Slow Download."</p>
+								<Accordion autocollapse>
+									<AccordionItem>
+										<svelte:fragment slot="summary"
+											><strong>Skater XL v1.2.2.8 (Alpha)</strong></svelte:fragment
+										>
+										<svelte:fragment slot="content">
+											<div class="p-6">
+												<a
+													href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224"
+													class="btn variant-filled"
+													target="_blank">UnityModManager v0.27.4</a
+												>
+											</div>
+										</svelte:fragment>
+									</AccordionItem>
+									<AccordionItem>
+										<svelte:fragment slot="summary"
+											><strong>Skater XL v1.2.7.8 (Public)</strong></svelte:fragment
+										>
+										<svelte:fragment slot="content">
+											<div class="p-6">
+												<a
+													href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314"
+													class="btn variant-filled"
+													target="_blank">UnityModManager v0.27.7</a
+												>
+											</div>
+										</svelte:fragment>
+									</AccordionItem>
+								</Accordion>
+								<p>
+									To keep things easy, make sure you only have one version of UnityModManager
+									downloaded at a time.
+								</p>
+							</Step>
+							<Step>
+								<svelte:fragment slot="header">Step 4: UnityModmanger Setup</svelte:fragment>
+								<p>
+									After downloading, extract the .zip file. Open this folder to access
+									UnityModManager.exe. Set the following paths:
+								</p>
+								<p><strong>Game:</strong> Skater XL</p>
+								<p>
+									<strong>Folder:</strong> This PC > Local Disk (C:) > Program Files (x86) > Steam >
+									steamapps > common > Skater XL
+								</p>
+								<img src="images/UMM2.webp" alt="UnityModManager Setup" />
+								<p>
+									Click <strong>Install</strong> or <strong>Update</strong> to complete the setup.
+								</p>
+								<p>
+									<strong>Troubleshooting: </strong>If you get a "method on start" error it means
+									you are using the wrong version of UnityModManager. Refer back to step 3 to ensure
+									you have the right version.
+								</p>
+							</Step>
+							<Step>
+								<svelte:fragment slot="header">Step 5: Download and Install Mods</svelte:fragment>
+								<p>
+									Download compatible mods and drop them into UnityModManager. For a full list of
+									working mods for your game, check out our Mods tab.
+								</p>
+								<img src="images/UMM3.webp" alt="Installing Mods" />
+								<p>
+									<strong>Note:</strong> In UnityModManager, "Status: OK" or "Status: Update to X.X.X"
+									indicates a mod is installed. Avoid updating mods directly from UnityModManager, as
+									changing versions may render them incompatible.
+								</p>
+								<p>For manual installation or uninstallation, right-click each mod.</p>
+							</Step>
+							<Step>
+								<svelte:fragment slot="header">Step 6: Launch Skater XL!</svelte:fragment>
+								<p>
+									Start Skater XL. UnityModManager will open, indicating mod status. A green icon
+									suggests the mod is working, while a red icon indicates issues.
+								</p>
+								<img src="images/UMM5.webp" alt="Launch Skater XL" />
+							</Step>
+							<!-- ... -->
+						</Stepper>
 					</div>
 				</svelte:fragment>
 			</AccordionItem>
@@ -362,7 +359,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">XXL 3 Mod (Stats Menu)</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> DawgVinci</p>
 												<p><strong>Working Version:</strong> 1.3.3</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F7</kbd> to open.</p>
@@ -388,7 +385,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">XL Gear Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> mcbtay, Redgouf</p>
 												<p><strong>Working Version:</strong> 2.0.1</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -414,7 +411,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">XL Graphics</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Babbo</p>
 												<p><strong>Working Version:</strong> 1.1.2</p>
 												<p>
@@ -438,7 +435,7 @@
 										</svelte:fragment>.
 										<svelte:fragment slot="summary">Soundmod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> jbooogie, Babbo</p>
 												<p><strong>Working Version:</strong> 1.3.0</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -464,7 +461,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">Deck FX</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Name</p>
 												<p><strong>Working Version:</strong> 1.4</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F3</kbd> to open.</p>
@@ -486,7 +483,7 @@
 									<AccordionItem>
 										<svelte:fragment slot="summary">Fro's Experimental Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 1.18.3</p>
 												<p>
@@ -506,7 +503,7 @@
 									<AccordionItem>
 										<svelte:fragment slot="summary">Boned Ollie Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> MateusSXL</p>
 												<p><strong>Working Version:</strong> 2.2.0</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F8</kbd> to open.</p>
@@ -525,7 +522,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">XL Menu Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> mcbtay</p>
 												<p><strong>Working Version:</strong> 2.6.1</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -545,7 +542,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Multiplayer++</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> MateusSXL</p>
 												<p><strong>Working Version:</strong> 1.0.1</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -564,7 +561,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Decal Fix</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Brookzee99</p>
 												<p><strong>Working Version:</strong> 1.2.2.8 & 1.2.5.6</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -583,7 +580,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Better Replay Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 1.5.0</p>
 												<p>
@@ -608,7 +605,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Grind Tools</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Guru</p>
 												<p><strong>Working Version:</strong> 1.0.2</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -630,7 +627,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Controls Editor</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Silentbaws</p>
 												<p><strong>Working Version:</strong> 0.1.1</p>
 												<p>
@@ -651,7 +648,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Walking Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 1.3.0</p>
 												<p>
@@ -673,7 +670,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Grab Customizer</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 1.7.2</p>
 												<p>
@@ -694,7 +691,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Lateflip Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> MateusSXL</p>
 												<p><strong>Working Version:</strong> 1.1.1</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -716,7 +713,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">XL Object Dropper</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> mcbtay, SqueegeeDinoToy</p>
 												<p><strong>Working Version:</strong> 1.0.5</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -738,7 +735,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Better Object Dropper</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> manu & mu35li</p>
 												<p><strong>Working Version:</strong> 2.0.1</p>
 												<p>
@@ -761,7 +758,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">XL Random Map</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> mcbtay</p>
 												<p><strong>Working Version:</strong> 0.0.2</p>
 												<p>
@@ -783,7 +780,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Break FX</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> DawgVinci</p>
 												<p><strong>Working Version:</strong> 0.0.1</p>
 												<p>
@@ -807,7 +804,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Gear Utilities</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> DawgVinci</p>
 												<p><strong>Working Version:</strong> 2.0d</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">G</kbd> to open.</p>
@@ -829,7 +826,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Controller Rumble</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> billowper, Froquede</p>
 												<p><strong>Working Version:</strong> 1.2.3</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F9</kbd> to open.</p>
@@ -851,7 +848,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Not My Feet</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> M4cs</p>
 												<p><strong>Working Version:</strong> 1.1</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">N</kbd> to open.</p>
@@ -877,7 +874,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">XL Mod (Stats Menu)</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> DawgVinci</p>
 												<p><strong>Working Version:</strong> 1.0.0c</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F7</kbd> to open.</p>
@@ -902,7 +899,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">XL Graphics</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Babbo, Froquede</p>
 												<p><strong>Working Version:</strong> 2.0.2</p>
 												<p>
@@ -930,7 +927,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">Soundmod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> jbooogie, Babbo</p>
 												<p><strong>Working Version:</strong> 1.2.0</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -956,7 +953,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">Deck Tools</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Guru</p>
 												<p><strong>Working Version:</strong> 0.0.2</p>
 												<p>
@@ -984,7 +981,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">Fro's Experimental Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 2.0.1</p>
 												<p>
@@ -1007,7 +1004,7 @@
 										</svelte:fragment>
 										<svelte:fragment slot="summary">Boned Ollie Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> MateusSXL</p>
 												<p><strong>Working Version:</strong> 2.4.0</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F8</kbd> to open.</p>
@@ -1026,7 +1023,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Grind Tools</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Guru</p>
 												<p><strong>Working Version:</strong> 2.0.1</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -1048,7 +1045,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Shape FX</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> DawgVinci</p>
 												<p><strong>Working Version:</strong> 1.0.0</p>
 												<p><strong>Keybind:</strong> Press <kbd class="kbd">F6</kbd> to open.</p>
@@ -1070,7 +1067,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Better Replay Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> Froquede</p>
 												<p><strong>Working Version:</strong> 2.1.0</p>
 												<p>
@@ -1095,7 +1092,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">XL Menu Mod</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> mcbtay</p>
 												<p><strong>Working Version:</strong> 2.6.3</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
@@ -1119,7 +1116,7 @@
 										<svelte:fragment slot="lead"></svelte:fragment>
 										<svelte:fragment slot="summary">Multiplayer++</svelte:fragment>
 										<svelte:fragment slot="content">
-											<div class="p-2 space-y-3">
+											<div class=" space-y-3">
 												<p><strong>Author:</strong> MateusSXL</p>
 												<p><strong>Working Version:</strong> 1.0.2</p>
 												<p><strong>Keybind:</strong> (automatic)</p>
