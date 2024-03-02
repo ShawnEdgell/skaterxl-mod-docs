@@ -3,7 +3,7 @@
 	import { afterNavigate } from '$app/navigation';
 	import Header from '$lib/components/Header.svelte';
 	import type { AfterNavigate } from '@sveltejs/kit';
-	import { AppShell, TableOfContents, initializeStores, Drawer } from '@skeletonlabs/skeleton';
+	import { AppShell, initializeStores } from '@skeletonlabs/skeleton';
 
 	initializeStores();
 
@@ -25,11 +25,6 @@
 	<div class="flex justify-center h-full">
 		<div class="p-6 max-w-6xl">
 			<slot />
-		</div>
-		<div class="p-6 hidden lg:block">
-			<TableOfContents class="sticky top-10 w-44">
-				<h1>On this page</h1>
-			</TableOfContents>
 		</div>
 	</div>
 	<!-- ---- / ---- -->
