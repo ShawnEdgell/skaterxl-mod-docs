@@ -21,7 +21,7 @@
 
 	<!-- Router Slot -->
 	<div class="flex justify-center h-full">
-		<div class="p-6 max-w-6xl">
+		<div class="p-4 max-w-6xl">
 			<slot />
 		</div>
 	</div>
