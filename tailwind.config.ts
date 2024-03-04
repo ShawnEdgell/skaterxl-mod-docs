@@ -3,7 +3,7 @@ import type { Config } from 'tailwindcss'
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin';
-import { myCustomTheme } from './src/customTheme'
+import { customTheme } from './src/customTheme'
 
 export default {
 	darkMode: 'class',
@@ -30,36 +30,12 @@ export default {
 						enhancements: true,
 					},
 					{
-						name: 'hamlindigo',
-						enhancements: true,
-					},
-					{
-						name: 'rocket',
-						enhancements: true,
-					},
-					{
-						name: 'sahara',
-						enhancements: true,
-					},
-					{
-						name: 'gold-nouveau',
-						enhancements: true,
-					},
-					{
-						name: 'vintage',
-						enhancements: true,
-					},
-					{
-						name: 'seafoam',
-						enhancements: true,
-					},
-					{
 						name: 'crimson',
 						enhancements: true,
 					},
 				],
 				custom: [
-					myCustomTheme,
+					customTheme,
 				],
 			},
 		}),
