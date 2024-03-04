@@ -1,10 +1,55 @@
 <script lang="ts">
 	import QuickGuide from '$lib/components/features/QuickGuide.svelte';
+	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
 <div class="flex flex-col gap-8">
 	<div class="card h-fit p-4 space-y-5">
 		<QuickGuide />
+	</div>
+
+	<div class="card H-FIT p-4 space-y-5">
+		<h3 class="h3">UnityModManager Links</h3>
+
+		<Accordion>
+			<AccordionItem>
+				<svelte:fragment slot="summary"
+					>UnityModManager for Skater XL v1.2.2.8 (Alpha)</svelte:fragment
+				>
+				<svelte:fragment slot="content">
+					<div class="flex justify-center items-center flex-col gap-5 p-5">
+						<p>
+							⚠️ Make sure to check your game version before downloading! This will only work for
+							Skater XL v1.2.2.8 (Alpha).
+						</p>
+						<a
+							href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2224"
+							target="_blank"
+							class="btn variant-filled">UnityModManager v0.27.4</a
+						>
+					</div>
+				</svelte:fragment>
+			</AccordionItem>
+			<AccordionItem>
+				<svelte:fragment slot="summary"
+					>UnityModManager for Skater XL v1.2.7.8 (Public)
+				</svelte:fragment>
+				<svelte:fragment slot="content">
+					<div class="flex justify-center items-center flex-col gap-5 p-5">
+						<p>
+							⚠️ Make sure to check your game version before downloading! This will only work for
+							Skater XL v1.2.7.8 (Public).
+						</p>
+						<a
+							href="https://www.nexusmods.com/site/mods/21?tab=files&file_id=2314"
+							target="_blank"
+							class="btn variant-filled">UnityModManager v0.27.7</a
+						>
+					</div>
+				</svelte:fragment>
+			</AccordionItem>
+			<!-- ... -->
+		</Accordion>
 	</div>
 	<section class="card h-fit p-4 space-y-5">
 		<h4 class="h4">Skater XL Version 1.2.2.8 (Alpha)</h4>
