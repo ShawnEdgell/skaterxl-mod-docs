@@ -8,7 +8,7 @@
 <div>
 	<h2 class="h2 pb-5">Mods</h2>
 	<TabGroup>
-		{#each mods as { tab, version, modItems }, tabIndex}
+		{#each mods as { tab, version }, tabIndex}
 			<Tab bind:group={tabSet} name={`tab${tabIndex}`} value={tabIndex}>
 				<svelte:fragment slot="lead">
 					<strong>{tab}</strong>
@@ -19,7 +19,7 @@
 
 		<svelte:fragment slot="panel">
 			{#if tabSet < mods.length}
-				<div class="lg:h-[94vh] lg:overflow-y-auto">
+				<div class="lg:h-[80vh] lg:overflow-y-auto">
 					<Accordion>
 						{#each mods[tabSet].modItems as { title, author, workingVersion, keybind, features, note, icon, downloadLinks }}
 							<AccordionItem>
