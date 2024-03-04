@@ -239,9 +239,9 @@ export const mods = [
                 workingVersion: '2.0d',
                 keybind: 'G',
                 features: ['Custom Accessories'],
-                note: 'Nagivate to the #gearutilies section within Dawg\'s Discord to find this mod.',
+                note: 'Nagivate to the #gearutilies section within DawgVinci\'s Discord to find this mod.',
                 downloadLinks: [
-                    { url: 'https://discord.com/invite/GmuBn6UzUh', label: 'DawgVinc\'s Discord' }
+                    { url: 'https://discord.com/invite/GmuBn6UzUh', label: 'DawgVinci\'s Discord' }
                 ]
             },
             {
@@ -250,7 +250,7 @@ export const mods = [
                 author: 'billowper, Froquede',
                 workingVersion: '1.2.3',
                 keybind: '(automatic)',
-                features: ['CCustomizable Rumble Feedback'],
+                features: ['Customizable Rumble Feedback'],
                 note: '',
                 downloadLinks: [
                     { url: 'https://mod.io/g/skaterxl/m/controller-rumble', label: 'skaterxl.mod.io' }
