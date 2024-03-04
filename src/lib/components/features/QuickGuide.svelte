@@ -24,7 +24,7 @@
 	<Step>
 		<svelte:fragment slot="header">Download UnityModManager</svelte:fragment>
 		<p>
-			Select your game version below and follow the link to download the corresponding
+			Select your game version in the card below and follow the link to download the corresponding
 			UnityModManager (UMM) version. You will need to login to Nexusmods, then select "Slow
 			Download."
 		</p>
