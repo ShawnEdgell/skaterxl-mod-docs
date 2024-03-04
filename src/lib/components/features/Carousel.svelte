@@ -54,7 +54,6 @@
 					class="snap-center w-[1024px] rounded-container-token"
 					src={`/images/${filename}`}
 					alt={title}
-					loading="lazy"
 				/>
 			{/each}
 		</div>
