@@ -174,7 +174,7 @@ export const mods = [
             },
             {
                 icon: '🔥',
-                title: 'Lateflip MOd',
+                title: 'Lateflip Mod',
                 author: 'MateusSXL',
                 workingVersion: '1.1.1',
                 keybind: '(automatic)',
