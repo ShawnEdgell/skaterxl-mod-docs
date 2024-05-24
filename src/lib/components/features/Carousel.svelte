@@ -33,7 +33,7 @@
 </script>
 
 <div class="flex flex-col items-center text-center gap-5">
-	<div class="card p-4 grid grid-cols-[auto_1fr_auto] gap-4 items-center">
+	<div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
 		<!-- Button: Left -->
 		<button type="button" class="btn-icon variant-filled" on:click={carouselLeft}>
 			<svg width="30" height="30" viewBox="1 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -71,5 +71,5 @@
 			</svg>
 		</button>
 	</div>
-	<a href="/#mods" class="btn variant-filled">{images[currentIndex].title}</a>
+	<p>{images[currentIndex].title}</p>
 </div>

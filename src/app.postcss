@@ -3,7 +3,10 @@
 @tailwind utilities;
 @tailwind variants;
 
-html, body { @apply h-full overflow-hidden overscroll-none; }
+html,
+body {
+	@apply h-full overflow-hidden overscroll-none;
+}
 
 /* modern theme */
 @font-face {
@@ -13,7 +16,7 @@ html, body { @apply h-full overflow-hidden overscroll-none; }
 }
 
 /* Incorporate theme-specific fonts and styles */
-:root [data-theme='skeleton'] {
-    --theme-font-family-base: 'Poppins', sans-serif;
-    --theme-font-family-heading: 'Poppins', sans-serif;
+:root [data-theme='wintry'] {
+	--theme-font-family-base: 'Poppins', sans-serif;
+	--theme-font-family-heading: 'Poppins', sans-serif;
 }

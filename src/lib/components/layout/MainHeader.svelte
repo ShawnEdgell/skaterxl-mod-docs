@@ -10,7 +10,7 @@
 	<div class="flex gap-4">
 		<a
 			href="/#get-started-with-skater-xl-modding"
-			class="btn variant-filled-tertiary flex items-center gap-2 justify-center"
+			class="btn variant-filled-primary flex items-center gap-2 justify-center"
 		>
 			Get Started
 			<!-- Inline SVG for the Get Started button -->
