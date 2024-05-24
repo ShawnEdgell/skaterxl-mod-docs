@@ -2,6 +2,7 @@
 	import { Stepper, Step } from '@skeletonlabs/skeleton';
 </script>
 
+<h2 class="h2 pb-4" id="getting-started-guide">Getting Started Guide</h2>
 <Stepper>
 	<Step>
 		<svelte:fragment slot="header">

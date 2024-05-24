@@ -9,7 +9,7 @@
 	<p>Your ultimate destination for all things Skater XL modding.</p>
 	<div class="flex gap-4">
 		<a
-			href="/#get-started-with-skater-xl-modding"
+			href="/#getting-started-guide"
 			class="btn variant-filled-primary flex items-center gap-2 justify-center"
 		>
 			Get Started

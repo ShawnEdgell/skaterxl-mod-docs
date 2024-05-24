@@ -5,7 +5,6 @@
 
 <div class="flex flex-col gap-8">
 	<div class="h-fit p-4 space-y-5">
-		<h2 class="h2 pb-4">Getting Started Guide</h2>
 		<QuickGuide />
 	</div>
 
