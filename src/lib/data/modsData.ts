@@ -4,7 +4,7 @@ export const mods = [
         version: 'v1.2.2.8',
         modItems: [
             {
-                icon: '🔥', // Specify the icon here
+                icon: '📊', // Specify the icon here
                 title: 'XXL 3 Mod',
                 author: 'DawgVinci',
                 workingVersion: '1.3.3',
@@ -16,7 +16,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥', // Specify the icon here
+                icon: '👖', // Specify the icon here
                 title: 'XL Gear Mod (XLGM2)',
                 author: 'mcbtay, Redgouf',
                 workingVersion: '2.0.1',
@@ -28,7 +28,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥', // Specify the icon here
+                icon: '📷', // Specify the icon here
                 title: 'XL Graphics',
                 author: 'Babbo',
                 workingVersion: '1.1.2',
@@ -40,7 +40,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥', // Specify the icon here
+                icon: '🔊', // Specify the icon here
                 title: 'Soundmod',
                 author: 'Babbo, jbooogie',
                 workingVersion: '1.3.0',
@@ -52,7 +52,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🛹',
                 title: 'DeckFX',
                 author: 'Klepto',
                 workingVersion: '1.4',
@@ -65,7 +65,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '📊',
                 title: 'Fro\'s Experimental Mod',
                 author: 'Froquede',
                 workingVersion: '1.18.3',
@@ -77,7 +77,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🦴',
                 title: 'Boned Ollie Mod',
                 author: 'MateusSXL',
                 workingVersion: '2.2.0',
@@ -89,7 +89,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '⚙️',
                 title: 'XL Menu Mod',
                 author: 'mcbtay',
                 workingVersion: '2.6.1',
@@ -101,7 +101,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🧑‍🤝‍🧑',
                 title: 'Mutliplayer++',
                 author: 'MateusSXL',
                 workingVersion: '1.0.1',
@@ -113,7 +113,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🎨',
                 title: 'Decal Fix',
                 author: 'Brookzee99',
                 workingVersion: '1.2.2.8 & 1.2.5.6',
@@ -125,7 +125,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🔦',
                 title: 'Better Replay Mod',
                 author: 'Froquede',
                 workingVersion: '1.5.0',
@@ -137,7 +137,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '⚙️',
                 title: 'Grind Tools',
                 author: 'Guru',
                 workingVersion: '1.0.2',
@@ -149,7 +149,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🚶',
                 title: 'Walking Mod',
                 author: 'Froquede',
                 workingVersion: '1.3.0',
@@ -161,7 +161,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🤏',
                 title: 'Grab Customizer',
                 author: 'Froquede',
                 workingVersion: '1.7.2',
@@ -173,7 +173,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🕗',
                 title: 'Lateflip Mod',
                 author: 'MateusSXL',
                 workingVersion: '1.1.1',
@@ -185,7 +185,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🧱',
                 title: 'XL Object Dropper',
                 author: 'mcbtay, SqueegeeDinoToy',
                 workingVersion: '1.0.5',
@@ -197,7 +197,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🧱',
                 title: 'Better Object Dropper',
                 author: 'manu & mu35li',
                 workingVersion: '2.0.1',
@@ -209,7 +209,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '❓',
                 title: 'XL Random Map',
                 author: 'mcbtay',
                 workingVersion: '0.0.2',
@@ -221,7 +221,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🛹',
                 title: 'BreakFX',
                 author: 'DawgVinci',
                 workingVersion: '0.0.1',
@@ -233,7 +233,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '👓',
                 title: 'Gear Utilities',
                 author: 'DawgVinci',
                 workingVersion: '2.0d',
@@ -245,7 +245,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🎮',
                 title: 'Controller Rumble',
                 author: 'billowper, Froquede',
                 workingVersion: '1.2.3',
@@ -257,7 +257,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🚫',
                 title: 'Not My Feet',
                 author: 'M4cs',
                 workingVersion: '1.1',
@@ -269,7 +269,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🎮',
                 title: 'Controls Editor',
                 author: 'Silentbaws',
                 workingVersion: '0.1.1',
@@ -294,7 +294,7 @@ export const mods = [
         version: 'v1.2.7.8',
         modItems: [
             {
-                icon: '🔥', // Specify the icon here
+                icon: '📊', // Specify the icon here
                 title: 'XL Mod',
                 author: 'DawgVinci',
                 workingVersion: '1.0.0c',
@@ -306,7 +306,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥', // Specify the icon here
+                icon: '📷', // Specify the icon here
                 title: 'XL Graphics',
                 author: 'Babbo',
                 workingVersion: '2.0.2',
@@ -318,7 +318,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥', // Specify the icon here
+                icon: '🔊', // Specify the icon here
                 title: 'Soundmod',
                 author: 'Babbo, jbooogie',
                 workingVersion: '1.2.0',
@@ -330,7 +330,31 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '👖', // Specify the icon here
+                title: 'XL Gear Mod (XLGM2)',
+                author: 'mcbtay, Redgouf',
+                workingVersion: '2.0.2',
+                keybind: '(automatic)',
+                features: ['Dynamic Clothing', 'Custom Character Models', 'Unlimited Gear Customization'],
+                note: 'The XL Gear Mod is integrated into the Edit Skater Menu.',
+                downloadLinks: [
+                    { url: 'https://mod.io/g/skaterxl/m/xlgearmodifier', label: 'skaterxl.mod.io' },
+                ]
+            },
+            {
+                icon: '📷', // Specify the icon here
+                title: 'XL Weather',
+                author: 'Guru',
+                workingVersion: '0.3.0',
+                keybind: 'W',
+                features: ['Day/Night cycles', 'Skybox customization', 'Add rain, snow, fog, etc.'],
+                note: '',
+                downloadLinks: [
+                    { url: 'https://mod.io/g/skaterxl/m/xlweather', label: 'skaterxl.mod.io' },
+                ]
+            },
+            {
+                icon: '🛹',
                 title: 'Deck Tools',
                 author: 'Guru',
                 workingVersion: '0.0.2',
@@ -343,7 +367,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '📊',
                 title: 'Fro\'s Experimental Mod',
                 author: 'Froquede',
                 workingVersion: '2.0.1',
@@ -355,7 +379,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🦴',
                 title: 'Boned Ollie Mod',
                 author: 'MateusSXL',
                 workingVersion: '2.2.0',
@@ -367,7 +391,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '⚙️',
                 title: 'XL Menu Mod',
                 author: 'mcbtay',
                 workingVersion: '2.6.3',
@@ -379,7 +403,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🧑‍🤝‍🧑',
                 title: 'Mutliplayer++',
                 author: 'MateusSXL',
                 workingVersion: '1.0.2',
@@ -391,7 +415,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🔦',
                 title: 'Better Replay Mod',
                 author: 'Froquede',
                 workingVersion: '2.1.0',
@@ -403,7 +427,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '⚙️',
                 title: 'Grind Tools',
                 author: 'Guru',
                 workingVersion: '2.0.1',
@@ -415,7 +439,7 @@ export const mods = [
                 ]
             },
             {
-                icon: '🔥',
+                icon: '🛹',
                 title: 'ShapeFX',
                 author: 'DawgVinci ',
                 workingVersion: '1.0.0',

@@ -3,9 +3,9 @@
 </script>
 
 <!-- Logo, heading, paragraph, and action buttons -->
-<div class="space-y-5 flex flex-col justify-center items-center lg:items-start">
+<div class="space-y-4 flex flex-col text-center justify-center items-center">
 	<Logo />
-	<h1 class="text-4xl md:text-5xl tracking-tight">Skater XL Mod Docs.</h1>
+	<h1 class="text-4xl md:text-5xl tracking-tight">Skater XL Mod Docs</h1>
 	<p>Your ultimate destination for all things Skater XL modding.</p>
 	<div class="flex gap-4">
 		<a

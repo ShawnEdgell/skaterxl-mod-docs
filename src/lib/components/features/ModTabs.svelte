@@ -5,7 +5,7 @@
 	let tabSet: number = 0;
 </script>
 
-<div>
+<div class="mt-8">
 	<h2 class="h2 pb-5">Mods</h2>
 	<TabGroup>
 		{#each mods as { tab, version }, tabIndex}

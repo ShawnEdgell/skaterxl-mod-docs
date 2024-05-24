@@ -7,11 +7,8 @@
 </script>
 
 <!-- Main container for MainHeader and Carousel -->
-<div
-	use:tocCrawler={{ mode: 'generate' }}
-	class="container mx-auto max-w-2xl md:max-w-3xl lg:max-w-7xl py-16 lg:py-24 px-4"
->
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-y-16 lg:gap-y-24 gap-x-8">
+<div use:tocCrawler={{ mode: 'generate' }} class="mx-auto max-w-4xl py-16 px-4 x-4">
+	<div class="grid gap-y-8 4 gap-x-8">
 		<MainHeader />
 		<Carousel />
 		<ModTabs />
