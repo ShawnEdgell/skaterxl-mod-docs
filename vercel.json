@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.skatebit.app/$1",
+      "permanent": true
+    }
+  ]
+}

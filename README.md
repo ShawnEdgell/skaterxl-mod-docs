@@ -6,14 +6,10 @@
 
 ---
 
-**This repository (`skaterxl-mod-docs`) is now deprecated and primarily serves to redirect users to our new, consolidated website.**
+This repository (`skaterxl-mod-docs`) is now deprecated. The Vercel deployment linked to this repository (`skaterxl-mod-docs.vercel.app`) will automatically redirect you to the new site.
 
-The Vercel deployment linked to this repository (`skaterxl-mod-docs.vercel.app`) will automatically redirect you to the new site.
-
-We encourage you to visit [www.skatebit.app](https://www.skatebit.app) for the latest Skater XL modding information, lists, and resources. All future updates and content will be available there.
-
-Thank you for your interest in Skater XL modding!
+We encourage you to visit [www.skatebit.app](https://www.skatebit.app) for the latest Skater XL modding information, lists, and resources.
 
 ---
 
-_If you were looking for the old source code, please note that this repository's content has been replaced with a redirector application._
+_The content of this repository now only contains configuration to redirect to the new site._
